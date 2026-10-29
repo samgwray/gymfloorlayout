@@ -1,0 +1,147 @@
+version: 1
+default_grade: commercial
+grades:
+- id: value
+  name: Value
+  description: 'Light- and budget-commercial lines such as Spirit 800-series, Star Trac 4-series, Body-Solid,
+    French Fitness, REP and Titan: the lowest new prices, suited to amenity rooms, studios and lighter
+    traffic. Some value strength gear is sold for home gyms, so choose commercial-rated models.'
+  price_tier: value
+  multiplier: 1.0
+  sources:
+  - fitness-exchange-product-catalog-2026
+  - fitness-superstore-catalog-new-2026
+  - fitness-superstore-catalog-new-body-2026
+  - rep-fitness-online-catalog-products-2026
+  - titan-fitness-online-catalog-2026
+  - bells-steel-us-online-catalog-2026
+- id: commercial
+  name: Commercial
+  description: Mainstream club equipment built for all-day, multi-user traffic, such as Life Fitness Integrity
+    and Axiom, Star Trac 6-series, Precor 600 line, Hoist, Nautilus Instinct and Impact, and Rogue Monster.
+    Priced from dealer and manufacturer list prices; multi-unit orders are often negotiated lower.
+  price_tier: commercial
+  multiplier: 1.0
+  sources:
+  - life-fitness-us-online-store-products-2026
+  - life-fitness-us-online-store-hammer-2026
+  - fitness-exchange-product-catalog-2026
+  - top-fitness-precor-dealer-catalog-2026
+  - push-pedal-pull-catalog-precor-2026
+  - hoist-fitness-online-catalog-cf-club-2026
+  - fitness-superstore-catalog-new-body-2026
+  - rogue-fitness-product-category-pages-2026
+- id: premium
+  name: Premium
+  description: Top club lines, with touchscreen consoles on the cardio, such as Hammer Strength, Life
+    Fitness Insignia, Precor 800 line, Star Trac 10-series, Woodway, Prime Evolution and Sorinex. Some
+    are sold by quote only.
+  price_tier: premium
+  multiplier: 1.0
+  sources:
+  - life-fitness-us-online-store-hammer-2026
+  - top-fitness-precor-dealer-catalog-2026
+  - fitness-superstore-catalog-new-2026
+  - total-fitness-usa-catalog-woodway-2026
+  - prime-fitness-usa-online-catalog-2026
+  - sorinex-product-pages-embedded-price-2026
+- id: refurbished
+  name: Refurbished
+  description: Remanufactured previous-generation club equipment (Life Fitness, Precor, Hammer Strength,
+    Cybex, StairMaster and similar, from remanufacturers such as CTX Home Gyms and Fitness Superstore),
+    priced on average across a plan at 60% of new commercial-grade prices. Remanufactured cardio sells
+    for about half the new commercial price and selectorized machines for about two-thirds; free weights
+    and functional gear have little refurbished market. Warranties are shorter and models depend on what
+    is in stock.
+  price_tier: commercial
+  multiplier: 0.6
+  sources:
+  - ctx-home-gyms-remanufactured-catalog-2026
+  - ctx-home-gyms-remanufactured-commercial-2026
+  - fitness-superstore-catalog-new-2026
+  - fitness-superstore-catalog-new-body-2026
+  - life-fitness-us-online-store-hammer-2026
+  - rogue-fitness-echo-bike-refurbished-2026
+  - club-solutions-magazine-article
+  - derived-sp-refurbished-multiplier
+flooring:
+- id: rubber_8mm
+  name: 8 mm rolled rubber, glued
+  cost_per_sqft:
+    low: 3.7
+    typical: 5.5
+    high: 9.0
+  sources:
+  - dg-floors-gym-flooring-cost-2026
+  - greatmats-rubber-flooring-roll-geneva-3-2026
+  - rep-fitness-thor-flooring-2026
+  - greatmats-kyle-schurman-what-kind-flooring
+  - u-s-department-ufc-4-740-02-fitness-2006-2
+  - derived-sp-flooring-installed
+  notes: 'Cardio, machine and stretching zones. Installed: material $2.21-6 per sq ft (Greatmats Geneva
+    3/8 in roll $2.21-2.76, REP THOR 9 mm $2.58-2.77, DG Floors 3/8 in rolls about $4, 1/4-3/8 in rolls
+    $3-6) plus $1.50-3 for professional prep, glue-down and trim (DG Floors). Greatmats rates 3/8 in for
+    weights up to 120 lb.'
+- id: rubber_12mm
+  name: 12 mm (1/2 in) rubber
+  cost_per_sqft:
+    low: 5.6
+    typical: 7.5
+    high: 13.0
+  sources:
+  - dg-floors-gym-flooring-cost-2026
+  - livefit-g-g-gorilla-4-x-6-1-2026
+  - fitness-exchange-supermats-muscle-mat-4-2026
+  - fitness-superstore-body-solid-rf546-2026
+  - greatmats-kyle-schurman-what-kind-flooring
+  - derived-sp-flooring-installed
+  notes: 'Free-weight zone (Greatmats: 1/2 in for barbells over 120 lb). Installed: material $4.13-5.79
+    for 1/2 in 4 x 6 ft mats, about $5.50 for 1/2 in rolls and $6-10 for vulcanized rolls, plus $1.50-3
+    installation. DG Floors quotes $35k-55k ($7-11 per sq ft) turnkey for 5,000 sq ft of 1/2 in vulcanized
+    rubber.'
+- id: dropzone_19mm
+  name: 19 mm (3/4 in) drop-zone tiles
+  cost_per_sqft:
+    low: 5.5
+    typical: 8.5
+    high: 11.0
+  sources:
+  - dg-floors-gym-flooring-cost-2026
+  - livefit-guardian-shok-lok-2-x-2026
+  - greatmats-kyle-schurman-what-kind-flooring
+  - derived-sp-flooring-installed
+  notes: 'For racks and lifting areas where bars are dropped (Greatmats: 3/4 in for intentional drops).
+    Heavy 3/4-1 in mats cost $5-8 per sq ft (DG Floors) and the Guardian Shok-Lok 18 mm tile $7.96; mostly
+    loose-laid, so little labor. Not assigned to a zone by default; lifting platforms are priced as equipment.'
+- id: turf_rubber
+  name: Turf and rubber (functional zone)
+  cost_per_sqft:
+    low: 2.5
+    typical: 6.0
+    high: 9.0
+  sources:
+  - dg-floors-gym-flooring-cost-2026
+  - fitness-superstore-french-gym-turf-roll-2026
+  - bells-steel-roll-gym-turf-2-m-2026
+  - titan-fitness-artificial-turf-15-ft-x-2026
+  - fitness-superstore-french-14-ft-x-50-2026
+  - derived-sp-flooring-installed
+  notes: 'Functional zone floor: turf for sled work and rubber around rigs. Turf lists at $1.26-6.71 per
+    sq ft (French Fitness rolls, Bells of Steel, Titan, French Fitness marked track) and $4-7 for indoor
+    turf strips (DG Floors), plus an installation allowance; the 8 mm and 12 mm rubber rates above bracket
+    the rubber part. Low confidence. Turf lanes are also priced as equipment (turf_lane), so the lane''s
+    own area is counted twice; the overlap is small.'
+installation_rate: 0.12
+installation_sources:
+- ntai-fitness-gym-equipment-cost-estimator
+- hoist-fitness-store-incl-assembly-white-2026
+- fitness-exchange-product-catalog-2026
+- isellfitness-catalog-incl-installation-2026
+- concept2-rowerg-specifications
+- derived-sp-installation-rate
+notes: Prices are 2026 USD before sales tax. A grade picks one price tier from the equipment catalog (refurbished
+  also applies its multiplier). Commercial and premium tiers come mostly from list prices, and some lines
+  are quote-only; the price fact-check estimates real purchase prices 10-30% below these values, so planned
+  equipment costs lean high. Freight, delivery and installation add installation_rate (12%) to the equipment
+  cost. Flooring rates are installed costs (material plus labor). The planner blends the zone rates by
+  the share of time members spend in each zone and applies the blend to the whole training floor.

@@ -1,0 +1,3134 @@
+version: 1
+sources:
+- id: franchise-chatter-planet-fitness-review-2026
+  title: 'Planet Fitness Franchise Review 2026: Costs, Fees, Item 7 / Item 19 (2026 FDD)'
+  publisher: Franchise Chatter
+  year: '2026'
+  url: https://www.franchisechatter.com/2026/09/21/planet-fitness-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/
+  kind: filing
+  accessed: 2026-10
+- id: vetmyfranchise-planet-fitness-franchise-2026
+  title: Planet Fitness Franchise Cost 2026 guide (2026 FDD Items 6/7)
+  publisher: VetMyFranchise
+  year: '2026'
+  url: https://vetmyfranchise.com/blog/planet-fitness-franchise-cost-guide
+  kind: filing
+  accessed: 2026-10
+- id: 1851-franchise-deep-dive-planet-fitness-2026
+  title: 'Franchise Deep Dive: Planet Fitness Franchise Costs, Fees, Profit and Data'
+  publisher: 1851 Franchise
+  year: '2026'
+  url: https://1851franchise.com/franchise-deep-dive-planet-fitness-franchise-costs-fees-profit-and-data-2723399
+  kind: filing
+  accessed: 2026-10
+- id: planet-fitness-sec-form-10-k-fy2025-2026
+  title: Planet Fitness, Inc. Form 10-K for FY2025
+  publisher: Planet Fitness, Inc. (SEC EDGAR)
+  year: '2026'
+  url: https://www.sec.gov/Archives/edgar/data/1637207/000163720726000011/plnt-20251231.htm
+  kind: filing
+  accessed: 2026-10
+- id: planet-fitness-sec-2025-investor-day
+  title: Planet Fitness 2025 Investor Day presentation (Form 8-K exhibit)
+  publisher: Planet Fitness, Inc. (SEC EDGAR)
+  year: '2025'
+  url: https://www.sec.gov/Archives/edgar/data/1637207/000163720725000059/planetfitnessincinvestor.htm
+  kind: filing
+  accessed: 2026-10
+- id: new-england-real-planet-fitness-opens-2025
+  title: Planet Fitness opens 13,605 s/f location in Mercantile Center (Worcester, MA)
+  publisher: New England Real Estate Journal
+  year: '2025'
+  url: https://nerej.com/planet-fitness-opens-13-605-s-f-location-in-mercantile-center
+  kind: article
+  accessed: 2026-10
+- id: patch-planet-fitness-opens-lakewood-wa-2025
+  title: Planet Fitness opens in Lakewood (WA)
+  publisher: Patch
+  year: '2025'
+  url: https://patch.com/washington/lakewood-jblm/planet-fitness-opens-lakewood
+  kind: article
+  accessed: 2026-10
+- id: eden-prairie-local-planet-fitness-2024
+  title: Planet Fitness Eden Prairie opening
+  publisher: Eden Prairie Local News
+  year: '2024'
+  url: https://eplocalnews.org/?p=91154
+  kind: article
+  accessed: 2026-10
+- id: kiro-7-planet-fitness-expands-adding-2026
+  title: Planet Fitness expands, adding second location in Puyallup
+  publisher: KIRO 7
+  year: '2026'
+  url: https://www.kiro7.com/news/local/planet-fitness-expands-adding-second-location-puyallup/LCMNPOZZMNERZFPVPEMGUST3RE/
+  kind: article
+  accessed: 2026-10
+- id: what-now-media-new-21-141-square-foot-2026
+  title: A New 21,141-Square-Foot Fitness Center Has Opened in Sammamish
+  publisher: What Now Media Group
+  year: '2026'
+  url: https://whatnow.com/?p=407268
+  kind: article
+  accessed: 2026-10
+- id: wdio-planet-fitness-open-saturday-duluth
+  title: Planet Fitness to open on Saturday in Duluth
+  publisher: WDIO
+  year: unknown
+  url: https://www.wdio.com/?p=218028
+  kind: article
+  accessed: 2026-10
+- id: anytime-fitness-franchise-opportunity-2022
+  title: The Anytime Fitness Franchise Opportunity (brochure citing 2022 FDD Item 7)
+  publisher: Anytime Fitness, LLC
+  year: '2022'
+  url: https://www.anytimefitness.com/wp-content/uploads/2022/06/The-Anytime-Fitness-Franchise-Opportunity.pdf
+  kind: industry_report
+  accessed: 2026-10
+- id: franchise-direct-anytime-fitness-2026
+  title: Anytime Fitness Estimated Initial Investment (2026 FDD)
+  publisher: Franchise Direct
+  year: '2026'
+  url: https://www.franchisedirect.com/directory/anytimefitnessinc/ufoc/5872
+  kind: filing
+  accessed: 2026-10
+- id: vetmyfranchise-anytime-fitness-2026
+  title: Anytime Fitness franchise cost (2026 FDD Items 7 and 19)
+  publisher: VetMyFranchise
+  year: '2026'
+  url: https://vetmyfranchise.com/blog/anytime-fitness-franchise-cost
+  kind: filing
+  accessed: 2026-10
+- id: lift-brands-snap-fitness-franchise-2026
+  title: Snap Fitness franchise investment page
+  publisher: Lift Brands (Snap Fitness)
+  year: '2026'
+  url: https://www.snapfitness.com/us/why-franchise-with-snap-fitness/investment
+  kind: industry_report
+  accessed: 2026-10
+- id: franchise-direct-snap-fitness-estimated-2025
+  title: Snap Fitness Estimated Initial Investment (2025 FDD)
+  publisher: Franchise Direct
+  year: '2025'
+  url: https://www.franchisedirect.com/fitnessfranchises/snap-fitness-franchise-06321/ufoc
+  kind: filing
+  accessed: 2026-10
+- id: 1851-franchise-snap-fitness-costs-fees-2025
+  title: Snap Fitness franchise costs, fees, profit
+  publisher: 1851 Franchise
+  year: '2025'
+  url: https://1851franchise.com/snap-fitness-franchise-costs-fees-profit-2730959
+  kind: filing
+  accessed: 2026-10
+- id: crunch-franchise-fitness-multistate-fdd-2025
+  title: Crunch Fitness Multistate FDD (CF FDD 9/2025) Item 19 Financial Performance Representations
+  publisher: Crunch Franchise
+  year: '2025'
+  url: https://pub-22da695f2b6542a48e234bc59bc67d23.r2.dev/item19/57a44b3b-aaec-4a16-9f70-77e2b090f1d5.pdf
+  kind: filing
+  accessed: 2026-10
+- id: crunch-franchise-faq-2026
+  title: Crunch Franchise FAQ
+  publisher: Crunch
+  year: '2026'
+  url: https://www.crunch.com/franchise/faq
+  kind: industry_report
+  accessed: 2026-10
+- id: zee-report-how-much-does-crunch-fitness-2026
+  title: How Much Does a Crunch Fitness Franchise Cost? (2026 FDD Item 7)
+  publisher: Zee Report
+  year: '2026'
+  url: https://zeereport.com/reports/crunch-fitness-franchise-cost
+  kind: filing
+  accessed: 2026-10
+- id: franchisevs-crunch-fitness-franchise-2025
+  title: Crunch Fitness Franchise cost breakdown (2025 FDD)
+  publisher: FranchiseVS
+  year: '2025'
+  url: https://franchisevs.com/franchise/crunch
+  kind: filing
+  accessed: 2026-10
+- id: franchise-direct-gold-s-gym-estimated-2026
+  title: Gold's Gym Estimated Initial Investment (2026 FDD)
+  publisher: Franchise Direct
+  year: '2026'
+  url: https://www.franchisedirect.com/fitnessfranchises/golds-gym-franchise-07663/ufoc
+  kind: filing
+  accessed: 2026-10
+- id: 1851-franchise-gold-s-gym-costs-fees-2026
+  title: Gold's Gym franchise costs, fees, profit data
+  publisher: 1851 Franchise
+  year: '2026'
+  url: https://1851franchise.com/golds-gym-franchise-costs-fees-profit-data-2733313
+  kind: filing
+  accessed: 2026-10
+- id: 1851-franchise-workout-anytime-deep-2026
+  title: 'Workout Anytime franchise deep dive: costs, fees, profit'
+  publisher: 1851 Franchise
+  year: '2026'
+  url: https://1851franchise.com/workout-anytime-franchise-deep-dive-costs-fees-profit-2731602
+  kind: filing
+  accessed: 2026-10
+- id: zee-report-workout-anytime-franchise-2026
+  title: Workout Anytime franchise cost (2026 FDD Item 7)
+  publisher: Zee Report
+  year: '2026'
+  url: https://zeereport.com/reports/workout-anytime-franchise-cost
+  kind: filing
+  accessed: 2026-10
+- id: franchise-direct-ufc-gym-estimated-2026
+  title: UFC GYM Estimated Initial Investment (2026 FDD)
+  publisher: Franchise Direct
+  year: '2026'
+  url: https://www.franchisedirect.com/fitnessfranchises/ufc-gym-franchise-company-franchise-09772/ufoc
+  kind: filing
+  accessed: 2026-10
+- id: franchise-chatter-ufc-gym-review-2026
+  title: UFC Gym Franchise Review 2026 (2025 FDD Items 7 and 19)
+  publisher: Franchise Chatter
+  year: '2026'
+  url: https://www.franchisechatter.com/2026/03/17/ufc-gym-franchise-review-2026-costs-fees-news-average-revenues-and-or-profits/
+  kind: filing
+  accessed: 2026-10
+- id: franchise-direct-orangetheory-fitness-2026
+  title: Orangetheory Fitness Estimated Initial Investment (2026 FDD)
+  publisher: Franchise Direct
+  year: '2026'
+  url: https://www.franchisedirect.com/fitnessfranchises/orangetheory-fitness-franchise-09691/ufoc
+  kind: filing
+  accessed: 2026-10
+- id: orangetheory-fitness-international-2026
+  title: Orangetheory International Opportunities
+  publisher: Orangetheory Fitness
+  year: '2026'
+  url: https://www.orangetheory.com/en-us/international-opportunities
+  kind: industry_report
+  accessed: 2026-10
+- id: community-impact-orangetheory-fitness-2018
+  title: Orangetheory Fitness to open Riverstone location Dec. 14
+  publisher: Community Impact
+  year: '2018'
+  url: https://communityimpact.com/sugar-land-missouri-city/business/orangetheory-fitness-to-open-riverstone-location-dec-14/
+  kind: article
+  accessed: 2026-10
+- id: greater-long-island-orangetheory-2019
+  title: Orangetheory Fitness Bay Shore studio opening
+  publisher: Greater Long Island
+  year: '2019'
+  url: https://greaterlongisland.com/?p=20261
+  kind: article
+  accessed: 2026-10
+- id: tribeca-citizen-sneak-peek-orangetheory-2023
+  title: 'Sneak Peek: Orangetheory Fitness (Tribeca)'
+  publisher: Tribeca Citizen
+  year: '2023'
+  url: https://tribecacitizen.com/2023/09/12/sneak-peek-orangetheory-fitness/
+  kind: article
+  accessed: 2026-10
+- id: franchise-direct-f45-training-estimated-2025
+  title: F45 Training Estimated Initial Investment (2025 FDD)
+  publisher: Franchise Direct
+  year: '2025'
+  url: https://www.franchisedirect.com/f45-training-franchise-cost-fees/ufoc
+  kind: filing
+  accessed: 2026-10
+- id: vetmyfranchise-f45-training-franchise-2026
+  title: F45 Training franchise cost (2026 FDD)
+  publisher: VetMyFranchise
+  year: '2026'
+  url: https://vetmyfranchise.com/blog/f45-training-franchise-cost
+  kind: filing
+  accessed: 2026-10
+- id: franchise-chatter-burn-boot-camp-review-2024
+  title: Burn Boot Camp franchise review (2024 FDD Items 7 and 19)
+  publisher: Franchise Chatter
+  year: '2024'
+  url: https://www.franchisechatter.com/?p=109804
+  kind: filing
+  accessed: 2026-10
+- id: burn-boot-camp-how-much-does-it-cost-2026
+  title: How Much Does It Cost to Own a Burn Boot Camp Franchise?
+  publisher: Burn Boot Camp
+  year: '2026'
+  url: https://burnbootcamp.com/franchise/how-much-does-it-cost-to-own-a-burn-boot-camp-franchise
+  kind: industry_report
+  accessed: 2026-10
+- id: pinnacle-bidco-plc-puregym-annual-2018
+  title: Pinnacle Bidco plc (PureGym) Annual Report 2018
+  publisher: Pinnacle Bidco plc (PureGym)
+  year: '2018'
+  url: https://s25.q4cdn.com/171963401/files/doc_financials/2018/ar/pinnacle-bidco-plc-2018-annual-report.pdf
+  kind: filing
+  accessed: 2026-10
+- id: puregym-leeds-city-centre-south-gym-2026
+  title: PureGym Leeds City Centre South gym page
+  publisher: PureGym
+  year: '2026'
+  url: https://one.puregym.com/gyms/leeds-city-centre-south
+  kind: industry_report
+  accessed: 2026-10
+- id: puregym-equipment-2026
+  title: PureGym equipment page
+  publisher: PureGym
+  year: '2026'
+  url: https://puregym.com/equipment
+  kind: industry_report
+  accessed: 2026-10
+- id: leamington-observer-look-around-s-2019
+  title: Look around Leamington's newest gym (PureGym)
+  publisher: Leamington Observer
+  year: '2019'
+  url: https://leamingtonobserver.co.uk/news/look-around-leamingtons-newest-gym/
+  kind: article
+  accessed: 2026-10
+- id: health-club-management-gym-group-2014
+  title: The Gym Group targets equipment giants for new supply proposals
+  publisher: Health Club Management
+  year: '2014'
+  url: https://www.healthclubmanagement.co.uk/health-club-management-news/The-Gym-Group-targets-equipment-giants-for-new-supply-proposals/311111
+  kind: article
+  accessed: 2026-10
+- id: gym-group-plc-2025-full-year-results-2026
+  title: The Gym Group plc 2025 Full Year Results (RNS)
+  publisher: The Gym Group plc
+  year: '2026'
+  url: https://www.ticker.app/lse/GYM/rns/2026-03-11/The-Gym-Group-PLC-2025-Full-Year-Results/1143W
+  kind: filing
+  accessed: 2026-10
+- id: internal-revenue-service-irs-2025
+  title: IRS Publication 946 (2025), How To Depreciate Property - Table B-1 asset classes
+  publisher: Internal Revenue Service
+  year: '2025'
+  url: https://www.irs.gov/pub/irs-pdf/p946.pdf
+  kind: article
+  accessed: 2026-10
+- id: atlantis-strength-what-cost-commercial-2025
+  title: What Is The Cost Of Commercial Gym Equipment In 2026?
+  publisher: Atlantis Strength
+  year: '2025'
+  url: https://atlantisstrength.com/build-yourself/commercial-gym-equipment-cost
+  kind: manufacturer
+  accessed: 2026-10
+- id: pushpress-gym-equipment-floorplan-guide-2026
+  title: Gym equipment and floorplan guide
+  publisher: PushPress
+  year: '2026'
+  url: https://www.pushpress.com/blog/gym-equipment-and-floorplan-guide
+  kind: article
+  accessed: 2026-10
+- id: strengthlog-most-popular-gym-exercises-2025
+  title: The Most Popular Gym Exercises for Men & Women in 2025
+  publisher: StrengthLog
+  year: '2025'
+  url: https://www.strengthlog.com/most-popular-exercises/
+  kind: app_data
+  accessed: 2026-10
+- id: boostcamp-state-lifting-2025-2026
+  title: State of Lifting 2025
+  publisher: Boostcamp
+  year: '2026'
+  url: https://www.boostcamp.app/state-of-lifting-2025
+  kind: app_data
+  accessed: 2026-10
+- id: boostcamp-state-lifting-gender-report-2026
+  title: 'State of Lifting: The Gender Report'
+  publisher: Boostcamp
+  year: '2026'
+  url: https://www.boostcamp.app/state-of-lifting/gender
+  kind: app_data
+  accessed: 2026-10
+- id: fitbod-exercise-library-sets-logged-2026
+  title: Fitbod exercise library (Sets Logged and Swapped counts; category and per-exercise pages)
+  publisher: Fitbod
+  year: '2026'
+  url: https://fitbod.me/exercises
+  kind: app_data
+  accessed: 2026-10
+- id: fitbod-s-2022-year-review-2023
+  title: Fitbod's 2022 Year in Review
+  publisher: Fitbod
+  year: '2023'
+  url: https://fitbod.me/blog/fitbods-2022-year-in-review/
+  kind: app_data
+  accessed: 2026-10
+- id: fitbod-how-strong-average-gym-goer-2025
+  title: How strong is the average gym-goer? We analyzed millions of real workouts
+  publisher: Fitbod
+  year: '2025'
+  url: https://fitbod.me/blog/how-strong-is-the-average-gym-goer-we-analyzed-millions-of-real-workouts/
+  kind: app_data
+  accessed: 2026-10
+- id: sports-fitness-industry-sfia-2024
+  title: SFIA 2024 Topline Participation Report (2023 data)
+  publisher: Sports & Fitness Industry Association
+  year: '2024'
+  url: https://www.usta.com/es/content/dam/usta/sections/intermountain/districts/colorado/pdfs/sfia-reports/2024-sfia-topline.pdf
+  kind: industry_report
+  accessed: 2026-10
+- id: american-college-sports-acsm-position-2009
+  title: 'ACSM Position Stand: Progression Models in Resistance Training for Healthy Adults (Ratamess
+    et al.)'
+  publisher: American College of Sports Medicine / MSSE 41(3):687-708
+  year: '2009'
+  url: https://sfu.ca/~ryand/kin343/ACSMresistance.pdf
+  kind: study
+  accessed: 2026-10
+- id: american-college-sports-acsm-position-2026
+  title: 'ACSM Position Stand: Resistance Training Prescription for Muscle Function, Hypertrophy, and
+    Physical Performance in Healthy Adults: An Overview of Reviews (Currier ... Phillips)'
+  publisher: American College of Sports Medicine / MSSE 58(4):851-872
+  year: '2026'
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12965823
+  kind: study
+  accessed: 2026-10
+- id: msse-43-7-acsm-position-stand-quantity-2011
+  title: 'ACSM position stand: Quantity and quality of exercise ... (Garber et al.)'
+  publisher: MSSE 43(7):1334-59
+  year: '2011'
+  url: https://pubmed.ncbi.nlm.nih.gov/21694556/
+  kind: study
+  accessed: 2026-10
+- id: sports-medicine-effects-rest-interval-2018
+  title: 'Effects of Rest Interval Duration in Resistance Training on Measures of Muscular Strength: A
+    Systematic Review (Grgic et al.)'
+  publisher: Sports Medicine
+  year: '2018'
+  url: https://pubmed.ncbi.nlm.nih.gov/28933024/
+  kind: study
+  accessed: 2026-10
+- id: frontiers-sports-active-give-it-rest-2024
+  title: 'Give it a rest: a systematic review with Bayesian meta-analysis on the effect of inter-set rest
+    interval duration on muscle hypertrophy (Singer et al.)'
+  publisher: Frontiers in Sports and Active Living
+  year: '2024'
+  url: https://www.frontiersin.org/journals/sports-and-active-living/articles/10.3389/fspor.2024.1429789/full
+  kind: study
+  accessed: 2026-10
+- id: nsw-institute-sport-effect-self-paced-2019
+  title: The effect of self-paced and prescribed interset rest strategies on performance in strength training
+    (Ibbott et al., IJSPP 14(7):980-986) - NSWIS summary
+  publisher: NSW Institute of Sport
+  year: '2019'
+  url: https://www.nswis.com.au/nswis-news/the-effect-of-self-paced-and-prescribed-interset-rest-strategies-on-performance-in-strength-training/
+  kind: study
+  accessed: 2026-10
+- id: sports-basel-profiling-rest-intervals-2018
+  title: Profiling Rest Intervals between Sets and Associated Factors in Resistance Training Participants
+    (Silva et al.)
+  publisher: Sports (Basel)
+  year: '2018'
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6316470/
+  kind: study
+  accessed: 2026-10
+- id: athletech-news-strava-running-walking-2025
+  title: 'Running, walking, strength training: Strava Year in Sport report'
+  publisher: Athletech News (Strava data)
+  year: '2025'
+  url: https://athletechnews.com/running-walking-strength-training-strava-year-in-sport-report/
+  kind: app_data
+  accessed: 2026-10
+- id: hacettepe-journal-sport-spor-2007
+  title: Spor tesislerinde kuyruk problemine yonelik bir benzetim uygulamasi (Girginer & Sahin)
+  publisher: Hacettepe Journal of Sport Sciences 18(1):13-30
+  year: '2007'
+  url: https://dergipark.org.tr/en/download/article-file/151321
+  kind: study
+  accessed: 2026-10
+- id: kaggle-user-joep89-weightlifting-strong-2019
+  title: weightlifting (Strong app export, single user, weightlifting_721_workouts.csv)
+  publisher: Kaggle (user joep89)
+  year: '2019'
+  url: https://www.kaggle.com/datasets/joep89/weightlifting
+  kind: dataset
+  accessed: 2026-10
+- id: precor-trm-885-treadmill-specifications-2025
+  title: Precor TRM 885 Treadmill – specifications
+  publisher: Precor
+  year: '2025'
+  url: https://www.precor.com/en-US/products/TRM885
+  kind: manufacturer
+  accessed: 2026-10
+- id: precor-trm-885-product-brochure-eng-2025
+  title: TRM 885 Product Brochure (ENG)
+  publisher: Precor
+  year: '2025'
+  url: https://static.precor.com/sell-sheet/all/TRM/TRM885-Product-Brochure-ENG.pdf
+  kind: manufacturer
+  accessed: 2026-10
+- id: precor-efx-885-elliptical-2025
+  title: Precor EFX 885 Elliptical – specifications
+  publisher: Precor
+  year: '2025'
+  url: https://www.precor.com/en-US/products/EFX885
+  kind: manufacturer
+  accessed: 2026-10
+- id: precor-ubk-885-upright-bike-2025
+  title: Precor UBK 885 Upright Bike – specifications
+  publisher: Precor
+  year: '2025'
+  url: https://www.precor.com/en-US/products/UBK885
+  kind: manufacturer
+  accessed: 2026-10
+- id: precor-rbk-885-recumbent-bike-2025
+  title: Precor RBK 885 Recumbent Bike – specifications
+  publisher: Precor
+  year: '2025'
+  url: https://www.precor.com/en-US/products/RBK885
+  kind: manufacturer
+  accessed: 2026-10
+- id: precor-hosted-manualslib-p30-console-owner-s
+  title: Precor P30 Console Owner's Manual – Important Safety Instructions (equipment spacing)
+  publisher: Precor (hosted by ManualsLib)
+  url: https://www.manualslib.com/manual/886465/Precor-P30.html?page=7
+  kind: manufacturer
+  accessed: 2026-10
+- id: life-fitness-integrity-treadmill-2
+  title: Life Fitness Integrity+ Treadmill – specifications
+  publisher: Life Fitness
+  url: https://www.lifefitness.com/en-us/catalog/cardio/treadmills/integrity-plus
+  kind: manufacturer
+  accessed: 2026-10
+- id: life-fitness-atmos-treadmill-specifications
+  title: Life Fitness Atmos Treadmill – specifications
+  publisher: Life Fitness
+  url: https://www.lifefitness.com/en-us/catalog/cardio/treadmills/atmos-treadmill
+  kind: manufacturer
+  accessed: 2026-10
+- id: life-fitness-australia-integrity-series-2019-2
+  title: Integrity Series Upright Lifecycle Sell Sheet
+  publisher: Life Fitness Australia
+  year: '2019'
+  url: https://www.lifefitness.com.au/wp-content/uploads/2019/04/Integrity-Upright-Sellsheet-Update-vf.pdf
+  kind: manufacturer
+  accessed: 2026-10
+- id: life-fitness-australia-integrity-series-2019-3
+  title: Integrity Series Recumbent Lifecycle Sell Sheet
+  publisher: Life Fitness Australia
+  year: '2019'
+  url: https://www.lifefitness.com.au/wp-content/uploads/2019/04/Integrity-Recumbent-Sellsheet-Update-vf.pdf
+  kind: manufacturer
+  accessed: 2026-10
+- id: life-fitness-integrity-elliptical-cross
+  title: Life Fitness Integrity Elliptical Cross-Trainer – specifications
+  publisher: Life Fitness
+  url: https://lifefitness.com/en-us/catalog/cardio/ellipticals/integrity-series-elliptical-cross-trainer
+  kind: manufacturer
+  accessed: 2026-10
+- id: life-fitness-integrity-series-cross-trainer
+  title: Integrity Series Cross-Trainer (CLSX) Operation Manual
+  publisher: Life Fitness
+  url: https://cdn.shopify.com/s/files/1/2063/2201/files/Life_Fitness_Integrity_Series_Cross-Trainer_CLSX_Operation_Manual.pdf
+  kind: manufacturer
+  accessed: 2026-10
+- id: life-fitness-e1-total-body-elliptical-cross
+  title: E1 Total-Body Elliptical Cross-Trainer Assembly Instructions M051-00K102-0007
+  publisher: Life Fitness
+  url: https://kb.cybexintl.com/Assembly_Manuals/Cross_Trainer/AI_CT_E1_Cross_Trainer_Assembly_Manual_M051-00K102-0007.pdf
+  kind: manufacturer
+  accessed: 2026-10
+- id: life-fitness-hosted-integrity-series
+  title: Integrity Series Recumbent Lifecycle Exercise Bike (CLSR) Operation Manual
+  publisher: Life Fitness (hosted by Keystone Fitness)
+  url: https://keystonefitness.ca/wp-content/uploads/2023/05/Life-Fitness-Integrity-Series-Recumbent-Lifecycle-Exercise-Bike-CLSR-Operation-Manual.pdf
+  kind: manufacturer
+  accessed: 2026-10
+- id: life-fitness-icg-ic7-indoor-cycle-manual
+  title: Life Fitness IC7 Indoor Cycle manual
+  publisher: Life Fitness / ICG
+  url: https://cdn.shopify.com/s/files/1/0134/3275/0138/files/IC-LFIC7B2_EN-WEB.pdf
+  kind: manufacturer
+  accessed: 2026-10
+- id: life-fitness-powermill-climber
+  title: Life Fitness PowerMill Climber – specifications
+  publisher: Life Fitness
+  url: https://www.lifefitness.com/en-us/catalog/cardio/stair-climbers-stepper-machines/powermill-climber
+  kind: manufacturer
+  accessed: 2026-10
+- id: life-fitness-scifit-stepone-recumbent
+  title: SciFit StepOne Recumbent Stepper – specifications
+  publisher: Life Fitness (SciFit)
+  url: https://www.lifefitness.com/en-us/catalog/cardio/stair-climbers-stepper-machines/stepone-recumbent-stepper
+  kind: manufacturer
+  accessed: 2026-10
+- id: life-fitness-row-hx-trainer-specifications
+  title: Life Fitness Row HX Trainer – specifications
+  publisher: Life Fitness
+  url: https://www.lifefitness.com/en-us/catalog/cardio/rowers/row-hx-trainer
+  kind: manufacturer
+  accessed: 2026-10
+- id: life-fitness-accessory-storage-rack-sar
+  title: Life Fitness Accessory Storage Rack (SAR)
+  publisher: Life Fitness
+  url: https://www.lifefitness.com/en-us/catalog/strength-training/storage-racks/life-fitness-accessory-storage-rack
+  kind: manufacturer
+  accessed: 2026-10
+- id: life-fitness-synrgy-accessory-storage-system
+  title: Synrgy Accessory Storage System (footprint and Recommended Live Area)
+  publisher: Life Fitness
+  url: https://www.lifefitness.com/en-us/catalog/strength-training/storage-racks/synrgy-accessory-storage-system
+  kind: manufacturer
+  accessed: 2026-10
+- id: life-fitness-vertical-medicine-ball-storage
+  title: Life Fitness Vertical Medicine Ball Storage
+  publisher: Life Fitness
+  url: https://www.lifefitness.com/en-us/catalog/strength-training/storage-racks/life-fitness-vertical-medicine-ball-storage
+  kind: manufacturer
+  accessed: 2026-10
+- id: life-fitness-hammer-strength-hd-perimeter
+  title: Hammer Strength HD Perimeter – specifications and recommended training space
+  publisher: Life Fitness (Hammer Strength)
+  url: https://www.lifefitness.com/en-us/catalog/strength-training/racks-rigs-platforms/hd-athletic-pro-perimeter
+  kind: manufacturer
+  accessed: 2026-10
+- id: core-health-fitness-2026-catalog-star
+  title: Core Health & Fitness 2026 Catalog (Star Trac, StairMaster, Schwinn, Throwdown)
+  publisher: Core Health & Fitness
+  year: '2026'
+  url: https://embed.pickit.com/files/xi8xbjjtay0uabg/67d365cc39f321090cac7d59/Core%202026%20Catalog.pdf
+  kind: manufacturer
+  accessed: 2026-10
+- id: core-health-fitness-stairmaster-8gx-product
+  title: StairMaster 8Gx – product specifications
+  publisher: Core Health & Fitness (StairMaster)
+  url: https://corehandf.com/products/stairmaster-8gx-1
+  kind: manufacturer
+  accessed: 2026-10
+- id: core-health-fitness-star-trac-8trx-treadmill
+  title: Star Trac 8TRx Treadmill – product specifications
+  publisher: Core Health & Fitness (Star Trac)
+  url: https://corehandf.com/products/8trx-treadmill-copy
+  kind: manufacturer
+  accessed: 2026-10
+- id: matrix-fitness-hosted-t3xe-owner-s-manual
+  title: Matrix T3xe Owner's Manual – Before You Begin (clearances)
+  publisher: Matrix Fitness (hosted by ManualsLib)
+  url: https://www.manualslib.com/manual/1061544/Matrix-T3xe.html?page=10
+  kind: manufacturer
+  accessed: 2026-10
+- id: matrix-fitness-performance-upright-recumbent
+  title: Matrix Performance Upright/Recumbent/Hybrid Cycle Owner's Manual
+  publisher: Matrix Fitness
+  url: https://cdn.shopify.com/s/files/1/2063/2201/files/matrix_performance_upright_cycle_manual.pdf
+  kind: manufacturer
+  accessed: 2026-10
+- id: matrix-fitness-premium-series-cycles-2009
+  title: Matrix Premium Series Cycles Owner's Manual (R7xe/U7xe/H7xe)
+  publisher: Matrix Fitness
+  year: '2009'
+  url: https://fleetfitness.com.au/assets/product/Matrix-R7xe-EP92-Owners-Manual.pdf
+  kind: manufacturer
+  accessed: 2026-10
+- id: matrix-fitness-hosted-e5xc-e7xe-e7xc-a5x
+  title: Matrix E5xc/E7xe/E7xc/A5x/A7xe Instructions Manual (24-in clearance rule)
+  publisher: Matrix Fitness (hosted by ManualMachine)
+  url: https://manualmachine.com/matrix/e5xc/20856185-instructions-manual
+  kind: manufacturer
+  accessed: 2026-10
+- id: cybex-hosted-manualsdir-525t-treadmill-user
+  title: Cybex 525T Treadmill User Manual – Choosing and preparing a site
+  publisher: Cybex (hosted by ManualsDir)
+  url: https://www.manualsdir.com/manuals/762629/cybex-525t-treadmill.html?page=13
+  kind: manufacturer
+  accessed: 2026-10
+- id: assault-fitness-airrunner-owner-s-2017
+  title: Assault AirRunner Owner's Manual / Technical Specifications
+  publisher: Assault Fitness
+  year: '2017'
+  url: https://hefitness.se/produktfiler/airrunner.pdf
+  kind: manufacturer
+  accessed: 2026-10
+- id: assault-fitness-assaultbike-elite
+  title: AssaultBike Elite – specifications
+  publisher: Assault Fitness
+  url: https://www.assaultfitness.com/bikes/assault-bike-elite/
+  kind: manufacturer
+  accessed: 2026-10
+- id: woodway-curve-specifications
+  title: Woodway Curve – specifications
+  publisher: Woodway
+  url: https://www.woodway.com/products/curve/
+  kind: manufacturer
+  accessed: 2026-10
+- id: rogue-fitness-woodway-curve-ltg-treadmill
+  title: Rogue | Woodway Curve LTG Treadmill
+  publisher: Rogue Fitness
+  url: https://www.roguefitness.com/the-rogue-woodway-curve-ltg-treadmill
+  kind: retailer
+  accessed: 2026-10
+- id: rogue-fitness-trueform-runner
+  title: Rogue | TrueForm Runner
+  publisher: Rogue Fitness
+  url: https://www.roguefitness.com/trueform-runner
+  kind: retailer
+  accessed: 2026-10
+- id: iron-company-trueform-runner-non-motorized
+  title: TrueForm RUNNER Non-Motorized Curved Treadmill
+  publisher: Iron Company
+  url: https://www.ironcompany.com/trueform-runner-non-motorized-curved-treadmill
+  kind: retailer
+  accessed: 2026-10
+- id: keiser-m3i-indoor-group-cycle-owner
+  title: Keiser M3i Indoor Group Cycle Owner's Manual
+  publisher: Keiser
+  url: https://cdn.shopify.com/s/files/1/0092/7373/7295/files/keiser-m3i-user-manual.pdf
+  kind: manufacturer
+  accessed: 2026-10
+- id: rogue-fitness-echo-bike-v3-0
+  title: Rogue Echo Bike V3.0
+  publisher: Rogue Fitness
+  url: https://www.roguefitness.com/rogue-echo-bike
+  kind: manufacturer
+  accessed: 2026-10
+- id: concept2-rowerg-specifications
+  title: Concept2 RowErg – specifications
+  publisher: Concept2
+  url: https://www.concept2.com/ergs/rowerg
+  kind: manufacturer
+  accessed: 2026-10
+- id: concept2-skierg-specifications-space
+  title: Concept2 SkiErg – specifications and space recommendations
+  publisher: Concept2
+  url: https://www.concept2.com/ergs/skierg
+  kind: manufacturer
+  accessed: 2026-10
+- id: nustep-t5-recumbent-cross-trainer
+  title: NuStep T5 Recumbent Cross Trainer
+  publisher: NuStep
+  url: https://www.nustep.com/product/t5/
+  kind: manufacturer
+  accessed: 2026-10
+- id: nustep-t5xr-recumbent-cross-trainer
+  title: NuStep T5XR Recumbent Cross Trainer
+  publisher: NuStep
+  url: https://www.nustep.com/product/t5xr/
+  kind: manufacturer
+  accessed: 2026-10
+- id: nustep-t6max-recumbent-cross-trainer
+  title: NuStep T6MAX Recumbent Cross Trainer
+  publisher: NuStep
+  url: https://www.nustep.com/product/t6max/
+  kind: manufacturer
+  accessed: 2026-10
+- id: nustep-t5-t5xr-user-manual-english-2023
+  title: NuStep T5/T5XR User Manual (English, Rev N)
+  publisher: NuStep
+  year: '2023'
+  url: https://www.nustep.com/wp-content/uploads/2023/08/50274-T5-User-Manual-English-Rev-N.pdf
+  kind: manufacturer
+  accessed: 2026-10
+- id: nustep-t6-user-manual-english-rev-2023
+  title: NuStep T6 User Manual (English, Rev E)
+  publisher: NuStep
+  year: '2023'
+  url: https://www.nustep.com/wp-content/uploads/2023/08/52390-T6-User-Manual-English-Rev-E.pdf
+  kind: manufacturer
+  accessed: 2026-10
+- id: u-s-access-2010-ada-standards
+  title: 2010 ADA Standards for Accessible Design (206.2.13, 236, 305.3, 403.5.1, 1004.1)
+  publisher: U.S. Access Board / U.S. Department of Justice
+  year: '2010'
+  url: https://www.access-board.gov/files/ada/ADA-Standards.pdf
+  kind: standard
+  accessed: 2026-10
+- id: sport-england-fitness-exercise-spaces-2008
+  title: Fitness and Exercise Spaces – Design Guidance Note (Updated 2008, Revision 002)
+  publisher: Sport England
+  year: '2008'
+  url: https://sportengland-production-files.s3.eu-west-2.amazonaws.com/s3fs-public/fitness-and-exercise-spaces.pdf?VersionId=BitV0h3FgG.ImxmuPWLc3iSKiCsosrDc
+  kind: industry_report
+  accessed: 2026-10
+- id: rogue-fitness-gymturf
+  title: Rogue GymTurf
+  publisher: Rogue Fitness
+  url: https://www.roguefitness.com/gymturf
+  kind: retailer
+  accessed: 2026-10
+- id: torque-fitness-tank-faq-all-surface-sled
+  title: TANK FAQ – All-Surface Sled
+  publisher: Torque Fitness
+  url: https://torquefitness.com/pages/tank-faq
+  kind: manufacturer
+  accessed: 2026-10
+- id: rogue-fitness-torque-tank-m4-sled-listing
+  title: Torque Fitness TANK M4 Sled (Rogue listing)
+  publisher: Rogue Fitness
+  url: https://www.roguefitness.com/torque-fitness-tank-m4-sled
+  kind: retailer
+  accessed: 2026-10
+- id: rogue-fitness-torque-tank-m1s-push-sled
+  title: Torque Fitness TANK M1S Push Sled (Rogue listing)
+  publisher: Rogue Fitness
+  url: https://www.roguefitness.com/torque-fitness-tank-m1s-push-sled
+  kind: retailer
+  accessed: 2026-10
+- id: rogue-fitness-echo-dog-sled
+  title: Rogue Echo Dog Sled
+  publisher: Rogue Fitness
+  url: https://www.roguefitness.com/rogue-echo-dog-sled
+  kind: manufacturer
+  accessed: 2026-10
+- id: rogue-fitness-foam-plyo-boxes
+  title: Rogue Foam Plyo Boxes
+  publisher: Rogue Fitness
+  url: https://www.roguefitness.com/rogue-foam-plyoboxes
+  kind: manufacturer
+  accessed: 2026-10
+- id: rogue-fitness-games-box
+  title: Rogue Games Box
+  publisher: Rogue Fitness
+  url: https://www.roguefitness.com/rogue-games-box
+  kind: manufacturer
+  accessed: 2026-10
+- id: rogue-fitness-medicine-balls
+  title: Rogue Medicine Balls
+  publisher: Rogue Fitness
+  url: https://www.roguefitness.com/rogue-medicine-balls
+  kind: manufacturer
+  accessed: 2026-10
+- id: rogue-fitness-bolt-together-wall-ball-target
+  title: Bolt Together Wall Ball Target for Infinity/Monster Lite
+  publisher: Rogue Fitness
+  url: https://www.roguefitness.com/bolt-together-wall-ball-target-for-infinity-monster-lite
+  kind: manufacturer
+  accessed: 2026-10
+- id: rogue-fitness-battle-rope
+  title: Rogue Battle Rope
+  publisher: Rogue Fitness
+  url: https://www.roguefitness.com/rogue-battle-rope
+  kind: manufacturer
+  accessed: 2026-10
+- id: trx-battle-rope-commercial-partners
+  title: TRX Battle Rope (commercial partners)
+  publisher: TRX
+  url: https://commercial.trxtraining.com/products/trx-battle-rope-commercial-partners
+  kind: manufacturer
+  accessed: 2026-10
+- id: trx-suspension-anchor
+  title: TRX Suspension Anchor
+  publisher: TRX
+  url: https://www.trxtraining.com/products/suspension-anchor
+  kind: manufacturer
+  accessed: 2026-10
+- id: trx-xtender
+  title: TRX Xtender
+  publisher: TRX
+  url: https://www.trxtraining.com/products/xtender
+  kind: manufacturer
+  accessed: 2026-10
+- id: trx-xmount
+  title: TRX XMount
+  publisher: TRX
+  url: https://www.trxtraining.com/products/xmount
+  kind: manufacturer
+  accessed: 2026-10
+- id: rogue-fitness-monster-lite-monkey-rig-2
+  title: Monster Lite Monkey Rig 2.0
+  publisher: Rogue Fitness
+  url: https://www.roguefitness.com/rogue-monster-lite-monkey-rig-2-0
+  kind: manufacturer
+  accessed: 2026-10
+- id: rogue-fitness-w-4-4-wall-mount
+  title: Rogue W-4 – 4' Wall Mount Rig
+  publisher: Rogue Fitness
+  url: https://www.roguefitness.com/rogue-w-4-4-wall-mount-rig
+  kind: manufacturer
+  accessed: 2026-10
+- id: rogue-fitness-universal-storage-system-2-0
+  title: Rogue Universal Storage System 2.0
+  publisher: Rogue Fitness
+  url: https://www.roguefitness.com/rogue-universal-storage-system-2-0
+  kind: manufacturer
+  accessed: 2026-10
+- id: iso-preview-via-20957-1-2013-stationary
+  title: ISO 20957-1:2013 Stationary training equipment Part 1 (preview, cl. 3 definitions)
+  publisher: ISO (preview via iTeh)
+  year: '2013'
+  url: https://cdn.standards.iteh.ai/samples/56102/b0f72c8378484be29dc5ec9548ce4943/ISO-20957-1-2013.pdf
+  kind: standard
+  accessed: 2026-10
+- id: star-trac-ip-l5002-owner-s-manual
+  title: Star Trac IP-L5002 owner's manual p.19 (clearance and walkway)
+  publisher: Star Trac
+  url: https://videogame.manualsonline.com/manuals/mfg/star_trac/ipl5002.html?p=19
+  kind: manufacturer
+  accessed: 2026-10
+- id: nsca-strength-conditioning-professional-2017
+  title: NSCA Strength and Conditioning Professional Standards and Guidelines, App. 4 Table D1
+  publisher: NSCA
+  year: '2017'
+  url: https://www.nsca.com/globalassets/education/nsca_strength_and_conditioning_professional_standards_and_guidelines.pdf
+  kind: standard
+  accessed: 2026-10
+- id: nsca-s-safety-checklist-exercise-facility
+  title: NSCA's Safety Checklist for Exercise Facility and Equipment Maintenance
+  publisher: NSCA
+  url: https://www.nsca.com/contentassets/2a0a87ccabbe4a149dd915168b20d603/nsca-safety-checklist.pdf
+  kind: industry_report
+  accessed: 2026-10
+- id: nsca-tsac-module-5-0-5-2018
+  title: NSCA TSAC Module 5.0-5.1 facility guidelines
+  publisher: NSCA
+  year: '2018'
+  url: https://www.nsca.com/contentassets/4bc4e495944c470d81c429294a2b4c05/tsac-module-5.0--5.1.pdf
+  kind: industry_report
+  accessed: 2026-10
+- id: hammer-strength-life-catalog-2024
+  title: Hammer Strength Catalog 2024 (English), Specifications pp.59-64
+  publisher: Hammer Strength / Life Fitness
+  year: '2024'
+  url: https://cdn.shopify.com/s/files/1/0573/6877/2685/files/ISBU_Hammer-Strength-Catalog-2024-ENGLISH.pdf
+  kind: manufacturer
+  accessed: 2026-10
+- id: rogue-fitness-ohio-bar-length-sleeve
+  title: Rogue Ohio Bar (length, sleeve)
+  publisher: Rogue Fitness
+  url: https://www.roguefitness.com/the-ohio-bar-black-zinc
+  kind: manufacturer
+  accessed: 2026-10
+- id: rogue-fitness-hr-2-half-rack
+  title: Rogue HR-2 Half Rack
+  publisher: Rogue Fitness
+  url: https://www.roguefitness.com/rogue-hr-2-half-rack
+  kind: manufacturer
+  accessed: 2026-10
+- id: rep-fitness-commercial-dumbbell-rack-2-3
+  title: REP Fitness Commercial Dumbbell Rack (2- and 3-tier)
+  publisher: REP Fitness
+  url: https://repfitness.com/products/commercial-dumbbell-rack
+  kind: manufacturer
+  accessed: 2026-10
+- id: rep-fitness-free-standing-landmine
+  title: REP Fitness Free Standing Landmine
+  publisher: REP Fitness
+  url: https://repfitness.com/products/free-standing-landmine
+  kind: manufacturer
+  accessed: 2026-10
+- id: cybex-international-eagle-nx-leg-press-owner
+  title: Cybex Eagle NX Leg Press Owner's Manual 20040-999-4 (site criteria, ADA note)
+  publisher: Cybex International
+  url: https://kb.cybexintl.com/Owners_Manuals/Strength/20040-999-4.pdf
+  kind: manufacturer
+  accessed: 2026-10
+- id: cybex-international-vr3-cable-column-owner-s
+  title: Cybex VR3 Cable Column Owner's Manual 12220-999-4
+  publisher: Cybex International
+  url: https://kb.cybexintl.com/Owners_Manuals/Strength/12220-999-4.pdf
+  kind: manufacturer
+  accessed: 2026-10
+- id: cybex-international-plate-loaded-hack-squat
+  title: Cybex Plate Loaded Hack Squat Owner's Manual 16200-999-4
+  publisher: Cybex International
+  url: https://kb.cybexintl.com/Owners_Manuals/Strength/16200-999-4.pdf
+  kind: manufacturer
+  accessed: 2026-10
+- id: life-fitness-signature-series-fz-owner-s
+  title: Life Fitness Signature Series (FZ) Owner's Manual, Machine Specifications (row, leg press, leg
+    ext)
+  publisher: Life Fitness
+  url: https://personalcare.manualsonline.com/manuals/mfg/life_fitness/8006348637.html?p=32
+  kind: manufacturer
+  accessed: 2026-10
+- id: life-fitness-signature-series-fz-owner-s-2
+  title: Life Fitness Signature Series (FZ) Owner's Manual, Machine Specifications (back ext, glute, torso)
+  publisher: Life Fitness
+  url: https://caraudio.manualsonline.com/manuals/mfg/life_fitness/8006348637.html?p=35
+  kind: manufacturer
+  accessed: 2026-10
+- id: lf-hammer-strength-hd-elite
+  title: 'LF: Hammer Strength HD Elite iD Power Rack'
+  url: https://www.lifefitness.com/en-us/catalog/strength-training/racks-rigs-platforms/hd-elite-id-power-rack
+  kind: manufacturer
+  accessed: 2026-10
+- id: lf-hammer-strength-dual-adjustable
+  title: 'LF: Hammer Strength Dual Adjustable Pulley'
+  url: https://www.lifefitness.com/en-us/catalog/strength-training/cable-machines-functional-trainers/hammer-strength-dual-adjustable-pulley
+  kind: manufacturer
+  accessed: 2026-10
+- id: lf-hammer-strength-iso-lateral
+  title: 'LF: Hammer Strength Iso-Lateral T-Bar Row'
+  url: https://www.lifefitness.com/en-us/catalog/strength-training/plate-loaded/iso-lateral-t-bar-row
+  kind: manufacturer
+  accessed: 2026-10
+- id: lf-hammer-strength-olympic-decline
+  title: 'LF: Hammer Strength Olympic Decline Bench'
+  url: https://www.lifefitness.com/en-us/catalog/strength-training/benches/olympic-decline-bench
+  kind: manufacturer
+  accessed: 2026-10
+- id: lf-hammer-strength-olympic-flat
+  title: 'LF: Hammer Strength Olympic Flat Bench'
+  url: https://www.lifefitness.com/en-us/catalog/strength-training/benches/olympic-flat-bench
+  kind: manufacturer
+  accessed: 2026-10
+- id: lf-hammer-strength-olympic-incline
+  title: 'LF: Hammer Strength Olympic Incline Bench'
+  url: https://www.lifefitness.com/en-us/catalog/strength-training/benches/olympic-incline-bench
+  kind: manufacturer
+  accessed: 2026-10
+- id: lf-hammer-strength-pulldown-row
+  title: 'LF: Hammer Strength Pulldown / Row'
+  url: https://www.lifefitness.com/en-us/catalog/strength-training/cable-machines-functional-trainers/hammer-strength-pulldown-row
+  kind: manufacturer
+  accessed: 2026-10
+- id: lf-insignia-series-abdominal
+  title: 'LF: Insignia Series Abdominal'
+  url: https://www.lifefitness.com/en-us/catalog/strength-training/selectorized/insignia-series-abdominal
+  kind: manufacturer
+  accessed: 2026-10
+- id: lf-insignia-series-assist-dip
+  title: 'LF: Insignia Series Assist Dip Chin'
+  url: https://www.lifefitness.com/en-us/catalog/strength-training/selectorized/insignia-series-assist-dip-chin
+  kind: manufacturer
+  accessed: 2026-10
+- id: lf-insignia-series-biceps-curl
+  title: 'LF: Insignia Series Biceps Curl'
+  url: https://www.lifefitness.com/en-us/catalog/strength-training/selectorized/insignia-series-biceps-curl
+  kind: manufacturer
+  accessed: 2026-10
+- id: lf-insignia-series-back-extension
+  title: 'LF: Insignia Series Back Extension'
+  url: https://www.lifefitness.com/en-us/catalog/strength-training/selectorized/insignia-series-back-extension
+  kind: manufacturer
+  accessed: 2026-10
+- id: lf-insignia-series-chest-press
+  title: 'LF: Insignia Series Chest Press'
+  url: https://www.lifefitness.com/en-us/catalog/strength-training/selectorized/insignia-series-chest-press
+  kind: manufacturer
+  accessed: 2026-10
+- id: lf-insignia-series-glute
+  title: 'LF: Insignia Series Glute'
+  url: https://www.lifefitness.com/en-us/catalog/strength-training/selectorized/insignia-series-glute
+  kind: manufacturer
+  accessed: 2026-10
+- id: lf-insignia-series-hip-abduction
+  title: 'LF: Insignia Series Hip Abduction / Adduction'
+  url: https://www.lifefitness.com/en-us/catalog/strength-training/selectorized/insignia-series-hip-abductor-adductor
+  kind: manufacturer
+  accessed: 2026-10
+- id: lf-insignia-series-leg-extension
+  title: 'LF: Insignia Series Leg Extension'
+  url: https://www.lifefitness.com/en-us/catalog/strength-training/selectorized/insignia-series-leg-extension
+  kind: manufacturer
+  accessed: 2026-10
+- id: lf-insignia-series-pulldown
+  title: 'LF: Insignia Series Pulldown'
+  url: https://www.lifefitness.com/en-us/catalog/strength-training/selectorized/insignia-series-pulldown
+  kind: manufacturer
+  accessed: 2026-10
+- id: lf-insignia-series-pectoral-fly
+  title: 'LF: Insignia Series Pectoral Fly / Rear Deltoid'
+  url: https://www.lifefitness.com/en-us/catalog/strength-training/selectorized/insignia-series-pectoral-fly-rear-deltoid
+  kind: manufacturer
+  accessed: 2026-10
+- id: lf-insignia-series-row
+  title: 'LF: Insignia Series Row'
+  url: https://www.lifefitness.com/en-us/catalog/strength-training/selectorized/insignia-series-row
+  kind: manufacturer
+  accessed: 2026-10
+- id: lf-insignia-series-seated-leg
+  title: 'LF: Insignia Series Seated Leg Curl'
+  url: https://www.lifefitness.com/en-us/catalog/strength-training/selectorized/insignia-series-seated-leg-curl
+  kind: manufacturer
+  accessed: 2026-10
+- id: lf-insignia-series-shoulder-press
+  title: 'LF: Insignia Series Shoulder Press'
+  url: https://www.lifefitness.com/en-us/catalog/strength-training/selectorized/insignia-series-shoulder-press
+  kind: manufacturer
+  accessed: 2026-10
+- id: lf-insignia-series-triceps-extension
+  title: 'LF: Insignia Series Triceps Extension'
+  url: https://www.lifefitness.com/en-us/catalog/strength-training/selectorized/insignia-series-triceps-extension
+  kind: manufacturer
+  accessed: 2026-10
+- id: lf-insignia-series-torso-rotation
+  title: 'LF: Insignia Series Torso Rotation'
+  url: https://www.lifefitness.com/en-us/catalog/strength-training/selectorized/insignia-series-torso-rotation
+  kind: manufacturer
+  accessed: 2026-10
+- id: lf-adjustable-cable-crossover
+  title: 'LF: Adjustable Cable Crossover'
+  url: https://www.lifefitness.com/en-us/catalog/strength-training/cable-machines-functional-trainers/adjustable-cable-crossover
+  kind: manufacturer
+  accessed: 2026-10
+- id: lf-life-fitness-back-extension
+  title: 'LF: Life Fitness Back Extension'
+  url: https://www.lifefitness.com/en-us/catalog/strength-training/benches/life-fitness-back-extension
+  kind: manufacturer
+  accessed: 2026-10
+- id: lf-life-fitness-plate-loaded
+  title: 'LF: Life Fitness Plate Loaded Linear Leg Press'
+  url: https://www.lifefitness.com/en-us/catalog/strength-training/plate-loaded/life-fitness-linear-leg-press
+  kind: manufacturer
+  accessed: 2026-10
+- id: lf-life-fitness-olympic-decline
+  title: 'LF: Life Fitness Olympic Decline Bench'
+  url: https://www.lifefitness.com/en-us/catalog/strength-training/benches/life-fitness-olympic-decline-bench
+  kind: manufacturer
+  accessed: 2026-10
+- id: lf-life-fitness-olympic-incline
+  title: 'LF: Life Fitness Olympic Incline Bench'
+  url: https://www.lifefitness.com/en-us/catalog/strength-training/benches/life-fitness-olympic-incline-bench
+  kind: manufacturer
+  accessed: 2026-10
+- id: lf-shop-spec-table-axiom
+  title: 'LF shop spec table: Axiom Chest Press'
+  url: https://shop.lifefitness.com/products/axiom-series-chest-press
+  kind: manufacturer
+  accessed: 2026-10
+- id: lf-shop-spec-table-axiom-2
+  title: 'LF shop spec table: Axiom Hip Abductor/Adductor'
+  url: https://shop.lifefitness.com/products/axiom-series-hip-abductor-adductor
+  kind: manufacturer
+  accessed: 2026-10
+- id: lf-shop-spec-table-axiom-3
+  title: 'LF shop spec table: Axiom Leg Curl/Extension'
+  url: https://shop.lifefitness.com/products/axiom-series-leg-curl-extension
+  kind: manufacturer
+  accessed: 2026-10
+- id: lf-shop-spec-table-axiom-4
+  title: 'LF shop spec table: Axiom Leg Extension'
+  url: https://shop.lifefitness.com/products/axiom-series-leg-extension
+  kind: manufacturer
+  accessed: 2026-10
+- id: lf-shop-spec-table-axiom-5
+  title: 'LF shop spec table: Axiom Pulldown/Row'
+  url: https://shop.lifefitness.com/products/axiom-series-pulldown-row
+  kind: manufacturer
+  accessed: 2026-10
+- id: lf-shop-spec-table-axiom-6
+  title: 'LF shop spec table: Axiom Seated Leg Curl/Extension'
+  url: https://shop.lifefitness.com/products/axiom-series-seated-leg-curl-extension
+  kind: manufacturer
+  accessed: 2026-10
+- id: lf-shop-spec-table-hammer
+  title: 'LF shop spec table: Hammer Strength Two-Tier Dumbbell Rack'
+  url: https://shop.lifefitness.com/products/hammer-strength-two-tier-dumbbell-rack
+  kind: manufacturer
+  accessed: 2026-10
+- id: lf-shop-spec-table-hammer-3
+  title: 'LF shop spec table: Hammer Strength Seated Arm Curl'
+  url: https://shop.lifefitness.com/products/hammer-strength-seated-arm-curl
+  kind: manufacturer
+  accessed: 2026-10
+- id: lf-shop-spec-table-hammer-4
+  title: 'LF shop spec table: Hammer Strength Back Extension'
+  url: https://shop.lifefitness.com/products/hammer-strength-back-extension
+  kind: manufacturer
+  accessed: 2026-10
+- id: lf-shop-spec-table-hammer-5
+  title: 'LF shop spec table: Hammer Strength Plate Loaded Belt Squat'
+  url: https://shop.lifefitness.com/products/hammer-strength-plate-loaded-belt-squat
+  kind: manufacturer
+  accessed: 2026-10
+- id: lf-shop-spec-table-hammer-6
+  title: 'LF shop spec table: Hammer Strength Chin/Dip/Leg Raise'
+  url: https://shop.lifefitness.com/products/hammer-strength-chin-dip-leg-raise
+  kind: manufacturer
+  accessed: 2026-10
+- id: lf-shop-spec-table-hammer-7
+  title: 'LF shop spec table: Hammer Strength Flat Bench'
+  url: https://shop.lifefitness.com/products/hammer-strength-flat-bench
+  kind: manufacturer
+  accessed: 2026-10
+- id: lf-shop-spec-table-hammer-8
+  title: 'LF shop spec table: Hammer Strength Fixed Pad Glute/Ham'
+  url: https://shop.lifefitness.com/products/hammer-strength-fixed-pad-glute-ham-bench
+  kind: manufacturer
+  accessed: 2026-10
+- id: lf-shop-spec-table-hammer-9
+  title: 'LF shop spec table: Hammer Strength Glute Ham / Reverse Hyper'
+  url: https://shop.lifefitness.com/products/hammer-strength-glute-ham-reverse-hyper-combo
+  kind: manufacturer
+  accessed: 2026-10
+- id: lf-shop-spec-table-hammer-10
+  title: 'LF shop spec table: Hammer Strength Plate Loaded Glute Drive'
+  url: https://shop.lifefitness.com/products/hammer-strength-plate-loaded-glute-drive
+  kind: manufacturer
+  accessed: 2026-10
+- id: lf-shop-spec-table-hammer-11
+  title: 'LF shop spec table: Hammer Strength Plate Loaded Hack Squat'
+  url: https://shop.lifefitness.com/products/hammer-strength-plate-loaded-hack-squat
+  kind: manufacturer
+  accessed: 2026-10
+- id: lf-shop-spec-table-hammer-12
+  title: 'LF shop spec table: Hammer Strength HD Elite iD Half Rack'
+  url: https://shop.lifefitness.com/products/hammer-strength-hd-elite-id-half-rack
+  kind: manufacturer
+  accessed: 2026-10
+- id: lf-shop-spec-table-hammer-13
+  title: 'LF shop spec table: Hammer Strength PL Iso-Lateral Bench Press'
+  url: https://shop.lifefitness.com/products/hammer-strength-plate-loaded-iso-lateral-bench-press
+  kind: manufacturer
+  accessed: 2026-10
+- id: lf-shop-spec-table-hammer-14
+  title: 'LF shop spec table: Hammer Strength PL Iso-Lateral Front Lat Pulldown'
+  url: https://shop.lifefitness.com/products/hammer-strength-plate-loaded-iso-lateral-front-lat-pulldown
+  kind: manufacturer
+  accessed: 2026-10
+- id: lf-shop-spec-table-hammer-15
+  title: 'LF shop spec table: Hammer Strength PL Iso-Lateral Horizontal Bench Press'
+  url: https://shop.lifefitness.com/products/hammer-strength-plate-loaded-iso-lateral-horizontal-bench-press
+  kind: manufacturer
+  accessed: 2026-10
+- id: lf-shop-spec-table-hammer-16
+  title: 'LF shop spec table: Hammer Strength Iso-Lateral High Row'
+  url: https://shop.lifefitness.com/products/hammer-strength-iso-lateral-high-row
+  kind: manufacturer
+  accessed: 2026-10
+- id: lf-shop-spec-table-hammer-17
+  title: 'LF shop spec table: Hammer Strength PL Iso-Lateral Low Row'
+  url: https://shop.lifefitness.com/products/hammer-strength-plate-loaded-iso-lateral-low-row
+  kind: manufacturer
+  accessed: 2026-10
+- id: lf-shop-spec-table-hammer-18
+  title: 'LF shop spec table: Hammer Strength PL Iso-Lateral Row'
+  url: https://shop.lifefitness.com/products/hammer-strength-plate-loaded-iso-lateral-row
+  kind: manufacturer
+  accessed: 2026-10
+- id: lf-shop-spec-table-hammer-19
+  title: 'LF shop spec table: Hammer Strength PL Iso-Lateral Shoulder Press'
+  url: https://shop.lifefitness.com/products/hammer-strength-plate-loaded-iso-lateral-shoulder-press
+  kind: manufacturer
+  accessed: 2026-10
+- id: lf-shop-spec-table-hammer-20
+  title: 'LF shop spec table: Hammer Strength PL Linear Leg Press'
+  url: https://shop.lifefitness.com/products/hammer-strength-plate-loaded-linear-leg-press
+  kind: manufacturer
+  accessed: 2026-10
+- id: lf-shop-spec-table-hammer-21
+  title: 'LF shop spec table: Hammer Strength HD Athletic NX Power Rack'
+  url: https://shop.lifefitness.com/products/hammer-strength-hd-athletic-nx-power-rack
+  kind: manufacturer
+  accessed: 2026-10
+  notes: 65 x 62 x 91 in, 10 x 10 ft live area, 2-handle pull-up bar; the page states a minimum ceiling
+    height of 102 in (checked 2026-10-29).
+- id: lf-hd-athletic-nx-half-rack
+  title: Hammer Strength HD Athletic NX Half Rack
+  publisher: Life Fitness
+  year: '2026'
+  url: https://www.lifefitness.com/en-us/catalog/strength-training/racks-rigs/hd-athletic-nx-half-rack
+  kind: manufacturer
+  accessed: 2026-10
+  notes: Upright height 86 or 91 in; each training upright can fit in rooms with a standard 8-ft ceiling;
+    pull-up options Monkey Bar, Offset Bar, 2-Handle Bar and 2x3 Square (checked 2026-10-29).
+- id: lf-shop-spec-table-hammer-22
+  title: 'LF shop spec table: Hammer Strength PL Pendulum-X Squat'
+  url: https://shop.lifefitness.com/products/hammer-strength-plate-loaded-pendulum-x-squat-1
+  kind: manufacturer
+  accessed: 2026-10
+- id: lf-shop-spec-table-hammer-23
+  title: 'LF shop spec table: Hammer Strength Select Abdominal Crunch'
+  url: https://shop.lifefitness.com/products/hammer-strength-select-abdominal-crunch
+  kind: manufacturer
+  accessed: 2026-10
+- id: lf-shop-spec-table-hammer-24
+  title: 'LF shop spec table: Hammer Strength Select Assist Dip Chin'
+  url: https://shop.lifefitness.com/products/hammer-strength-select-assist-dip-chin
+  kind: manufacturer
+  accessed: 2026-10
+- id: lf-shop-spec-table-hammer-25
+  title: 'LF shop spec table: Hammer Strength Select Biceps Curl'
+  url: https://shop.lifefitness.com/products/hammer-strength-select-biceps-curl
+  kind: manufacturer
+  accessed: 2026-10
+- id: lf-shop-spec-table-hammer-26
+  title: 'LF shop spec table: Hammer Strength Select Back Extension'
+  url: https://shop.lifefitness.com/products/hammer-strength-select-back-extension
+  kind: manufacturer
+  accessed: 2026-10
+- id: lf-shop-spec-table-hammer-27
+  title: 'LF shop spec table: Hammer Strength Select Chest Press'
+  url: https://shop.lifefitness.com/products/hammer-strength-select-chest-press
+  kind: manufacturer
+  accessed: 2026-10
+- id: lf-shop-spec-table-hammer-28
+  title: 'LF shop spec table: Hammer Strength Select Horizontal Calf'
+  url: https://shop.lifefitness.com/products/hammer-strength-select-horizontal-calf
+  kind: manufacturer
+  accessed: 2026-10
+- id: lf-shop-spec-table-hammer-29
+  title: 'LF shop spec table: Hammer Strength Select Hip and Glute'
+  url: https://shop.lifefitness.com/products/hammer-strength-select-hip-and-glute
+  kind: manufacturer
+  accessed: 2026-10
+- id: lf-shop-spec-table-hammer-30
+  title: 'LF shop spec table: Hammer Strength Select Leg Extension'
+  url: https://shop.lifefitness.com/products/hammer-strength-select-leg-extension
+  kind: manufacturer
+  accessed: 2026-10
+- id: lf-shop-spec-table-hammer-31
+  title: 'LF shop spec table: Hammer Strength Select Lat Pulldown'
+  url: https://shop.lifefitness.com/products/hammer-strength-select-lat-pulldown
+  kind: manufacturer
+  accessed: 2026-10
+- id: lf-shop-spec-table-hammer-32
+  title: 'LF shop spec table: Hammer Strength Select Pectoral Fly/Rear Deltoid'
+  url: https://shop.lifefitness.com/products/hammer-strength-select-pectoral-fly-rear-deltoid
+  kind: manufacturer
+  accessed: 2026-10
+- id: lf-shop-spec-table-hammer-33
+  title: 'LF shop spec table: Hammer Strength Select Seated Row'
+  url: https://shop.lifefitness.com/products/hammer-strength-select-seated-row
+  kind: manufacturer
+  accessed: 2026-10
+- id: lf-shop-spec-table-hammer-34
+  title: 'LF shop spec table: Hammer Strength Select Standing Calf'
+  url: https://shop.lifefitness.com/products/hammer-strength-select-standing-calf
+  kind: manufacturer
+  accessed: 2026-10
+- id: lf-shop-spec-table-hammer-35
+  title: 'LF shop spec table: Hammer Strength Select Seated Leg Curl'
+  url: https://shop.lifefitness.com/products/hammer-strength-select-seated-leg-curl
+  kind: manufacturer
+  accessed: 2026-10
+- id: lf-shop-spec-table-hammer-36
+  title: 'LF shop spec table: Hammer Strength Select Shoulder Press'
+  url: https://shop.lifefitness.com/products/hammer-strength-select-shoulder-press
+  kind: manufacturer
+  accessed: 2026-10
+- id: lf-shop-spec-table-hammer-37
+  title: 'LF shop spec table: Hammer Strength Select Triceps Extension'
+  url: https://shop.lifefitness.com/products/hammer-strength-select-triceps-extension
+  kind: manufacturer
+  accessed: 2026-10
+- id: lf-shop-spec-table-hammer-38
+  title: 'LF shop spec table: Hammer Strength Smith Machine'
+  url: https://shop.lifefitness.com/products/hammer-strength-smith-machine-1
+  kind: manufacturer
+  accessed: 2026-10
+- id: lf-shop-spec-table-life
+  title: 'LF shop spec table: Life Fitness Two-Tier Dumbbell Rack'
+  url: https://shop.lifefitness.com/products/life-fitness-two-tier-dumbbell-rack
+  kind: manufacturer
+  accessed: 2026-10
+- id: lf-shop-spec-table-life-3
+  title: 'LF shop spec table: Life Fitness Adjustable Bench'
+  url: https://shop.lifefitness.com/products/life-fitness-adjustable-bench
+  kind: manufacturer
+  accessed: 2026-10
+- id: lf-shop-spec-table-life-4
+  title: 'LF shop spec table: Life Fitness Arm Curl Bench'
+  url: https://shop.lifefitness.com/products/life-fitness-arm-curl-bench
+  kind: manufacturer
+  accessed: 2026-10
+- id: lf-shop-spec-table-life-5
+  title: 'LF shop spec table: Life Fitness Barbell Rack'
+  url: https://shop.lifefitness.com/products/life-fitness-barbell-rack
+  kind: manufacturer
+  accessed: 2026-10
+- id: lf-shop-spec-table-life-6
+  title: 'LF shop spec table: Life Fitness Dual Adjustable Pulley'
+  url: https://shop.lifefitness.com/products/life-fitness-dual-adjustable-pulley
+  kind: manufacturer
+  accessed: 2026-10
+- id: lf-shop-spec-table-life-7
+  title: 'LF shop spec table: Life Fitness Dip/Leg Raise'
+  url: https://shop.lifefitness.com/products/life-fitness-dip-leg-raise
+  kind: manufacturer
+  accessed: 2026-10
+- id: lf-shop-spec-table-life-8
+  title: 'LF shop spec table: Life Fitness Flat Bench'
+  url: https://shop.lifefitness.com/products/life-fitness-flat-bench
+  kind: manufacturer
+  accessed: 2026-10
+- id: lf-shop-spec-table-life-9
+  title: 'LF shop spec table: Life Fitness Multi-Adjustable Bench'
+  url: https://shop.lifefitness.com/products/life-fitness-multi-adjustable-bench
+  kind: manufacturer
+  accessed: 2026-10
+- id: lf-shop-spec-table-life-10
+  title: 'LF shop spec table: Life Fitness (Signature) Olympic Flat Bench'
+  url: https://shop.lifefitness.com/products/signature-series-olympic-flat-bench
+  kind: manufacturer
+  accessed: 2026-10
+- id: lf-shop-spec-table-life-11
+  title: 'LF shop spec table: Life Fitness Smith Machine'
+  url: https://shop.lifefitness.com/products/life-fitness-smith-machine
+  kind: manufacturer
+  accessed: 2026-10
+- id: bodykore-cf2173-standing-t-bar
+  title: BodyKore CF2173 Standing T-Bar Row (dealer listing)
+  url: https://www.recoveryforathletes.com/products/cf2173-standing-t-bar-row
+  kind: retailer
+  accessed: 2026-10
+- id: bodykore-fl1844-hip-thrust-glute
+  title: BodyKore FL1844 Hip Thrust/Glute Builder (dealer listing)
+  url: https://www.recoveryforathletes.com/products/stacked-series-hip-thrust-glute-builder-plate-loaded-fl1844
+  kind: retailer
+  accessed: 2026-10
+- id: bodykore-g502-cable-crossover-dealer
+  title: BodyKore G502 Cable Crossover (dealer listing)
+  url: https://www.recoveryforathletes.com/products/g502-cable-crossover
+  kind: retailer
+  accessed: 2026-10
+- id: bodykore-gm5003-four-station-jungle
+  title: BodyKore GM5003 Four Station Jungle Gym (dealer listing)
+  url: https://www.recoveryforathletes.com/products/gm5003-four-station-position-jungle-gym
+  kind: retailer
+  accessed: 2026-10
+- id: bodykore-mti4005-3-station-multi
+  title: BodyKore MTI4005 3 Station Multi-Gym (dealer listing)
+  url: https://www.recoveryforathletes.com/products/mti4005-3-station-multi-gym-chest-back-leg-extension-leg-press
+  kind: retailer
+  accessed: 2026-10
+- id: bodykore-mx1174-universal1-single-station
+  title: BodyKore MX1174 Universal1 Single Station Adjustable Pulley (dealer listing)
+  url: https://www.recoveryforathletes.com/products/mx1174-universal1-single-station-adjustable-pulley-system
+  kind: retailer
+  accessed: 2026-10
+- id: openml-kaggle-nsrose7224-crowdedness-2017
+  title: Crowdedness-at-the-Campus-Gym (OpenML dataset 43752; Kaggle upload by nsrose7224)
+  publisher: OpenML / Kaggle (nsrose7224)
+  year: '2017'
+  url: https://www.openml.org/api/v1/json/data/43752
+  kind: dataset
+  accessed: 2026-10
+- id: federation-university-australia-gym-2020
+  title: Gym access times 1 Oct 2019 - 27 Feb 2020 (Mt Helen gym entry log)
+  publisher: Federation University Australia / Ballarat Open Data
+  year: '2020'
+  url: https://ballaratopendata.org.au/dataset/25da8aba-94e6-4593-b1b3-473744206304/resource/9f29bf6d-141b-499d-94dd-2e9d969826c4/download/gym_entry_point_data_cleaned_20191001-0227csv.csv
+  kind: dataset
+  accessed: 2026-10
+- id: u-s-bureau-spotlight-statistics-sports-2008
+  title: 'Spotlight on Statistics: Sports and Exercise (ATUS 2003-06)'
+  publisher: U.S. Bureau of Labor Statistics
+  year: '2008'
+  url: https://www.bls.gov/spotlight/2008/sports/pdf/sports_bls_spotlight.pdf
+  kind: industry_report
+  accessed: 2026-10
+- id: u-s-bureau-spotlight-statistics-sports-2017
+  title: 'Spotlight on Statistics: Sports and Exercise (ATUS 2009-15)'
+  publisher: U.S. Bureau of Labor Statistics
+  year: '2017'
+  url: https://www.bls.gov/spotlight/2017/sports-and-exercise/
+  kind: industry_report
+  accessed: 2026-10
+- id: placer-ai-current-pace-fitness-space-2025
+  title: The Current Pace of the Fitness Space
+  publisher: Placer.ai
+  year: '2025'
+  url: https://www.placer.ai/anchor/reports/the-current-pace-of-the-fitness-space?gated=false
+  kind: industry_report
+  accessed: 2026-10
+- id: placer-ai-life-time-planet-fitness-q2-2025
+  title: Life Time & Planet Fitness Q2 2025 Recap
+  publisher: Placer.ai
+  year: '2025'
+  url: https://www.placer.ai/anchor/articles/life-time-planet-fitness-q2-2025-recap
+  kind: industry_report
+  accessed: 2026-10
+- id: placer-ai-planet-fitness-2024-halfway
+  title: Planet Fitness at the 2024 Halfway Point
+  publisher: Placer.ai
+  year: '2024'
+  url: https://www.placer.ai/anchor/articles/planet-fitness-at-the-2024-halfway-point
+  kind: industry_report
+  accessed: 2026-10
+- id: gym-group-plc-2023-full-year-results-2024
+  title: The Gym Group plc 2023 Full Year Results (RNS)
+  publisher: The Gym Group plc
+  year: '2024'
+  url: https://www.investegate.co.uk/announcement/rns/the-gym-group--gym/the-gym-group-plc-2023-full-year-results-/8084694
+  kind: filing
+  accessed: 2026-10
+- id: gym-group-plc-annual-report-accounts-2024
+  title: The Gym Group plc Annual Report and Accounts 2023
+  publisher: The Gym Group plc
+  year: '2024'
+  url: https://prelive.tggplc.com/media/tu2menvr/tgg_ar23.pdf
+  kind: filing
+  accessed: 2026-10
+- id: puregym-pinnacle-bidco-annual-report-2020
+  title: PureGym Annual Report 2019
+  publisher: PureGym (Pinnacle Bidco plc)
+  year: '2020'
+  url: https://s25.q4cdn.com/171963401/files/doc_financials/2019/ar/PureGym-Annual-Report-2019-Final.pdf
+  kind: filing
+  accessed: 2026-10
+- id: knight-kavanagh-south-staffordshire-2020
+  title: South Staffordshire Indoor Sports Facilities Needs Assessment, Final Report
+  publisher: Knight Kavanagh & Page for South Staffordshire Council
+  year: '2020'
+  url: https://www.sstaffs.gov.uk/sites/default/files/2023-03/indoor_sports_facilities_needs_assessment_january_2020.pdf
+  kind: industry_report
+  accessed: 2026-10
+- id: max-associates-lb-richmond-upon-thames-2023
+  title: Richmond-upon-Thames Indoor Built Sports Facility Assessment (Final V3)
+  publisher: Max Associates for LB Richmond upon Thames
+  year: '2023'
+  url: https://www.richmond.gov.uk/media/hsdbmlfk/indoor_sports_facility_needs_assessment_2023.pdf
+  kind: industry_report
+  accessed: 2026-10
+- id: elmbridge-borough-council-appendix-8-2017
+  title: Appendix 8 - Elmbridge - Demand for Health and Fitness
+  publisher: Elmbridge Borough Council
+  year: '2017'
+  url: https://www.elmbridge.gov.uk/sites/default/files/2023-03/Appendix%208%20-%20Elmbridge%20-%20Demand%20for%20Health%20and%20Fitness.pdf
+  kind: industry_report
+  accessed: 2026-10
+- id: les-mills-j-what-s-most-profitable-area-2025
+  title: What's the most profitable area of your club?
+  publisher: Les Mills (J. Bryce)
+  year: '2025'
+  url: https://www.lesmills.com/articles/whats-the-most-profitable-area-of-your-club
+  kind: article
+  accessed: 2026-10
+- id: washington-state-legislature-wac-51-50-2024
+  title: WAC 51-50-1004 Occupant load (IBC 2021 Table 1004.5 as adopted)
+  publisher: Washington State Legislature
+  year: '2024'
+  url: https://lawfilesext.leg.wa.gov/Law/WACArchive/2024/pdf/WAC%20%2051%20-%2050%20%20CHAPTER/WAC%20%2051%20-%2050%20-1004.pdf
+  kind: standard
+  accessed: 2026-10
+- id: building-officials-association-boaf-2021
+  title: BOAF Informal Interpretation Report 8582
+  publisher: Building Officials Association of Florida
+  year: '2021'
+  url: https://interpretations.boaf.net/view/8582/pdf
+  kind: standard
+  accessed: 2026-10
+- id: international-journal-exercise-pinero-2026
+  title: Pinero et al., Rest to Impress? The Effects of Self-Determined Rest Periods on Resistance Training
+    Performance, IJES Conference Proceedings 15(8):23
+  publisher: International Journal of Exercise Science
+  year: '2026'
+  url: https://digitalcommons.wku.edu/ijesab/vol15/iss8/23
+  kind: study
+  accessed: 2026-10
+- id: puregym-when-gym-quiet-app-data-2023
+  title: When is the gym quiet? (PureGym app data and gym manager survey)
+  publisher: PureGym
+  year: '2023'
+  url: https://www.puregym.com/blog/when-is-the-gym-quiet
+  kind: article
+  accessed: 2026-10
+- id: itensity-gym-management-when-south-2026
+  title: 'When South Africa Goes to Gym: 2.4 Million Check-Ins Analysed'
+  publisher: Itensity Gym Management Software
+  year: '2026'
+  url: https://itensityonline.com/?p=948336
+  kind: industry_report
+  accessed: 2026-10
+- id: concept2-2025-year-review-moving
+  title: '2025 Concept2 Year in Review: Moving Together'
+  publisher: Concept2
+  year: '2025'
+  url: https://www.concept2.com/blog/2025-concept2-year-in-review-moving-together
+  kind: manufacturer
+  accessed: 2026-10
+- id: ymca-south-hampton-roads-facility
+  title: YMCA of South Hampton Roads facility page
+  publisher: YMCA of South Hampton Roads
+  url: https://www.ymcashr.org/node/631
+  kind: industry_report
+  accessed: 2026-10
+- id: american-college-sports-2026-fitness-2025
+  title: 2026 fitness trends (Top 10)
+  publisher: American College of Sports Medicine
+  year: '2025'
+  url: https://acsm.org/top-fitness-trends-2026
+  kind: industry_report
+  accessed: 2026-10
+- id: health-fitness-association-how-77-2025
+  title: 'How 77 Million Fitness Members Work Out: New HFA Data Reveals Shifting Equipment, Training,
+    and Membership Trends'
+  publisher: Health & Fitness Association
+  year: '2025'
+  url: https://www.healthandfitness.org/how-77-million-fitness-members-work-out-new-hfa-data-reveals-shifting-equipment-training-and-membership-trends/
+  kind: article
+  accessed: 2026-10
+- id: athletech-news-us-gyms-younger-more-2025
+  title: 'US gyms younger, more male: HFA report'
+  publisher: Athletech News
+  year: '2025'
+  url: https://athletechnews.com/us-gyms-younger-more-male-hfa-report/
+  kind: article
+  accessed: 2026-10
+- id: ihrsa-health-fitness-releases-2023-u-s
+  title: IHRSA Releases 2023 U.S. Health & Fitness Consumer Report
+  publisher: IHRSA / Health & Fitness Association
+  year: '2023'
+  url: https://www.healthandfitness.org/?p=1195
+  kind: article
+  accessed: 2026-10
+- id: sgb-online-ihrsa-report-shows-healthy-2018
+  title: IHRSA Report Shows Healthy Fitness Market (2018 Health Club Media Report, 2016 data)
+  publisher: SGB Online
+  year: '2018'
+  url: https://sgbonline.com/?p=115573
+  kind: article
+  accessed: 2026-10
+- id: allmind-planet-fitness-q3-2023-earnings
+  title: Planet Fitness Q3 2023 earnings call transcript
+  publisher: AllMind (Planet Fitness)
+  year: '2023'
+  url: https://allmind.ai/earnings/event/bt_PLNT_2023_Q3
+  kind: article
+  accessed: 2026-10
+- id: allmind-planet-fitness-q4-2024-earnings-2025
+  title: Planet Fitness Q4 2024 earnings call transcript
+  publisher: AllMind (Planet Fitness)
+  year: '2025'
+  url: https://allmind.ai/earnings/event/bt_PLNT_2024_Q4
+  kind: article
+  accessed: 2026-10
+- id: puregym-feeling-scared-gym-you-re-2023
+  title: Feeling scared of the gym? You're not alone (gym fear/intimidation report)
+  publisher: PureGym
+  year: '2023'
+  url: https://www.puregym.com/blog/gym-fear-intimidation-report/
+  kind: industry_report
+  accessed: 2026-10
+- id: hyrox-via-fitt-celebrates-5-000-2024
+  title: HYROX Celebrates 5,000 Training Clubs and Launch of its Performance Centers
+  publisher: HYROX (via Fitt Insider)
+  year: '2024'
+  url: https://insider.fitt.co/press-release/hyrox-celebrates-5000-training-clubs-and-launch-of-its-performance-centers/
+  kind: article
+  accessed: 2026-10
+- id: hyrox-fitness-race-2026
+  title: The Fitness Race
+  publisher: HYROX
+  year: '2026'
+  url: https://hyrox.com/the-fitness-race/
+  kind: article
+  accessed: 2026-10
+- id: booty-builder-history-hip-thrust-2026
+  title: The History of the Hip Thrust Machine
+  publisher: Booty Builder
+  year: '2026'
+  url: https://bootybuilder.com/?p=11934
+  kind: manufacturer
+  accessed: 2026-10
+- id: fitness-exchange-product-catalog-2026
+  title: Fitness Exchange product catalog (Shopify products.json + product pages)
+  publisher: Fitness Exchange
+  year: '2026'
+  url: https://fitnessexchange.com/
+  kind: retailer
+  accessed: 2026-10
+- id: fitness-superstore-catalog-new-2026
+  title: Fitness Superstore catalog (new + remanufactured)
+  publisher: Fitness Superstore
+  year: '2026'
+  url: https://fitnesssuperstore.com/
+  kind: retailer
+  accessed: 2026-10
+- id: life-fitness-us-online-store-products-2026
+  title: Life Fitness US online store (products.json and product JSON)
+  publisher: Life Fitness
+  year: '2026'
+  url: https://shop.lifefitness.com/
+  kind: manufacturer
+  accessed: 2026-10
+- id: fitness-outlet-catalog-2026
+  title: The Fitness Outlet catalog
+  publisher: The Fitness Outlet
+  year: '2026'
+  url: https://thefitnessoutlet.com/
+  kind: retailer
+  accessed: 2026-10
+- id: top-fitness-precor-dealer-catalog-2026
+  title: Top Fitness (Precor dealer) catalog
+  publisher: Top Fitness
+  year: '2026'
+  url: https://topfitness.com/
+  kind: retailer
+  accessed: 2026-10
+- id: total-fitness-usa-catalog-woodway-2026
+  title: Total Fitness USA catalog (Woodway, Assault, Keiser)
+  publisher: Total Fitness USA
+  year: '2026'
+  url: https://tfusa.net/
+  kind: retailer
+  accessed: 2026-10
+- id: push-pedal-pull-catalog-precor-2026
+  title: Push Pedal Pull catalog (Precor, StairMaster, Assault, NuStep, Hammer Strength)
+  publisher: Push Pedal Pull
+  year: '2026'
+  url: https://pushpedalpull.com/
+  kind: retailer
+  accessed: 2026-10
+- id: competitors-outlet-catalog-2026
+  title: Competitors Outlet catalog
+  publisher: Competitors Outlet
+  year: '2026'
+  url: https://competitorsoutlet.com/
+  kind: retailer
+  accessed: 2026-10
+- id: livefit-catalog-2026
+  title: LiveFit catalog
+  publisher: LiveFit
+  year: '2026'
+  url: https://livefit.com/
+  kind: retailer
+  accessed: 2026-10
+- id: ctx-home-gyms-remanufactured-catalog-2026
+  title: CTX Home Gyms remanufactured catalog
+  publisher: CTX Home Gyms
+  year: '2026'
+  url: https://ctxhomegyms.com/
+  kind: retailer
+  accessed: 2026-10
+- id: recovery-athletes-catalog-2026
+  title: Recovery for Athletes catalog
+  publisher: Recovery for Athletes
+  year: '2026'
+  url: https://recoveryforathletes.com/
+  kind: retailer
+  accessed: 2026-10
+- id: rep-fitness-catalog-rig-product-2026
+  title: REP Fitness catalog and Rig product page
+  publisher: REP Fitness
+  year: '2026'
+  url: https://www.repfitness.com/products/rig-pre-selected
+  kind: manufacturer
+  accessed: 2026-10
+- id: titan-fitness-catalog-2026
+  title: Titan Fitness catalog
+  publisher: Titan Fitness
+  year: '2026'
+  url: https://titan.fitness/
+  kind: manufacturer
+  accessed: 2026-10
+- id: bells-steel-us-catalog-2026
+  title: Bells of Steel US catalog
+  publisher: Bells of Steel
+  year: '2026'
+  url: https://www.bellsofsteel.us/
+  kind: manufacturer
+  accessed: 2026-10
+- id: power-systems-catalog-2026
+  title: Power Systems catalog
+  publisher: Power Systems
+  year: '2026'
+  url: https://powersystems.com/
+  kind: retailer
+  accessed: 2026-10
+- id: torque-fitness-catalog-tank-sleds-plyo-2026
+  title: Torque Fitness catalog (TANK sleds, plyo, wall balls, ropes)
+  publisher: Torque Fitness
+  year: '2026'
+  url: https://www.torquefitness.com/
+  kind: manufacturer
+  accessed: 2026-10
+- id: american-barbell-catalog-2026
+  title: American Barbell catalog
+  publisher: American Barbell
+  year: '2026'
+  url: https://www.americanbarbell.com/
+  kind: manufacturer
+  accessed: 2026-10
+- id: blue-sky-fit-supply-catalog-legend-2026
+  title: Blue Sky Fit Supply catalog (Legend Fitness, ECORE)
+  publisher: Blue Sky Fit Supply
+  year: '2026'
+  url: https://blueskyfitsupply.com/
+  kind: retailer
+  accessed: 2026-10
+- id: elitefts-catalog-2026
+  title: elitefts catalog
+  publisher: elitefts
+  year: '2026'
+  url: https://www.elitefts.com/
+  kind: retailer
+  accessed: 2026-10
+- id: isellfitness-catalog-incl-installation-2026
+  title: iSellFitness catalog incl. installation service products
+  publisher: iSellFitness
+  year: '2026'
+  url: https://isellfitness.com/products/treadmill-assembly-set-up-installation-service
+  kind: retailer
+  accessed: 2026-10
+- id: trx-training-store-2026
+  title: TRX Training store
+  publisher: TRX
+  year: '2026'
+  url: https://www.trxtraining.com/products/pro
+  kind: manufacturer
+  accessed: 2026-10
+- id: title-boxing-store-2026
+  title: TITLE Boxing store
+  publisher: TITLE Boxing
+  year: '2026'
+  url: https://www.titleboxing.com/
+  kind: manufacturer
+  accessed: 2026-10
+- id: everlast-store-2026
+  title: Everlast store
+  publisher: Everlast
+  year: '2026'
+  url: https://www.everlast.com/
+  kind: manufacturer
+  accessed: 2026-10
+- id: hoist-fitness-store-incl-assembly-white-2026
+  title: Hoist Fitness store incl. 'Assembly & White Glove Installation' add-ons
+  publisher: Hoist Fitness
+  year: '2026'
+  url: https://www.hoistfitness.com/
+  kind: manufacturer
+  accessed: 2026-10
+- id: fringe-sport-catalog-2026
+  title: Fringe Sport catalog
+  publisher: Fringe Sport
+  year: '2026'
+  url: https://www.fringesport.com/
+  kind: manufacturer
+  accessed: 2026-10
+- id: blk-box-fitness-us-woodway-curve-ltg-2026
+  title: BLK BOX Fitness US - Woodway Curve LTG Treadmill
+  publisher: BLK BOX Fitness
+  year: '2026'
+  url: https://www.blkboxfitness.com/en-us/products/woodway-curve-ltg-treadmill
+  kind: retailer
+  accessed: 2026-10
+- id: rogue-fitness-echo-bike-refurbished-2026
+  title: Rogue Echo Bike - Refurbished
+  publisher: Rogue Fitness
+  year: '2026'
+  url: https://www.roguefitness.com/rogue-echo-bike-refurbished
+  kind: manufacturer
+  accessed: 2026-10
+- id: rogue-fitness-monster-rig-2-0-variants-2026
+  title: Rogue Monster Rig 2.0 (variants, sizing table)
+  publisher: Rogue Fitness
+  year: '2026'
+  url: https://www.roguefitness.com/monster-rig-2-0
+  kind: manufacturer
+  accessed: 2026-10
+- id: rogue-fitness-monster-lite-rig-2-0-2026
+  title: Rogue Monster Lite Rig 2.0
+  publisher: Rogue Fitness
+  year: '2026'
+  url: https://www.roguefitness.com/monster-lite-rig-2-0
+  kind: manufacturer
+  accessed: 2026-10
+- id: rogue-fitness-sleds-dog-sled-echo-dog-2026
+  title: Rogue sleds (Dog Sled, Echo Dog Sled, Alpaca, Slice)
+  publisher: Rogue Fitness
+  year: '2026'
+  url: https://www.roguefitness.com/rogue-dog-sled
+  kind: manufacturer
+  accessed: 2026-10
+- id: rogue-fitness-conditioning-pages-echo-2026
+  title: Rogue conditioning pages (Echo Rower, Echo Ski, Concept2 SkiErg, Foam Games Box, Assault bikes)
+  publisher: Rogue Fitness
+  year: '2026'
+  url: https://www.roguefitness.com/conditioning
+  kind: manufacturer
+  accessed: 2026-10
+- id: assault-fitness-assaultbike-lineup-2026
+  title: Assault Fitness AssaultBike lineup
+  publisher: Assault Fitness
+  year: '2026'
+  url: https://www.assaultfitness.com/bikes/
+  kind: manufacturer
+  accessed: 2026-10
+- id: johnson-fitness-wellness-commercial
+  title: Johnson Fitness commercial treadmills (Matrix list prices)
+  publisher: Johnson Fitness & Wellness
+  year: 2025-2026
+  url: https://www.johnsonfitness.com/Commercial-Treadmills-C162.aspx
+  kind: retailer
+  accessed: 2026-10
+- id: johnson-fitness-wellness-commercial-2
+  title: Johnson Fitness commercial ellipticals (Matrix)
+  publisher: Johnson Fitness & Wellness
+  year: 2025-2026
+  url: https://www.johnsonfitness.com/Commercial-Ellipticals-C161.aspx
+  kind: retailer
+  accessed: 2026-10
+- id: johnson-fitness-wellness-commercial-bikes
+  title: Johnson Fitness commercial bikes / indoor cycles (Matrix)
+  publisher: Johnson Fitness & Wellness
+  year: 2025-2026
+  url: https://www.johnsonfitness.com/Commercial-Exercise-Bikes-C578.aspx
+  kind: retailer
+  accessed: 2026-10
+- id: johnson-fitness-wellness-commercial-rowers
+  title: Johnson Fitness commercial rowers (Matrix)
+  publisher: Johnson Fitness & Wellness
+  year: 2025-2026
+  url: https://www.johnsonfitness.com/Commercial-Rowers-C166.aspx
+  kind: retailer
+  accessed: 2026-10
+- id: johnson-fitness-wellness-commercial-steppers
+  title: Johnson Fitness commercial steppers & climbers (Matrix ClimbMill)
+  publisher: Johnson Fitness & Wellness
+  year: 2025-2026
+  url: https://www.johnsonfitness.com/Commercial-Steppers-Climbers-C13887.aspx
+  kind: retailer
+  accessed: 2026-10
+- id: rework-equipment-lifecycle-maintenance-2025
+  title: 'Equipment Lifecycle & Maintenance Planning for Gyms: A Financial Framework (2025 Guide)'
+  publisher: Rework
+  year: '2025'
+  url: https://resources.rework.com/libraries/gym-fitness-growth/equipment-lifecycle-maintenance
+  kind: industry_report
+  accessed: 2026-10
+- id: ntai-fitness-gym-equipment-cost-estimator
+  title: Gym Equipment Cost Estimator (With Real Examples)
+  publisher: NTAI Fitness
+  year: 2025-2026
+  url: https://www.ntaifitness.com/tools/gym-equipment-cost-estimator/
+  kind: industry_report
+  accessed: 2026-10
+- id: club-solutions-magazine-article
+  title: Club Solutions Magazine article on remanufactured equipment savings
+  publisher: Club Solutions Magazine
+  year: n.d.
+  url: https://clubsolutionsmagazine.com/?p=2929
+  kind: article
+  accessed: 2026-10
+- id: rep-fitness-online-catalog-products-2026
+  title: REP Fitness online catalog (products.json feed and product pages)
+  publisher: REP Fitness
+  year: '2026'
+  url: https://repfitness.com/products.json
+  kind: manufacturer
+  accessed: 2026-10
+- id: rogue-fitness-product-category-pages-2026
+  title: Rogue Fitness product and category pages (JSON-LD offers and item tables)
+  publisher: Rogue Fitness
+  year: '2026'
+  url: https://www.roguefitness.com/rogue-rigs-racks/power-racks
+  kind: manufacturer
+  accessed: 2026-10
+- id: rogue-fitness-olympic-plates-cast-iron-2026
+  title: Rogue Olympic Plates (cast iron) product page
+  publisher: Rogue Fitness
+  year: '2026'
+  url: https://www.roguefitness.com/rogue-olympic-plates
+  kind: manufacturer
+  accessed: 2026-10
+- id: rogue-fitness-echo-bumper-plates-v2-2026
+  title: Rogue Echo Bumper Plates V2 product page
+  publisher: Rogue Fitness
+  year: '2026'
+  url: https://www.roguefitness.com/rogue-echo-bumper-plates-with-white-text
+  kind: manufacturer
+  accessed: 2026-10
+- id: rogue-fitness-hg-2-0-bumper-plates-2026
+  title: Rogue HG 2.0 Bumper Plates product page
+  publisher: Rogue Fitness
+  year: '2026'
+  url: https://www.roguefitness.com/rogue-hg-2-0-bumper-plates
+  kind: manufacturer
+  accessed: 2026-10
+- id: rogue-fitness-dumbbell-sets-rubber-hex-2026
+  title: Rogue Dumbbell Sets (rubber hex) and Rogue Dumbbells (pairs) product pages
+  publisher: Rogue Fitness
+  year: '2026'
+  url: https://www.roguefitness.com/rogue-rubber-hex-dumbbell-sets
+  kind: manufacturer
+  accessed: 2026-10
+- id: rogue-fitness-urethane-dumbbells-2026
+  title: Rogue Urethane Dumbbells product page (pairs and sets)
+  publisher: Rogue Fitness
+  year: '2026'
+  url: https://www.roguefitness.com/rogue-urethane-dumbbells-new
+  kind: manufacturer
+  accessed: 2026-10
+- id: rogue-fitness-kettlebells-product-2026
+  title: Rogue Kettlebells product page
+  publisher: Rogue Fitness
+  year: '2026'
+  url: https://www.roguefitness.com/rogue-kettlebells
+  kind: manufacturer
+  accessed: 2026-10
+- id: life-fitness-us-online-store-hammer-2026
+  title: Life Fitness US online store (Life Fitness, Hammer Strength, Insignia, Axiom) products.json feed
+  publisher: Life Fitness
+  year: '2026'
+  url: https://shop.lifefitness.com/products.json
+  kind: manufacturer
+  accessed: 2026-10
+- id: life-fitness-facility-commercial-shop-2026
+  title: Life Fitness facility (commercial) shop products.json feed
+  publisher: Life Fitness
+  year: '2026'
+  url: https://facilityshop.lifefitness.com/products.json
+  kind: manufacturer
+  accessed: 2026-10
+- id: fitness-superstore-catalog-new-body-2026
+  title: Fitness Superstore catalog (new Body-Solid, Nautilus, French Fitness; remanufactured commercial
+    equipment) products.json feed
+  publisher: Fitness Superstore
+  year: '2026'
+  url: https://fitnesssuperstore.com/products.json
+  kind: retailer
+  accessed: 2026-10
+- id: hoist-fitness-online-catalog-cf-club-2026
+  title: Hoist Fitness online catalog (CF, Club Line, ROC-IT, HD Dual commercial MSRP) products.json feed
+  publisher: Hoist Fitness
+  year: '2026'
+  url: https://www.hoistfitness.com/products.json
+  kind: manufacturer
+  accessed: 2026-10
+- id: hoist-fitness-h4400-4-stack-multi-2026
+  title: Hoist H4400 4 Stack Multi Gym
+  publisher: Hoist Fitness
+  year: '2026'
+  url: https://www.hoistfitness.com/products/h-4400-4-stack-multi-gym
+  kind: manufacturer
+  accessed: 2026-10
+  notes: Listed under Home & Light Commercial; described as the most up-to-date premium 4-station gym for
+    light commercial settings; $10,755 (checked 2026-10-29).
+- id: the-fitness-outlet-hoist-h2200-2-2026
+  title: Hoist H2200 2 Stack Multi Gym (dealer page with Hoist warranty terms)
+  publisher: The Fitness Outlet
+  year: '2026'
+  url: https://thefitnessoutlet.com/products/hoist-h2200-2-stack-multi-gym
+  kind: retailer
+  accessed: 2026-10
+  notes: Hoist's light-commercial warranty, as listed for its home and light-commercial lines, applies
+    to facilities that do not charge membership dues and have no more than 50 users per day, such as
+    hotels, apartment complexes, personal training studios, fire stations and police stations (checked
+    2026-10-29).
+- id: prime-fitness-usa-online-catalog-2026
+  title: Prime Fitness USA online catalog (Evolution, Hybrid, Plate Loaded, Prodigy, Intek)
+  publisher: Prime Fitness USA
+  year: '2026'
+  url: https://www.primefitnessusa.com/products.json
+  kind: manufacturer
+  accessed: 2026-10
+- id: torque-fitness-online-catalog-2026
+  title: Torque Fitness online catalog
+  publisher: Torque Fitness
+  year: '2026'
+  url: https://www.torquefitness.com/products.json
+  kind: manufacturer
+  accessed: 2026-10
+- id: titan-fitness-online-catalog-2026
+  title: Titan Fitness online catalog
+  publisher: Titan Fitness
+  year: '2026'
+  url: https://titan.fitness/products.json
+  kind: manufacturer
+  accessed: 2026-10
+- id: bells-steel-us-online-catalog-2026
+  title: Bells of Steel US online catalog
+  publisher: Bells of Steel
+  year: '2026'
+  url: https://www.bellsofsteel.us/products.json
+  kind: manufacturer
+  accessed: 2026-10
+- id: akfit-anchorage-ak-dealer-catalog-incl-2026
+  title: AKFIT (Anchorage, AK dealer) catalog incl. Matrix, Nautilus, Watson, Rogers Athletic, Torque
+    commercial
+  publisher: AKFIT
+  year: '2026'
+  url: https://akfit.com/products.json
+  kind: retailer
+  accessed: 2026-10
+- id: ctx-home-gyms-remanufactured-commercial-2026
+  title: CTX Home Gyms remanufactured commercial equipment catalog
+  publisher: CTX Home Gyms
+  year: '2026'
+  url: https://ctxhomegyms.com/products.json
+  kind: retailer
+  accessed: 2026-10
+- id: sorinex-product-pages-embedded-price-2026
+  title: 'Sorinex product pages (embedded price): leverage machines, benches, Apex rack, Frankenhyper'
+  publisher: Sorinex
+  year: '2026'
+  url: https://www.sorinex.com/shop
+  kind: manufacturer
+  accessed: 2026-10
+- id: u-s-department-2010-ada-standards
+  title: 2010 ADA Standards for Accessible Design
+  publisher: U.S. Department of Justice
+  year: '2010'
+  url: https://www.ada.gov/assets/pdfs/2010-design-standards.pdf
+  kind: standard
+  accessed: 2026-10
+- id: u-s-department-guidance-2010-ada
+  title: Guidance on the 2010 ADA Standards - 236 and 1004 Exercise Machines and Equipment
+  publisher: U.S. Department of Justice (mirrored by Corada)
+  year: '2010'
+  url: https://www.corada.com/documents/guidance-on-the-2010-adas/236-and-1004-exercise-machines-and-equipment
+  kind: standard
+  accessed: 2026-10
+- id: nsca-strength-conditioning-professional-2017-2
+  title: NSCA Strength and Conditioning Professional Standards and Guidelines (Strength and Conditioning
+    Journal 39(6)), Appendix 4 Table D1 Calculations for Space Needs
+  publisher: NSCA
+  year: '2017'
+  url: http://www.nsca-scj.com
+  kind: standard
+  accessed: 2026-10
+- id: u-s-department-ufc-4-740-02-fitness-2006
+  title: UFC 4-740-02 Fitness Centers, Figure B-1 Space Program Standards
+  publisher: U.S. Department of Defense (tpub mirror)
+  year: '2006'
+  url: https://buildingcriteria2.tpub.com/ufc_4_740_02/ufc_4_740_020081.htm
+  kind: standard
+  accessed: 2026-10
+- id: u-s-department-ufc-4-740-02-fitness-2006-2
+  title: UFC 4-740-02 Fitness Centers, Table 4-25 Fitness Area
+  publisher: U.S. Department of Defense (tpub mirror)
+  year: '2006'
+  url: https://buildingcriteria2.tpub.com/ufc_4_740_02/ufc_4_740_020063.htm
+  kind: standard
+  accessed: 2026-10
+- id: u-s-department-ufc-4-740-02-fitness-2006-3
+  title: UFC 4-740-02 Fitness Centers, Figure B-2.1 Sample Interactive Worksheet for an Army Fitness Facility
+  publisher: U.S. Department of Defense (tpub mirror)
+  year: '2006'
+  url: https://buildingcriteria2.tpub.com/ufc_4_740_02/ufc_4_740_020084.htm
+  kind: standard
+  accessed: 2026-10
+- id: shenzhen-ccts-quality-safety-test-2021
+  title: Safety Test Report CCTS210727002SX to EN ISO 20957-1:2013 and EN 957-2 (Shanghai Eastern Yanre
+    Fitness)
+  publisher: Shenzhen CCTS Quality Certification Co.
+  year: '2021'
+  url: https://www.yanrefitness.com/wp-content/uploads/2025/06/82-SERIES-EN-ISO-20957EN-957-CE-Report.pdf
+  kind: standard
+  accessed: 2026-10
+- id: precor-assembling-maintaining-trm-800-series
+  title: Assembling and Maintaining TRM 800-Series Treadmills
+  publisher: Precor
+  year: 2012+
+  url: https://cdn.shopify.com/s/files/1/2063/2201/files/trm_800_series.pdf
+  kind: manufacturer
+  accessed: 2026-10
+- id: core-health-fitness-star-trac-10-trx
+  title: Star Trac 10-TRx FreeRunner safety and assembly sheet (620-8683A)
+  publisher: Core Health and Fitness
+  url: https://cdn.shopify.com/s/files/1/0134/3275/0138/files/620-8683A.pdf
+  kind: manufacturer
+  accessed: 2026-10
+- id: technogym-run-personal-user-manual
+  title: Technogym Run Personal User Manual
+  publisher: Technogym
+  url: https://insportline.eu/upload/file/D947EUF_manual_Treadmill_TechnoGym_Run_Personal_EN.pdf
+  kind: manufacturer
+  accessed: 2026-10
+- id: concept2-how-build-home-gym-2018
+  title: How to Build a Concept2 Home Gym
+  publisher: Concept2
+  year: '2018'
+  url: https://www.concept2.com/blog/how-to-build-a-concept2-home-gym
+  kind: manufacturer
+  accessed: 2026-10
+- id: core-health-fitness-stairmaster-8gx-product-2
+  title: StairMaster 8Gx Product Sheet
+  publisher: Core Health and Fitness
+  url: https://www.corehandf.com/cdn/shop/files/8Gx_StairMaster_Product_Sheet.pdf
+  kind: manufacturer
+  accessed: 2026-10
+- id: cph-associates-david-placement-2016
+  title: Placement of Treadmills - Consult Industry Standards
+  publisher: CPH and Associates (David Herbert)
+  year: '2016'
+  url: https://cphins.com/placement-of-treadmills-consult-industry-standards/
+  kind: industry_report
+  accessed: 2026-10
+- id: idea-health-fitness-facility-design
+  title: Facility Design and Construction 101, Part One
+  publisher: IDEA Health and Fitness Association (Sarah Schrenk)
+  year: 2013 (updated 2023)
+  url: https://www.ideafit.com/facility-design-and-construction-101-part-one/
+  kind: article
+  accessed: 2026-10
+- id: walter-rush-commercial-gym-equipment-2025
+  title: Commercial Gym Equipment Layout and Design Considerations
+  publisher: Walter Rush
+  year: '2025'
+  url: https://www.rushwalter.com/commercial-gym-equipment-layout-and-design-considerations/
+  kind: article
+  accessed: 2026-10
+- id: pt-pioneer-cscs-chapter-23-summary-facility
+  title: CSCS Chapter 23 summary (Facility Design, Layout, and Organization)
+  publisher: PT Pioneer
+  url: https://www.ptpioneer.com/personal-training/certifications/nsca-cscs/cscs-chapter-23/
+  kind: article
+  accessed: 2026-10
+- id: dad-health-fitness-chapter-23-facility-2024
+  title: 'Chapter 23: Facility Design, Layout and Organization (ESTC summary)'
+  publisher: dad-health-fitness blog
+  year: '2024'
+  url: https://dad-health-fitness.blogspot.com/2024/08/chapter-23-facility-design-layout-and_4.html
+  kind: article
+  accessed: 2026-10
+- id: rework-facility-layout-optimization-2025
+  title: 'Facility Layout Optimization for Gyms: Traffic Flow, Zone Design and Expansion Planning'
+  publisher: Rework
+  year: '2025'
+  url: https://resources.rework.com/libraries/gym-fitness-growth/facility-layout-optimization
+  kind: article
+  accessed: 2026-10
+- id: glofox-how-calculate-gym-space-requirements
+  title: How to calculate gym space requirements
+  publisher: Glofox
+  url: https://www.glofox.com/blog/how-to-calculate-gym-space-requirements
+  kind: article
+  accessed: 2026-10
+- id: dynamo-fitness-equipment-gym-design-blog
+  title: Gym design blog (Optimizing Space Utilization)
+  publisher: Dynamo Fitness Equipment
+  url: https://blog.dynamofitness.com.au/?p=5342
+  kind: article
+  accessed: 2026-10
+- id: skelcore-optimal-distance-between-2026
+  title: The Optimal Distance Between Cardio Rows for Safety and Comfort
+  publisher: Skelcore
+  year: '2026'
+  url: https://www.skelcore.com/blogs/news/the-optimal-distance-between-cardio-rows-for-safety-and-comfort-a-smarter-gym-layout-guide-for-better-flow-and-better-member-experience
+  kind: article
+  accessed: 2026-10
+- id: skelcore-what-s-recommended-square-2026
+  title: What's the Recommended Square Footage Per Member in the Free Weight Area?
+  publisher: Skelcore
+  year: '2026'
+  url: https://www.skelcore.com/guides/whats-recommended-square-footage-per-member
+  kind: article
+  accessed: 2026-10
+- id: titan-fitness-series-rack-mounted-2026
+  title: TITAN Series Rack Mounted Double Wall Ball Target
+  publisher: Titan Fitness
+  year: '2026'
+  url: https://titan.fitness/products/titan-series-rack-mounted-double-wall-ball-target
+  kind: retailer
+  accessed: 2026-10
+- id: fringe-sport-universal-wall-ball-target-2026
+  title: Universal Wall Ball Target
+  publisher: Fringe Sport
+  year: '2026'
+  url: https://www.fringesport.com/products/wall-ball-target
+  kind: retailer
+  accessed: 2026-10
+- id: greatmats-kyle-schurman-what-kind-flooring
+  title: What Kind of Flooring Is Used in Commercial Gyms?
+  publisher: Greatmats (Kyle Schurman)
+  year: 2022 (modified 2026)
+  url: https://www.greatmats.com/what-kind-of-flooring-used-in-commercial-gyms.php
+  kind: industry_report
+  accessed: 2026-10
+- id: greatmats-rubber-flooring-roll-geneva-3-2026
+  title: Rubber Flooring Roll Geneva 3/8 Inch Black Per SF
+  publisher: Greatmats
+  year: '2026'
+  url: https://www.greatmats.com/rubber-flooring-roll/rubber-flooring-rolls-38-black-geneva.php
+  kind: retailer
+  accessed: 2026-10
+- id: rep-fitness-thor-flooring-2026
+  title: THOR Flooring
+  publisher: REP Fitness / Thor Performance Products
+  year: '2026'
+  url: https://www.repfitness.com/products/thor-flooring
+  kind: retailer
+  accessed: 2026-10
+- id: dg-floors-gym-flooring-cost-2026
+  title: Gym Flooring Cost
+  publisher: DG Floors
+  year: '2026'
+  url: https://dgfloors.com/gym-flooring-cost/
+  kind: industry_report
+  accessed: 2026-10
+- id: livefit-g-g-gorilla-4-x-6-1-2026
+  title: Gorilla 4' x 6' 1/2-Inch Rubber Floor, Black
+  publisher: LiveFit (G and G Fitness)
+  year: '2026'
+  url: https://livefit.com/products/gorilla-4x6-3-8-trued-black-mat
+  kind: retailer
+  accessed: 2026-10
+- id: fitness-exchange-supermats-muscle-mat-4-2026
+  title: Supermats Muscle Mat 4' x 6' x 1/2 in
+  publisher: Fitness Exchange
+  year: '2026'
+  url: https://fitnessexchange.com/products/supermats-muscle-mat-4-x-6-x-1-2
+  kind: retailer
+  accessed: 2026-10
+- id: fitness-superstore-body-solid-rf546-2026
+  title: Body-Solid RF546 Rubber 4'x6' MuscleMat Flooring
+  publisher: Fitness Superstore
+  year: '2026'
+  url: https://fitnesssuperstore.com/products/body-solid-rf546-rubber-4x6-musclemat-flooring-new
+  kind: retailer
+  accessed: 2026-10
+- id: livefit-guardian-shok-lok-2-x-2026
+  title: Guardian Shok-Lok 2' x 2' Center Rubber Tile (18mm)
+  publisher: LiveFit
+  year: '2026'
+  url: https://livefit.com/products/guardian-shok-lok-2x2-center-18mm-black
+  kind: retailer
+  accessed: 2026-10
+- id: fitness-superstore-french-gym-turf-roll-2026
+  title: French Fitness Gym Turf Roll 82 ft x 6.5 ft
+  publisher: Fitness Superstore
+  year: '2026'
+  url: https://fitnesssuperstore.com/products/french-fitness-artificial-grass-synthetic-lawn-turf-flooring-roll-82-x-6-5
+  kind: retailer
+  accessed: 2026-10
+- id: bells-steel-roll-gym-turf-2-m-2026
+  title: Roll of Gym Turf (2 m x 25 m)
+  publisher: Bells of Steel
+  year: '2026'
+  url: https://www.bellsofsteel.us/products/turf-roll
+  kind: retailer
+  accessed: 2026-10
+- id: titan-fitness-artificial-turf-15-ft-x-2026
+  title: Titan Artificial Turf (15 ft x 4 ft)
+  publisher: Titan Fitness
+  year: '2026'
+  url: https://titan.fitness/products/artificial-turf
+  kind: retailer
+  accessed: 2026-10
+- id: fitness-superstore-french-14-ft-x-50-2026
+  title: French Fitness 14 ft x 50 ft Artificial Gym Turf Track with Start Marker
+  publisher: Fitness Superstore
+  year: '2026'
+  url: https://fitnesssuperstore.com/products/french-fitness-artificial-performance-gym-turf-track-w-start-marker-14-ft-x-50-ft-new
+  kind: retailer
+  accessed: 2026-10
+- id: health-fitness-association-81-million-2026-2
+  title: 81 Million Americans Were Members of a Fitness Facility in 2025, New HFA Report Finds
+  publisher: Health & Fitness Association
+  year: '2026'
+  url: https://www.healthandfitness.org/81-million-americans-were-members-of-a-fitness-facility-in-2025-new-hfa-report-finds/
+  kind: article
+  accessed: 2026-10
+- id: idea-health-fitness-most-popular-club-2018
+  title: Most popular club activities (IHRSA 2017 Health Club Consumer Report)
+  publisher: IDEA Health & Fitness Association
+  year: '2018'
+  url: https://www.ideafit.com/most-popular-club-activities
+  kind: article
+  accessed: 2026-10
+- id: puregym-uk-fitness-report-2025-26
+  title: The UK Fitness Report - 2025/26 Gym Statistics
+  publisher: PureGym
+  year: '2025'
+  url: https://www.puregym.com/blog/uk-fitness-report-gym-statistics/
+  kind: industry_report
+  accessed: 2026-10
+- id: u-s-bureau-spotlight-statistics-sports-2017-2
+  title: 'Spotlight on Statistics: Sports and Exercise (ATUS 2003-2015)'
+  publisher: U.S. Bureau of Labor Statistics
+  year: '2017'
+  url: https://www.bls.gov/spotlight/2017/sports-and-exercise/home.htm
+  kind: dataset
+  accessed: 2026-10
+- id: allmind-ai-transcript-planet-fitness-q2-2025
+  title: Planet Fitness Q2 2025 earnings call transcript
+  publisher: AllMind AI (transcript of Planet Fitness call)
+  year: '2025'
+  url: https://allmind.ai/earnings/event/bt_PLNT_2025_Q2
+  kind: article
+  accessed: 2026-10
+- id: strava-releases-12th-annual-year-sport-2025
+  title: Strava Releases 12th Annual Year in Sport Trend Report
+  publisher: Strava
+  year: '2025'
+  url: https://press.strava.com/articles/strava-releases-12th-annual-year-in-sport-trend-report-2025
+  kind: article
+  accessed: 2026-10
+- id: athletech-news-track-running-hiit-2024
+  title: 'Track running, HIIT, Pilates: Garmin data report'
+  publisher: Athletech News
+  year: '2024'
+  url: https://athletechnews.com/track-running-hiit-pilates-garmin-data-report/
+  kind: article
+  accessed: 2026-10
+- id: abc-fitness-wellness-watch-q1-2025
+  title: 'Wellness Watch Q1 2025: Quarterly fitness industry insights'
+  publisher: ABC Fitness
+  year: '2025'
+  url: https://abcfitness.com/wp-content/uploads/Wellness-Watch-Q1-2025.pdf
+  kind: industry_report
+  accessed: 2026-10
+- id: j-long-university-development-iot-2023
+  title: Development of an IoT System to Gather, Assess, and Improve Cyber-Physical Interaction Data (MSc
+    thesis; sensors in a fitness centre)
+  publisher: J. Long, University of Calgary
+  year: '2023'
+  url: https://hdl.handle.net/1880/116677
+  kind: study
+  accessed: 2026-10
+- id: egym-machine-utilization-citing-2025
+  title: Machine utilization (citing GYMetrix equipment-utilization studies 2011-2018)
+  publisher: EGYM
+  year: '2025'
+  url: https://us.egym.com/en-us/machine-utilization
+  kind: manufacturer
+  accessed: 2026-10
+- id: fitness-network-13-costly-mistakes-your-2015
+  title: The 13 costly mistakes your gym is making due to a lack of data (GYMetrix founder interview)
+  publisher: The Fitness Network
+  year: '2015'
+  url: https://thefitnessnetwork.org/blog/the-13-costly-mistakes-your-gym-is-making-due-to-a-lack-of-data
+  kind: article
+  accessed: 2026-10
+- id: ymca-pierce-kitsap-study-better-2024
+  title: 'The Study: A Better, Stronger, Faster Gym Experience (Track My Gym sensors)'
+  publisher: YMCA of Pierce & Kitsap Counties
+  year: '2024'
+  url: https://www.ymcapkc.org/node/1000750
+  kind: industry_report
+  accessed: 2026-10
+- id: orangetheory-fitness-faq-2026
+  title: Orangetheory FAQ
+  publisher: Orangetheory Fitness
+  year: '2026'
+  url: https://www.orangetheory.com/en-us/faq
+  kind: industry_report
+  accessed: 2026-10
+- id: derived-eqcf-cardio-footprint-p75
+  title: 'Cardio footprints: 75th percentile of commercial flagship dimensions'
+  kind: derived
+  notes: 'Length, width and height of each cardio unit are about the 75th percentile (linear interpolation)
+    of the published dimensions of the commercial flagship models collected in the cardio/functional footprint
+    research (Life Fitness, Precor, Star Trac, StairMaster, Matrix, Keiser, Schwinn, Woodway, TrueForm,
+    Assault, Rogue, Concept2, NuStep, SciFit), rounded up to the next inch so a typical-to-large purchase
+    still fits. Fact-check correction applied: elliptical length 87 in (Star Trac 8RDE at 86 in added
+    to the sample; Life Fitness Integrity active length 87 in). Heights use the same percentile over the
+    same models.'
+- id: derived-eqcf-price-tier-medians
+  title: 'Equipment price tiers: medians of current US listings'
+  kind: derived
+  notes: 'Each tier price is the median of current new US selling prices seen on 2026-10-28 for that item
+    and tier (value = light or budget commercial lines, commercial = mainstream club lines, premium =
+    top club lines and touchscreen consoles), rounded to $50 above $1,000 and to $10 between $100 and
+    $1,000; tax, freight and installation are excluded. Fact-check corrections applied: recumbent bike
+    value $3,000 (a floor-model listing replaced by the cheapest new variant) and rig bay premium about
+    $1,700 per bay (Rogue Monster Rig 2.0 Racked Edition, $1,469-$1,828 per bay, the same frame-only scope
+    as the other tiers). One scope adjustment: the ski erg value tier adds a $220 floor stand to the $850
+    median (see derived-eqcf-ski-erg).'
+- id: derived-eqcf-treadmill-ceiling
+  title: Minimum ceiling height for treadmill running
+  kind: derived
+  notes: 76-in design user + 11-in step-up (Star Trac 10TRx, Core 2026 catalog) + about 6 in of incline
+    rise at mid-deck (20% x 30 in) + about 4 in of running bounce + 6 in of head margin = 103 in, rounded
+    up to 9 ft (108 in); this matches Life Fitness's 9-ft PowerMill requirement. Derived in the space
+    research and confirmed by its fact-check; the user height, bounce and margin are assumptions.
+- id: derived-eqcf-stair-climber-clearance
+  title: Stair climber clearances
+  kind: derived
+  notes: Back (mounting side) 39 in = "at least 3 ft (1 m) behind" in the Life Fitness PowerMill Integrity
+    owner's manual found by the space fact-check (https://cdn.shopify.com/s/files/1/2063/2201/files/Life_Fitness_PowerMill_Integrity_Series_Climber_Owners_Manual.pdf);
+    sides 20 in = Precor's 0.5 m rule for non-treadmill cardio, above that manual's 1 ft per side; front
+    24 in = the 0.6 m console clearance Technogym and Star Trac draw for treadmills, since no verified
+    stepmill manual gives a front value. A StairMaster 10G manual excerpt, seen only via search, asks
+    48 in front and behind and 20 in at the sides; use 48 for a strict plan.
+- id: derived-eqcf-rower-envelope
+  title: Rower clearances from the Concept2 use envelope
+  kind: derived
+  notes: 'Clearances are set so footprint plus clearance equals Concept2''s "With Clearance for use: 9
+    ft x 4 ft" (108 x 48 in): 96-in length + 6 in at each end, and 26-in width (75th percentile of Concept2
+    24, Throwdown 26.5 and Life Fitness Row HX 20.5 in) + 11 in on each side.'
+- id: derived-eqcf-ski-erg
+  title: Ski erg orientation, clearances, ceiling and floor-stand value price
+  kind: derived
+  notes: 'Concept2 floor stand 23.5 x 50 x 85 in; the record''s front is the platform end where the user
+    stands, so the canonical aisle_side "front" puts the user side on the aisle. 24 in behind the user
+    and at the sides applies the space research''s ISO 20957-1 0.6 m free-area rule (no maker publishes
+    a value); 12 in at the tower end is the footprint research''s estimate. The 96-in (8 ft) minimum ceiling
+    is the footprint research''s estimate for an 85-in unit plus handle travel. The canonical item is
+    the floor-stand version, but the price research''s value median ($850: Rogue Echo Ski $825, Concept2
+    SkiErg $850, BUILT $899) is for units sold without a floor stand; adding Concept2''s $220 standard
+    floor stand gives a $1,070 value tier, which equals Rogue''s listing for a Concept2 SkiErg with floor
+    stand. Commercial ($1,150) and premium ($1,700) are the research medians, which the price research
+    prices with a floor stand ("with floor stand from commercial tier up").'
+- id: derived-eqcf-air-bike-clearance
+  title: Air bike clearances
+  kind: derived
+  notes: No air-bike maker publishes a clearance, so 24 in on every side applies the 0.6 m free-area convention
+    of ISO 20957-1 (quoted in a CCTS test report) and of the Keiser and Matrix bike manuals; it also keeps
+    the fan's airflow off neighbours. The 55 x 30-in footprint covers the AssaultBike Elite's 55.08-in
+    length and the Rogue Echo Bike's 29.5-in handle width.
+- id: derived-eqcf-cardio-useful-life
+  title: Useful life of commercial cardio
+  kind: derived
+  notes: 'Club cardio with drive electronics or heavy class use (treadmill, elliptical, upright and recumbent
+    bikes, indoor cycle, stair climber) uses 6 years: the middle of Planet Fitness''s cardio re-equip
+    years 5-7 (investor presentation; 10-K whole-club cycle 5-9 years) and PureGym''s 6-year depreciation
+    of fixtures and fittings. Self-powered units without motors (curved treadmill, air bike, rower, ski
+    erg, recumbent stepper) use 7 years, the top of that range and the bottom of Rework''s 7-10-year commercial
+    cardio life; the price research''s 8-10-year figures for them are unsourced estimates.'
+- id: derived-eqcf-recumbent-stepper-transfer
+  title: Recumbent stepper wheelchair-transfer clearance
+  kind: derived
+  notes: NuStep's manuals require 24 in at the sides and 12 in front and rear, plus "additional free space
+    ... to accommodate wheelchair access". The right (transfer) side therefore gets 30 in, the depth of
+    the ADA 2010 305.3 clear floor space (30 x 48 in) placed for a parallel transfer along the 73-in machine;
+    a forward approach needs 48 in.
+- id: derived-eqcf-rig-bay
+  title: Rig bay size, clearances, ceiling and per-bay price
+  kind: derived
+  notes: 48 x 48 in per 4-ft bay (Throwdown Alpha XTC 4-ft core 46 x 48 in; Rogue W-4) against a wall;
+    the 60-in front zone is Throwdown's recommended floor space (rig footprint + 5 ft per side, verified
+    for six XTC layouts), and sides are 0 because that 5 ft applies only at the ends of a run. Ceiling
+    144 in = 105-in rig + about 36 in for the torso above the bar in kipping and muscle-ups (space research;
+    NSCA 12-ft overhead rule). Per-bay prices divide whole-rig prices by bay count (REP Rig 4000/5000
+    from upright counts; Rogue Monster and Monster Lite Rig 2.0 from Rogue's sizing table; premium = Rogue
+    Monster Rig 2.0 Racked Edition per the fact-check). The per-bay price is not low for plans with
+    one or two bays, because a single wall-mount bay is sold on its own (Rogue W-4 4-ft section, $595,
+    checked 2026-10-29); free-standing rigs start at two bays (Rogue Monster Rig 2.0 M-10, $2,365).
+- id: derived-eqcf-turf-lane
+  title: Turf lane with sled, size and price
+  kind: derived
+  notes: One 5-ft (60-in) GymTurf-width lane, nominally 50 ft (600 in) and flexible down to 25 ft (300
+    in, one 25-ft roll); 36-in run-outs at each end (estimate) make the shortest envelope 372 in, about
+    Torque's "only 10 yards of space" minimum, and neighbouring lanes share edges. Price = turf per sq
+    ft x 250 sq ft (value $2.06, commercial $7.70, premium $13.30 per sq ft) + one sled (value $290, commercial
+    $440, premium $2,150) = $805 / $2,365 / $5,475, rounded to $810 / $2,350 / $5,500, pricing the lane
+    by area as the fact-check recommends.
+- id: derived-eqcf-plyo-zone
+  title: Plyo box set sized for two users
+  kind: derived
+  notes: Priced sets hold 2-5 boxes (for example two 3-in-1 soft boxes, three Rogue Foam Games Boxes or
+    a Powermax set of five), so two users can each work on a box. Footprint = two boxes 30 in wide x 36
+    in deep (Throwdown Power Plyo 30 x 36-in base) with a 24-in gap; the 48-in approach and take-off zone,
+    36-in landing and step-down zone and 24-in sides are the footprint research's estimates (no vendor
+    use-zone guidance found).
+- id: derived-eqcf-wall-ball-zone
+  title: Wall-ball station size, clearances and ceiling
+  kind: derived
+  notes: 26 x 48 in at the wall = a medicine-ball rack (Life Fitness vertical storage 25.5 x 25 in) beside
+    the throwing spot under a 16-in target; the 60-in throwing zone uses Throwdown's 5-ft working space
+    around rigs, and the 12-in sides are estimates. Targets sit at 9-10 ft (Rogue, Titan, Fringe), so
+    the space research sets a 12-ft (144-in) ceiling for the throw and the ball, matching NSCA's 12-ft
+    overhead rule.
+- id: derived-eqcf-battle-rope-lane
+  title: Battle rope lane
+  kind: derived
+  notes: 'The rope loops around the anchor, so the lane is rope length / 2 + 24 in of stance (footprint
+    research): 264 in for a 40-ft rope, the low end of the canonical "40-50 ft rope laid out" (204 in
+    for 30 ft, 324 in for 50 ft). The priced ropes are 50, 40 and 40 ft (value), 50, 30 and 50 ft (commercial)
+    and 50 ft plus one unstated length (premium), so the lane matches the ropes being priced; a 50-ft
+    rope fits with the tails trailing behind the athlete. 72 in wide for the wave envelope and athlete
+    (estimate). The record''s front is the athlete''s end with 24 in behind the athlete; the anchor end
+    (wall, rig post or floor anchor) is the back with no clearance; sides get 12 in.'
+- id: derived-eqcf-suspension-zone
+  title: Suspension trainer floor zone
+  kind: derived
+  notes: Anchor 7-9 ft up on a wall or ceiling (TRX). The user's body reaches 6-7 ft from the anchor in
+    supine and plank exercises, so the floor zone is 96 in deep x 72 in wide with 12 in around it (footprint
+    research estimate) and no clearance at the anchoring wall.
+- id: derived-eqcf-heavy-bag-zone
+  title: Heavy bag striking zone
+  kind: derived
+  notes: Zone 54 x 84 in = Throwdown's 4.5-ft bag-rack spacing x the 7-ft recommended floor space of its
+    single-station training tree, about 31.5 sq ft per bag (Throwdown's dense bag racks work out to 30.6
+    sq ft per bag). It is split into a 24 x 24-in bag or base, 45 in of striking stance in front and 15
+    in at the back and sides; the split is an estimate.
+- id: derived-eqcf-kettlebell-zone
+  title: 'Kettlebell set: users, working zone and price builds'
+  kind: derived
+  notes: 'A 9-bell set (about 4-32 kg, one bell per weight) lets about two people train at once without
+    needing the same bell. Rack 24 x 77 in (Rogue Universal Storage System 2.0); the zone in front gives
+    each user NSCA''s 40 sq ft for a standing exercise (space research), laid across the rack width plus
+    24 in (ISO 0.6 m) at each end: 80 sq ft / 125 in = about 92 in, rounded to 96 in, which also covers
+    the 36-in pick-up aisle. Prices are the strength price research''s builds: Rogue 9-70-lb bells + REP
+    rack $1,171; Life Fitness cast iron 4-32 kg + LF 3-tier rack $2,565; Hammer Strength competition 8-32
+    kg + LF rack $3,200.'
+- id: derived-eqcf-stretch-area
+  title: Stretch area per user
+  kind: derived
+  notes: Footprint 72 x 60 in = a 6-ft mat (Throwdown 21 x 66-in mats; 4 x 6-ft premium floor mats) plus
+    about 18 in of movement room each side; 6-in ends and 12-in sides make an 84 x 84-in (49 sq ft) envelope,
+    matching NSCA's 7 x 7-ft stretching area and UFC 4-740-02's 50 sq ft per person. In a dense row with
+    shared sides each user takes about 42 sq ft, still above Sport England's 2.0-2.5 m2 per person.
+- id: derived-eqcf-accessory-pack
+  title: 'Accessory pack: users served, storage zone and price'
+  kind: derived
+  notes: 'The priced pack holds 5 mini bands, 4 loop bands, 4 foam rollers, 4 mats and 2 stability balls
+    with storage, so about 4 users can use it at once, on stretch-area mats. Footprint = Life Fitness
+    Accessory Storage Rack 36 x 25 x 67 in; the 25-in front zone is the depth Life Fitness adds in the
+    SYNRGY storage system''s Recommended Live Area (50 in deep vs a 25-in footprint). Tier prices are
+    single bundle builds: $482 (Body-Solid/GoFit/French Fitness), $1,112 (Life Fitness) and $3,866 (Life
+    Fitness with its accessory rack).'
+- id: derived-eqcf-functional-useful-life
+  title: Useful life of functional and mobility equipment
+  kind: derived
+  notes: 'Steel rig bays 15 years (Legend Fitness 15-year warranty on its suspension-trainer rig; Rework:
+    strength equipment 15-20 years); kettlebells and rack 20 years (Rework: free weights 20-30 years;
+    benchmarks research: steel and free weights at least 8 years); turf lane 4 years (Rework: turf 3-5
+    years; ECORE 5-year commercial warranty), although the sled lasts longer. Soft goods use the price
+    research''s estimates: plyo boxes 6, heavy bag 5, suspension straps 4, battle rope and wall balls
+    3, mats and accessories 2 years.'
+- id: derived-eqfw-overlap-clearance
+  title: Free-weight footprints and clearances re-based on the layout engine's overlapping-clearance rule
+  kind: derived
+  notes: The layout engine lets clearance zones overlap each other and aisles, so the gap between neighbours
+    is the larger facing clearance, not the sum that footprint_strength's margins assume (12 in a side
+    for a 24 in gap). Stations whose loaded Olympic bar (86.75 in, Rogue Ohio Bar) stays on or with the
+    unit get a footprint that contains the bar (racks, Olympic benches and the hip-thrust bench across
+    their width, plus NSCA's 36 in past each bar end, which turns the LF/HS 120 in barbell live-area width
+    into the row pitch 87 + 36 = 123 in; the landmine, and the hip-thrust bench whose bar rests on the
+    floor in front of it, along their length), and the 96 in platform gets 27 in sides because the bar
+    already leaves 4.6 in of deck at each end (27 + 4.6 + 4.6 = 36). Other free-weight units get NSCA's
+    24 in minimum between stations on sides that face neighbours (36 in, NSCA's optimum, for dumbbell
+    benches whose dumbbell arcs take LF's +24 in a side), while front and back zones keep footprint_strength's
+    manufacturer live-area values except the half-rack walk-out (derived-eqfw-rack-walkout), the hip-thrust
+    bench (derived-eqfw-hip-thrust-footprint) and the standing-work zone in front of wall storage (derived-eqfw-storage-front-zone).
+- id: derived-eqfw-bar-station-price
+  title: 'Barbell station prices: frame + bar + one plate set + collars + plate tree'
+  kind: derived
+  notes: Each bar station adds to the price_strength tier median for its rack, bench or platform a 20
+    kg bar ($260/$310/$700), one plate set of 355 lb iron at price_strength's station rates ($1.90/$3.10/$5.90
+    per lb) or 350 lb of bumpers at its tier medians ($2.10/$3.30/$8.30 per lb), collars ($40/$55/$101)
+    and one plate tree for storage ($230/$940/$1,000), rounded to the nearest $50. 355 lb and 350 lb are
+    the complete Olympic set sizes REP, French Fitness and Rogue sell (REP Old School and Equalizer 355
+    lb, French Fitness 350 lb, Rogue HG 2.0 350 lb), inside the 300-400 lb planning range; no source gives
+    plates per station, and the fact-check expects real commercial/premium purchases 10-30% below these
+    list-based tier values.
+- id: derived-eqfw-dumbbell-price
+  title: 'Dumbbell set prices: pair weight x tier $/lb + 10-pair racks'
+  kind: derived
+  notes: Set weight is twice the sum of pair weights (5-50 lb = 550 lb, 5-100 lb = 2,100 lb, 105-150 lb
+    = 2,550 lb). Value and commercial use price_strength's rubber-hex medians ($1.85 and $2.90 per lb,
+    nearly flat across weight ranges); premium uses the Hammer Strength 4-sided urethane set rate for
+    the same range ($9.56, $7.93 and $6.67 per lb, which falls as weight rises); each 10 pairs add one
+    two-tier rack at price_strength's 2-tier medians ($770/$1,600/$1,600); totals are rounded to the nearest
+    $50.
+- id: derived-eqfw-pool-capacity
+  title: Concurrent users per dumbbell or fixed-bar set (pick-up conflict simulation)
+  kind: derived
+  notes: 'Monte Carlo of users each holding one item drawn from a demand curve with ~70% of 5-50 lb pick-ups
+    on the 20-40 lb pairs (GYMetrix: 8-18 kg dumbbells are the most popular kit) and 25% of full-set pick-ups
+    above 50 lb; an arrival takes the preferred item, else one weight step away (or the other bar type
+    for fixed bars), and 25% of users (all heavy-extension users, who ramp through pairs) also hold a
+    second item. Capacity c means the c-th concurrent user still gets the exact item at least 60% and
+    a usable item at least 90% of the time: 5-50 lb set 3, 5-100 lb set 5, 105-150 lb set 2 (3 if heavy
+    users hold one pair), 10 straight + 10 EZ fixed bars 6.'
+- id: derived-eqfw-useful-life
+  title: Useful life of racks, benches, platforms and free weights
+  kind: derived
+  notes: 10 years is the IRS Pub 946 class life for asset class 79.0 (recreation); it sits above Planet
+    Fitness's 7-9 year strength re-equip cycle (the benchmarks slice recommends at least 8 years for racks,
+    benches and free weights) and below the 15-20 (strength) and 20-30 (free weights) years a Rework vendor
+    guide quotes. Lifting platforms get the 8-year machine strength life (benchmarks, PF 7-9) because
+    the deck and bumpers absorb dropped bars.
+- id: derived-eqfw-rack-walkout
+  title: Half-rack front walk-out clearance
+  kind: derived
+  notes: 'Every half-rack lift is walked out in front of the uprights, so the front clearance is 48 in
+    like the power rack (LF/HS 10 x 10 ft live area) instead of footprint_strength''s 36 in (HS iD +28
+    in, LF squat rack +42.5 in live depth): 53 in frame + 48 in + 6 in = 107 in of station depth, inside
+    NSCA''s 8-10 ft rack-station depth, where 36 in gives 95 in.'
+- id: derived-eqfw-rack-ceiling
+  title: Minimum ceiling height for power and half racks (108 in)
+  kind: derived
+  notes: 'Hammer Strength gives a minimum ceiling height of 102 in for its HD Athletic NX power rack (91
+    in tall, with a pull-up bar), and Life Fitness says each HD Athletic NX half-rack upright (86 or 91
+    in) can fit in rooms with a standard 8-ft ceiling (both checked 2026-10-29). The racks modelled
+    here are 91 in (power) and 93 in (half; Rogue HR-2 92.25 in with a 43-in pull-up bar) tall, so 102
+    in is rounded up to the next whole foot, 9 ft (108 in), as the treadmill ceiling is, to leave head
+    room for pull-ups on the top bar. The 12 ft the racks used before (NSCA checklist, UFC 4-740-02) is
+    a guideline for overhead exercise in general, while the footprint research puts rack, tower and pull-up
+    items at about 96-110 in of clear height; 12 ft stays on the items for overhead or airborne work, the
+    lifting platform (snatch and jerk), rig bays (kipping and muscle-ups) and wall-ball targets.'
+- id: derived-eqfw-landmine-station
+  title: Landmine station footprint and contents
+  kind: derived
+  notes: Footprint = REP free-standing landmine base (18.4 x 13.8 in) plus the 86.75 in Olympic bar lying
+    forward from the pivot = 105 x 14 in, keeping footprint_strength's 120 in front zone as bar (87 in)
+    + 36 in for the lifter at the bar end, 36 in sides for presses and rows and 6 in behind. Contents
+    = base + bar + 160 lb of plates (2 x 45, 2 x 25, 2 x 10 for one-ended presses and rows; an estimate)
+    + collars at price_strength tier prices.
+- id: derived-eqfw-fixed-barbell-set
+  title: 'Fixed barbell set: 20 bars on two 10-bar racks'
+  kind: derived
+  notes: 'Ten straight and ten EZ fixed bars (20-110 lb, 1,300 lb) need two 10-bar racks: the Life Fitness
+    Barbell Rack sells as a 10-bar ($1,659) or 5-bar ($1,040) version, so price_strength''s single-rack
+    commercial and premium builds get a second rack. The footprint is two 35 in deep racks side by side,
+    each given the LF 60 in live-area width (room to tilt the upright bars out; the frames themselves
+    are 28-34.5 in wide) = 35 x 120 in, against a wall.'
+- id: derived-eqfw-storage-front-zone
+  title: Standing-work zone in front of dumbbell and fixed-barbell racks
+  kind: derived
+  notes: Front clearance of wall storage that members use standing = NSCA's 4 ft standing-exercise user
+    depth ((4 + 6) x 4 ft = 40 sq ft, NSCA 2017 Table D1) + the ISO 20957-1 0.6 m free area = 48 + 24
+    = 72 in, which contains the 36 in pick-up depth the LF and HS dumbbell-rack live areas add in front.
+    Standing curls, raises, shrugs and RDLs happen there, so the rack carries its standing users' floor
+    (about 44 sq ft per 87 in rack); bench-supported dumbbell work is covered by the bench records' own
+    clearances.
+- id: derived-eqfw-hip-thrust-footprint
+  title: Hip thrust bench station footprint (bench plus seated lifter and resting bar)
+  kind: derived
+  notes: footprint_strength estimated a 24 x 48 in bench with a 48 in front zone for the lifter's torso
+    and feet, as an exclusive margin. The layout engine lets front clearances overlap walkways, and the
+    loaded bar rests on the floor at the lifter's hips (about 12-24 in in front of the bench) between
+    sets, so the 36 in nearest the bench moves into the footprint (24 + 36 = 60 in deep, 87 in wide for
+    the 86.75 in bar) and the front clearance becomes the ISO 20957-1 0.6 m free area (24 in) for the
+    feet and access. Station depth 12 + 60 + 24 = 96 in, about NSCA's supine-station formula with a 5
+    ft bench-plus-lifter length + 3 ft cushion. An estimate, not a published spec.
+- id: derived-eqm-footprint-medians
+  title: 'Strength machine footprints and heights: medians of published commercial models'
+  kind: derived
+  notes: 'Length x width = the footprint_strength recommended value for the item: the median length and
+    width of the commercial models measured for it (Life Fitness Insignia, Axiom and Signature; Hammer
+    Strength; Cybex; BodyKore dealer listings), re-oriented so length runs front-to-back as the user faces
+    the unit. Height = median published height of the same models; each record''s notes list its inputs.'
+- id: derived-eqm-squat-machine-split
+  title: Separate belt squat and pendulum squat footprints
+  kind: derived
+  notes: 'footprint_strength pooled both machines into one 84 x 54 in value (average of the two archetype
+    medians). This dataset uses the archetype medians that research computed: belt squat 72 x 65.5 in
+    (HS PL-BSQ 78x63, BodyKore FL1834 66x68) and pendulum squat 97 x 43 in (HS Pendulum-X 97x45, HS V-Squat
+    97x42, BodyKore CF8137 83x43).'
+- id: derived-eqm-machine-clearances
+  title: Clearances for selectorized and plate-loaded machines when clearance zones overlap
+  kind: derived
+  notes: 'The layout lets neighbours'' clearance zones overlap (gap = the larger facing clearance; selection
+    charges half of each), so each side holds the full spacing: 36 in = NSCA''s 3-ft optimum between machines
+    and ACSM''s 3-ft buffer (minimum 24 in: NSCA, ISO 20957-1 0.6 m shared free area, Cybex, Star Trac),
+    which also covers the 24-in plate-loading strip of HS plate-loaded live areas and charges about 18
+    in per side; hip abduction/adduction gets 42 in (live areas add 13-18 in per side of pad travel).
+    Backs 24 in (NSCA minimum; Star Trac 24 in ''between and behind machines''); the access side (front;
+    back for glute kickback; sides for the leg press) keeps the footprint_strength live-area margin, never
+    under 24 in.'
+- id: derived-eqm-cable-clearances
+  title: Clearances for wall-mounted cable stations
+  kind: derived
+  notes: 'Front 72 in = NSCA''s 4-ft standing-exercise user space plus the ISO 20957-1 0.6 m free area
+    (space research estimate; no manufacturer training area is published and LF''s functional-trainer
+    live area is a unit error). Back 0 because the units stand against a wall (NSCA TSAC: tallest equipment
+    along walls); sides 24 in shared (NSCA/ISO minimum).'
+- id: derived-eqm-price-tiers
+  title: 'Machine price per tier: median of new-unit listings, 2026-10-28'
+  kind: derived
+  notes: 'Machine price per tier = the price_strength typical value: median of the new-unit listings captured
+    on 2026-10-28 (e.g. value: Body-Solid, French Fitness, Titan, REP, Bells of Steel, Rogue; commercial:
+    LF Axiom, Hoist, Nautilus Instinct/Impact/Leverage, Prime Hybrid/Plate Loaded, Matrix Aura/Versa,
+    Rogue; premium: Hammer Strength, LF Insignia, Nautilus Inspiration, Prime Evolution, Matrix Ultra/Magnum,
+    Sorinex, Watson, Rogers Athletic), Alaska-dealer prices divided by 1.45, rounded to $50 ($10 below
+    $1,000, e.g. T-bar row value $990). Commercial and premium values are mostly list/MSRP (street often
+    10-30% lower), while value anchors include sale prices and some home-rated units.'
+- id: derived-eqm-combo-price
+  title: 'Lat pulldown / low row combo: commercial price from same-line pairs'
+  kind: derived
+  notes: 'Within one maker''s line the dual pulldown/row costs about what its single lat pulldown does
+    (price_strength listings, 2026-10-28): LF Axiom $5,246 and $5,246 (ratio 1.00), Nautilus Instinct
+    $3,619 and $3,799 (0.95), Matrix Versa $3,378 and $2,964 after the Alaska divisor (1.14); median
+    1.00, and the value line agrees (French Fitness Tahoe $2,799 and $2,799). The commercial tier is
+    therefore the single lat pulldown''s $5,050 x 1.00 = $5,050. The plain median of the five commercial
+    combo listings ($3,650) is not used because it draws on lighter lines (Rogue LP-2, Nautilus Instinct,
+    Matrix Versa) than the single-machine median, which includes Prime Hybrid, Hoist ROC-IT and Nautilus
+    Impact; it priced the combo 28% below one single machine while it serves both the pulldown and the
+    row. The premium tier keeps its only listing (Hammer Strength HD Elite Dual Pulldown/Row $5,889),
+    since no premium line sells both forms.'
+- id: derived-eqm-plate-allocation
+  title: Plates included with plate-loaded machines
+  kind: derived
+  notes: 'Estimate (no source states plates per machine): enough plates for a typical working set without
+    borrowing, i.e. leg press 500 lb; hack, belt and pendulum squat and hip thrust 300 lb; iso-lateral
+    chest press, row and high row 250 lb; iso-lateral shoulder press and T-bar row 200 lb; seated calf
+    180 lb. Priced as in the price_strength station builds at $1.90/lb cast iron (value), $3.10/lb urethane-coated
+    (commercial; REP Equalizer $3.12/lb) and $5.90/lb Hammer Strength urethane (premium; $5.91/lb) and
+    added to the machine price; plate trees are not included.'
+- id: derived-eqm-useful-life
+  title: Useful life of strength machines and cable stations
+  kind: derived
+  notes: 8 years = midpoint of Planet Fitness's strength re-equip schedule (years 7-9 in its 2023 and
+    2025 investor presentations), inside the 5-9-year franchise re-equip requirement in its FY2025 10-K
+    and above the IRS 7-year recovery period for recreation assets (class 79.0); the benchmarks research
+    recommends 8 (7-9) years.
+- id: derived-eqm-min-ceiling
+  title: Minimum ceiling height for tall machines
+  kind: derived
+  notes: 'Set only where the representative unit is taller than 7 ft: the median published frame height
+    of the reference models rounded up to the inch (cable crossover 93, functional trainer 92, cable column
+    89, pulldown/row combo 94, multi-station 87 in), or the published live-area height where the user
+    rises above the frame (LF Insignia Assist Dip Chin 105 in). Assembly may need a few inches more.'
+- id: derived-eqm-multi-station
+  title: 'Multi-station gym: station count and one unit per plan'
+  kind: derived
+  notes: 'stations = 3, the low end of the 3-4 stack range: the 82 x 125 in footprint sits between a 3-station
+    (84x105) and a 4-station (80x144) unit, and each stack serves different movements, so counting every
+    stack as an interchangeable server would overstate capacity for any one exercise. The planner still
+    counts the 3 stations as interchangeable, so a second unit would look like 3 more lat pulldowns or
+    chest presses where it adds one stack of each; max_units = 1 keeps that overstatement to a single
+    unit, and a plan that needs more capacity buys single-station machines, which serve each movement
+    at full quality. Makers sell these frames for light-commercial rooms (Hoist H4400: a 4-station gym
+    "for light commercial settings"; Hoist''s light-commercial warranty, as a Hoist dealer lists it,
+    covers facilities that charge no membership dues and have at most 50 users a day, such as hotels
+    and apartment buildings), not for busy club floors.'
+- id: derived-ex-strength-popularity
+  title: 'Strength-exercise popularity: consensus share of strength sets mapped to canonical ids'
+  kind: derived
+  notes: 'Exercises report Sec 5.1 / Table 6.1 ''Cons %'' = 0.5 x StrengthLog 2025 share of logged sets
+    (rows outside its top 25 imputed as min(0.99 %, 1.27 x Fitbod share)) + 0.5 x Fitbod ''Sets Logged''
+    share over 92 exercise families. Rows map to canonical ids, summing variants that share a station:
+    close-grip into bench press, trap-bar into deadlift, EZ into barbell curl, pulldown variants into
+    lat pulldown, seated cable + selectorized + plate-loaded rows into machine_row, pushdowns + overhead
+    cable extension into triceps_pushdown, chin-up into pull_up.'
+- id: derived-ex-extra-fitbod-rows
+  title: Consensus-equivalent popularity for Fitbod exercises omitted from Table 6.1
+  kind: derived
+  notes: 'The Sec 5.1 formula with Table 6.1''s normalisation held fixed (Fitbod total 330,937,675 sets;
+    SL-equivalent total 109.71; reproduces all 92 published values exactly), applied to Table 2.2 Fitbod
+    counts the report left out: DB Romanian deadlift 4,633,512 sets -> 1.151 %, Dumbbell Squat 3,743,936
+    -> 1.017, Crunches 6,413,700 -> 1.420, Plank 4,951,454 -> 1.199, Ab Rollout 1,237,222 -> 0.403, Bench
+    Dip 4,217,199 -> 1.088, bodyweight Hip Thrust 4,324,303 -> 1.105, Machine Squat 233,699 -> 0.076.'
+- id: derived-ex-family-splits
+  title: Per-implement split of composite Fitbod exercise families
+  kind: derived
+  notes: 'Fitbod component counts follow the report''s row-label order. This was checked on the shrug
+    row, whose first component 3,012,522 is Table 2.2''s ''Dumbbell Shrug'', and on the hip thrust, lunge,
+    leg press, lateral raise, Smith bench and KB swing rows. Shares used: shrug DB 61.6 % / BB+Smith+machine
+    38.4 %; stiff-legged DL BB 18.2 % / DB 81.8 %; step-up bodyweight 48.0 % / DB 34.1 % / BB 18.0 %;
+    upright row BB 48.4 % / DB 37.9 % / cable 13.6 %.'
+- id: derived-ex-tail-estimates
+  title: Popularity estimates for exercises with no app counts
+  kind: derived
+  notes: Machine hip thrust, inverted row, unloaded walking lunge, standing/single-arm cable row and Pallof/woodchop
+    get 0.3 % of strength sets, the level of the least-logged named exercises in Table 6.1 (T-bar row
+    0.29, landmine 0.28, standing calf 0.29, Smith squat 0.32). Good morning = trap-bar deadlift (0.128);
+    rotary torso = machine reverse fly (0.136); heavy >100 lb DB press = 2 % of DB bench + incline + shoulder
+    press (0.108); belt and pendulum squat split Fitbod 'Machine Squat' (0.076) equally. Functional items
+    with no counts (KB complexes, farmer's carry, heavy bag, rig circuits) = 0.133, the median measured
+    functional item.
+- id: derived-ex-functional-popularity
+  title: Functional-modality popularity
+  kind: derived
+  notes: 'Same consensus-share units as strength: KB swing 0.615, box jump 0.133 + bodyweight step-ups
+    0.477, TRX 0.407, wall ball/slam 0.133, sled 0.083, battle ropes 0.076 (Table 6.1); unmeasured items
+    0.133. Fitbod under-represents gym-only functional kit (sled = 0.08 % of sets), so turf, rig and bag
+    items are likely lower bounds that functional-focused profiles should raise with exercise multipliers.'
+- id: derived-ex-cardio-popularity
+  title: Cardio popularity converted from share of cardio minutes
+  kind: derived
+  notes: 'Popularity = usage report Sec 0.2 average cardio-minutes mix / bout minutes (bouts per 100 cardio
+    minutes), so popularity x block_minutes reproduces the mix: treadmill 40, curved treadmill 1, elliptical
+    15, upright 11, recumbent 8, indoor cycle (free use) 3, air bike 2, rower 7, stair 10, SkiErg 1, recumbent
+    stepper 2. That mix starts from SFIA 2023 cardio occasions (treadmill 40.8 %, bikes 25.5 %, elliptical
+    19.1 %, rower 6.2 %, stair 6.1 %, group cycle 2.4 %).'
+- id: derived-ex-treadmill-split
+  title: Treadmill minutes split into running, incline walking and walking
+  kind: derived
+  notes: No source splits treadmill time, so it is split in equal thirds (walking 2/3, running 1/3; estimate).
+    This sits between SFIA 2023 all-venue occasions (walking for fitness 13.9 B vs running/jogging 3.2
+    B, 81 % walking) and an even walk/run split. Fitbod 2022 reports 'Treadmill Walking' as the 2nd most
+    manually added exercise.
+- id: derived-ex-cardio-bout-minutes
+  title: Cardio bout minutes
+  kind: derived
+  notes: 'Exercises report Sec 5.5 typical bouts, anchored on ACSM 2011 (>=30 min/day moderate, >=20 vigorous),
+    Girginer & Sahin''s simulated ~21-22 min per machine with a 20-min console default, and 30-min posted
+    caps: elliptical and bikes 25, stair 18, rower 15, curved treadmill 15, air bike 11, SkiErg 10, stepper
+    25. Treadmill 27 is split into running 22 and walking 30 so its bout-weighted mean stays 27. Indoor
+    cycle uses the free-use bike value 25 because classes (45) fall outside floor time.'
+- id: derived-ex-block-minutes
+  title: Station hold time per strength / functional exercise bout
+  kind: derived
+  notes: 'Exercises report Sec 5.2 (setup + warm-up sets x cycle + 3 working sets x set time + 2 rests):
+    heavy barbell 2.0+2x1.5+3x0.6+2x2.5 = 11.8; loaded accessory 9.3; machine compound 8.0; DB/KB compound
+    7.1; isolation 4.6; bodyweight 4.7; functional 4.75. Inputs are ACSM 2009/2026 sets and rests, Grgic
+    2018, Ibbott 2019, Singer 2024 and Silva 2018. Sled push/pull (8) and heavy bag (12) use the occupancy
+    report Sec 3.5 per-use holds.'
+- id: derived-ex-mobility
+  title: Mobility popularity and block minutes
+  kind: derived
+  notes: 'Stretching is weighted by member reach (IHRSA 2016: 24 % of members stretch). Foam rolling 12,
+    band/ball work 6 and solo yoga/mobility flows 6 are estimates with no usage counts (HFA 2024 yoga
+    reach of 21.8 % is mostly class-based). Blocks: stretching 10 min (occupancy report stretch-area hold
+    5-15); foam rolling and bands 5 (5-min warm-up / cool-down, usage report Sec 3.3); yoga flow 15.'
+- id: derived-ex-route-quality
+  title: Route quality rubric for exercise options
+  kind: derived
+  notes: 'Quality is a route''s fit relative to the canonical setup; the engine also uses it as the chance
+    a member accepts that route as a fallback. 1.0 = canonical setup; 0.85-0.95 = near-equivalent setup
+    for the same lift (bench in a power rack + bench 0.95, half rack 0.9); 0.6-0.8 = same movement on
+    another implement (machine chest press for barbell bench 0.6, cable column for lat pulldown 0.8),
+    ordered within the band by Fitbod swap counts (exercises report Table 7.2); 0.3-0.5 = same muscle,
+    different movement, matching the report''s Sec 7 acceptance guide (routes below 0.3 omitted). On the
+    5-50 lb dumbbell set, isolation lifts score 1.0 and compound lifts 0.6-0.85 by the estimated share
+    of users working under 50 lb (GYMetrix: 8-18 kg dumbbells are the most used). The 5-100 lb set contains
+    every 5-50 lb dumbbell, so every route on the light set has a matching route on the full set (same
+    other equipment) at equal or higher quality. Cardio fallbacks score 0.85-0.9 for a near-identical
+    machine, 0.6-0.8 for the same movement or posture on a different machine (a curved manual treadmill
+    for a steady run 0.7), and 0.3-0.55 for other cardio.'
+- id: derived-beh-floor-minutes
+  title: Mean active floor time per visit (55 min)
+  kind: derived
+  notes: Boostcamp's median logged lifting session is 58 min, Strava's average strength session just over
+    50 min and Pinero et al.'s 4-exercise lab session 55.3 min; door-to-door visits of 68-69 min (PureGym
+    gate data) and 72-74 min (Placer.ai) include changing time. The usage and occupancy research both
+    settle on 55 min.
+- id: derived-beh-floor-cv
+  title: Spread of floor time per visit (cv 0.45)
+  kind: derived
+  notes: 'A lognormal through Boostcamp''s median 58 min and 75th percentile 79 min has sigma = ln(79/58)/0.674
+    = 0.46, so cv = sqrt(exp(sigma^2) - 1) = 0.48 (0.52 from the 90th percentile of 109 min, which sessions
+    left running inflate). Fixed-protocol lab sessions set a floor of 0.23-0.27 (Pinero et al.: 55.3 +/-
+    12.6 and 70.5 +/- 19.1 min); 0.45 is adopted.'
+- id: derived-beh-idle-share
+  title: Share of floor time spent between stations (0.21)
+  kind: derived
+  notes: 'Strength: 6 exercises x a 7.1-min mean station hold (exercises research) = 42.5 min of a 58-min
+    Boostcamp session, leaving 15.5 min idle, or 0.365 idle min per active min. Cardio: about 2 min of
+    transition per 25-min bout (ACSM''s 20-30 min per day; 20-min console default in Girginer and Sahin),
+    or 0.08 per active min, an estimate. Weighted by the general profile''s 35% cardio time, 0.35 x 0.08
+    + 0.65 x 0.365 = 0.265 idle per active min, so 0.265 / 1.265 = 0.21 of floor time (0.19-0.24 for the
+    other profiles).'
+- id: derived-beh-weekday-visit-rate
+  title: Visits per member on an average weekday (0.20)
+  kind: derived
+  notes: 'Seven-day average of 0.17 visits per member per day (The Gym Group 2023 at least 0.188, PureGym
+    2019 0.171; HFA''s 75 attendance days a year is 0.205) x a 1.18 weekday uplift: weekdays carry 17.3-17.5%
+    of weekly visits rather than 14.3% (Federation University 1.21, Itensity 1.23, Planet Fitness Mon-Wed
+    1.22, discounted toward the fact-checker''s 1.15-1.2). The peak share and busy-day factor are measured
+    on weekdays, so the visit rate must be a weekday rate too.'
+- id: derived-beh-design-peak-share
+  title: Share of members on the floor at the design peak (2.75%)
+  kind: derived
+  notes: '0.20 weekday visits x 11% of the day''s visits on the floor in the busiest hour (BLS: 20.5%
+    of the day''s exercisers active in the weekday 6 pm hour x D/(D+1) with D = 1.28 h gives 11.5%; Federation
+    University peak-hour arrivals 11.3-11.9%) x 1.25 busy-day factor (90th percentile over mean daily
+    peak-hour occupancy, 1.26 and 1.23 in the two campus-gym years) = 2.75% of members. This sits inside
+    the fact-checker''s corrected 2.7-2.9% and just under UK planning practice (1.5 visits a week x 65%
+    in 34 peak hours = 2.87%).'
+- id: derived-beh-floor-density
+  title: Comfortable design density (10 users per 1,000 sq ft of training floor)
+  kind: derived
+  notes: 100 sq ft of training floor per user is about 1.4x Les Mills' 6-7 m2 (65-75 sq ft) gym-floor
+    minimum. At the corrected design peak, UK budget clubs run about 9-18 users per 1,000 sq ft of training
+    floor (about 130 users in a 12,000-15,000 sq ft PureGym-like box; 115 for an average Gym Group membership
+    on a 16,285 sq ft site like Coventry; 0.62-0.75 training-floor share), at or past that minimum. The
+    campus weight-room counts (110 sq ft per person at an average day's peak) are corroboration only,
+    because the counted space is unverified.
+- id: derived-beh-bodyweight-carveout
+  title: Carving the bodyweight modality out of the research time buckets
+  kind: derived
+  notes: 'The usage research has no bodyweight bucket, so bodyweight time is taken from where it was counted:
+    4.5% of each strength bucket (pull-ups, chin-ups, dips, hanging raises, push-ups, back extensions
+    and glute-ham raises are 4.5% of strength station-time in the exercises research''s consensus table);
+    21% of the functional bucket (built with about a third of SFIA''s bodyweight occasions, about 31%
+    of its basis, two-thirds of which is schema bodyweight work); and a sixth of the stretch and core-mat
+    bucket (floor core). For the average member this gives 4.9% of floor time, about 9% of strength-type
+    time, between the app-log consensus (4.5% of strength station-time) and Boostcamp beginners (6.4-14.7%
+    of logged exercises).'
+- id: derived-beh-cardio-mix-multipliers
+  title: Cardio exercise multipliers from the profile cardio mixes
+  kind: derived
+  notes: Each multiplier is the profile's share of cardio minutes on that machine in the usage research
+    divided by the average member's share (treadmill 40, elliptical 15, upright bike 11, recumbent bike
+    8, indoor cycle 3, air bike 2, rower 7, stair climber 10, ski erg 1, curved treadmill 1 and seated
+    stepper 2 percent), rounded to 0.05 and clipped to 0.4-2.5; ratios within 15% of 1 stay at 1 and 0
+    is used only where the profile excludes the machine. The functional profile's rowers, air bikes, curved
+    treadmills and ski ergs keep their full ratios (25/7 = 3.55, 25/2 = 12.5, 15/1 = 15, 20/1 = 20), because
+    they are most of that format's cardio fleet, and clipping them at 2.5 would leave its cardio time
+    about 39% on treadmills and 4% on ski ergs against the research's 15% and 20%. That profile also keeps
+    treadmill running at 1 and cuts treadmill walking to 0.4 because HYROX is 8 x 1 km of running, so
+    treadmills end up with about 20% of its cardio time.
+- id: derived-beh-profile-density
+  title: Profile training densities scaled by the area each time mix needs
+  kind: derived
+  notes: 'The 10-per-1,000 sq ft target is scaled by the floor area per user each profile''s time mix
+    needs relative to the average member''s: Les Mills'' 5 m2 per cardio user, 10 m2 per CrossFit-style
+    user and 6-7 m2 per gym-floor user, with barbell stations about 1.6x other strength stations (NSCA
+    130-144 sq ft per rack or platform against 90 per bench). This gives strength 9.2, cardio/wellness
+    10.9 and functional 8.1 per 1,000 sq ft, rounded to 9, 11 and 8; functional sits between Glofox''s
+    150-200 sq ft per CrossFit participant and Les Mills'' 108 sq ft read directly. Class-based group
+    training runs denser (PushPress 60-80 sq ft per concurrent member), so 8 suits an open functional
+    floor, not a class studio.'
+- id: derived-beh-wellness-multipliers
+  title: Cardio/wellness pull-up and dip multipliers
+  kind: derived
+  notes: Pull-ups and dips are set to 0.6 because the pull-up/chin-up station is the second most intimidating
+    gym area after the squat rack (PureGym survey), pull-ups are outside women's top-25 StrengthLog exercises
+    while making up 2.0% of men's sets, and the preferences research rates the dip/chin station well below
+    average for older and beginner members (estimated tilts 0.5-0.7). The value is a judgment estimate.
+- id: derived-beh-functional-multipliers
+  title: Functional-format exercise multipliers
+  kind: derived
+  notes: 'Judgment estimates anchored on the HYROX race stations and Orangetheory''s class format: wall
+    balls, farmers carry and walking lunges 2.0 (one station each); sled push and pull 3.8 because they
+    are two of the eight stations, which gives the sled twice the floor time of one station (popularity
+    x multiplier x block minutes: 0.083 x 3.8 x 8.0 = 2.52 against 0.133 x 2.0 x 4.75 = 1.26 for wall
+    balls or the carry; the earlier 2.5 gave the two sled stations only 1.3 stations'' worth); push-ups
+    1.5 as the burpee proxy; Olympic lifts 2.0 (PushPress''s group-training kit
+    is a rig or racks plus 6-8 sets of bumper plates); bench-press variants and heavy bags 0.5 (absent
+    from these formats). No measured usage supports the exact values.'
+- id: derived-beh-amenity-shares
+  title: Amenity-room time split (estimate)
+  kind: derived
+  notes: No usage data exist for hotel, apartment or office fitness rooms. Cardio is set at 45% (between
+    the average member's 35% and cardio/wellness 47%) and stretching at 7%; the other 48% follows SFIA's
+    all-venue strength occasions (dumbbells 36.9%, machines 19.3%, barbells 19.3%, bodyweight 16.6%, kettlebells
+    7.9%; home use included, which suits room-scale gyms), with two-thirds of barbell time moved to dumbbells
+    and 40% of machine time to a cable or functional trainer.
+- id: derived-beh-amenity-density
+  title: Amenity-room training density (5 users per 1,000 sq ft, estimate)
+  kind: derived
+  notes: 'Nearest measured format: Anytime Fitness small 24/7 clubs average 660 members (2026 FDD Item
+    19; quartiles 411-995) on 4,000-7,000 sq ft (Item 7). At 2.75% of members on the floor at the design
+    peak that is about 18 people on roughly 3,850 sq ft of training floor (70% of 5,500 sq ft), or 4.7
+    per 1,000 sq ft (2.9-7.1 across the quartiles). Hotel, apartment and office rooms themselves were
+    not measured.'
+- id: derived-beh-format-exclusions
+  title: Equipment excluded by format, with matching zero exercise multipliers
+  kind: derived
+  notes: 'Exclusions remove items a format would not buy: advanced-lifter items (GHD, belt and pendulum
+    squats, 105-150 lb dumbbells) and CrossFit- and HYROX-style conditioning kit (rig bays, wall-ball targets,
+    battle ropes; SFIA: US cross-training participation fell 31% in 2019-23) from cardio/wellness floors;
+    multi-station gyms, which makers sell for light-commercial rooms (Hoist H4400), from strength floors;
+    ellipticals, recumbent bikes and seated steppers (zero share of the functional cardio mix) from functional
+    floors; and items needing large or specialist space from amenity rooms (NSCA: 144 sq ft per platform
+    and 12-ft ceilings for overhead lifting, which rig bays and wall-ball targets also need; Torque: 10-yd
+    minimum sled run; a battle-rope lane about 22 ft long for a 40-ft rope). Exercises built around an
+    excluded item get a 0 multiplier: that format''s members do not program them, so their time goes to
+    the rest of the modality instead of to poor substitute routes (for example Olympic lifts in a power
+    rack, or rig circuits on a dip and chin-up station), which most of them still have in the exercises
+    data. No exercise is built around the multi-station gym, so its exclusion needs no multiplier.'
+- id: derived-sp-aisle-widths
+  title: Aisle widths used by the floor layout
+  kind: derived
+  notes: Main aisle 60 in = ADA 403.5.3 / 304.3 passing and turning width (no 60 x 60 in passing spaces
+    needed) and NSCA TSAC 60-in hallways. Secondary aisle 36 in = ADA 403.5.1 accessible-route minimum
+    and NSCA 36-in passageways, chosen over the 48 in typical (Skelcore, Rush Walter) because clearance
+    zones may overlap walkways (DOJ 2010 guidance on 236/1004).
+- id: derived-sp-circulation-share
+  title: Circulation share of the training floor
+  kind: derived
+  notes: 'Midpoint (0.175) of the space report''s 15-20% of training floor for aisles on top of per-unit
+    clearances. Geometric checks: a 6-ft spine plus two 4-ft cross aisles on a 60 x 100 ft floor is about
+    17%; one 4-ft aisle plus an entry and turn area on a 30 x 50 ft floor is 17-20%. UFC 4-740-02 uses
+    a building-level net-to-gross factor of 0.20.'
+- id: derived-sp-packing-efficiency
+  title: Initial packing efficiency for equipment selection
+  kind: derived
+  notes: 0.65, calibrated against the layout engine and checked against Planet Fitness density. Geometry
+    alone gives an upper bound of about 0.78 = 1 - 0.175 aisles (derived-sp-circulation-share) - 0.05
+    for row ends and wall-facing clearance halves (effective unit area = footprint + half of each clearance).
+    With the row and wall-lined layouts, the fit loop and the most-wanted rule as of 2026-10-28, the planner
+    was run on the five sample scenarios and 15 more requests (600-40,000 sq ft of training floor, every
+    gym focus, two tight budgets and a 124 x 18 ft storefront) at starting values of 0.55-0.7. Mean
+    quality-weighted demand served was 0.662 at 0.55, 0.664 at 0.6 and 0.665 at 0.65 and 0.7 (sample
+    scenarios 0.763, 0.769 and 0.770); between 0.55 and 0.65 unplaced budget fell from $57,000 to $32,000
+    in total and layout passes rose only from 34 to 36, while 0.7 needed 48. In the final plans the placed
+    units claim 0.37 of the training floor at 750 sq ft, 0.48 at 1,200, 0.56 at 3,750 and 0.63-0.65 at
+    7,000-12,500 (rechecked 2026-10-29 after the format and ceiling updates). Planet Fitness's 116-152
+    sq ft of building per piece is 64-94 sq ft of training floor at a 0.55-0.62 training share; the planned
+    pieces average about 48 sq ft of effective area in a big-box plan, so its density implies 0.51-0.74.
+    The 12,500 sq ft big box holds 154 pieces, 12.3 per 1,000 sq ft of training floor (Planet Fitness's
+    6.6-8.6 per 1,000 sq ft of building is 10.6-13.9 at the large
+    band's 0.62 training share). Sport England's 5 m2 (54 sq ft) per piece, excluding the room's general
+    circulation, implies about 0.73 (48 / 54 x 0.825), near the top of that range. Recalibrate when the
+    equipment footprints or the layout engine change.
+- id: derived-bm-training-share
+  title: Training-floor share of a gym building, to compare real gyms with plans
+  kind: derived
+  notes: 'Real gyms'' sizes, equipment spend and piece densities are given per sq ft of building, while
+    the planner is given only the training floor. The training share restates them: 1 - the share for
+    reception, locker rooms, restrooms, offices, storage and walls, from the space report section 5.3.
+    Micro (<= 2,500 sq ft) 0.80: two ADA single-user restrooms (~64 sq ft each) + desk/office 120 + storage
+    80 = ~330 sq ft, 13-22% of 1,500-2,500 sq ft. Small (2,500-10,000) 0.70: adds showers and small locker
+    areas (vendor guides 10-25% amenities: Dynamo, Rework, Glofox). Mid (10,000-25,000) 0.62: lockers
+    15 + reception 5 + offices 3 + storage 5 + walls/MEP 10 percent. Large (> 25,000) 0.55: adds studios
+    and amenities (the amenity-heavy
+    UFC Army program keeps only 30-39%). Each validation band takes the figure of the size class that
+    holds its typical gym, as the report gives it: 0.80 for the small band (typical 2,500 sq ft, the micro
+    class''s upper cut), 0.70 for the medium band (5,500 sq ft; its piece density was built at 0.70, see
+    derived-sp-band-medium) and 0.62 for the large band (20,000 sq ft; space.yaml also uses 0.55-0.62
+    for Planet Fitness, the band''s main source). An earlier version interpolated between the class cuts
+    and gave 0.74 and 0.64, which restated the medium band at a share it was not built with. Low confidence:
+    no primary source gives commercial support-space
+    ratios, so these rest on a military design program (UFC 4-740-02), ADA restroom sizes and vendor guides,
+    and the report''s ranges overlap (micro 0.75-0.85, small 0.60-0.80, mid 0.55-0.70, large 0.45-0.65).'
+- id: derived-sp-zone-plan
+  title: Zone order and flooring by zone
+  kind: derived
+  notes: 'Cardio nearest the entrance and machines next, on 8 mm glued rubber (UFC 4-740-02: resilient
+    athletic flooring for cardio and selectorized areas; Greatmats: 3/8 in for loads up to 120 lb). Free
+    weights toward the back on 12 mm rubber (Greatmats: 1/2 in for barbells over 120 lb; UFC: adhered
+    impact rubber; NSCA: dumbbell racks and the tallest equipment along walls, platforms away from exits
+    and busy areas). Functional zone on turf and rubber for sled lanes and rigs. Stretching at the back
+    on 8 mm rubber with mats, 50 sq ft per user (UFC).'
+- id: derived-sp-default-ceiling
+  title: Default clear ceiling height
+  kind: derived
+  notes: 144 in (12 ft) = NSCA minimum for overhead exercise (checklist 12 ft; TSAC 12-14 ft) and the
+    UFC 4-740-02 fitness-area minimum (12 ft, 14 ft preferred); 3.66 m is inside Sport England's optimum
+    of 3.5-4 m (not below 2.7 m). A guideline value for a fitted-out gym, not a survey of building heights.
+    Rooms under 12 ft exclude rigs, wall balls and lifting platforms, the items for overhead work; racks,
+    treadmills and stair climbers need 9 ft (derived-eqfw-rack-ceiling, derived-eqcf-treadmill-ceiling,
+    and the LF PowerMill's 9 ft).
+- id: derived-sp-flooring-installed
+  title: Installed flooring cost per sq ft by flooring type (2026 USD)
+  kind: derived
+  notes: 'Material price plus professional installation of $1.50-3 per sq ft (DG Floors). 8 mm: $2.21-6
+    material gives $3.7-9, typical $5.5 (3/8 in roll about $4 + $1.50). 12 mm: $4.13-10 gives $5.6-13,
+    typical $7.5 (1/2 in roll about $5.50 + $2; DG turnkey $7-11). 19 mm: heavy mats $5-8 and an 18 mm
+    tile at $7.96, mostly loose-laid, gives $5.5-11, typical $8.5. Turf: $1.26-6.71 listings and $4-7
+    strips gives $2.5-9, typical $6.'
+- id: derived-sp-refurbished-multiplier
+  title: Refurbished price as a share of the new commercial-tier price
+  kind: derived
+  notes: '0.6 x commercial tier. Cardio: 21 remanufactured-vs-new pairs, median discount 62% (54% for
+    the 6 still in stock), recommended 50% off for branded cardio and 40% for simple machines. Strength:
+    remanufactured units sell for about 0.50 x new premium list (15 pairs); CTX and Fitness Superstore
+    selectorized medians of $2,495 and $3,999 against a new commercial chest press of about $5,050 are
+    0.49-0.79 (about 0.65). Assuming 35-50% of the spend goes to cardio (~0.5), 40-50% to machines and
+    racks (~0.65) and 10-15% to free weights and functional gear (no refurbished discount), the blend
+    is 0.61-0.65. It is rounded to 0.6 because the in-stock cardio pairs have a median discount of 54%,
+    a little deeper than the 50% assumed (the fact-check confirmed the 50% against that median and against
+    Club Solutions'' dealer quotes of 30-50% and 40-70% off). The spend weights are assumptions. One multiplier
+    covers every item, including free weights that sell at full price.'
+- id: derived-sp-installation-rate
+  title: Freight, delivery and installation as a share of equipment cost
+  kind: derived
+  notes: '12% (range 8-20%), as corrected by the price fact-check: NTAI says installation and shipping
+    commonly add 12-20% and installation alone 8-15%; Hoist''s white-glove install add-ons are a median
+    10.2% of list (install only, no freight); Fitness Exchange local delivery and assembly is 5-12% for
+    $3k-10k cardio; Concept2 parcel shipping is 5.6-7.4%; iSellFitness charges $299-600 per installed
+    machine.'
+- id: derived-sp-benchmark-typicals
+  title: Typical values for benchmark ranges
+  kind: derived
+  notes: Where a source gives only a low-high range, typical = midpoint (e.g. Planet Fitness 2026 FDD
+    equipment $333,000-995,000 gives $664,000; Anytime Fitness 4,000-7,000 sq ft gives 5,500). A typical
+    stated by the source is used as is (Planet Fitness "typically 20,000 square feet"). Members per club
+    = system members / clubs (Planet Fitness 20.8M / 2,896; The Gym Group 945k / 260). Gold's Gym equipment
+    = strength line + cardio line. $ per sq ft = equipment / sq ft at the midpoints.
+- id: derived-sp-pf-openings
+  title: Planet Fitness 2024-26 opening piece counts
+  kind: derived
+  notes: 'Five opening announcements, 13,605-21,141 sq ft: Worcester 117 pieces (48 cardio / 69 strength),
+    Lakewood 152 (62/90), Eden Prairie 155 (62/93), Puyallup 139 (56/83), Sammamish 139 (56/83). Median
+    139 (56/83); 6.6-8.6 pieces per 1,000 sq ft (mean 7.8); cardio 40.0-41.0% of pieces.'
+- id: derived-sp-band-small
+  title: Validation band for small gyms and studios
+  kind: derived
+  notes: 'Equipment $/sq ft = FDD equipment line / studio size: Orangetheory 31.6-60.8 (mid 43.8), Class
+    by UFC GYM 31.4-59.1 (mid 42.1), F45 46-72; typical 45, high 75. Low 18 = Atlantis Strength''s CAD
+    25/sq ft at about 0.72 USD per CAD, per the fact-check. Pieces 12-17 per 1,000 sq ft (Atlantis: 25-35
+    pieces per 2,000 sq ft; Orangetheory about 13 stations per 1,000). Cardio share 0.20 (strength studio)
+    / 0.40 (general mix, as in budget clubs) / 0.67 (Orangetheory: treadmills and rowers are two of three
+    station types).'
+- id: derived-sp-band-medium
+  title: Validation band for medium gyms
+  kind: derived
+  notes: '$/sq ft from Anytime Fitness (20.0-39.5, mid 27.1) and Snap Fitness (33.3-62.5, mid 45): 20-60,
+    typical 35. Pieces per 1,000 gross sq ft (no direct counts): space allowances of 40-60 sq ft per piece
+    (ACSM 4th ed.), 50-65 per station (UFC) and 5 m2 per piece (Sport England) give about 11-17 at a 0.70
+    training-floor share; Planet Fitness''s 116-152 gross sq ft per piece at a 0.55-0.62 training share
+    (space.yaml gives 0.62 at 15,000-25,000 sq ft) is 11-16 pieces per 1,000 sq ft of training floor,
+    or 7-11 at 0.70. Band 8-15, typical 11. Cardio share 0.20-0.45, typical 0.40 (budget clubs 35-45%,
+    strength-focused 20-30%).'
+- id: derived-sp-band-large
+  title: Validation band for large clubs
+  kind: derived
+  notes: '$/sq ft from 2026 FDD equipment lines / premises: Planet Fitness 13.3-66.3 (mid 33.2), Crunch
+    21.3-75.0 (mid 39.2), Gold''s Gym 23.4-75.0 (mid 42.8): 20-75, typical 38. Pieces: Planet Fitness
+    2024-26 openings 6.6-8.6 (mean 7.8, typical 8); PureGym 220+ pieces / 15,000-20,000 sq ft = 11-15,
+    of which the low end, 11, is the high. Cardio share: Planet Fitness 40-41% (typical 0.40); strength-focused
+    20-30% (low 0.20); budget clubs up to 45% (high 0.45); the older Duluth layout''s 59.5% is left outside
+    the band.'
+- id: derived-sp-scenario-budgets
+  title: Sample scenario budgets
+  kind: derived
+  notes: 'Each sample is the training floor of a typical gym of its kind: 800, 1,500, 5,000-5,500, 10,000
+    and 20,000 sq ft buildings, times their training share (0.95 for an amenity room inside a host building,
+    otherwise derived-bm-training-share: 0.80, 0.70, 0.70 and 0.62), give 760, 1,200, 3,500-3,850, 7,000
+    and 12,400 sq ft, used as 750, 1,200, 3,750, 7,000 and 12,500 (the 24/7 range runs from the Snap
+    Fitness to the Anytime Fitness typical club). Budget = equipment $ per sq ft of building x building
+    area + flooring. Equipment rates come from the benchmark validation bands: amenity room $40 (cardio-heavy
+    room; small band $18-75, typical $45), studio $35, 24/7 gym $35 on a 5,000 sq ft club (medium typical),
+    strength club $40 (between the medium typical of $35 and Gold''s Gym''s $43), big box $38 (large typical);
+    per sq ft of training floor that is $42, $44, $46, $57 and $61, against restated typicals of $50 (medium)
+    and $61 (large). Flooring = training floor x blended zone rate of $6.06-6.33 per sq ft (behavior.yaml
+    profiles). Rounded to $1,000-5,000.'

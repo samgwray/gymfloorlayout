@@ -1,0 +1,4334 @@
+version: 1
+exercises:
+- id: treadmill_run
+  name: Treadmill running
+  modality: cardio
+  pattern: cardio
+  popularity: 0.6061
+  block_minutes: 22.0
+  options:
+  - uses:
+    - treadmill
+    quality: 1.0
+  - uses:
+    - curved_treadmill
+    quality: 0.7
+  - uses:
+    - elliptical
+    quality: 0.5
+  - uses:
+    - stair_climber
+    quality: 0.4
+  - uses:
+    - indoor_cycle
+    quality: 0.35
+  - uses:
+    - upright_bike
+    quality: 0.35
+  - uses:
+    - air_bike
+    quality: 0.3
+  - uses:
+    - rower
+    quality: 0.3
+  sources:
+  - sports-fitness-industry-sfia-2024
+  - health-fitness-association-how-77-2025
+  - derived-ex-cardio-popularity
+  - derived-ex-cardio-bout-minutes
+  - msse-43-7-acsm-position-stand-quantity-2011
+  - hacettepe-journal-sport-spor-2007
+  - ymca-south-hampton-roads-facility
+  - derived-ex-route-quality
+  - derived-ex-treadmill-split
+  - fitbod-s-2022-year-review-2023
+  - u-s-bureau-spotlight-statistics-sports-2008
+  notes: Treadmill = 40 % of cardio minutes (usage mix; SFIA 40.8 % of cardio occasions, HFA 43.4 % of
+    members), split equally run / incline walk / walk (estimate). Run bout 22 min (vigorous; ACSM >=20
+    min). Popularity = 13.3333 % of cardio minutes / 22-min bout. Curved manual treadmill 0.7 = same movement
+    on a self-powered machine that the research treats as a sprint / interval station (10-15 min bouts),
+    not a near-identical one.
+- id: treadmill_incline_walk
+  name: Treadmill incline walking
+  modality: cardio
+  pattern: cardio
+  popularity: 0.4444
+  block_minutes: 30.0
+  options:
+  - uses:
+    - treadmill
+    quality: 1.0
+  - uses:
+    - stair_climber
+    quality: 0.6
+  - uses:
+    - elliptical
+    quality: 0.55
+  - uses:
+    - curved_treadmill
+    quality: 0.4
+  - uses:
+    - upright_bike
+    quality: 0.35
+  - uses:
+    - recumbent_bike
+    quality: 0.3
+  sources:
+  - sports-fitness-industry-sfia-2024
+  - health-fitness-association-how-77-2025
+  - derived-ex-cardio-popularity
+  - derived-ex-cardio-bout-minutes
+  - msse-43-7-acsm-position-stand-quantity-2011
+  - hacettepe-journal-sport-spor-2007
+  - ymca-south-hampton-roads-facility
+  - derived-ex-route-quality
+  - derived-ex-treadmill-split
+  notes: One third of treadmill minutes (estimate; no data separate incline walking). Walk bout 30 min
+    (moderate; ACSM >=30 min); with runs at 22 the treadmill bout-weighted mean is 27 min (exercises report).
+    Popularity = 13.3333 % of cardio minutes / 30-min bout.
+- id: treadmill_walk
+  name: Treadmill walking
+  modality: cardio
+  pattern: cardio
+  popularity: 0.4444
+  block_minutes: 30.0
+  options:
+  - uses:
+    - treadmill
+    quality: 1.0
+  - uses:
+    - curved_treadmill
+    quality: 0.6
+  - uses:
+    - elliptical
+    quality: 0.55
+  - uses:
+    - upright_bike
+    quality: 0.45
+  - uses:
+    - recumbent_bike
+    quality: 0.45
+  - uses:
+    - recumbent_stepper
+    quality: 0.4
+  - uses:
+    - stair_climber
+    quality: 0.35
+  sources:
+  - sports-fitness-industry-sfia-2024
+  - health-fitness-association-how-77-2025
+  - derived-ex-cardio-popularity
+  - derived-ex-cardio-bout-minutes
+  - msse-43-7-acsm-position-stand-quantity-2011
+  - hacettepe-journal-sport-spor-2007
+  - ymca-south-hampton-roads-facility
+  - derived-ex-route-quality
+  - derived-ex-treadmill-split
+  - fitbod-s-2022-year-review-2023
+  notes: 'One third of treadmill minutes (estimate); Fitbod 2022: ''Treadmill Walking'' was the 2nd most
+    manually added exercise. Walk bout 30 min (moderate intensity). Popularity = 13.3333 % of cardio minutes
+    / 30-min bout.'
+- id: curved_treadmill_sprint
+  name: Curved treadmill sprints
+  modality: cardio
+  pattern: conditioning
+  popularity: 0.0667
+  block_minutes: 15.0
+  options:
+  - uses:
+    - curved_treadmill
+    quality: 1.0
+  - uses:
+    - treadmill
+    quality: 0.7
+  - uses:
+    - air_bike
+    quality: 0.5
+  - uses:
+    - ski_erg
+    quality: 0.4
+  - uses:
+    - rower
+    quality: 0.4
+  sources:
+  - sports-fitness-industry-sfia-2024
+  - health-fitness-association-how-77-2025
+  - derived-ex-cardio-popularity
+  - derived-ex-cardio-bout-minutes
+  - msse-43-7-acsm-position-stand-quantity-2011
+  - hacettepe-journal-sport-spor-2007
+  - ymca-south-hampton-roads-facility
+  - derived-ex-route-quality
+  - hyrox-fitness-race-2026
+  notes: Curved treadmill = 1 % of cardio minutes (usage estimate; not tracked by SFIA). Bout 15 min (exercises
+    report 15, occupancy report 10; interval use). Popularity = 1 % of cardio minutes / 15-min bout.
+- id: elliptical_session
+  name: Elliptical
+  modality: cardio
+  pattern: cardio
+  popularity: 0.6
+  block_minutes: 25.0
+  options:
+  - uses:
+    - elliptical
+    quality: 1.0
+  - uses:
+    - treadmill
+    quality: 0.55
+  - uses:
+    - stair_climber
+    quality: 0.5
+  - uses:
+    - recumbent_stepper
+    quality: 0.5
+  - uses:
+    - upright_bike
+    quality: 0.45
+  - uses:
+    - recumbent_bike
+    quality: 0.4
+  - uses:
+    - rower
+    quality: 0.35
+  sources:
+  - sports-fitness-industry-sfia-2024
+  - health-fitness-association-how-77-2025
+  - derived-ex-cardio-popularity
+  - derived-ex-cardio-bout-minutes
+  - msse-43-7-acsm-position-stand-quantity-2011
+  - hacettepe-journal-sport-spor-2007
+  - ymca-south-hampton-roads-facility
+  - derived-ex-route-quality
+  - allmind-planet-fitness-q3-2023-earnings
+  - fitness-network-13-costly-mistakes-your-2015
+  notes: Elliptical 15 % of cardio minutes (SFIA occasions 19.1 %, cut for HFA -19 % 2021-24 and Planet
+    Fitness 'far less used'). Bout 25 min (Girginer air-walker ~21 min; ACSM 20-30). Popularity = 15 %
+    of cardio minutes / 25-min bout.
+- id: upright_cycling
+  name: Upright cycling
+  modality: cardio
+  pattern: cardio
+  popularity: 0.44
+  block_minutes: 25.0
+  options:
+  - uses:
+    - upright_bike
+    quality: 1.0
+  - uses:
+    - indoor_cycle
+    quality: 0.9
+  - uses:
+    - recumbent_bike
+    quality: 0.8
+  - uses:
+    - air_bike
+    quality: 0.6
+  - uses:
+    - elliptical
+    quality: 0.4
+  - uses:
+    - treadmill
+    quality: 0.35
+  sources:
+  - sports-fitness-industry-sfia-2024
+  - health-fitness-association-how-77-2025
+  - derived-ex-cardio-popularity
+  - derived-ex-cardio-bout-minutes
+  - msse-43-7-acsm-position-stand-quantity-2011
+  - hacettepe-journal-sport-spor-2007
+  - ymca-south-hampton-roads-facility
+  - derived-ex-route-quality
+  - fitness-network-13-costly-mistakes-your-2015
+  notes: Upright 11 % of cardio minutes (SFIA upright+recumbent 25.5 % of occasions, split 11/8 and trimmed
+    for niche machines; usage estimate). Bout 25 min (Girginer bike 20-min program; ACSM 20-30). Popularity
+    = 11 % of cardio minutes / 25-min bout.
+- id: recumbent_cycling
+  name: Recumbent cycling
+  modality: cardio
+  pattern: cardio
+  popularity: 0.32
+  block_minutes: 25.0
+  options:
+  - uses:
+    - recumbent_bike
+    quality: 1.0
+  - uses:
+    - recumbent_stepper
+    quality: 0.75
+  - uses:
+    - upright_bike
+    quality: 0.7
+  - uses:
+    - indoor_cycle
+    quality: 0.4
+  - uses:
+    - elliptical
+    quality: 0.35
+  - uses:
+    - treadmill
+    quality: 0.35
+  sources:
+  - sports-fitness-industry-sfia-2024
+  - health-fitness-association-how-77-2025
+  - derived-ex-cardio-popularity
+  - derived-ex-cardio-bout-minutes
+  - msse-43-7-acsm-position-stand-quantity-2011
+  - hacettepe-journal-sport-spor-2007
+  - ymca-south-hampton-roads-facility
+  - derived-ex-route-quality
+  - u-s-bureau-spotlight-statistics-sports-2017-2
+  - puregym-when-gym-quiet-app-data-2023
+  notes: 'Recumbent 8 % of cardio minutes (usage estimate; SFIA does not split upright vs recumbent; PureGym
+    managers: recumbent bike 31 % ''least used''). Bout 25 min. Popularity = 8 % of cardio minutes / 25-min
+    bout.'
+- id: indoor_cycling
+  name: Indoor cycling
+  modality: cardio
+  pattern: cardio
+  popularity: 0.12
+  block_minutes: 25.0
+  options:
+  - uses:
+    - indoor_cycle
+    quality: 1.0
+  - uses:
+    - upright_bike
+    quality: 0.85
+  - uses:
+    - air_bike
+    quality: 0.6
+  - uses:
+    - recumbent_bike
+    quality: 0.6
+  sources:
+  - sports-fitness-industry-sfia-2024
+  - health-fitness-association-how-77-2025
+  - derived-ex-cardio-popularity
+  - derived-ex-cardio-bout-minutes
+  - msse-43-7-acsm-position-stand-quantity-2011
+  - hacettepe-journal-sport-spor-2007
+  - ymca-south-hampton-roads-facility
+  - derived-ex-route-quality
+  notes: Indoor cycle free use (not classes) = 3 % of cardio minutes (SFIA group cycling 2.4 % of occasions,
+    -37 % since 2019). Bout 25 min as for other bikes; class format (45 min) is excluded from floor time.
+    Popularity = 3 % of cardio minutes / 25-min bout.
+- id: air_bike_intervals
+  name: Air bike intervals
+  modality: cardio
+  pattern: conditioning
+  popularity: 0.1818
+  block_minutes: 11.0
+  options:
+  - uses:
+    - air_bike
+    quality: 1.0
+  - uses:
+    - ski_erg
+    quality: 0.65
+  - uses:
+    - rower
+    quality: 0.6
+  - uses:
+    - indoor_cycle
+    quality: 0.6
+  - uses:
+    - curved_treadmill
+    quality: 0.5
+  - uses:
+    - upright_bike
+    quality: 0.5
+  sources:
+  - sports-fitness-industry-sfia-2024
+  - health-fitness-association-how-77-2025
+  - derived-ex-cardio-popularity
+  - derived-ex-cardio-bout-minutes
+  - msse-43-7-acsm-position-stand-quantity-2011
+  - hacettepe-journal-sport-spor-2007
+  - ymca-south-hampton-roads-facility
+  - derived-ex-route-quality
+  - hyrox-fitness-race-2026
+  notes: Air bike 2 % of cardio minutes (usage estimate; not tracked by SFIA). Interval bout 11 min (exercises
+    report 10-12; occupancy report 8). Popularity = 2 % of cardio minutes / 11-min bout.
+- id: rowing
+  name: Rowing
+  modality: cardio
+  pattern: cardio
+  popularity: 0.4667
+  block_minutes: 15.0
+  options:
+  - uses:
+    - rower
+    quality: 1.0
+  - uses:
+    - ski_erg
+    quality: 0.6
+  - uses:
+    - air_bike
+    quality: 0.45
+  - uses:
+    - elliptical
+    quality: 0.35
+  - uses:
+    - upright_bike
+    quality: 0.3
+  - uses:
+    - treadmill
+    quality: 0.3
+  sources:
+  - sports-fitness-industry-sfia-2024
+  - health-fitness-association-how-77-2025
+  - derived-ex-cardio-popularity
+  - derived-ex-cardio-bout-minutes
+  - msse-43-7-acsm-position-stand-quantity-2011
+  - hacettepe-journal-sport-spor-2007
+  - ymca-south-hampton-roads-facility
+  - derived-ex-route-quality
+  - hyrox-fitness-race-2026
+  - concept2-2025-year-review-moving
+  notes: Rower 7 % of cardio minutes (SFIA 6.2 % of occasions, +7.4 % in 2023; HYROX station). Bout 15
+    min (warm-up/interval use; Concept2 logbook users' most common workout is 30 min). Popularity = 7
+    % of cardio minutes / 15-min bout.
+- id: stair_climbing
+  name: Stair climbing
+  modality: cardio
+  pattern: cardio
+  popularity: 0.5556
+  block_minutes: 18.0
+  options:
+  - uses:
+    - stair_climber
+    quality: 1.0
+  - uses:
+    - treadmill
+    quality: 0.6
+  - uses:
+    - elliptical
+    quality: 0.5
+  - uses:
+    - upright_bike
+    quality: 0.35
+  sources:
+  - sports-fitness-industry-sfia-2024
+  - health-fitness-association-how-77-2025
+  - derived-ex-cardio-popularity
+  - derived-ex-cardio-bout-minutes
+  - msse-43-7-acsm-position-stand-quantity-2011
+  - hacettepe-journal-sport-spor-2007
+  - ymca-south-hampton-roads-facility
+  - derived-ex-route-quality
+  - athletech-news-track-running-hiit-2024
+  - allmind-ai-transcript-planet-fitness-q2-2025
+  - puregym-when-gym-quiet-app-data-2023
+  - j-long-university-development-iot-2023
+  notes: Stair climber 10 % of cardio minutes (SFIA 6.1 % of occasions, raised for Garmin +25 % stair
+    2024 and Planet Fitness adding stair climbers; usage estimate). Bout 18 min (vigorous; U. Calgary
+    sensors ~10 min; 30-min caps). Popularity = 10 % of cardio minutes / 18-min bout.
+- id: ski_erg_intervals
+  name: Ski erg intervals
+  modality: cardio
+  pattern: conditioning
+  popularity: 0.1
+  block_minutes: 10.0
+  options:
+  - uses:
+    - ski_erg
+    quality: 1.0
+  - uses:
+    - rower
+    quality: 0.6
+  - uses:
+    - air_bike
+    quality: 0.55
+  - uses:
+    - battle_rope_station
+    quality: 0.35
+  sources:
+  - sports-fitness-industry-sfia-2024
+  - health-fitness-association-how-77-2025
+  - derived-ex-cardio-popularity
+  - derived-ex-cardio-bout-minutes
+  - msse-43-7-acsm-position-stand-quantity-2011
+  - hacettepe-journal-sport-spor-2007
+  - ymca-south-hampton-roads-facility
+  - derived-ex-route-quality
+  - hyrox-fitness-race-2026
+  - puregym-when-gym-quiet-app-data-2023
+  notes: 'SkiErg 1 % of cardio minutes (usage estimate; PureGym managers: SkiErg 17 % ''least used'';
+    HYROX station). Interval bout 10 min. Popularity = 1 % of cardio minutes / 10-min bout.'
+- id: seated_stepping
+  name: Seated total-body stepping
+  modality: cardio
+  pattern: cardio
+  popularity: 0.08
+  block_minutes: 25.0
+  options:
+  - uses:
+    - recumbent_stepper
+    quality: 1.0
+  - uses:
+    - recumbent_bike
+    quality: 0.8
+  - uses:
+    - upright_bike
+    quality: 0.45
+  - uses:
+    - elliptical
+    quality: 0.35
+  sources:
+  - sports-fitness-industry-sfia-2024
+  - health-fitness-association-how-77-2025
+  - derived-ex-cardio-popularity
+  - derived-ex-cardio-bout-minutes
+  - msse-43-7-acsm-position-stand-quantity-2011
+  - hacettepe-journal-sport-spor-2007
+  - ymca-south-hampton-roads-facility
+  - derived-ex-route-quality
+  - u-s-bureau-spotlight-statistics-sports-2017-2
+  notes: Recumbent stepper 2 % of cardio minutes (usage estimate; older-adult / rehab use). Bout 25 min
+    (exercises report 15-40). Popularity = 2 % of cardio minutes / 25-min bout.
+- id: barbell_back_squat
+  name: Barbell back squat
+  modality: barbell
+  pattern: squat
+  popularity: 4.102
+  block_minutes: 11.8
+  options:
+  - uses:
+    - power_rack
+    quality: 1.0
+  - uses:
+    - half_rack
+    quality: 0.95
+  - uses:
+    - smith_machine
+    quality: 0.6
+  - uses:
+    - leg_press
+    quality: 0.6
+  - uses:
+    - hack_squat
+    quality: 0.55
+  - uses:
+    - belt_squat
+    quality: 0.55
+  - uses:
+    - pendulum_squat
+    quality: 0.5
+  - uses:
+    - dumbbell_set_full
+    quality: 0.4
+  sources:
+  - strengthlog-most-popular-gym-exercises-2025
+  - fitbod-exercise-library-sets-logged-2026
+  - derived-ex-strength-popularity
+  - derived-ex-block-minutes
+  - american-college-sports-acsm-position-2009
+  - american-college-sports-acsm-position-2026
+  - sports-medicine-effects-rest-interval-2018
+  - nsw-institute-sport-effect-self-paced-2019
+  - kaggle-user-joep89-weightlifting-strong-2019
+  - derived-ex-route-quality
+  notes: 'Table 6.1 back squat 4.10 % of strength sets. Fallbacks follow Fitbod swaps (leg press 34.8
+    K, DB squat 13.6 K, hack 13.4 K, Smith 12.1 K). Block: heavy barbell class 11.8 min (setup + 2 warm-up
+    sets + 3 working sets + rests).'
+- id: barbell_front_squat
+  name: Barbell front squat
+  modality: barbell
+  pattern: squat
+  popularity: 0.657
+  block_minutes: 11.8
+  options:
+  - uses:
+    - power_rack
+    quality: 1.0
+  - uses:
+    - half_rack
+    quality: 0.95
+  - uses:
+    - lifting_platform
+    quality: 0.6
+  - uses:
+    - smith_machine
+    quality: 0.6
+  - uses:
+    - hack_squat
+    quality: 0.55
+  - uses:
+    - pendulum_squat
+    quality: 0.5
+  - uses:
+    - dumbbell_set_full
+    quality: 0.45
+  - uses:
+    - kettlebell_set
+    quality: 0.4
+  sources:
+  - strengthlog-most-popular-gym-exercises-2025
+  - fitbod-exercise-library-sets-logged-2026
+  - derived-ex-strength-popularity
+  - derived-ex-block-minutes
+  - american-college-sports-acsm-position-2009
+  - american-college-sports-acsm-position-2026
+  - sports-medicine-effects-rest-interval-2018
+  - nsw-institute-sport-effect-self-paced-2019
+  - kaggle-user-joep89-weightlifting-strong-2019
+  - derived-ex-route-quality
+  notes: 'Table 6.1 front squat 0.66 %. Platform route = clean to the front rack without a rack. Block:
+    heavy barbell class 11.8 min (setup + 2 warm-up sets + 3 working sets + rests).'
+- id: barbell_bench_press
+  name: Barbell bench press
+  modality: barbell
+  pattern: horizontal_push
+  popularity: 6.798
+  block_minutes: 11.8
+  options:
+  - uses:
+    - bench_press_station
+    quality: 1.0
+  - uses:
+    - power_rack
+    - flat_bench
+    quality: 0.95
+  - uses:
+    - power_rack
+    - adjustable_bench
+    quality: 0.95
+  - uses:
+    - half_rack
+    - flat_bench
+    quality: 0.9
+  - uses:
+    - dumbbell_set_full
+    - flat_bench
+    quality: 0.75
+  - uses:
+    - smith_machine
+    - flat_bench
+    quality: 0.6
+  - uses:
+    - plate_loaded_chest_press
+    quality: 0.6
+  - uses:
+    - chest_press
+    quality: 0.6
+  sources:
+  - strengthlog-most-popular-gym-exercises-2025
+  - fitbod-exercise-library-sets-logged-2026
+  - derived-ex-strength-popularity
+  - derived-ex-block-minutes
+  - american-college-sports-acsm-position-2009
+  - american-college-sports-acsm-position-2026
+  - sports-medicine-effects-rest-interval-2018
+  - nsw-institute-sport-effect-self-paced-2019
+  - kaggle-user-joep89-weightlifting-strong-2019
+  - derived-ex-route-quality
+  notes: 'Table 6.1 flat bench 5.74 % + close-grip bench 1.06 % (folded: same station and routes). Fallbacks
+    follow Fitbod swaps (DB bench 68.4 K, Smith 16.8 K, HS chest press 13.3 K, machine bench 13.1 K).
+    Block: heavy barbell class 11.8 min (setup + 2 warm-up sets + 3 working sets + rests).'
+- id: barbell_incline_bench
+  name: Barbell incline bench press
+  modality: barbell
+  pattern: horizontal_push
+  popularity: 1.049
+  block_minutes: 11.8
+  options:
+  - uses:
+    - incline_bench_station
+    quality: 1.0
+  - uses:
+    - power_rack
+    - adjustable_bench
+    quality: 0.95
+  - uses:
+    - half_rack
+    - adjustable_bench
+    quality: 0.9
+  - uses:
+    - dumbbell_set_full
+    - adjustable_bench
+    quality: 0.75
+  - uses:
+    - smith_machine
+    - adjustable_bench
+    quality: 0.65
+  - uses:
+    - plate_loaded_chest_press
+    quality: 0.6
+  - uses:
+    - chest_press
+    quality: 0.5
+  sources:
+  - strengthlog-most-popular-gym-exercises-2025
+  - fitbod-exercise-library-sets-logged-2026
+  - derived-ex-strength-popularity
+  - derived-ex-block-minutes
+  - american-college-sports-acsm-position-2009
+  - american-college-sports-acsm-position-2026
+  - sports-medicine-effects-rest-interval-2018
+  - nsw-institute-sport-effect-self-paced-2019
+  - kaggle-user-joep89-weightlifting-strong-2019
+  - derived-ex-route-quality
+  notes: 'Table 6.1 incline barbell bench 1.05 %. Block: heavy barbell class 11.8 min (setup + 2 warm-up
+    sets + 3 working sets + rests).'
+- id: barbell_decline_bench
+  name: Barbell decline bench press
+  modality: barbell
+  pattern: horizontal_push
+  popularity: 0.394
+  block_minutes: 11.8
+  options:
+  - uses:
+    - decline_bench_station
+    quality: 1.0
+  - uses:
+    - bench_press_station
+    quality: 0.7
+  - uses:
+    - power_rack
+    - flat_bench
+    quality: 0.65
+  - uses:
+    - plate_loaded_chest_press
+    quality: 0.6
+  - uses:
+    - smith_machine
+    - flat_bench
+    quality: 0.55
+  - uses:
+    - chest_press
+    quality: 0.5
+  sources:
+  - strengthlog-most-popular-gym-exercises-2025
+  - fitbod-exercise-library-sets-logged-2026
+  - derived-ex-strength-popularity
+  - derived-ex-block-minutes
+  - american-college-sports-acsm-position-2009
+  - american-college-sports-acsm-position-2026
+  - sports-medicine-effects-rest-interval-2018
+  - nsw-institute-sport-effect-self-paced-2019
+  - kaggle-user-joep89-weightlifting-strong-2019
+  - derived-ex-route-quality
+  notes: 'Table 6.1 decline barbell bench 0.39 %. Flat-bench routes = same lift at a different angle.
+    Block: heavy barbell class 11.8 min (setup + 2 warm-up sets + 3 working sets + rests).'
+- id: barbell_overhead_press
+  name: Barbell overhead press
+  modality: barbell
+  pattern: vertical_push
+  popularity: 2.122
+  block_minutes: 11.8
+  options:
+  - uses:
+    - power_rack
+    quality: 1.0
+  - uses:
+    - half_rack
+    quality: 0.95
+  - uses:
+    - dumbbell_set_full
+    - adjustable_bench
+    quality: 0.75
+  - uses:
+    - smith_machine
+    quality: 0.65
+  - uses:
+    - shoulder_press
+    quality: 0.6
+  - uses:
+    - plate_loaded_shoulder_press
+    quality: 0.6
+  - uses:
+    - lifting_platform
+    quality: 0.6
+  - uses:
+    - dumbbell_set_light
+    - adjustable_bench
+    quality: 0.6
+  sources:
+  - strengthlog-most-popular-gym-exercises-2025
+  - fitbod-exercise-library-sets-logged-2026
+  - derived-ex-strength-popularity
+  - derived-ex-block-minutes
+  - american-college-sports-acsm-position-2009
+  - american-college-sports-acsm-position-2026
+  - sports-medicine-effects-rest-interval-2018
+  - nsw-institute-sport-effect-self-paced-2019
+  - kaggle-user-joep89-weightlifting-strong-2019
+  - derived-ex-route-quality
+  notes: 'Table 6.1 overhead press 2.12 %. Fallbacks follow Fitbod swaps (DB shoulder press 35.4 K, seated
+    BB press 8.7 K, machine 7.6 K, HS 5.9 K). Block: heavy barbell class 11.8 min (setup + 2 warm-up sets
+    + 3 working sets + rests).'
+- id: deadlift
+  name: Deadlift
+  modality: barbell
+  pattern: hinge
+  popularity: 3.179
+  block_minutes: 11.8
+  options:
+  - uses:
+    - lifting_platform
+    quality: 1.0
+  - uses:
+    - power_rack
+    quality: 0.9
+  - uses:
+    - half_rack
+    quality: 0.85
+  - uses:
+    - dumbbell_set_full
+    quality: 0.55
+  - uses:
+    - smith_machine
+    quality: 0.5
+  sources:
+  - strengthlog-most-popular-gym-exercises-2025
+  - fitbod-exercise-library-sets-logged-2026
+  - derived-ex-strength-popularity
+  - derived-ex-block-minutes
+  - american-college-sports-acsm-position-2009
+  - american-college-sports-acsm-position-2026
+  - sports-medicine-effects-rest-interval-2018
+  - nsw-institute-sport-effect-self-paced-2019
+  - kaggle-user-joep89-weightlifting-strong-2019
+  - derived-ex-route-quality
+  notes: 'Table 6.1 deadlift 3.05 % + trap-bar deadlift 0.13 % (folded). Rack routes = pulling on the
+    rack''s floor area. Fitbod''s top swap is DB RDL (32.9 K), but it is load-limited. Block: heavy barbell
+    class 11.8 min (setup + 2 warm-up sets + 3 working sets + rests).'
+- id: romanian_deadlift
+  name: Romanian deadlift
+  modality: barbell
+  pattern: hinge
+  popularity: 1.1825
+  block_minutes: 11.8
+  options:
+  - uses:
+    - power_rack
+    quality: 1.0
+  - uses:
+    - lifting_platform
+    quality: 0.95
+  - uses:
+    - half_rack
+    quality: 0.95
+  - uses:
+    - dumbbell_set_full
+    quality: 0.75
+  - uses:
+    - smith_machine
+    quality: 0.6
+  - uses:
+    - dumbbell_set_light
+    quality: 0.55
+  - uses:
+    - kettlebell_set
+    quality: 0.45
+  sources:
+  - strengthlog-most-popular-gym-exercises-2025
+  - fitbod-exercise-library-sets-logged-2026
+  - derived-ex-strength-popularity
+  - derived-ex-family-splits
+  - derived-ex-block-minutes
+  - american-college-sports-acsm-position-2009
+  - american-college-sports-acsm-position-2026
+  - sports-medicine-effects-rest-interval-2018
+  - nsw-institute-sport-effect-self-paced-2019
+  - kaggle-user-joep89-weightlifting-strong-2019
+  - derived-ex-route-quality
+  notes: 'Table 6.1 barbell RDL 1.10 % + the barbell share (18.2 %) of the stiff-legged deadlift family
+    0.43 %. Fitbod''s top swap is DB RDL (29.5 K). Block: heavy barbell class 11.8 min (setup + 2 warm-up
+    sets + 3 working sets + rests).'
+- id: barbell_row
+  name: Barbell bent-over row
+  modality: barbell
+  pattern: horizontal_pull
+  popularity: 1.975
+  block_minutes: 11.8
+  options:
+  - uses:
+    - lifting_platform
+    quality: 1.0
+  - uses:
+    - power_rack
+    quality: 0.95
+  - uses:
+    - half_rack
+    quality: 0.9
+  - uses:
+    - t_bar_row
+    quality: 0.75
+  - uses:
+    - dumbbell_set_full
+    - flat_bench
+    quality: 0.7
+  - uses:
+    - smith_machine
+    quality: 0.65
+  - uses:
+    - plate_loaded_row
+    quality: 0.65
+  - uses:
+    - seated_row
+    quality: 0.6
+  sources:
+  - strengthlog-most-popular-gym-exercises-2025
+  - fitbod-exercise-library-sets-logged-2026
+  - derived-ex-strength-popularity
+  - derived-ex-block-minutes
+  - american-college-sports-acsm-position-2009
+  - american-college-sports-acsm-position-2026
+  - sports-medicine-effects-rest-interval-2018
+  - nsw-institute-sport-effect-self-paced-2019
+  - kaggle-user-joep89-weightlifting-strong-2019
+  - derived-ex-route-quality
+  notes: 'Table 6.1 barbell row 1.98 %. Block: heavy barbell class 11.8 min (setup + 2 warm-up sets +
+    3 working sets + rests).'
+- id: barbell_hip_thrust
+  name: Barbell hip thrust
+  modality: barbell
+  pattern: glute
+  popularity: 0.96
+  block_minutes: 9.3
+  options:
+  - uses:
+    - hip_thrust_bench
+    quality: 1.0
+  - uses:
+    - hip_thrust_machine
+    quality: 0.9
+  - uses:
+    - flat_bench
+    - power_rack
+    quality: 0.85
+  - uses:
+    - flat_bench
+    - half_rack
+    quality: 0.85
+  - uses:
+    - adjustable_bench
+    - power_rack
+    quality: 0.8
+  - uses:
+    - smith_machine
+    - flat_bench
+    quality: 0.75
+  - uses:
+    - dumbbell_set_full
+    - flat_bench
+    quality: 0.65
+  - uses:
+    - glute_kickback
+    quality: 0.45
+  sources:
+  - strengthlog-most-popular-gym-exercises-2025
+  - fitbod-exercise-library-sets-logged-2026
+  - derived-ex-strength-popularity
+  - derived-ex-block-minutes
+  - american-college-sports-acsm-position-2009
+  - american-college-sports-acsm-position-2026
+  - kaggle-user-joep89-weightlifting-strong-2019
+  - derived-ex-route-quality
+  notes: 'Table 6.1 loaded hip thrust 0.96 % (barbell 2.31 M + dumbbell 1.06 M Fitbod sets; DB variant
+    folded here). Bench + rack routes borrow the rack''s bar and plates, so the rack is occupied. Fitbod
+    swaps: kickback machine 21.5 K, cable hip extension 16.1 K, DB hip thrust 16.0 K. Women ~3x men (Table
+    6.1 tilt). Block: loaded barbell accessory class 9.3 min (setup + 1 warm-up set + 3 working sets +
+    rests).'
+- id: olympic_lifts
+  name: Cleans and snatches
+  modality: barbell
+  pattern: hinge
+  popularity: 0.865
+  block_minutes: 11.8
+  options:
+  - uses:
+    - lifting_platform
+    quality: 1.0
+  - uses:
+    - power_rack
+    quality: 0.55
+  - uses:
+    - half_rack
+    quality: 0.5
+  - uses:
+    - kettlebell_set
+    quality: 0.4
+  - uses:
+    - dumbbell_set_full
+    quality: 0.4
+  sources:
+  - strengthlog-most-popular-gym-exercises-2025
+  - fitbod-exercise-library-sets-logged-2026
+  - derived-ex-strength-popularity
+  - derived-ex-block-minutes
+  - american-college-sports-acsm-position-2009
+  - american-college-sports-acsm-position-2026
+  - sports-medicine-effects-rest-interval-2018
+  - nsw-institute-sport-effect-self-paced-2019
+  - kaggle-user-joep89-weightlifting-strong-2019
+  - derived-ex-route-quality
+  notes: 'Table 6.1 Olympic lifts and derivatives 0.87 % (cleans, snatches, jerks, push press). Rack routes
+    allow no dropping. Block: heavy barbell class 11.8 min (setup + 2 warm-up sets + 3 working sets +
+    rests).'
+- id: barbell_lunge
+  name: Barbell lunge / split squat
+  modality: barbell
+  pattern: lunge
+  popularity: 0.4989
+  block_minutes: 9.3
+  options:
+  - uses:
+    - power_rack
+    quality: 1.0
+  - uses:
+    - half_rack
+    quality: 0.95
+  - uses:
+    - smith_machine
+    quality: 0.75
+  - uses:
+    - dumbbell_set_full
+    quality: 0.75
+  - uses:
+    - dumbbell_set_light
+    quality: 0.65
+  - uses:
+    - landmine
+    quality: 0.6
+  sources:
+  - strengthlog-most-popular-gym-exercises-2025
+  - fitbod-exercise-library-sets-logged-2026
+  - derived-ex-strength-popularity
+  - derived-ex-family-splits
+  - derived-ex-block-minutes
+  - american-college-sports-acsm-position-2009
+  - american-college-sports-acsm-position-2026
+  - kaggle-user-joep89-weightlifting-strong-2019
+  - derived-ex-route-quality
+  notes: 'Table 6.1 barbell lunge 0.32 % + barbell step-ups (18 % of the step-up family 1.00 %). Block:
+    loaded barbell accessory class 9.3 min (setup + 1 warm-up set + 3 working sets + rests).'
+- id: barbell_curl
+  name: Barbell / EZ-bar curl
+  modality: barbell
+  pattern: arm
+  popularity: 3.107
+  block_minutes: 4.6
+  options:
+  - uses:
+    - fixed_barbell_set
+    quality: 1.0
+  - uses:
+    - cable_column
+    quality: 0.8
+  - uses:
+    - functional_trainer
+    quality: 0.8
+  - uses:
+    - dumbbell_set_light
+    quality: 0.75
+  - uses:
+    - dumbbell_set_full
+    quality: 0.75
+  - uses:
+    - cable_crossover
+    quality: 0.75
+  - uses:
+    - biceps_curl_machine
+    quality: 0.7
+  - uses:
+    - multi_station_gym
+    quality: 0.7
+  sources:
+  - strengthlog-most-popular-gym-exercises-2025
+  - fitbod-exercise-library-sets-logged-2026
+  - derived-ex-strength-popularity
+  - derived-ex-block-minutes
+  - american-college-sports-acsm-position-2009
+  - frontiers-sports-active-give-it-rest-2024
+  - sports-basel-profiling-rest-intervals-2018
+  - derived-ex-route-quality
+  notes: 'Table 6.1 barbell curl 1.92 % + EZ-bar curl 1.18 %. Block: isolation class 4.6 min (setup +
+    3 working sets + rests).'
+- id: skull_crusher
+  name: EZ-bar skull crusher
+  modality: barbell
+  pattern: arm
+  popularity: 0.906
+  block_minutes: 4.6
+  options:
+  - uses:
+    - fixed_barbell_set
+    - flat_bench
+    quality: 1.0
+  - uses:
+    - fixed_barbell_set
+    - adjustable_bench
+    quality: 0.95
+  - uses:
+    - dumbbell_set_light
+    - flat_bench
+    quality: 0.85
+  - uses:
+    - dumbbell_set_full
+    - flat_bench
+    quality: 0.85
+  - uses:
+    - dumbbell_set_light
+    - adjustable_bench
+    quality: 0.8
+  - uses:
+    - dumbbell_set_full
+    - adjustable_bench
+    quality: 0.8
+  - uses:
+    - cable_column
+    quality: 0.7
+  - uses:
+    - triceps_machine
+    quality: 0.65
+  sources:
+  - strengthlog-most-popular-gym-exercises-2025
+  - fitbod-exercise-library-sets-logged-2026
+  - derived-ex-strength-popularity
+  - derived-ex-block-minutes
+  - american-college-sports-acsm-position-2009
+  - frontiers-sports-active-give-it-rest-2024
+  - sports-basel-profiling-rest-intervals-2018
+  - derived-ex-route-quality
+  notes: 'Table 6.1 barbell/EZ skullcrusher 0.91 % (the dumbbell skullcrusher is in db_triceps_extension).
+    Block: isolation class 4.6 min (setup + 3 working sets + rests).'
+- id: landmine_press_row
+  name: Landmine press and row
+  modality: barbell
+  pattern: vertical_push
+  popularity: 0.285
+  block_minutes: 7.1
+  options:
+  - uses:
+    - landmine
+    quality: 1.0
+  - uses:
+    - t_bar_row
+    quality: 0.7
+  - uses:
+    - power_rack
+    quality: 0.6
+  - uses:
+    - half_rack
+    quality: 0.6
+  - uses:
+    - dumbbell_set_full
+    quality: 0.5
+  - uses:
+    - cable_column
+    quality: 0.5
+  sources:
+  - strengthlog-most-popular-gym-exercises-2025
+  - fitbod-exercise-library-sets-logged-2026
+  - derived-ex-strength-popularity
+  - derived-ex-block-minutes
+  - american-college-sports-acsm-position-2009
+  - frontiers-sports-active-give-it-rest-2024
+  - derived-ex-route-quality
+  notes: 'Table 6.1 landmine press/row 0.29 %. Rack routes = landmine attachment on a rack. Block: dumbbell/kettlebell
+    compound class 7.1 min (setup + 1 warm-up set + 3 working sets + rests).'
+- id: barbell_shrug
+  name: Barbell shrug
+  modality: barbell
+  pattern: shoulder_isolation
+  popularity: 0.4564
+  block_minutes: 4.6
+  options:
+  - uses:
+    - power_rack
+    quality: 1.0
+  - uses:
+    - half_rack
+    quality: 0.95
+  - uses:
+    - smith_machine
+    quality: 0.85
+  - uses:
+    - lifting_platform
+    quality: 0.85
+  - uses:
+    - fixed_barbell_set
+    quality: 0.8
+  - uses:
+    - dumbbell_set_full
+    quality: 0.75
+  sources:
+  - strengthlog-most-popular-gym-exercises-2025
+  - fitbod-exercise-library-sets-logged-2026
+  - derived-ex-strength-popularity
+  - derived-ex-family-splits
+  - derived-ex-block-minutes
+  - american-college-sports-acsm-position-2009
+  - frontiers-sports-active-give-it-rest-2024
+  - sports-basel-profiling-rest-intervals-2018
+  - derived-ex-route-quality
+  notes: 'Barbell, Smith and machine shrugs = 38.4 % of the Table 6.1 shrug family (1.19 %). Block: isolation
+    class 4.6 min (setup + 3 working sets + rests).'
+- id: good_morning
+  name: Good morning
+  modality: barbell
+  pattern: hinge
+  popularity: 0.128
+  block_minutes: 9.3
+  options:
+  - uses:
+    - power_rack
+    quality: 1.0
+  - uses:
+    - half_rack
+    quality: 0.95
+  - uses:
+    - smith_machine
+    quality: 0.7
+  - uses:
+    - dumbbell_set_full
+    quality: 0.5
+  - uses:
+    - hyperextension
+    quality: 0.45
+  - uses:
+    - back_extension_machine
+    quality: 0.45
+  sources:
+  - derived-ex-tail-estimates
+  - strengthlog-most-popular-gym-exercises-2025
+  - fitbod-exercise-library-sets-logged-2026
+  - derived-ex-block-minutes
+  - american-college-sports-acsm-position-2009
+  - american-college-sports-acsm-position-2026
+  - kaggle-user-joep89-weightlifting-strong-2019
+  - derived-ex-route-quality
+  notes: 'No app counts: set to the least-logged measured barbell hinge variant (trap-bar deadlift 0.128
+    %). Loaded-accessory bout class. Block: loaded barbell accessory class 9.3 min (setup + 1 warm-up
+    set + 3 working sets + rests).'
+- id: upright_row
+  name: Upright row
+  modality: barbell
+  pattern: shoulder_isolation
+  popularity: 1.146
+  block_minutes: 4.6
+  options:
+  - uses:
+    - fixed_barbell_set
+    quality: 1.0
+  - uses:
+    - dumbbell_set_light
+    quality: 0.9
+  - uses:
+    - dumbbell_set_full
+    quality: 0.9
+  - uses:
+    - cable_column
+    quality: 0.9
+  - uses:
+    - functional_trainer
+    quality: 0.9
+  - uses:
+    - cable_crossover
+    quality: 0.85
+  - uses:
+    - smith_machine
+    quality: 0.8
+  sources:
+  - strengthlog-most-popular-gym-exercises-2025
+  - fitbod-exercise-library-sets-logged-2026
+  - derived-ex-strength-popularity
+  - derived-ex-family-splits
+  - derived-ex-block-minutes
+  - american-college-sports-acsm-position-2009
+  - frontiers-sports-active-give-it-rest-2024
+  - sports-basel-profiling-rest-intervals-2018
+  - derived-ex-route-quality
+  notes: 'ADDED (not canonical): Table 6.1 upright row 1.15 % of strength sets, above the ~1 % bar. Fitbod
+    family = barbell 48 % / dumbbell 38 % / cable 14 %, so it is filed under barbell with the other implements
+    as near-equivalent routes. Block: isolation class 4.6 min (setup + 3 working sets + rests).'
+- id: db_bench_press
+  name: Dumbbell bench press
+  modality: dumbbell
+  pattern: horizontal_push
+  popularity: 1.968
+  block_minutes: 7.1
+  options:
+  - uses:
+    - dumbbell_set_full
+    - flat_bench
+    quality: 1.0
+  - uses:
+    - dumbbell_set_full
+    - adjustable_bench
+    quality: 0.95
+  - uses:
+    - bench_press_station
+    quality: 0.75
+  - uses:
+    - dumbbell_set_light
+    - flat_bench
+    quality: 0.7
+  - uses:
+    - dumbbell_set_light
+    - adjustable_bench
+    quality: 0.65
+  - uses:
+    - chest_press
+    quality: 0.65
+  - uses:
+    - plate_loaded_chest_press
+    quality: 0.65
+  - uses:
+    - smith_machine
+    - flat_bench
+    quality: 0.55
+  sources:
+  - strengthlog-most-popular-gym-exercises-2025
+  - fitbod-exercise-library-sets-logged-2026
+  - derived-ex-strength-popularity
+  - fitness-network-13-costly-mistakes-your-2015
+  - derived-ex-block-minutes
+  - american-college-sports-acsm-position-2009
+  - frontiers-sports-active-give-it-rest-2024
+  - derived-ex-route-quality
+  notes: 'Table 6.1 flat DB bench 1.97 %. Light set (<=50 lb) 0.7: many trained users press >50 lb. Fitbod
+    swaps: BB bench 58.0 K, DB incline 27.2 K, machine bench 17.7 K, HS chest press 13.6 K. Block: dumbbell/kettlebell
+    compound class 7.1 min (setup + 1 warm-up set + 3 working sets + rests).'
+- id: db_incline_press
+  name: Incline dumbbell press
+  modality: dumbbell
+  pattern: horizontal_push
+  popularity: 1.635
+  block_minutes: 7.1
+  options:
+  - uses:
+    - dumbbell_set_full
+    - adjustable_bench
+    quality: 1.0
+  - uses:
+    - incline_bench_station
+    quality: 0.75
+  - uses:
+    - dumbbell_set_light
+    - adjustable_bench
+    quality: 0.7
+  - uses:
+    - power_rack
+    - adjustable_bench
+    quality: 0.7
+  - uses:
+    - smith_machine
+    - adjustable_bench
+    quality: 0.65
+  - uses:
+    - plate_loaded_chest_press
+    quality: 0.65
+  - uses:
+    - dumbbell_set_full
+    - flat_bench
+    quality: 0.6
+  - uses:
+    - chest_press
+    quality: 0.55
+  sources:
+  - strengthlog-most-popular-gym-exercises-2025
+  - fitbod-exercise-library-sets-logged-2026
+  - derived-ex-strength-popularity
+  - fitness-network-13-costly-mistakes-your-2015
+  - derived-ex-block-minutes
+  - american-college-sports-acsm-position-2009
+  - frontiers-sports-active-give-it-rest-2024
+  - derived-ex-route-quality
+  notes: 'Table 6.1 incline DB press 1.64 %. Block: dumbbell/kettlebell compound class 7.1 min (setup
+    + 1 warm-up set + 3 working sets + rests).'
+- id: db_shoulder_press
+  name: Dumbbell shoulder press
+  modality: dumbbell
+  pattern: vertical_push
+  popularity: 1.8
+  block_minutes: 7.1
+  options:
+  - uses:
+    - dumbbell_set_full
+    - adjustable_bench
+    quality: 1.0
+  - uses:
+    - dumbbell_set_full
+    quality: 0.85
+  - uses:
+    - dumbbell_set_light
+    - adjustable_bench
+    quality: 0.8
+  - uses:
+    - dumbbell_set_light
+    quality: 0.7
+  - uses:
+    - shoulder_press
+    quality: 0.7
+  - uses:
+    - plate_loaded_shoulder_press
+    quality: 0.7
+  - uses:
+    - power_rack
+    quality: 0.65
+  - uses:
+    - smith_machine
+    - adjustable_bench
+    quality: 0.6
+  sources:
+  - strengthlog-most-popular-gym-exercises-2025
+  - fitbod-exercise-library-sets-logged-2026
+  - derived-ex-strength-popularity
+  - fitness-network-13-costly-mistakes-your-2015
+  - derived-ex-block-minutes
+  - american-college-sports-acsm-position-2009
+  - frontiers-sports-active-give-it-rest-2024
+  - derived-ex-route-quality
+  notes: 'Table 6.1 DB shoulder press 1.80 %. Bench-free routes = standing press. Fitbod swaps: machine
+    shoulder press 16.5 K, BB press 9.8 K, HS press 9.1 K. Block: dumbbell/kettlebell compound class 7.1
+    min (setup + 1 warm-up set + 3 working sets + rests).'
+- id: db_lateral_raise
+  name: Dumbbell lateral raise
+  modality: dumbbell
+  pattern: shoulder_isolation
+  popularity: 2.227
+  block_minutes: 4.6
+  options:
+  - uses:
+    - dumbbell_set_light
+    quality: 1.0
+  - uses:
+    - dumbbell_set_full
+    quality: 1.0
+  - uses:
+    - cable_column
+    quality: 0.85
+  - uses:
+    - functional_trainer
+    quality: 0.85
+  - uses:
+    - cable_crossover
+    quality: 0.85
+  sources:
+  - strengthlog-most-popular-gym-exercises-2025
+  - fitbod-exercise-library-sets-logged-2026
+  - derived-ex-strength-popularity
+  - fitness-network-13-costly-mistakes-your-2015
+  - derived-ex-block-minutes
+  - american-college-sports-acsm-position-2009
+  - frontiers-sports-active-give-it-rest-2024
+  - sports-basel-profiling-rest-intervals-2018
+  - derived-ex-route-quality
+  notes: 'Table 6.1 DB lateral raise 2.23 % (incl. Fitbod ''Dumbbell Shoulder Raise''). Top swap: cable
+    lateral raise. Block: isolation class 4.6 min (setup + 3 working sets + rests).'
+- id: db_rear_delt_fly
+  name: Dumbbell rear-delt fly
+  modality: dumbbell
+  pattern: shoulder_isolation
+  popularity: 1.333
+  block_minutes: 4.6
+  options:
+  - uses:
+    - dumbbell_set_light
+    quality: 1.0
+  - uses:
+    - dumbbell_set_full
+    quality: 1.0
+  - uses:
+    - pec_fly_rear_delt
+    quality: 0.9
+  - uses:
+    - cable_crossover
+    quality: 0.85
+  - uses:
+    - functional_trainer
+    quality: 0.85
+  - uses:
+    - cable_column
+    quality: 0.8
+  sources:
+  - strengthlog-most-popular-gym-exercises-2025
+  - fitbod-exercise-library-sets-logged-2026
+  - derived-ex-strength-popularity
+  - fitness-network-13-costly-mistakes-your-2015
+  - derived-ex-block-minutes
+  - american-college-sports-acsm-position-2009
+  - frontiers-sports-active-give-it-rest-2024
+  - sports-basel-profiling-rest-intervals-2018
+  - derived-ex-route-quality
+  notes: 'Table 6.1 DB rear-delt raise 1.33 % (bent-over; a chest-supported bench variant adds no fallback
+    because it needs the same dumbbells). Block: isolation class 4.6 min (setup + 3 working sets + rests).'
+- id: db_curl
+  name: Dumbbell curl
+  modality: dumbbell
+  pattern: arm
+  popularity: 2.586
+  block_minutes: 4.6
+  options:
+  - uses:
+    - dumbbell_set_light
+    quality: 1.0
+  - uses:
+    - dumbbell_set_full
+    quality: 1.0
+  - uses:
+    - cable_column
+    quality: 0.8
+  - uses:
+    - functional_trainer
+    quality: 0.8
+  - uses:
+    - fixed_barbell_set
+    quality: 0.8
+  - uses:
+    - cable_crossover
+    quality: 0.8
+  - uses:
+    - biceps_curl_machine
+    quality: 0.75
+  - uses:
+    - multi_station_gym
+    quality: 0.7
+  sources:
+  - strengthlog-most-popular-gym-exercises-2025
+  - fitbod-exercise-library-sets-logged-2026
+  - derived-ex-strength-popularity
+  - fitness-network-13-costly-mistakes-your-2015
+  - derived-ex-block-minutes
+  - american-college-sports-acsm-position-2009
+  - frontiers-sports-active-give-it-rest-2024
+  - sports-basel-profiling-rest-intervals-2018
+  - derived-ex-route-quality
+  notes: 'Table 6.1 DB curl 2.59 % (Fitbod''s most-logged exercise). Fitbod swaps: hammer curl 16.1 K,
+    cable curl 12.1 K, BB curl 11.5 K, EZ curl 11.0 K, machine curl 10.0 K. Block: isolation class 4.6
+    min (setup + 3 working sets + rests).'
+- id: db_hammer_curl
+  name: Hammer curl
+  modality: dumbbell
+  pattern: arm
+  popularity: 2.071
+  block_minutes: 4.6
+  options:
+  - uses:
+    - dumbbell_set_light
+    quality: 1.0
+  - uses:
+    - dumbbell_set_full
+    quality: 1.0
+  - uses:
+    - cable_column
+    quality: 0.8
+  - uses:
+    - functional_trainer
+    quality: 0.8
+  - uses:
+    - cable_crossover
+    quality: 0.8
+  - uses:
+    - fixed_barbell_set
+    quality: 0.7
+  - uses:
+    - biceps_curl_machine
+    quality: 0.65
+  sources:
+  - strengthlog-most-popular-gym-exercises-2025
+  - fitbod-exercise-library-sets-logged-2026
+  - derived-ex-strength-popularity
+  - fitness-network-13-costly-mistakes-your-2015
+  - derived-ex-block-minutes
+  - american-college-sports-acsm-position-2009
+  - frontiers-sports-active-give-it-rest-2024
+  - sports-basel-profiling-rest-intervals-2018
+  - derived-ex-route-quality
+  notes: 'Table 6.1 hammer curl 2.07 %. Block: isolation class 4.6 min (setup + 3 working sets + rests).'
+- id: db_preacher_curl
+  name: Preacher curl
+  modality: dumbbell
+  pattern: arm
+  popularity: 0.612
+  block_minutes: 4.6
+  options:
+  - uses:
+    - preacher_bench
+    - dumbbell_set_light
+    quality: 1.0
+  - uses:
+    - preacher_bench
+    - fixed_barbell_set
+    quality: 1.0
+  - uses:
+    - preacher_bench
+    - dumbbell_set_full
+    quality: 1.0
+  - uses:
+    - biceps_curl_machine
+    quality: 0.85
+  - uses:
+    - dumbbell_set_light
+    - adjustable_bench
+    quality: 0.75
+  - uses:
+    - dumbbell_set_full
+    - adjustable_bench
+    quality: 0.75
+  - uses:
+    - cable_column
+    quality: 0.7
+  sources:
+  - strengthlog-most-popular-gym-exercises-2025
+  - fitbod-exercise-library-sets-logged-2026
+  - derived-ex-strength-popularity
+  - fitness-network-13-costly-mistakes-your-2015
+  - derived-ex-block-minutes
+  - american-college-sports-acsm-position-2009
+  - frontiers-sports-active-give-it-rest-2024
+  - sports-basel-profiling-rest-intervals-2018
+  - derived-ex-route-quality
+  notes: 'Table 6.1 preacher curl 0.61 % (bench preacher, DB or EZ bar; machine preacher is in machine_curl).
+    Bench routes without a preacher pad = incline / concentration curls, listed for both dumbbell sets.
+    Block: isolation class 4.6 min (setup + 3 working sets + rests).'
+- id: db_triceps_extension
+  name: Dumbbell overhead triceps extension
+  modality: dumbbell
+  pattern: arm
+  popularity: 3.22
+  block_minutes: 4.6
+  options:
+  - uses:
+    - dumbbell_set_light
+    - adjustable_bench
+    quality: 1.0
+  - uses:
+    - dumbbell_set_light
+    - flat_bench
+    quality: 1.0
+  - uses:
+    - dumbbell_set_full
+    - adjustable_bench
+    quality: 1.0
+  - uses:
+    - dumbbell_set_full
+    - flat_bench
+    quality: 1.0
+  - uses:
+    - dumbbell_set_light
+    quality: 0.9
+  - uses:
+    - dumbbell_set_full
+    quality: 0.9
+  - uses:
+    - cable_column
+    quality: 0.75
+  - uses:
+    - triceps_machine
+    quality: 0.7
+  sources:
+  - strengthlog-most-popular-gym-exercises-2025
+  - fitbod-exercise-library-sets-logged-2026
+  - derived-ex-strength-popularity
+  - fitness-network-13-costly-mistakes-your-2015
+  - derived-ex-block-minutes
+  - american-college-sports-acsm-position-2009
+  - frontiers-sports-active-give-it-rest-2024
+  - sports-basel-profiling-rest-intervals-2018
+  - derived-ex-route-quality
+  notes: 'Table 6.1 overhead/seated DB triceps extension 1.72 % + DB skullcrusher 1.50 % (folded: same
+    dumbbells + bench). Bench-free routes = standing overhead extension. Block: isolation class 4.6 min
+    (setup + 3 working sets + rests).'
+- id: db_row
+  name: One-arm dumbbell row
+  modality: dumbbell
+  pattern: horizontal_pull
+  popularity: 2.119
+  block_minutes: 7.1
+  options:
+  - uses:
+    - dumbbell_set_full
+    - flat_bench
+    quality: 1.0
+  - uses:
+    - dumbbell_set_full
+    - adjustable_bench
+    quality: 0.95
+  - uses:
+    - dumbbell_set_full
+    quality: 0.8
+  - uses:
+    - dumbbell_set_light
+    - flat_bench
+    quality: 0.65
+  - uses:
+    - seated_row
+    quality: 0.65
+  - uses:
+    - plate_loaded_row
+    quality: 0.65
+  - uses:
+    - dumbbell_set_light
+    - adjustable_bench
+    quality: 0.6
+  - uses:
+    - t_bar_row
+    quality: 0.6
+  sources:
+  - strengthlog-most-popular-gym-exercises-2025
+  - fitbod-exercise-library-sets-logged-2026
+  - derived-ex-strength-popularity
+  - fitness-network-13-costly-mistakes-your-2015
+  - derived-ex-block-minutes
+  - american-college-sports-acsm-position-2009
+  - frontiers-sports-active-give-it-rest-2024
+  - derived-ex-route-quality
+  notes: 'Table 6.1 one-arm DB row 2.12 %. Rows are often >50 lb, so the light set scores 0.6-0.65. Block:
+    dumbbell/kettlebell compound class 7.1 min (setup + 1 warm-up set + 3 working sets + rests).'
+- id: db_rdl
+  name: Dumbbell Romanian deadlift
+  modality: dumbbell
+  pattern: hinge
+  popularity: 1.5035
+  block_minutes: 7.1
+  options:
+  - uses:
+    - dumbbell_set_full
+    quality: 1.0
+  - uses:
+    - kettlebell_set
+    quality: 0.75
+  - uses:
+    - power_rack
+    quality: 0.75
+  - uses:
+    - lifting_platform
+    quality: 0.75
+  - uses:
+    - half_rack
+    quality: 0.7
+  - uses:
+    - fixed_barbell_set
+    quality: 0.7
+  - uses:
+    - dumbbell_set_light
+    quality: 0.65
+  - uses:
+    - smith_machine
+    quality: 0.6
+  sources:
+  - strengthlog-most-popular-gym-exercises-2025
+  - fitbod-exercise-library-sets-logged-2026
+  - derived-ex-extra-fitbod-rows
+  - derived-ex-family-splits
+  - fitness-network-13-costly-mistakes-your-2015
+  - derived-ex-block-minutes
+  - american-college-sports-acsm-position-2009
+  - frontiers-sports-active-give-it-rest-2024
+  - derived-ex-route-quality
+  notes: 'Fitbod ''Dumbbell Romanian Deadlift'' 4.63 M sets (left out of Table 6.1; consensus-equivalent
+    1.15 %) + the dumbbell share (81.8 %) of the stiff-legged deadlift family 0.43 %. Block: dumbbell/kettlebell
+    compound class 7.1 min (setup + 1 warm-up set + 3 working sets + rests).'
+- id: goblet_squat
+  name: Goblet squat
+  modality: dumbbell
+  pattern: squat
+  popularity: 1.465
+  block_minutes: 7.1
+  options:
+  - uses:
+    - dumbbell_set_full
+    quality: 1.0
+  - uses:
+    - kettlebell_set
+    quality: 1.0
+  - uses:
+    - dumbbell_set_light
+    quality: 0.75
+  - uses:
+    - belt_squat
+    quality: 0.65
+  - uses:
+    - leg_press
+    quality: 0.6
+  - uses:
+    - smith_machine
+    quality: 0.55
+  sources:
+  - strengthlog-most-popular-gym-exercises-2025
+  - fitbod-exercise-library-sets-logged-2026
+  - derived-ex-strength-popularity
+  - derived-ex-extra-fitbod-rows
+  - fitness-network-13-costly-mistakes-your-2015
+  - derived-ex-block-minutes
+  - american-college-sports-acsm-position-2009
+  - frontiers-sports-active-give-it-rest-2024
+  - derived-ex-route-quality
+  notes: 'Table 6.1 goblet squat 0.45 % + Fitbod ''Dumbbell Squat'' 3.74 M sets (left out of Table 6.1;
+    consensus-equivalent 1.02 %; same equipment, folded). Block: dumbbell/kettlebell compound class 7.1
+    min (setup + 1 warm-up set + 3 working sets + rests).'
+- id: db_split_squat
+  name: Bulgarian split squat
+  modality: dumbbell
+  pattern: lunge
+  popularity: 0.642
+  block_minutes: 7.1
+  options:
+  - uses:
+    - dumbbell_set_full
+    - flat_bench
+    quality: 1.0
+  - uses:
+    - dumbbell_set_full
+    - adjustable_bench
+    quality: 0.95
+  - uses:
+    - dumbbell_set_full
+    - plyo_box_set
+    quality: 0.85
+  - uses:
+    - dumbbell_set_light
+    - flat_bench
+    quality: 0.85
+  - uses:
+    - dumbbell_set_light
+    - adjustable_bench
+    quality: 0.8
+  - uses:
+    - smith_machine
+    - flat_bench
+    quality: 0.75
+  - uses:
+    - power_rack
+    - flat_bench
+    quality: 0.7
+  - uses:
+    - dumbbell_set_full
+    quality: 0.7
+  sources:
+  - strengthlog-most-popular-gym-exercises-2025
+  - fitbod-exercise-library-sets-logged-2026
+  - derived-ex-strength-popularity
+  - fitness-network-13-costly-mistakes-your-2015
+  - derived-ex-block-minutes
+  - american-college-sports-acsm-position-2009
+  - frontiers-sports-active-give-it-rest-2024
+  - derived-ex-route-quality
+  notes: 'Table 6.1 Bulgarian split squat 0.64 % (women ~1.5x men). Typical loads are moderate, so the
+    light set scores 0.8-0.85. Block: dumbbell/kettlebell compound class 7.1 min (setup + 1 warm-up set
+    + 3 working sets + rests).'
+- id: db_lunge
+  name: Dumbbell lunge / step-up
+  modality: dumbbell
+  pattern: lunge
+  popularity: 1.5769
+  block_minutes: 7.1
+  options:
+  - uses:
+    - dumbbell_set_full
+    quality: 1.0
+  - uses:
+    - dumbbell_set_light
+    quality: 0.9
+  - uses:
+    - kettlebell_set
+    quality: 0.85
+  - uses:
+    - smith_machine
+    quality: 0.7
+  - uses:
+    - power_rack
+    quality: 0.7
+  - uses:
+    - half_rack
+    quality: 0.65
+  - uses:
+    - turf_lane
+    quality: 0.55
+  - uses:
+    - plyo_box_set
+    quality: 0.5
+  sources:
+  - strengthlog-most-popular-gym-exercises-2025
+  - fitbod-exercise-library-sets-logged-2026
+  - derived-ex-strength-popularity
+  - derived-ex-family-splits
+  - fitness-network-13-costly-mistakes-your-2015
+  - derived-ex-block-minutes
+  - american-college-sports-acsm-position-2009
+  - frontiers-sports-active-give-it-rest-2024
+  - derived-ex-route-quality
+  notes: 'Table 6.1 DB lunge 1.24 % + dumbbell step-ups (34 % of the step-up family 1.00 %). Step-ups
+    also need a box or bench, which is rarely the constraint. Block: dumbbell/kettlebell compound class
+    7.1 min (setup + 1 warm-up set + 3 working sets + rests).'
+- id: db_fly
+  name: Dumbbell chest fly
+  modality: dumbbell
+  pattern: horizontal_push
+  popularity: 1.615
+  block_minutes: 4.6
+  options:
+  - uses:
+    - dumbbell_set_full
+    - flat_bench
+    quality: 1.0
+  - uses:
+    - dumbbell_set_light
+    - flat_bench
+    quality: 0.95
+  - uses:
+    - dumbbell_set_full
+    - adjustable_bench
+    quality: 0.95
+  - uses:
+    - dumbbell_set_light
+    - adjustable_bench
+    quality: 0.9
+  - uses:
+    - pec_fly_rear_delt
+    quality: 0.8
+  - uses:
+    - cable_crossover
+    quality: 0.8
+  - uses:
+    - functional_trainer
+    quality: 0.8
+  - uses:
+    - multi_station_gym
+    quality: 0.6
+  sources:
+  - strengthlog-most-popular-gym-exercises-2025
+  - fitbod-exercise-library-sets-logged-2026
+  - derived-ex-strength-popularity
+  - fitness-network-13-costly-mistakes-your-2015
+  - derived-ex-block-minutes
+  - american-college-sports-acsm-position-2009
+  - frontiers-sports-active-give-it-rest-2024
+  - sports-basel-profiling-rest-intervals-2018
+  - derived-ex-route-quality
+  notes: 'Table 6.1 DB fly 1.62 %. Flies are light, so the light set is near-equivalent. Block: isolation
+    class 4.6 min (setup + 3 working sets + rests).'
+- id: db_shrug
+  name: Dumbbell shrug
+  modality: dumbbell
+  pattern: shoulder_isolation
+  popularity: 0.7336
+  block_minutes: 4.6
+  options:
+  - uses:
+    - dumbbell_set_full
+    quality: 1.0
+  - uses:
+    - power_rack
+    quality: 0.8
+  - uses:
+    - smith_machine
+    quality: 0.8
+  - uses:
+    - fixed_barbell_set
+    quality: 0.75
+  - uses:
+    - dumbbell_set_light
+    quality: 0.6
+  - uses:
+    - dumbbell_heavy_extension
+    quality: 0.6
+  sources:
+  - strengthlog-most-popular-gym-exercises-2025
+  - fitbod-exercise-library-sets-logged-2026
+  - derived-ex-strength-popularity
+  - derived-ex-family-splits
+  - fitness-network-13-costly-mistakes-your-2015
+  - derived-ex-block-minutes
+  - american-college-sports-acsm-position-2009
+  - frontiers-sports-active-give-it-rest-2024
+  - sports-basel-profiling-rest-intervals-2018
+  - derived-ex-route-quality
+  notes: 'Fitbod ''Dumbbell Shrug'' = 61.6 % of the Table 6.1 shrug family (1.19 %). Shrugs are heavy
+    (light set 0.6); the 105-150 lb rack suits only strong lifters (0.6). Block: isolation class 4.6 min
+    (setup + 3 working sets + rests).'
+- id: heavy_db_press
+  name: Heavy dumbbell press (over 100 lb)
+  modality: dumbbell
+  pattern: horizontal_push
+  popularity: 0.1081
+  block_minutes: 7.1
+  options:
+  - uses:
+    - dumbbell_heavy_extension
+    - flat_bench
+    quality: 1.0
+  - uses:
+    - dumbbell_heavy_extension
+    - adjustable_bench
+    quality: 1.0
+  - uses:
+    - bench_press_station
+    quality: 0.65
+  - uses:
+    - power_rack
+    - flat_bench
+    quality: 0.6
+  - uses:
+    - incline_bench_station
+    quality: 0.6
+  - uses:
+    - plate_loaded_chest_press
+    quality: 0.6
+  - uses:
+    - dumbbell_set_full
+    - flat_bench
+    quality: 0.45
+  - uses:
+    - dumbbell_set_full
+    - adjustable_bench
+    quality: 0.45
+  sources:
+  - derived-ex-tail-estimates
+  - strengthlog-most-popular-gym-exercises-2025
+  - fitbod-exercise-library-sets-logged-2026
+  - derived-ex-strength-popularity
+  - derived-ex-block-minutes
+  - american-college-sports-acsm-position-2009
+  - frontiers-sports-active-give-it-rest-2024
+  - derived-ex-route-quality
+  notes: 'Estimate: 2 % of DB bench + incline + shoulder pressing (5.40 % of sets) needs >100 lb dumbbells
+    (advanced-lifter niche; no load-distribution data). 5-100 lb set scores 0.45 (under-loaded). Block:
+    dumbbell/kettlebell compound class 7.1 min (setup + 1 warm-up set + 3 working sets + rests).'
+- id: db_front_raise
+  name: Dumbbell front raise
+  modality: dumbbell
+  pattern: shoulder_isolation
+  popularity: 1.457
+  block_minutes: 4.6
+  options:
+  - uses:
+    - dumbbell_set_light
+    quality: 1.0
+  - uses:
+    - dumbbell_set_full
+    quality: 1.0
+  - uses:
+    - cable_column
+    quality: 0.85
+  - uses:
+    - functional_trainer
+    quality: 0.85
+  - uses:
+    - cable_crossover
+    quality: 0.85
+  - uses:
+    - fixed_barbell_set
+    quality: 0.85
+  sources:
+  - strengthlog-most-popular-gym-exercises-2025
+  - fitbod-exercise-library-sets-logged-2026
+  - derived-ex-strength-popularity
+  - fitness-network-13-costly-mistakes-your-2015
+  - derived-ex-block-minutes
+  - american-college-sports-acsm-position-2009
+  - frontiers-sports-active-give-it-rest-2024
+  - sports-basel-profiling-rest-intervals-2018
+  - derived-ex-route-quality
+  notes: 'ADDED (not canonical): Table 6.1 DB front raise 1.46 % of strength sets (Fitbod 6.66 M sets),
+    above the ~1 % bar and not covered by a canonical exercise. Block: isolation class 4.6 min (setup
+    + 3 working sets + rests).'
+- id: leg_press_exercise
+  name: Leg press
+  modality: machine
+  pattern: squat
+  popularity: 2.16
+  block_minutes: 8.0
+  options:
+  - uses:
+    - leg_press
+    quality: 1.0
+  - uses:
+    - hack_squat
+    quality: 0.7
+  - uses:
+    - pendulum_squat
+    quality: 0.7
+  - uses:
+    - belt_squat
+    quality: 0.65
+  - uses:
+    - smith_machine
+    quality: 0.55
+  - uses:
+    - power_rack
+    quality: 0.55
+  - uses:
+    - half_rack
+    quality: 0.5
+  - uses:
+    - leg_extension
+    quality: 0.4
+  sources:
+  - strengthlog-most-popular-gym-exercises-2025
+  - fitbod-exercise-library-sets-logged-2026
+  - derived-ex-strength-popularity
+  - derived-ex-block-minutes
+  - american-college-sports-acsm-position-2009
+  - american-college-sports-acsm-position-2026
+  - sports-medicine-effects-rest-interval-2018
+  - derived-ex-route-quality
+  notes: 'Table 6.1 leg press 2.16 % (45-degree + Fitbod ''Machine Leg Press''; women ~1.4x men). Fitbod
+    swaps: leg extension 21.1 K, back squat 15.0 K, hack squat 12.1 K. Block: machine compound class 8.0
+    min (setup + 1 warm-up set + 3 working sets + rests).'
+- id: hack_squat_exercise
+  name: Hack squat
+  modality: machine
+  pattern: squat
+  popularity: 0.354
+  block_minutes: 8.0
+  options:
+  - uses:
+    - hack_squat
+    quality: 1.0
+  - uses:
+    - pendulum_squat
+    quality: 0.9
+  - uses:
+    - leg_press
+    quality: 0.75
+  - uses:
+    - belt_squat
+    quality: 0.7
+  - uses:
+    - smith_machine
+    quality: 0.7
+  - uses:
+    - power_rack
+    quality: 0.6
+  - uses:
+    - half_rack
+    quality: 0.55
+  - uses:
+    - leg_extension
+    quality: 0.4
+  sources:
+  - strengthlog-most-popular-gym-exercises-2025
+  - fitbod-exercise-library-sets-logged-2026
+  - derived-ex-strength-popularity
+  - derived-ex-block-minutes
+  - american-college-sports-acsm-position-2009
+  - american-college-sports-acsm-position-2026
+  - sports-medicine-effects-rest-interval-2018
+  - derived-ex-route-quality
+  notes: 'Table 6.1 hack squat 0.35 %. Fitbod swaps: leg press 16.6 K, leg extension 12.1 K, back squat
+    8.1 K. Block: machine compound class 8.0 min (setup + 1 warm-up set + 3 working sets + rests).'
+- id: belt_squat_exercise
+  name: Belt squat
+  modality: machine
+  pattern: squat
+  popularity: 0.038
+  block_minutes: 8.0
+  options:
+  - uses:
+    - belt_squat
+    quality: 1.0
+  - uses:
+    - hack_squat
+    quality: 0.65
+  - uses:
+    - pendulum_squat
+    quality: 0.65
+  - uses:
+    - leg_press
+    quality: 0.6
+  - uses:
+    - smith_machine
+    quality: 0.6
+  - uses:
+    - power_rack
+    quality: 0.55
+  - uses:
+    - dumbbell_set_full
+    quality: 0.55
+  - uses:
+    - kettlebell_set
+    quality: 0.55
+  sources:
+  - derived-ex-tail-estimates
+  - derived-ex-extra-fitbod-rows
+  - fitbod-exercise-library-sets-logged-2026
+  - strengthlog-most-popular-gym-exercises-2025
+  - puregym-leeds-city-centre-south-gym-2026
+  - derived-ex-block-minutes
+  - american-college-sports-acsm-position-2009
+  - american-college-sports-acsm-position-2026
+  - sports-medicine-effects-rest-interval-2018
+  - derived-ex-route-quality
+  notes: 'Half of Fitbod ''Machine Squat'' (233,699 sets; consensus-equivalent 0.076 %), the report''s
+    closest proxy for belt and pendulum squats. Low-confidence. Block: machine compound class 8.0 min
+    (setup + 1 warm-up set + 3 working sets + rests).'
+- id: pendulum_squat_exercise
+  name: Pendulum squat
+  modality: machine
+  pattern: squat
+  popularity: 0.038
+  block_minutes: 8.0
+  options:
+  - uses:
+    - pendulum_squat
+    quality: 1.0
+  - uses:
+    - hack_squat
+    quality: 0.9
+  - uses:
+    - leg_press
+    quality: 0.7
+  - uses:
+    - belt_squat
+    quality: 0.7
+  - uses:
+    - smith_machine
+    quality: 0.6
+  - uses:
+    - power_rack
+    quality: 0.55
+  sources:
+  - derived-ex-tail-estimates
+  - derived-ex-extra-fitbod-rows
+  - fitbod-exercise-library-sets-logged-2026
+  - strengthlog-most-popular-gym-exercises-2025
+  - puregym-leeds-city-centre-south-gym-2026
+  - derived-ex-block-minutes
+  - american-college-sports-acsm-position-2009
+  - american-college-sports-acsm-position-2026
+  - sports-medicine-effects-rest-interval-2018
+  - derived-ex-route-quality
+  notes: 'Half of Fitbod ''Machine Squat'' (consensus-equivalent 0.076 %). Low-confidence. Block: machine
+    compound class 8.0 min (setup + 1 warm-up set + 3 working sets + rests).'
+- id: smith_squat
+  name: Smith machine squat / lunge
+  modality: machine
+  pattern: squat
+  popularity: 0.317
+  block_minutes: 8.0
+  options:
+  - uses:
+    - smith_machine
+    quality: 1.0
+  - uses:
+    - power_rack
+    quality: 0.75
+  - uses:
+    - hack_squat
+    quality: 0.75
+  - uses:
+    - half_rack
+    quality: 0.7
+  - uses:
+    - leg_press
+    quality: 0.7
+  - uses:
+    - pendulum_squat
+    quality: 0.7
+  - uses:
+    - belt_squat
+    quality: 0.7
+  - uses:
+    - dumbbell_set_full
+    quality: 0.5
+  sources:
+  - strengthlog-most-popular-gym-exercises-2025
+  - fitbod-exercise-library-sets-logged-2026
+  - derived-ex-strength-popularity
+  - derived-ex-block-minutes
+  - american-college-sports-acsm-position-2009
+  - american-college-sports-acsm-position-2026
+  - sports-medicine-effects-rest-interval-2018
+  - derived-ex-route-quality
+  notes: 'Table 6.1 Smith squat 0.32 %. Fitbod swaps: back squat 4.0 K, leg press 3.2 K, hack squat 2.0
+    K. Block: machine compound class 8.0 min (setup + 1 warm-up set + 3 working sets + rests).'
+- id: smith_press
+  name: Smith machine press
+  modality: machine
+  pattern: horizontal_push
+  popularity: 0.64
+  block_minutes: 8.0
+  options:
+  - uses:
+    - smith_machine
+    - adjustable_bench
+    quality: 1.0
+  - uses:
+    - smith_machine
+    - flat_bench
+    quality: 0.95
+  - uses:
+    - bench_press_station
+    quality: 0.75
+  - uses:
+    - power_rack
+    - adjustable_bench
+    quality: 0.7
+  - uses:
+    - dumbbell_set_full
+    - adjustable_bench
+    quality: 0.7
+  - uses:
+    - chest_press
+    quality: 0.65
+  - uses:
+    - plate_loaded_chest_press
+    quality: 0.65
+  - uses:
+    - incline_bench_station
+    quality: 0.65
+  sources:
+  - strengthlog-most-popular-gym-exercises-2025
+  - fitbod-exercise-library-sets-logged-2026
+  - derived-ex-strength-popularity
+  - derived-ex-block-minutes
+  - american-college-sports-acsm-position-2009
+  - american-college-sports-acsm-position-2026
+  - sports-medicine-effects-rest-interval-2018
+  - derived-ex-route-quality
+  notes: 'Table 6.1 Smith bench, flat + incline, 0.64 %. Fitbod swaps: BB bench 11.6 K, DB bench 8.9 K.
+    Block: machine compound class 8.0 min (setup + 1 warm-up set + 3 working sets + rests).'
+- id: leg_extension_exercise
+  name: Leg extension
+  modality: machine
+  pattern: knee_isolation
+  popularity: 2.115
+  block_minutes: 4.6
+  options:
+  - uses:
+    - leg_extension
+    quality: 1.0
+  - uses:
+    - leg_ext_curl_combo
+    quality: 0.95
+  - uses:
+    - multi_station_gym
+    quality: 0.8
+  - uses:
+    - leg_press
+    quality: 0.4
+  sources:
+  - strengthlog-most-popular-gym-exercises-2025
+  - fitbod-exercise-library-sets-logged-2026
+  - derived-ex-strength-popularity
+  - derived-ex-block-minutes
+  - american-college-sports-acsm-position-2009
+  - frontiers-sports-active-give-it-rest-2024
+  - sports-basel-profiling-rest-intervals-2018
+  - derived-ex-route-quality
+  notes: 'Table 6.1 leg extension 2.12 %. Leg press is a same-muscle fallback (Fitbod swap 7.8 K). Block:
+    isolation class 4.6 min (setup + 3 working sets + rests).'
+- id: leg_curl_exercise
+  name: Leg curl
+  modality: machine
+  pattern: knee_isolation
+  popularity: 2.199
+  block_minutes: 4.6
+  options:
+  - uses:
+    - leg_curl
+    quality: 1.0
+  - uses:
+    - leg_ext_curl_combo
+    quality: 0.95
+  - uses:
+    - multi_station_gym
+    quality: 0.75
+  - uses:
+    - ghd
+    quality: 0.55
+  - uses:
+    - cable_column
+    quality: 0.5
+  - uses:
+    - dumbbell_set_full
+    quality: 0.45
+  - uses:
+    - suspension_trainer_station
+    quality: 0.45
+  sources:
+  - strengthlog-most-popular-gym-exercises-2025
+  - fitbod-exercise-library-sets-logged-2026
+  - derived-ex-strength-popularity
+  - derived-ex-block-minutes
+  - american-college-sports-acsm-position-2009
+  - frontiers-sports-active-give-it-rest-2024
+  - sports-basel-profiling-rest-intervals-2018
+  - derived-ex-route-quality
+  notes: 'Table 6.1 seated leg curl 1.19 % + lying leg curl 1.01 % (Fitbod: lying -> seated is the largest
+    swap, 60.4 K). DB RDL is a same-muscle fallback (10-15 K swaps). Block: isolation class 4.6 min (setup
+    + 3 working sets + rests).'
+- id: hip_abduction
+  name: Hip abduction
+  modality: machine
+  pattern: glute
+  popularity: 0.57
+  block_minutes: 4.6
+  options:
+  - uses:
+    - hip_abductor_adductor
+    quality: 1.0
+  - uses:
+    - cable_column
+    quality: 0.65
+  - uses:
+    - functional_trainer
+    quality: 0.65
+  - uses:
+    - cable_crossover
+    quality: 0.6
+  - uses:
+    - glute_kickback
+    quality: 0.5
+  - uses:
+    - accessory_pack
+    - stretch_area
+    quality: 0.45
+  sources:
+  - strengthlog-most-popular-gym-exercises-2025
+  - fitbod-exercise-library-sets-logged-2026
+  - derived-ex-strength-popularity
+  - derived-ex-block-minutes
+  - american-college-sports-acsm-position-2009
+  - frontiers-sports-active-give-it-rest-2024
+  - sports-basel-profiling-rest-intervals-2018
+  - derived-ex-route-quality
+  notes: 'Table 6.1 hip abduction 0.57 % (women ~2.6x men). Fitbod swaps: adductor 2.9 K, cable abduction
+    1.9 K, side leg raise 1.2 K. Block: isolation class 4.6 min (setup + 3 working sets + rests).'
+- id: hip_adduction
+  name: Hip adduction
+  modality: machine
+  pattern: glute
+  popularity: 0.462
+  block_minutes: 4.6
+  options:
+  - uses:
+    - hip_abductor_adductor
+    quality: 1.0
+  - uses:
+    - cable_column
+    quality: 0.6
+  - uses:
+    - functional_trainer
+    quality: 0.6
+  - uses:
+    - cable_crossover
+    quality: 0.55
+  - uses:
+    - accessory_pack
+    - stretch_area
+    quality: 0.4
+  sources:
+  - strengthlog-most-popular-gym-exercises-2025
+  - fitbod-exercise-library-sets-logged-2026
+  - derived-ex-strength-popularity
+  - derived-ex-block-minutes
+  - american-college-sports-acsm-position-2009
+  - frontiers-sports-active-give-it-rest-2024
+  - sports-basel-profiling-rest-intervals-2018
+  - derived-ex-route-quality
+  notes: 'Table 6.1 hip adduction 0.46 %. Block: isolation class 4.6 min (setup + 3 working sets + rests).'
+- id: glute_kickback_exercise
+  name: Glute kickback
+  modality: machine
+  pattern: glute
+  popularity: 0.563
+  block_minutes: 4.6
+  options:
+  - uses:
+    - glute_kickback
+    quality: 1.0
+  - uses:
+    - cable_column
+    quality: 0.85
+  - uses:
+    - functional_trainer
+    quality: 0.85
+  - uses:
+    - cable_crossover
+    quality: 0.8
+  - uses:
+    - hip_thrust_machine
+    quality: 0.6
+  - uses:
+    - hip_thrust_bench
+    quality: 0.6
+  - uses:
+    - multi_station_gym
+    quality: 0.55
+  sources:
+  - strengthlog-most-popular-gym-exercises-2025
+  - fitbod-exercise-library-sets-logged-2026
+  - derived-ex-strength-popularity
+  - derived-ex-block-minutes
+  - american-college-sports-acsm-position-2009
+  - frontiers-sports-active-give-it-rest-2024
+  - sports-basel-profiling-rest-intervals-2018
+  - derived-ex-route-quality
+  notes: 'Table 6.1 glute kickback machine 0.56 %. Fitbod swaps: cable hip extension 20.3 K, BB hip thrust
+    14.7 K. Block: isolation class 4.6 min (setup + 3 working sets + rests).'
+- id: machine_hip_thrust
+  name: Machine hip thrust
+  modality: machine
+  pattern: glute
+  popularity: 0.3
+  block_minutes: 8.0
+  options:
+  - uses:
+    - hip_thrust_machine
+    quality: 1.0
+  - uses:
+    - hip_thrust_bench
+    quality: 0.9
+  - uses:
+    - smith_machine
+    - flat_bench
+    quality: 0.75
+  - uses:
+    - flat_bench
+    - power_rack
+    quality: 0.75
+  - uses:
+    - dumbbell_set_full
+    - flat_bench
+    quality: 0.65
+  - uses:
+    - glute_kickback
+    quality: 0.6
+  - uses:
+    - cable_column
+    quality: 0.5
+  sources:
+  - derived-ex-tail-estimates
+  - strengthlog-most-popular-gym-exercises-2025
+  - fitbod-exercise-library-sets-logged-2026
+  - booty-builder-history-hip-thrust-2026
+  - puregym-leeds-city-centre-south-gym-2026
+  - derived-ex-block-minutes
+  - american-college-sports-acsm-position-2009
+  - american-college-sports-acsm-position-2026
+  - sports-medicine-effects-rest-interval-2018
+  - derived-ex-route-quality
+  notes: 'No app counts: tail estimate 0.3 % of strength sets. Barbell hip-thrust demand also overflows
+    to this machine (route 0.9). Block: machine compound class 8.0 min (setup + 1 warm-up set + 3 working
+    sets + rests).'
+- id: calf_raise_exercise
+  name: Calf raise
+  modality: machine
+  pattern: calf
+  popularity: 1.21
+  block_minutes: 4.6
+  options:
+  - uses:
+    - calf_raise
+    quality: 1.0
+  - uses:
+    - leg_press
+    quality: 0.9
+  - uses:
+    - smith_machine
+    quality: 0.85
+  - uses:
+    - hack_squat
+    quality: 0.75
+  - uses:
+    - dumbbell_set_full
+    - plyo_box_set
+    quality: 0.6
+  sources:
+  - strengthlog-most-popular-gym-exercises-2025
+  - fitbod-exercise-library-sets-logged-2026
+  - derived-ex-strength-popularity
+  - derived-ex-block-minutes
+  - american-college-sports-acsm-position-2009
+  - frontiers-sports-active-give-it-rest-2024
+  - sports-basel-profiling-rest-intervals-2018
+  - derived-ex-route-quality
+  notes: 'Table 6.1 seated calf 0.48 % + calf press on leg press 0.44 % + standing calf machine 0.29 %
+    (Boostcamp: calf work is skipped 36-38 % of the time). Block: isolation class 4.6 min (setup + 3 working
+    sets + rests).'
+- id: machine_chest_press
+  name: Machine chest press
+  modality: machine
+  pattern: horizontal_push
+  popularity: 1.739
+  block_minutes: 8.0
+  options:
+  - uses:
+    - chest_press
+    quality: 1.0
+  - uses:
+    - plate_loaded_chest_press
+    quality: 1.0
+  - uses:
+    - multi_station_gym
+    quality: 0.85
+  - uses:
+    - bench_press_station
+    quality: 0.65
+  - uses:
+    - smith_machine
+    - flat_bench
+    quality: 0.65
+  - uses:
+    - dumbbell_set_full
+    - flat_bench
+    quality: 0.65
+  - uses:
+    - dumbbell_set_light
+    - flat_bench
+    quality: 0.6
+  - uses:
+    - pec_fly_rear_delt
+    quality: 0.45
+  sources:
+  - strengthlog-most-popular-gym-exercises-2025
+  - fitbod-exercise-library-sets-logged-2026
+  - derived-ex-strength-popularity
+  - derived-ex-block-minutes
+  - american-college-sports-acsm-position-2009
+  - american-college-sports-acsm-position-2026
+  - sports-medicine-effects-rest-interval-2018
+  - derived-ex-route-quality
+  notes: 'Table 6.1 selectorized chest press 0.68 % + plate-loaded chest press 1.06 %. Block: machine
+    compound class 8.0 min (setup + 1 warm-up set + 3 working sets + rests).'
+- id: pec_deck
+  name: Pec deck fly
+  modality: machine
+  pattern: horizontal_push
+  popularity: 1.017
+  block_minutes: 4.6
+  options:
+  - uses:
+    - pec_fly_rear_delt
+    quality: 1.0
+  - uses:
+    - cable_crossover
+    quality: 0.85
+  - uses:
+    - functional_trainer
+    quality: 0.85
+  - uses:
+    - multi_station_gym
+    quality: 0.85
+  - uses:
+    - dumbbell_set_full
+    - flat_bench
+    quality: 0.75
+  - uses:
+    - dumbbell_set_light
+    - flat_bench
+    quality: 0.75
+  - uses:
+    - dumbbell_set_full
+    - adjustable_bench
+    quality: 0.7
+  - uses:
+    - dumbbell_set_light
+    - adjustable_bench
+    quality: 0.7
+  sources:
+  - strengthlog-most-popular-gym-exercises-2025
+  - fitbod-exercise-library-sets-logged-2026
+  - derived-ex-strength-popularity
+  - derived-ex-block-minutes
+  - american-college-sports-acsm-position-2009
+  - frontiers-sports-active-give-it-rest-2024
+  - sports-basel-profiling-rest-intervals-2018
+  - derived-ex-route-quality
+  notes: 'Table 6.1 machine fly 1.02 %. Fitbod swaps: cable crossover fly 10.8 K, DB fly 9.4 K, machine
+    bench 5.3 K. The chest-press route (a different movement, 0.5) is left out so both dumbbell sets fit
+    within 8 routes. Block: isolation class 4.6 min (setup + 3 working sets + rests).'
+- id: machine_rear_delt
+  name: Machine rear-delt fly
+  modality: machine
+  pattern: shoulder_isolation
+  popularity: 0.136
+  block_minutes: 4.6
+  options:
+  - uses:
+    - pec_fly_rear_delt
+    quality: 1.0
+  - uses:
+    - cable_crossover
+    quality: 0.85
+  - uses:
+    - functional_trainer
+    quality: 0.85
+  - uses:
+    - dumbbell_set_light
+    quality: 0.8
+  - uses:
+    - dumbbell_set_full
+    quality: 0.8
+  - uses:
+    - cable_column
+    quality: 0.75
+  - uses:
+    - multi_station_gym
+    quality: 0.7
+  sources:
+  - strengthlog-most-popular-gym-exercises-2025
+  - fitbod-exercise-library-sets-logged-2026
+  - derived-ex-strength-popularity
+  - derived-ex-block-minutes
+  - american-college-sports-acsm-position-2009
+  - frontiers-sports-active-give-it-rest-2024
+  - sports-basel-profiling-rest-intervals-2018
+  - derived-ex-route-quality
+  notes: 'Table 6.1 machine reverse fly 0.14 %. Block: isolation class 4.6 min (setup + 3 working sets
+    + rests).'
+- id: machine_shoulder_press
+  name: Machine shoulder press
+  modality: machine
+  pattern: vertical_push
+  popularity: 0.728
+  block_minutes: 8.0
+  options:
+  - uses:
+    - shoulder_press
+    quality: 1.0
+  - uses:
+    - plate_loaded_shoulder_press
+    quality: 1.0
+  - uses:
+    - dumbbell_set_full
+    - adjustable_bench
+    quality: 0.75
+  - uses:
+    - dumbbell_set_light
+    - adjustable_bench
+    quality: 0.75
+  - uses:
+    - multi_station_gym
+    quality: 0.7
+  - uses:
+    - smith_machine
+    - adjustable_bench
+    quality: 0.7
+  - uses:
+    - power_rack
+    quality: 0.55
+  - uses:
+    - landmine
+    quality: 0.5
+  sources:
+  - strengthlog-most-popular-gym-exercises-2025
+  - fitbod-exercise-library-sets-logged-2026
+  - derived-ex-strength-popularity
+  - derived-ex-block-minutes
+  - american-college-sports-acsm-position-2009
+  - american-college-sports-acsm-position-2026
+  - sports-medicine-effects-rest-interval-2018
+  - derived-ex-route-quality
+  notes: 'Table 6.1 machine shoulder press, selectorized + plate-loaded, 0.73 %. Top Fitbod swap: DB shoulder
+    press 5.5 K. Block: machine compound class 8.0 min (setup + 1 warm-up set + 3 working sets + rests).'
+- id: lat_pulldown_exercise
+  name: Lat pulldown
+  modality: machine
+  pattern: vertical_pull
+  popularity: 4.367
+  block_minutes: 8.0
+  options:
+  - uses:
+    - lat_pulldown
+    quality: 1.0
+  - uses:
+    - lat_pulldown_row_combo
+    quality: 0.95
+  - uses:
+    - multi_station_gym
+    quality: 0.85
+  - uses:
+    - cable_column
+    quality: 0.8
+  - uses:
+    - functional_trainer
+    quality: 0.8
+  - uses:
+    - plate_loaded_high_row
+    quality: 0.75
+  - uses:
+    - assisted_pullup_dip
+    quality: 0.7
+  - uses:
+    - dip_chin_station
+    quality: 0.6
+  sources:
+  - strengthlog-most-popular-gym-exercises-2025
+  - fitbod-exercise-library-sets-logged-2026
+  - derived-ex-strength-popularity
+  - derived-ex-block-minutes
+  - american-college-sports-acsm-position-2009
+  - american-college-sports-acsm-position-2026
+  - sports-medicine-effects-rest-interval-2018
+  - derived-ex-route-quality
+  notes: 'Table 6.1 lat pulldown 3.19 % + pulldown variants 1.17 % (V-bar, wide, reverse, single-arm).
+    Fitbod swaps: DB row 14.2 K, cable row 13.4 K, pull-up 10.5 K, HS high row 8.9 K. Block: machine compound
+    class 8.0 min (setup + 1 warm-up set + 3 working sets + rests).'
+- id: machine_row
+  name: Seated machine row
+  modality: machine
+  pattern: horizontal_pull
+  popularity: 3.056
+  block_minutes: 8.0
+  options:
+  - uses:
+    - seated_row
+    quality: 1.0
+  - uses:
+    - plate_loaded_row
+    quality: 1.0
+  - uses:
+    - lat_pulldown_row_combo
+    quality: 0.95
+  - uses:
+    - multi_station_gym
+    quality: 0.85
+  - uses:
+    - cable_column
+    quality: 0.75
+  - uses:
+    - t_bar_row
+    quality: 0.75
+  - uses:
+    - dumbbell_set_full
+    - flat_bench
+    quality: 0.7
+  - uses:
+    - lat_pulldown
+    quality: 0.5
+  sources:
+  - strengthlog-most-popular-gym-exercises-2025
+  - fitbod-exercise-library-sets-logged-2026
+  - derived-ex-strength-popularity
+  - derived-ex-block-minutes
+  - american-college-sports-acsm-position-2009
+  - american-college-sports-acsm-position-2026
+  - sports-medicine-effects-rest-interval-2018
+  - derived-ex-route-quality
+  notes: 'Table 6.1 seated cable row 1.82 % (done on the low-row stack, which the usage report counts
+    as machine time) + selectorized row 0.70 % + plate-loaded iso row 0.53 %. The selectorized and the
+    plate-loaded row both score 1.0 because the exercise counts both, as the machine chest and shoulder
+    presses do. Fitbod swaps: machine row 26.7 K, lat pulldown 25.3 K, DB row 20.3 K; the lat pulldown
+    stays at 0.5 as a different movement for the same muscles that members often swap in. Block: machine
+    compound class 8.0 min (setup + 1 warm-up set + 3 working sets + rests).'
+- id: high_row
+  name: High row
+  modality: machine
+  pattern: vertical_pull
+  popularity: 0.515
+  block_minutes: 8.0
+  options:
+  - uses:
+    - plate_loaded_high_row
+    quality: 1.0
+  - uses:
+    - lat_pulldown
+    quality: 0.8
+  - uses:
+    - lat_pulldown_row_combo
+    quality: 0.75
+  - uses:
+    - cable_crossover
+    quality: 0.75
+  - uses:
+    - functional_trainer
+    quality: 0.75
+  - uses:
+    - plate_loaded_row
+    quality: 0.7
+  - uses:
+    - cable_column
+    quality: 0.7
+  - uses:
+    - seated_row
+    quality: 0.65
+  sources:
+  - strengthlog-most-popular-gym-exercises-2025
+  - fitbod-exercise-library-sets-logged-2026
+  - derived-ex-strength-popularity
+  - derived-ex-block-minutes
+  - american-college-sports-acsm-position-2009
+  - american-college-sports-acsm-position-2026
+  - sports-medicine-effects-rest-interval-2018
+  - derived-ex-route-quality
+  notes: 'Table 6.1 plate-loaded high row 0.52 %. Block: machine compound class 8.0 min (setup + 1 warm-up
+    set + 3 working sets + rests).'
+- id: t_bar_row_exercise
+  name: T-bar row
+  modality: machine
+  pattern: horizontal_pull
+  popularity: 0.287
+  block_minutes: 8.0
+  options:
+  - uses:
+    - t_bar_row
+    quality: 1.0
+  - uses:
+    - landmine
+    quality: 0.9
+  - uses:
+    - plate_loaded_row
+    quality: 0.8
+  - uses:
+    - seated_row
+    quality: 0.7
+  - uses:
+    - lifting_platform
+    quality: 0.7
+  - uses:
+    - dumbbell_set_full
+    - flat_bench
+    quality: 0.7
+  - uses:
+    - power_rack
+    quality: 0.65
+  - uses:
+    - lat_pulldown
+    quality: 0.45
+  sources:
+  - strengthlog-most-popular-gym-exercises-2025
+  - fitbod-exercise-library-sets-logged-2026
+  - derived-ex-strength-popularity
+  - derived-ex-block-minutes
+  - american-college-sports-acsm-position-2009
+  - american-college-sports-acsm-position-2026
+  - sports-medicine-effects-rest-interval-2018
+  - derived-ex-route-quality
+  notes: 'Table 6.1 T-bar row 0.29 %. Fitbod swaps: cable row 6.2 K, DB row 4.4 K, machine row 4.1 K.
+    Block: machine compound class 8.0 min (setup + 1 warm-up set + 3 working sets + rests).'
+- id: assisted_pullup
+  name: Assisted pull-up / dip
+  modality: machine
+  pattern: vertical_pull
+  popularity: 0.612
+  block_minutes: 8.0
+  options:
+  - uses:
+    - assisted_pullup_dip
+    quality: 1.0
+  - uses:
+    - lat_pulldown
+    quality: 0.75
+  - uses:
+    - dip_chin_station
+    - accessory_pack
+    quality: 0.75
+  - uses:
+    - rig_bay
+    - accessory_pack
+    quality: 0.75
+  - uses:
+    - lat_pulldown_row_combo
+    quality: 0.7
+  - uses:
+    - power_rack
+    - accessory_pack
+    quality: 0.7
+  - uses:
+    - multi_station_gym
+    quality: 0.65
+  sources:
+  - strengthlog-most-popular-gym-exercises-2025
+  - fitbod-exercise-library-sets-logged-2026
+  - derived-ex-strength-popularity
+  - derived-ex-block-minutes
+  - american-college-sports-acsm-position-2009
+  - american-college-sports-acsm-position-2026
+  - sports-medicine-effects-rest-interval-2018
+  - derived-ex-route-quality
+  notes: 'Table 6.1 assisted pull-up/chin-up/dip machine 0.61 %. Bar + accessory_pack routes = band-assisted
+    pull-ups. Block: machine compound class 8.0 min (setup + 1 warm-up set + 3 working sets + rests).'
+- id: machine_curl
+  name: Machine biceps curl
+  modality: machine
+  pattern: arm
+  popularity: 0.87
+  block_minutes: 4.6
+  options:
+  - uses:
+    - biceps_curl_machine
+    quality: 1.0
+  - uses:
+    - preacher_bench
+    - fixed_barbell_set
+    quality: 0.8
+  - uses:
+    - cable_column
+    quality: 0.8
+  - uses:
+    - functional_trainer
+    quality: 0.8
+  - uses:
+    - dumbbell_set_light
+    quality: 0.75
+  - uses:
+    - dumbbell_set_full
+    quality: 0.75
+  - uses:
+    - fixed_barbell_set
+    quality: 0.75
+  - uses:
+    - multi_station_gym
+    quality: 0.7
+  sources:
+  - strengthlog-most-popular-gym-exercises-2025
+  - fitbod-exercise-library-sets-logged-2026
+  - derived-ex-strength-popularity
+  - derived-ex-block-minutes
+  - american-college-sports-acsm-position-2009
+  - frontiers-sports-active-give-it-rest-2024
+  - sports-basel-profiling-rest-intervals-2018
+  - derived-ex-route-quality
+  notes: 'Table 6.1 machine biceps curl incl. machine preacher 0.87 %. Preacher fallback uses the EZ bar;
+    single-arm dumbbell preacher routes are left out so both dumbbell sets fit within 8 routes. Block:
+    isolation class 4.6 min (setup + 3 working sets + rests).'
+- id: machine_triceps
+  name: Machine triceps extension
+  modality: machine
+  pattern: arm
+  popularity: 0.878
+  block_minutes: 4.6
+  options:
+  - uses:
+    - triceps_machine
+    quality: 1.0
+  - uses:
+    - assisted_pullup_dip
+    quality: 0.85
+  - uses:
+    - cable_column
+    quality: 0.8
+  - uses:
+    - functional_trainer
+    quality: 0.8
+  - uses:
+    - cable_crossover
+    quality: 0.8
+  - uses:
+    - multi_station_gym
+    quality: 0.75
+  - uses:
+    - dumbbell_set_full
+    - flat_bench
+    quality: 0.7
+  - uses:
+    - dumbbell_set_light
+    - flat_bench
+    quality: 0.7
+  sources:
+  - strengthlog-most-popular-gym-exercises-2025
+  - fitbod-exercise-library-sets-logged-2026
+  - derived-ex-strength-popularity
+  - derived-ex-block-minutes
+  - american-college-sports-acsm-position-2009
+  - frontiers-sports-active-give-it-rest-2024
+  - sports-basel-profiling-rest-intervals-2018
+  - derived-ex-route-quality
+  notes: 'Table 6.1 machine triceps extension + machine dip 0.88 %. The bodyweight dip-station route (0.65)
+    is left out so both dumbbell sets fit within 8 routes. Block: isolation class 4.6 min (setup + 3 working
+    sets + rests).'
+- id: machine_crunch
+  name: Machine crunch
+  modality: machine
+  pattern: core
+  popularity: 0.876
+  block_minutes: 4.6
+  options:
+  - uses:
+    - ab_crunch_machine
+    quality: 1.0
+  - uses:
+    - cable_column
+    quality: 0.8
+  - uses:
+    - functional_trainer
+    quality: 0.8
+  - uses:
+    - cable_crossover
+    quality: 0.75
+  - uses:
+    - multi_station_gym
+    quality: 0.7
+  - uses:
+    - stretch_area
+    quality: 0.6
+  - uses:
+    - dip_chin_station
+    quality: 0.55
+  sources:
+  - strengthlog-most-popular-gym-exercises-2025
+  - fitbod-exercise-library-sets-logged-2026
+  - derived-ex-strength-popularity
+  - puregym-when-gym-quiet-app-data-2023
+  - derived-ex-block-minutes
+  - american-college-sports-acsm-position-2009
+  - frontiers-sports-active-give-it-rest-2024
+  - sports-basel-profiling-rest-intervals-2018
+  - derived-ex-route-quality
+  notes: 'Table 6.1 ab crunch machine 0.88 % (PureGym managers: sit-up machine 25 % ''least used''). Fitbod
+    swaps: crunch 4.0 K, cable crunch 3.6 K, knee raise 2.2 K. Block: isolation class 4.6 min (setup +
+    3 working sets + rests).'
+- id: machine_back_extension
+  name: Machine back extension
+  modality: machine
+  pattern: hinge
+  popularity: 0.769
+  block_minutes: 4.6
+  options:
+  - uses:
+    - back_extension_machine
+    quality: 1.0
+  - uses:
+    - hyperextension
+    quality: 0.85
+  - uses:
+    - ghd
+    quality: 0.8
+  - uses:
+    - cable_column
+    quality: 0.5
+  - uses:
+    - stretch_area
+    quality: 0.4
+  sources:
+  - strengthlog-most-popular-gym-exercises-2025
+  - fitbod-exercise-library-sets-logged-2026
+  - derived-ex-strength-popularity
+  - derived-ex-block-minutes
+  - american-college-sports-acsm-position-2009
+  - frontiers-sports-active-give-it-rest-2024
+  - sports-basel-profiling-rest-intervals-2018
+  - derived-ex-route-quality
+  notes: 'Table 6.1 seated back extension machine 0.77 %. Block: isolation class 4.6 min (setup + 3 working
+    sets + rests).'
+- id: rotary_torso_exercise
+  name: Rotary torso
+  modality: machine
+  pattern: core
+  popularity: 0.136
+  block_minutes: 4.6
+  options:
+  - uses:
+    - rotary_torso
+    quality: 1.0
+  - uses:
+    - cable_column
+    quality: 0.8
+  - uses:
+    - functional_trainer
+    quality: 0.8
+  - uses:
+    - cable_crossover
+    quality: 0.75
+  - uses:
+    - landmine
+    quality: 0.6
+  - uses:
+    - stretch_area
+    quality: 0.4
+  sources:
+  - derived-ex-tail-estimates
+  - strengthlog-most-popular-gym-exercises-2025
+  - fitbod-exercise-library-sets-logged-2026
+  - puregym-when-gym-quiet-app-data-2023
+  - derived-ex-block-minutes
+  - american-college-sports-acsm-position-2009
+  - frontiers-sports-active-give-it-rest-2024
+  - sports-basel-profiling-rest-intervals-2018
+  - derived-ex-route-quality
+  notes: 'No app counts and no usage source: set to the least-logged measured selectorized exercise (machine
+    reverse fly 0.136 %). Often removed for low use. Block: isolation class 4.6 min (setup + 3 working
+    sets + rests).'
+- id: triceps_pushdown
+  name: Cable triceps pushdown
+  modality: cable
+  pattern: arm
+  popularity: 3.476
+  block_minutes: 4.6
+  options:
+  - uses:
+    - cable_column
+    quality: 1.0
+  - uses:
+    - functional_trainer
+    quality: 1.0
+  - uses:
+    - cable_crossover
+    quality: 1.0
+  - uses:
+    - multi_station_gym
+    quality: 0.85
+  - uses:
+    - lat_pulldown
+    quality: 0.8
+  - uses:
+    - lat_pulldown_row_combo
+    quality: 0.8
+  - uses:
+    - dumbbell_set_full
+    - flat_bench
+    quality: 0.6
+  - uses:
+    - dumbbell_set_light
+    - flat_bench
+    quality: 0.6
+  sources:
+  - strengthlog-most-popular-gym-exercises-2025
+  - fitbod-exercise-library-sets-logged-2026
+  - derived-ex-strength-popularity
+  - derived-ex-block-minutes
+  - american-college-sports-acsm-position-2009
+  - frontiers-sports-active-give-it-rest-2024
+  - sports-basel-profiling-rest-intervals-2018
+  - derived-ex-route-quality
+  notes: 'Table 6.1 rope pushdown 1.69 % + bar pushdown 1.49 % + overhead cable extension 0.31 % (folded).
+    Fitbod bar-pushdown swaps go to dumbbell triceps work (seated triceps press 3.2 K + DB skullcrusher
+    3.0 K) more often than to the machine dip (2.8 K), so the triceps-machine route is the one left out
+    to fit both dumbbell sets within 8 routes. Block: isolation class 4.6 min (setup + 3 working sets
+    + rests).'
+- id: cable_fly
+  name: Cable fly
+  modality: cable
+  pattern: horizontal_push
+  popularity: 0.977
+  block_minutes: 4.6
+  options:
+  - uses:
+    - cable_crossover
+    quality: 1.0
+  - uses:
+    - functional_trainer
+    quality: 1.0
+  - uses:
+    - pec_fly_rear_delt
+    quality: 0.8
+  - uses:
+    - dumbbell_set_full
+    - flat_bench
+    quality: 0.75
+  - uses:
+    - dumbbell_set_light
+    - flat_bench
+    quality: 0.75
+  - uses:
+    - multi_station_gym
+    quality: 0.7
+  - uses:
+    - cable_column
+    quality: 0.6
+  - uses:
+    - chest_press
+    quality: 0.5
+  sources:
+  - strengthlog-most-popular-gym-exercises-2025
+  - fitbod-exercise-library-sets-logged-2026
+  - derived-ex-strength-popularity
+  - derived-ex-block-minutes
+  - american-college-sports-acsm-position-2009
+  - frontiers-sports-active-give-it-rest-2024
+  - sports-basel-profiling-rest-intervals-2018
+  - derived-ex-route-quality
+  notes: 'Table 6.1 standing cable chest fly 0.98 %. A crossover fly uses both stacks, but a route can
+    hold only one station of a type, so crossover load from flies is understated. Fitbod swaps: machine
+    fly 30.8 K, DB fly 15.4 K. Block: isolation class 4.6 min (setup + 3 working sets + rests).'
+- id: face_pull
+  name: Face pull
+  modality: cable
+  pattern: shoulder_isolation
+  popularity: 0.833
+  block_minutes: 4.6
+  options:
+  - uses:
+    - cable_column
+    quality: 1.0
+  - uses:
+    - functional_trainer
+    quality: 1.0
+  - uses:
+    - cable_crossover
+    quality: 1.0
+  - uses:
+    - pec_fly_rear_delt
+    quality: 0.75
+  - uses:
+    - multi_station_gym
+    quality: 0.75
+  - uses:
+    - dumbbell_set_light
+    quality: 0.7
+  - uses:
+    - dumbbell_set_full
+    quality: 0.7
+  - uses:
+    - suspension_trainer_station
+    quality: 0.6
+  sources:
+  - strengthlog-most-popular-gym-exercises-2025
+  - fitbod-exercise-library-sets-logged-2026
+  - derived-ex-strength-popularity
+  - derived-ex-block-minutes
+  - american-college-sports-acsm-position-2009
+  - frontiers-sports-active-give-it-rest-2024
+  - sports-basel-profiling-rest-intervals-2018
+  - derived-ex-route-quality
+  notes: 'Table 6.1 cable face pull 0.83 %. Fitbod swaps: cable lateral raise 3.7 K, DB front raise 3.4
+    K, DB rear-delt raise 3.3 K (dumbbell routes = rear-delt raise). Block: isolation class 4.6 min (setup
+    + 3 working sets + rests).'
+- id: cable_lateral_raise
+  name: Cable lateral raise
+  modality: cable
+  pattern: shoulder_isolation
+  popularity: 0.848
+  block_minutes: 4.6
+  options:
+  - uses:
+    - cable_column
+    quality: 1.0
+  - uses:
+    - functional_trainer
+    quality: 1.0
+  - uses:
+    - cable_crossover
+    quality: 1.0
+  - uses:
+    - dumbbell_set_light
+    quality: 0.85
+  - uses:
+    - dumbbell_set_full
+    quality: 0.85
+  - uses:
+    - multi_station_gym
+    quality: 0.7
+  sources:
+  - strengthlog-most-popular-gym-exercises-2025
+  - fitbod-exercise-library-sets-logged-2026
+  - derived-ex-strength-popularity
+  - derived-ex-block-minutes
+  - american-college-sports-acsm-position-2009
+  - frontiers-sports-active-give-it-rest-2024
+  - sports-basel-profiling-rest-intervals-2018
+  - derived-ex-route-quality
+  notes: 'Table 6.1 cable lateral raise 0.85 %. Fitbod swaps: DB lateral raise 12.0 K + DB shoulder raise
+    10.5 K. Block: isolation class 4.6 min (setup + 3 working sets + rests).'
+- id: cable_curl
+  name: Cable curl
+  modality: cable
+  pattern: arm
+  popularity: 0.749
+  block_minutes: 4.6
+  options:
+  - uses:
+    - cable_column
+    quality: 1.0
+  - uses:
+    - functional_trainer
+    quality: 1.0
+  - uses:
+    - cable_crossover
+    quality: 1.0
+  - uses:
+    - multi_station_gym
+    quality: 0.85
+  - uses:
+    - dumbbell_set_light
+    quality: 0.8
+  - uses:
+    - dumbbell_set_full
+    quality: 0.8
+  - uses:
+    - fixed_barbell_set
+    quality: 0.8
+  - uses:
+    - biceps_curl_machine
+    quality: 0.75
+  sources:
+  - strengthlog-most-popular-gym-exercises-2025
+  - fitbod-exercise-library-sets-logged-2026
+  - derived-ex-strength-popularity
+  - derived-ex-block-minutes
+  - american-college-sports-acsm-position-2009
+  - frontiers-sports-active-give-it-rest-2024
+  - sports-basel-profiling-rest-intervals-2018
+  - derived-ex-route-quality
+  notes: 'Table 6.1 cable biceps curl 0.75 %. Curls on the seated-row pulley (0.65) are left out so both
+    dumbbell sets fit within 8 routes. Block: isolation class 4.6 min (setup + 3 working sets + rests).'
+- id: cable_row
+  name: Cable row (single-arm / standing)
+  modality: cable
+  pattern: horizontal_pull
+  popularity: 0.3
+  block_minutes: 8.0
+  options:
+  - uses:
+    - cable_column
+    quality: 1.0
+  - uses:
+    - functional_trainer
+    quality: 1.0
+  - uses:
+    - cable_crossover
+    quality: 1.0
+  - uses:
+    - seated_row
+    quality: 0.9
+  - uses:
+    - lat_pulldown_row_combo
+    quality: 0.85
+  - uses:
+    - multi_station_gym
+    quality: 0.8
+  - uses:
+    - dumbbell_set_full
+    - flat_bench
+    quality: 0.7
+  - uses:
+    - plate_loaded_row
+    quality: 0.7
+  sources:
+  - derived-ex-tail-estimates
+  - strengthlog-most-popular-gym-exercises-2025
+  - fitbod-exercise-library-sets-logged-2026
+  - derived-ex-block-minutes
+  - american-college-sports-acsm-position-2009
+  - american-college-sports-acsm-position-2026
+  - sports-medicine-effects-rest-interval-2018
+  - derived-ex-route-quality
+  notes: 'No app counts for standing/single-arm cable rows: tail estimate 0.3 %. The seated cable row
+    (1.82 %) is in machine_row because it runs on the low-row stack. Block: machine compound class 8.0
+    min (setup + 1 warm-up set + 3 working sets + rests).'
+- id: cable_crunch
+  name: Cable crunch
+  modality: cable
+  pattern: core
+  popularity: 0.557
+  block_minutes: 4.6
+  options:
+  - uses:
+    - cable_column
+    quality: 1.0
+  - uses:
+    - functional_trainer
+    quality: 1.0
+  - uses:
+    - cable_crossover
+    quality: 1.0
+  - uses:
+    - lat_pulldown
+    quality: 0.85
+  - uses:
+    - multi_station_gym
+    quality: 0.85
+  - uses:
+    - ab_crunch_machine
+    quality: 0.8
+  - uses:
+    - stretch_area
+    quality: 0.5
+  sources:
+  - strengthlog-most-popular-gym-exercises-2025
+  - fitbod-exercise-library-sets-logged-2026
+  - derived-ex-strength-popularity
+  - derived-ex-block-minutes
+  - american-college-sports-acsm-position-2009
+  - frontiers-sports-active-give-it-rest-2024
+  - sports-basel-profiling-rest-intervals-2018
+  - derived-ex-route-quality
+  notes: 'Table 6.1 cable crunch 0.56 % (Boostcamp: skipped 36 % of the time). Block: isolation class
+    4.6 min (setup + 3 working sets + rests).'
+- id: cable_kickback
+  name: Cable glute kickback
+  modality: cable
+  pattern: glute
+  popularity: 0.881
+  block_minutes: 4.6
+  options:
+  - uses:
+    - cable_column
+    quality: 1.0
+  - uses:
+    - functional_trainer
+    quality: 1.0
+  - uses:
+    - cable_crossover
+    quality: 1.0
+  - uses:
+    - glute_kickback
+    quality: 0.85
+  - uses:
+    - multi_station_gym
+    quality: 0.7
+  - uses:
+    - hip_thrust_bench
+    quality: 0.55
+  - uses:
+    - hip_thrust_machine
+    quality: 0.55
+  - uses:
+    - accessory_pack
+    - stretch_area
+    quality: 0.45
+  sources:
+  - strengthlog-most-popular-gym-exercises-2025
+  - fitbod-exercise-library-sets-logged-2026
+  - derived-ex-strength-popularity
+  - derived-ex-block-minutes
+  - american-college-sports-acsm-position-2009
+  - frontiers-sports-active-give-it-rest-2024
+  - sports-basel-profiling-rest-intervals-2018
+  - derived-ex-route-quality
+  notes: 'Table 6.1 cable kickback / hip extension 0.51 % + cable pull-through 0.37 % (folded; cable glute
+    work, no canonical pull-through). Block: isolation class 4.6 min (setup + 3 working sets + rests).'
+- id: pallof_woodchop
+  name: Pallof press and woodchop
+  modality: cable
+  pattern: core
+  popularity: 0.3
+  block_minutes: 4.6
+  options:
+  - uses:
+    - cable_column
+    quality: 1.0
+  - uses:
+    - functional_trainer
+    quality: 1.0
+  - uses:
+    - cable_crossover
+    quality: 1.0
+  - uses:
+    - multi_station_gym
+    quality: 0.75
+  - uses:
+    - landmine
+    quality: 0.65
+  - uses:
+    - rotary_torso
+    quality: 0.6
+  - uses:
+    - accessory_pack
+    - stretch_area
+    quality: 0.6
+  - uses:
+    - suspension_trainer_station
+    quality: 0.5
+  sources:
+  - derived-ex-tail-estimates
+  - strengthlog-most-popular-gym-exercises-2025
+  - fitbod-exercise-library-sets-logged-2026
+  - derived-ex-block-minutes
+  - american-college-sports-acsm-position-2009
+  - frontiers-sports-active-give-it-rest-2024
+  - sports-basel-profiling-rest-intervals-2018
+  - derived-ex-route-quality
+  notes: 'No app counts: tail estimate 0.3 % of strength sets. Accessory-pack route = band Pallof press.
+    Block: isolation class 4.6 min (setup + 3 working sets + rests).'
+- id: straight_arm_pulldown
+  name: Straight-arm pulldown
+  modality: cable
+  pattern: vertical_pull
+  popularity: 0.43
+  block_minutes: 4.6
+  options:
+  - uses:
+    - cable_column
+    quality: 1.0
+  - uses:
+    - functional_trainer
+    quality: 1.0
+  - uses:
+    - cable_crossover
+    quality: 1.0
+  - uses:
+    - lat_pulldown
+    quality: 0.9
+  - uses:
+    - lat_pulldown_row_combo
+    quality: 0.9
+  - uses:
+    - multi_station_gym
+    quality: 0.85
+  - uses:
+    - dumbbell_set_full
+    - flat_bench
+    quality: 0.5
+  - uses:
+    - dumbbell_set_light
+    - flat_bench
+    quality: 0.5
+  sources:
+  - strengthlog-most-popular-gym-exercises-2025
+  - fitbod-exercise-library-sets-logged-2026
+  - derived-ex-strength-popularity
+  - derived-ex-block-minutes
+  - american-college-sports-acsm-position-2009
+  - frontiers-sports-active-give-it-rest-2024
+  - sports-basel-profiling-rest-intervals-2018
+  - derived-ex-route-quality
+  notes: 'Table 6.1 straight-arm pulldown 0.43 %. Dumbbell + bench routes = DB pullover. Block: isolation
+    class 4.6 min (setup + 3 working sets + rests).'
+- id: pull_up
+  name: Pull-up / chin-up
+  modality: bodyweight
+  pattern: vertical_pull
+  popularity: 2.137
+  block_minutes: 4.7
+  options:
+  - uses:
+    - dip_chin_station
+    quality: 1.0
+  - uses:
+    - rig_bay
+    quality: 1.0
+  - uses:
+    - power_rack
+    quality: 0.9
+  - uses:
+    - half_rack
+    quality: 0.85
+  - uses:
+    - cable_crossover
+    quality: 0.85
+  - uses:
+    - assisted_pullup_dip
+    quality: 0.85
+  - uses:
+    - lat_pulldown
+    quality: 0.65
+  - uses:
+    - lat_pulldown_row_combo
+    quality: 0.6
+  sources:
+  - strengthlog-most-popular-gym-exercises-2025
+  - fitbod-exercise-library-sets-logged-2026
+  - derived-ex-strength-popularity
+  - derived-ex-block-minutes
+  - american-college-sports-acsm-position-2009
+  - rogue-fitness-hr-2-half-rack
+  - lf-hd-athletic-nx-half-rack
+  - derived-ex-route-quality
+  notes: 'Table 6.1 pull-up 1.43 % + chin-up 0.71 %. Fitbod swaps: lat pulldown 53.3 K, assisted pull-up
+    26.4 K. Half racks carry a pull-up bar on the front uprights (Rogue HR-2 includes a 43-in bar; the
+    HS NX half rack offers four), so they score 0.85, just below the power rack. Block: bodyweight class
+    4.7 min (setup + 3 working sets + rests).'
+- id: dips
+  name: Dips
+  modality: bodyweight
+  pattern: vertical_push
+  popularity: 0.93
+  block_minutes: 4.7
+  options:
+  - uses:
+    - dip_chin_station
+    quality: 1.0
+  - uses:
+    - assisted_pullup_dip
+    quality: 0.95
+  - uses:
+    - rig_bay
+    quality: 0.9
+  - uses:
+    - triceps_machine
+    quality: 0.7
+  - uses:
+    - flat_bench
+    quality: 0.5
+  - uses:
+    - cable_column
+    quality: 0.5
+  sources:
+  - strengthlog-most-popular-gym-exercises-2025
+  - fitbod-exercise-library-sets-logged-2026
+  - derived-ex-strength-popularity
+  - derived-ex-block-minutes
+  - american-college-sports-acsm-position-2009
+  - derived-ex-route-quality
+  notes: 'Table 6.1 parallel-bar dip 0.93 %. Fitbod swaps: bench dip 35.8 K, rope extension 31.7 K, assisted
+    dip 30.4 K, machine dip 28.6 K. Block: bodyweight class 4.7 min (setup + 3 working sets + rests).'
+- id: hanging_leg_raise
+  name: Hanging leg raise
+  modality: bodyweight
+  pattern: core
+  popularity: 1.134
+  block_minutes: 4.7
+  options:
+  - uses:
+    - dip_chin_station
+    quality: 1.0
+  - uses:
+    - rig_bay
+    quality: 1.0
+  - uses:
+    - power_rack
+    quality: 0.9
+  - uses:
+    - half_rack
+    quality: 0.85
+  - uses:
+    - assisted_pullup_dip
+    quality: 0.85
+  - uses:
+    - cable_crossover
+    quality: 0.8
+  - uses:
+    - stretch_area
+    quality: 0.6
+  - uses:
+    - ab_crunch_machine
+    quality: 0.6
+  sources:
+  - strengthlog-most-popular-gym-exercises-2025
+  - fitbod-exercise-library-sets-logged-2026
+  - derived-ex-strength-popularity
+  - derived-ex-block-minutes
+  - american-college-sports-acsm-position-2009
+  - rogue-fitness-hr-2-half-rack
+  - lf-hd-athletic-nx-half-rack
+  - derived-ex-route-quality
+  notes: 'Table 6.1 hanging / captain''s-chair knee and leg raise 1.13 %. The half rack''s pull-up bar
+    (Rogue HR-2, HS NX) serves it at 0.85, like the pull-up. Block: bodyweight class 4.7 min (setup + 3
+    working sets + rests).'
+- id: push_up
+  name: Push-up
+  modality: bodyweight
+  pattern: horizontal_push
+  popularity: 1.467
+  block_minutes: 4.7
+  options:
+  - uses:
+    - stretch_area
+    quality: 1.0
+  - uses:
+    - turf_lane
+    quality: 0.9
+  - uses:
+    - flat_bench
+    quality: 0.8
+  - uses:
+    - plyo_box_set
+    quality: 0.8
+  - uses:
+    - suspension_trainer_station
+    quality: 0.75
+  sources:
+  - strengthlog-most-popular-gym-exercises-2025
+  - fitbod-exercise-library-sets-logged-2026
+  - derived-ex-strength-popularity
+  - derived-ex-block-minutes
+  - american-college-sports-acsm-position-2009
+  - derived-ex-route-quality
+  notes: 'Table 6.1 push-up 1.47 %. Floor space only; bench/box routes = incline push-ups. Block: bodyweight
+    class 4.7 min (setup + 3 working sets + rests).'
+- id: floor_core
+  name: Plank and floor core
+  modality: bodyweight
+  pattern: core
+  popularity: 3.022
+  block_minutes: 4.7
+  options:
+  - uses:
+    - stretch_area
+    quality: 1.0
+  - uses:
+    - turf_lane
+    quality: 0.85
+  - uses:
+    - flat_bench
+    quality: 0.7
+  - uses:
+    - ab_crunch_machine
+    quality: 0.6
+  - uses:
+    - ghd
+    quality: 0.6
+  - uses:
+    - cable_column
+    quality: 0.55
+  sources:
+  - strengthlog-most-popular-gym-exercises-2025
+  - fitbod-exercise-library-sets-logged-2026
+  - derived-ex-extra-fitbod-rows
+  - derived-ex-block-minutes
+  - american-college-sports-acsm-position-2009
+  - derived-ex-route-quality
+  notes: 'Fitbod Crunches 6.41 M + Plank 4.95 M + Ab Rollout 1.24 M sets (left out of Table 6.1; consensus-equivalent
+    1.42 + 1.20 + 0.40 %). Block: bodyweight class 4.7 min (setup + 3 working sets + rests).'
+- id: back_extension_bw
+  name: Back extension
+  modality: bodyweight
+  pattern: hinge
+  popularity: 1.055
+  block_minutes: 4.6
+  options:
+  - uses:
+    - hyperextension
+    quality: 1.0
+  - uses:
+    - ghd
+    quality: 0.95
+  - uses:
+    - back_extension_machine
+    quality: 0.85
+  - uses:
+    - stretch_area
+    quality: 0.45
+  - uses:
+    - cable_column
+    quality: 0.45
+  sources:
+  - strengthlog-most-popular-gym-exercises-2025
+  - fitbod-exercise-library-sets-logged-2026
+  - derived-ex-strength-popularity
+  - derived-ex-block-minutes
+  - american-college-sports-acsm-position-2009
+  - frontiers-sports-active-give-it-rest-2024
+  - sports-basel-profiling-rest-intervals-2018
+  - derived-ex-route-quality
+  notes: 'Table 6.1 back extension on a 45-degree / GHD bench 1.06 %. Fitbod swaps: machine back extension
+    40.6 K, superman 17.1 K. Often plate-loaded, so it uses the isolation bout class. Block: isolation
+    class 4.6 min (setup + 3 working sets + rests).'
+- id: ghd_work
+  name: GHD raise and sit-up
+  modality: bodyweight
+  pattern: hinge
+  popularity: 0.083
+  block_minutes: 4.6
+  options:
+  - uses:
+    - ghd
+    quality: 1.0
+  - uses:
+    - hyperextension
+    quality: 0.6
+  - uses:
+    - leg_curl
+    quality: 0.6
+  - uses:
+    - leg_ext_curl_combo
+    quality: 0.55
+  - uses:
+    - stretch_area
+    quality: 0.45
+  sources:
+  - strengthlog-most-popular-gym-exercises-2025
+  - fitbod-exercise-library-sets-logged-2026
+  - derived-ex-strength-popularity
+  - derived-ex-block-minutes
+  - american-college-sports-acsm-position-2009
+  - frontiers-sports-active-give-it-rest-2024
+  - sports-basel-profiling-rest-intervals-2018
+  - derived-ex-route-quality
+  notes: 'Table 6.1 glute-ham raise 0.08 % (GHD sit-ups have no separate count). Block: isolation class
+    4.6 min (setup + 3 working sets + rests).'
+- id: inverted_row
+  name: Inverted row
+  modality: bodyweight
+  pattern: horizontal_pull
+  popularity: 0.3
+  block_minutes: 4.7
+  options:
+  - uses:
+    - smith_machine
+    quality: 1.0
+  - uses:
+    - power_rack
+    quality: 1.0
+  - uses:
+    - rig_bay
+    quality: 1.0
+  - uses:
+    - suspension_trainer_station
+    quality: 0.95
+  - uses:
+    - half_rack
+    quality: 0.95
+  - uses:
+    - seated_row
+    quality: 0.65
+  - uses:
+    - dumbbell_set_full
+    - flat_bench
+    quality: 0.6
+  sources:
+  - derived-ex-tail-estimates
+  - strengthlog-most-popular-gym-exercises-2025
+  - fitbod-exercise-library-sets-logged-2026
+  - derived-ex-block-minutes
+  - american-college-sports-acsm-position-2009
+  - derived-ex-route-quality
+  notes: 'No app counts: tail estimate 0.3 % of strength sets. Block: bodyweight class 4.7 min (setup
+    + 3 working sets + rests).'
+- id: walking_lunge
+  name: Walking lunge
+  modality: bodyweight
+  pattern: lunge
+  popularity: 0.3
+  block_minutes: 4.7
+  options:
+  - uses:
+    - turf_lane
+    quality: 1.0
+  - uses:
+    - stretch_area
+    quality: 0.6
+  - uses:
+    - plyo_box_set
+    quality: 0.6
+  sources:
+  - derived-ex-tail-estimates
+  - strengthlog-most-popular-gym-exercises-2025
+  - fitbod-exercise-library-sets-logged-2026
+  - derived-ex-block-minutes
+  - american-college-sports-acsm-position-2009
+  - derived-ex-route-quality
+  notes: 'No app counts for unloaded walking lunges: tail estimate 0.3 % (loaded lunges are in db_lunge).
+    A walking set travels the length of a lane, so the 7 x 7 ft mat space serves it only as lunges in
+    place: the same movement in a cramped setup, 0.6 on the route scale. Block: bodyweight class 4.7 min
+    (setup + 3 working sets + rests).'
+- id: bench_dip
+  name: Bench dip
+  modality: bodyweight
+  pattern: arm
+  popularity: 1.088
+  block_minutes: 4.7
+  options:
+  - uses:
+    - flat_bench
+    quality: 1.0
+  - uses:
+    - adjustable_bench
+    quality: 0.95
+  - uses:
+    - plyo_box_set
+    quality: 0.9
+  - uses:
+    - assisted_pullup_dip
+    quality: 0.6
+  - uses:
+    - dip_chin_station
+    quality: 0.55
+  - uses:
+    - triceps_machine
+    quality: 0.55
+  sources:
+  - strengthlog-most-popular-gym-exercises-2025
+  - fitbod-exercise-library-sets-logged-2026
+  - derived-ex-extra-fitbod-rows
+  - derived-ex-block-minutes
+  - american-college-sports-acsm-position-2009
+  - derived-ex-route-quality
+  notes: 'ADDED (not canonical): Fitbod ''Bench Dip'' 4.22 M sets, consensus-equivalent 1.09 % of strength
+    sets (left out of Table 6.1). It ties up a bench, which no canonical exercise captures. Block: bodyweight
+    class 4.7 min (setup + 3 working sets + rests).'
+- id: glute_bridge
+  name: Bodyweight hip thrust / glute bridge
+  modality: bodyweight
+  pattern: glute
+  popularity: 1.105
+  block_minutes: 4.7
+  options:
+  - uses:
+    - stretch_area
+    quality: 1.0
+  - uses:
+    - turf_lane
+    quality: 0.9
+  - uses:
+    - flat_bench
+    quality: 0.85
+  - uses:
+    - hip_thrust_bench
+    quality: 0.85
+  sources:
+  - strengthlog-most-popular-gym-exercises-2025
+  - fitbod-exercise-library-sets-logged-2026
+  - derived-ex-extra-fitbod-rows
+  - derived-ex-block-minutes
+  - american-college-sports-acsm-position-2009
+  - derived-ex-route-quality
+  notes: 'ADDED (not canonical): Fitbod''s plain ''Hip Thrust'' (4.32 M sets) is bodyweight on the floor
+    (fact-check log), so it was left out of the loaded hip-thrust row. Consensus-equivalent 1.10 % of
+    strength sets. Block: bodyweight class 4.7 min (setup + 3 working sets + rests).'
+- id: kettlebell_swing
+  name: Kettlebell swing
+  modality: functional
+  pattern: hinge
+  popularity: 0.615
+  block_minutes: 7.1
+  options:
+  - uses:
+    - kettlebell_set
+    quality: 1.0
+  - uses:
+    - dumbbell_set_full
+    quality: 0.7
+  - uses:
+    - dumbbell_set_light
+    quality: 0.6
+  - uses:
+    - cable_column
+    quality: 0.4
+  sources:
+  - strengthlog-most-popular-gym-exercises-2025
+  - fitbod-exercise-library-sets-logged-2026
+  - derived-ex-strength-popularity
+  - derived-ex-functional-popularity
+  - sports-fitness-industry-sfia-2024
+  - derived-ex-block-minutes
+  - american-college-sports-acsm-position-2009
+  - frontiers-sports-active-give-it-rest-2024
+  - derived-ex-route-quality
+  notes: 'Table 6.1 KB swing incl. American swing 0.62 % (SFIA: kettlebells 14.5 M participants, +12.5
+    % since 2019). The report files swings in the DB/KB compound bout class. Block: dumbbell/kettlebell
+    compound class 7.1 min (setup + 1 warm-up set + 3 working sets + rests).'
+- id: kettlebell_complex
+  name: Kettlebell complexes
+  modality: functional
+  pattern: conditioning
+  popularity: 0.133
+  block_minutes: 7.1
+  options:
+  - uses:
+    - kettlebell_set
+    quality: 1.0
+  - uses:
+    - dumbbell_set_full
+    quality: 0.7
+  - uses:
+    - dumbbell_set_light
+    quality: 0.65
+  sources:
+  - strengthlog-most-popular-gym-exercises-2025
+  - fitbod-exercise-library-sets-logged-2026
+  - derived-ex-strength-popularity
+  - derived-ex-functional-popularity
+  - derived-ex-tail-estimates
+  - sports-fitness-industry-sfia-2024
+  - derived-ex-block-minutes
+  - american-college-sports-acsm-position-2009
+  - frontiers-sports-active-give-it-rest-2024
+  - derived-ex-route-quality
+  notes: 'No app counts: set to the median measured functional item (0.133 %). Block: dumbbell/kettlebell
+    compound class 7.1 min (setup + 1 warm-up set + 3 working sets + rests).'
+- id: sled_push_pull
+  name: Sled push and pull
+  modality: functional
+  pattern: conditioning
+  popularity: 0.083
+  block_minutes: 8.0
+  options:
+  - uses:
+    - turf_lane
+    quality: 1.0
+  - uses:
+    - air_bike
+    quality: 0.4
+  sources:
+  - strengthlog-most-popular-gym-exercises-2025
+  - fitbod-exercise-library-sets-logged-2026
+  - derived-ex-strength-popularity
+  - derived-ex-functional-popularity
+  - hyrox-fitness-race-2026
+  - puregym-leeds-city-centre-south-gym-2026
+  - derived-ex-block-minutes
+  - derived-ex-route-quality
+  notes: Table 6.1 sled push + drag + pull 0.08 % (Fitbod under-represents gym-only kit; HYROX stations).
+    Block 8 min = occupancy report turf/sled hold (4-6 lengths x (0.5 work + 1 rest)).
+- id: farmer_carry
+  name: Farmer's carry
+  modality: functional
+  pattern: carry
+  popularity: 0.133
+  block_minutes: 4.75
+  options:
+  - uses:
+    - dumbbell_set_full
+    - turf_lane
+    quality: 1.0
+  - uses:
+    - kettlebell_set
+    - turf_lane
+    quality: 1.0
+  - uses:
+    - dumbbell_set_full
+    quality: 0.7
+  - uses:
+    - kettlebell_set
+    quality: 0.7
+  - uses:
+    - dumbbell_set_light
+    - turf_lane
+    quality: 0.7
+  - uses:
+    - dumbbell_set_light
+    quality: 0.5
+  sources:
+  - strengthlog-most-popular-gym-exercises-2025
+  - fitbod-exercise-library-sets-logged-2026
+  - derived-ex-strength-popularity
+  - derived-ex-functional-popularity
+  - derived-ex-tail-estimates
+  - hyrox-fitness-race-2026
+  - derived-ex-block-minutes
+  - american-college-sports-acsm-position-2009
+  - derived-ex-route-quality
+  notes: 'No app counts: set to the median measured functional item (0.133 %); HYROX station. Turf-free
+    routes = carrying along an open aisle, scored at 0.7 x the matching lane route (1.0 -> 0.7 for the
+    full dumbbell set and kettlebells, 0.7 -> 0.5 for the light set), because the aisle is shared
+    circulation where heavy carries go in short turns. Block: functional class 4.75 min (setup + 3 working
+    sets + rests).'
+- id: box_jump
+  name: Box jumps and step-ups
+  modality: functional
+  pattern: conditioning
+  popularity: 0.6102
+  block_minutes: 4.75
+  options:
+  - uses:
+    - plyo_box_set
+    quality: 1.0
+  - uses:
+    - flat_bench
+    quality: 0.7
+  - uses:
+    - turf_lane
+    quality: 0.6
+  sources:
+  - strengthlog-most-popular-gym-exercises-2025
+  - fitbod-exercise-library-sets-logged-2026
+  - derived-ex-strength-popularity
+  - derived-ex-functional-popularity
+  - derived-ex-family-splits
+  - derived-ex-block-minutes
+  - american-college-sports-acsm-position-2009
+  - derived-ex-route-quality
+  notes: 'Table 6.1 box jump 0.13 % + bodyweight step-ups (48 % of the step-up family 1.00 %). Block:
+    functional class 4.75 min (setup + 3 working sets + rests).'
+- id: wall_ball
+  name: Wall balls and med-ball slams
+  modality: functional
+  pattern: conditioning
+  popularity: 0.133
+  block_minutes: 4.75
+  options:
+  - uses:
+    - wall_ball_station
+    quality: 1.0
+  - uses:
+    - kettlebell_set
+    quality: 0.5
+  - uses:
+    - dumbbell_set_light
+    quality: 0.5
+  - uses:
+    - dumbbell_set_full
+    quality: 0.5
+  sources:
+  - strengthlog-most-popular-gym-exercises-2025
+  - fitbod-exercise-library-sets-logged-2026
+  - derived-ex-strength-popularity
+  - derived-ex-functional-popularity
+  - hyrox-fitness-race-2026
+  - derived-ex-block-minutes
+  - american-college-sports-acsm-position-2009
+  - derived-ex-route-quality
+  notes: 'Table 6.1 wall ball + med-ball slam 0.13 % (HYROX station). KB/DB routes = thrusters. Block:
+    functional class 4.75 min (setup + 3 working sets + rests).'
+- id: battle_ropes
+  name: Battle ropes
+  modality: functional
+  pattern: conditioning
+  popularity: 0.076
+  block_minutes: 4.75
+  options:
+  - uses:
+    - battle_rope_station
+    quality: 1.0
+  - uses:
+    - wall_ball_station
+    quality: 0.45
+  - uses:
+    - air_bike
+    quality: 0.4
+  - uses:
+    - ski_erg
+    quality: 0.35
+  sources:
+  - strengthlog-most-popular-gym-exercises-2025
+  - fitbod-exercise-library-sets-logged-2026
+  - derived-ex-strength-popularity
+  - derived-ex-functional-popularity
+  - derived-ex-block-minutes
+  - american-college-sports-acsm-position-2009
+  - derived-ex-route-quality
+  notes: 'Table 6.1 battle ropes 0.08 %. Block: functional class 4.75 min (setup + 3 working sets + rests).'
+- id: suspension_training
+  name: Suspension training
+  modality: functional
+  pattern: horizontal_pull
+  popularity: 0.407
+  block_minutes: 4.75
+  options:
+  - uses:
+    - suspension_trainer_station
+    quality: 1.0
+  - uses:
+    - rig_bay
+    quality: 0.9
+  - uses:
+    - smith_machine
+    quality: 0.6
+  - uses:
+    - stretch_area
+    quality: 0.5
+  sources:
+  - strengthlog-most-popular-gym-exercises-2025
+  - fitbod-exercise-library-sets-logged-2026
+  - derived-ex-strength-popularity
+  - derived-ex-functional-popularity
+  - puregym-when-gym-quiet-app-data-2023
+  - derived-ex-block-minutes
+  - american-college-sports-acsm-position-2009
+  - derived-ex-route-quality
+  notes: 'Table 6.1 TRX exercises 0.41 % (PureGym managers: TRX 10 % ''least used''). Block: functional
+    class 4.75 min (setup + 3 working sets + rests).'
+- id: heavy_bag_work
+  name: Heavy bag
+  modality: functional
+  pattern: conditioning
+  popularity: 0.133
+  block_minutes: 12.0
+  options:
+  - uses:
+    - heavy_bag
+    quality: 1.0
+  - uses:
+    - battle_rope_station
+    quality: 0.4
+  - uses:
+    - stretch_area
+    quality: 0.4
+  sources:
+  - strengthlog-most-popular-gym-exercises-2025
+  - fitbod-exercise-library-sets-logged-2026
+  - derived-ex-strength-popularity
+  - derived-ex-functional-popularity
+  - derived-ex-tail-estimates
+  - sports-fitness-industry-sfia-2024
+  - derived-ex-block-minutes
+  - derived-ex-route-quality
+  notes: 'No app counts: set to the median measured functional item (0.133 %); SFIA boxing/MMA for fitness
+    8.4 M participants vs kettlebells 14.5 M. Block 12 min = occupancy report (3-4 rounds x (3 work +
+    1 rest)).'
+- id: rig_circuit
+  name: Rig circuits (muscle-ups, toes-to-bar)
+  modality: functional
+  pattern: vertical_pull
+  popularity: 0.133
+  block_minutes: 4.75
+  options:
+  - uses:
+    - rig_bay
+    quality: 1.0
+  - uses:
+    - dip_chin_station
+    quality: 0.75
+  - uses:
+    - power_rack
+    quality: 0.7
+  - uses:
+    - cable_crossover
+    quality: 0.55
+  sources:
+  - strengthlog-most-popular-gym-exercises-2025
+  - fitbod-exercise-library-sets-logged-2026
+  - derived-ex-strength-popularity
+  - derived-ex-functional-popularity
+  - derived-ex-tail-estimates
+  - sports-fitness-industry-sfia-2024
+  - derived-ex-block-minutes
+  - american-college-sports-acsm-position-2009
+  - derived-ex-route-quality
+  notes: 'No app counts: set to the median measured functional item (0.133 %); SFIA cross-training participation
+    -30.6 % since 2019. Block: functional class 4.75 min (setup + 3 working sets + rests).'
+- id: stretching
+  name: Stretching
+  modality: mobility
+  pattern: mobility
+  popularity: 24.0
+  block_minutes: 10.0
+  options:
+  - uses:
+    - stretch_area
+    quality: 1.0
+  - uses:
+    - turf_lane
+    quality: 0.7
+  sources:
+  - derived-ex-mobility
+  - idea-health-fitness-most-popular-club-2018
+  - health-fitness-association-how-77-2025
+  - derived-ex-route-quality
+  notes: Weight = IHRSA 2016 member reach for stretching (24 %). Block 10 min = occupancy report stretch-area
+    hold (5-15).
+- id: foam_rolling
+  name: Foam rolling
+  modality: mobility
+  pattern: mobility
+  popularity: 12.0
+  block_minutes: 5.0
+  options:
+  - uses:
+    - stretch_area
+    - accessory_pack
+    quality: 1.0
+  - uses:
+    - accessory_pack
+    quality: 0.8
+  sources:
+  - derived-ex-mobility
+  - idea-health-fitness-most-popular-club-2018
+  - health-fitness-association-how-77-2025
+  - derived-ex-route-quality
+  notes: 'Estimate: half the stretching weight (no usage data). Block 5 min (warm-up / cool-down, usage
+    report). Accessory-only route = rolling on any free floor.'
+- id: band_mobility
+  name: Band and stability-ball work
+  modality: mobility
+  pattern: mobility
+  popularity: 6.0
+  block_minutes: 5.0
+  options:
+  - uses:
+    - accessory_pack
+    - stretch_area
+    quality: 1.0
+  - uses:
+    - accessory_pack
+    quality: 0.75
+  - uses:
+    - stretch_area
+    quality: 0.6
+  sources:
+  - derived-ex-mobility
+  - idea-health-fitness-most-popular-club-2018
+  - health-fitness-association-how-77-2025
+  - derived-ex-route-quality
+  - puregym-when-gym-quiet-app-data-2023
+  notes: 'Estimate: a quarter of the stretching weight (PureGym managers list Swiss ball 15 % and Bosu
+    27 % among least-used kit). Block 5 min.'
+- id: yoga_flow
+  name: Yoga and mobility flows
+  modality: mobility
+  pattern: mobility
+  popularity: 6.0
+  block_minutes: 15.0
+  options:
+  - uses:
+    - stretch_area
+    quality: 1.0
+  - uses:
+    - turf_lane
+    quality: 0.6
+  sources:
+  - derived-ex-mobility
+  - idea-health-fitness-most-popular-club-2018
+  - health-fitness-association-how-77-2025
+  - derived-ex-route-quality
+  notes: 'Estimate: a quarter of the stretching weight. HFA 2024 yoga reach is 21.8 % of members, but
+    mostly in classes, which floor time excludes. Block 15 min (top of the 5-15 stretch-area range).'

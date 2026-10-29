@@ -1,0 +1,107 @@
+version: 1
+equipment:
+  - id: treadmill
+    name: Treadmill
+    category: cardio
+    zone: cardio
+    description: Motorized treadmill.
+    footprint: {length_in: 84, width_in: 35, height_in: 64}
+    clearance: {front_in: 24, back_in: 79, left_in: 20, right_in: 20}
+    price_usd: {value: 4500, commercial: 8500, premium: 12000}
+    power: dedicated_circuit
+    min_ceiling_in: 108
+    layout: {aisle_side: back, row_group: treadmill}
+    sources: [test-standard, test-derived]
+  - id: upright_bike
+    name: Upright bike
+    category: cardio
+    zone: cardio
+    description: Upright bike.
+    footprint: {length_in: 46, width_in: 25}
+    clearance: {front_in: 24, back_in: 24, left_in: 24, right_in: 24}
+    price_usd: {value: 1200, commercial: 3000, premium: 4500}
+    layout: {aisle_side: side, row_group: bike}
+    sources: [test-derived]
+  - id: rower
+    name: Rowing machine
+    category: cardio
+    zone: cardio
+    description: Air rower.
+    footprint: {length_in: 96, width_in: 24}
+    clearance: {front_in: 6, back_in: 6, left_in: 12, right_in: 12}
+    price_usd: {value: 990, commercial: 1100, premium: 1300}
+    layout: {aisle_side: side, row_group: rower}
+    sources: [test-derived]
+  - id: power_rack
+    name: Power rack with bar and plates
+    category: racks_barbells
+    zone: free_weights
+    description: Power rack station.
+    footprint: {length_in: 54, width_in: 50}
+    clearance: {front_in: 48, back_in: 12, left_in: 30, right_in: 30}
+    price_usd: {value: 1800, commercial: 3200, premium: 6000}
+    min_ceiling_in: 108
+    layout: {aisle_side: front, row_group: rack}
+    sources: [test-derived]
+  - id: adjustable_bench
+    name: Adjustable bench
+    category: free_weights
+    zone: free_weights
+    description: Adjustable bench.
+    footprint: {length_in: 55, width_in: 26}
+    clearance: {front_in: 18, back_in: 18, left_in: 24, right_in: 24}
+    price_usd: {value: 350, commercial: 650, premium: 1200}
+    layout: {aisle_side: side, row_group: bench}
+    sources: [test-derived]
+  - id: dumbbell_set_full
+    name: Dumbbells 5-100 lb with racks
+    category: free_weights
+    zone: free_weights
+    description: Twenty pairs on two racks.
+    footprint: {length_in: 30, width_in: 180}
+    clearance: {front_in: 36, back_in: 0, left_in: 12, right_in: 12}
+    stations: 6
+    price_usd: {value: 3800, commercial: 6500, premium: 11000}
+    layout: {aisle_side: front, against_wall: true, row_group: dumbbell_rack}
+    sources: [test-derived]
+  - id: cable_crossover
+    name: Cable crossover
+    category: cables
+    zone: machines
+    description: Two adjustable stacks.
+    footprint: {length_in: 40, width_in: 160}
+    clearance: {front_in: 72, back_in: 0, left_in: 24, right_in: 24}
+    stations: 2
+    price_usd: {value: 2500, commercial: 6000, premium: 9000}
+    layout: {aisle_side: front, against_wall: true, row_group: cable}
+    sources: [test-derived]
+  - id: leg_press
+    name: Leg press
+    category: plate_loaded
+    zone: machines
+    description: 45-degree leg press with plates.
+    footprint: {length_in: 85, width_in: 60}
+    clearance: {front_in: 24, back_in: 18, left_in: 24, right_in: 24}
+    price_usd: {value: 2200, commercial: 5200, premium: 8000}
+    layout: {aisle_side: side, row_group: plate_loaded}
+    sources: [test-derived]
+  - id: lat_pulldown
+    name: Lat pulldown
+    category: selectorized
+    zone: machines
+    description: Selectorized lat pulldown.
+    footprint: {length_in: 60, width_in: 48}
+    clearance: {front_in: 24, back_in: 18, left_in: 18, right_in: 18}
+    price_usd: {value: 1500, commercial: 4500, premium: 7000}
+    layout: {aisle_side: front, row_group: selectorized}
+    sources: [test-derived]
+  - id: stretch_area
+    name: Stretch mat space
+    category: mobility
+    zone: stretching
+    description: One mat with room to move.
+    footprint: {length_in: 72, width_in: 30}
+    clearance: {front_in: 12, back_in: 12, left_in: 12, right_in: 12}
+    price_usd: {value: 60, commercial: 120, premium: 250}
+    layout: {aisle_side: any, row_group: stretch}
+    sources: [test-derived]

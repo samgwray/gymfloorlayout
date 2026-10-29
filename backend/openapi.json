@@ -1,0 +1,1073 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "gymfloorlayout API",
+    "description": "Chooses the equipment mix and floor layout for a gym from its square footage and budget, using peak-hour demand from member behavior data and an Erlang loss model.",
+    "version": "0.1.0"
+  },
+  "paths": {
+    "/api/health": {
+      "get": {
+        "summary": "Health",
+        "operationId": "health_api_health_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "additionalProperties": {"type": "string"},
+                  "type": "object",
+                  "title": "Response Health Api Health Get"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/meta": {
+      "get": {
+        "summary": "Meta",
+        "operationId": "meta_api_meta_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {"application/json": {"schema": {"$ref": "#/components/schemas/MetaOut"}}}
+          }
+        }
+      }
+    },
+    "/api/equipment": {
+      "get": {
+        "summary": "Equipment",
+        "operationId": "equipment_api_equipment_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "items": {"$ref": "#/components/schemas/EquipmentOut"},
+                  "type": "array",
+                  "title": "Response Equipment Api Equipment Get"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/exercises": {
+      "get": {
+        "summary": "Exercises",
+        "operationId": "exercises_api_exercises_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "items": {"$ref": "#/components/schemas/ExerciseOut"},
+                  "type": "array",
+                  "title": "Response Exercises Api Exercises Get"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/sources": {
+      "get": {
+        "summary": "Sources",
+        "operationId": "sources_api_sources_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "items": {"$ref": "#/components/schemas/SourceOut"},
+                  "type": "array",
+                  "title": "Response Sources Api Sources Get"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/methodology": {
+      "get": {
+        "summary": "Methodology",
+        "operationId": "methodology_api_methodology_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {"application/json": {"schema": {"$ref": "#/components/schemas/MethodologyOut"}}}
+          }
+        }
+      }
+    },
+    "/api/plan": {
+      "post": {
+        "summary": "Plan",
+        "operationId": "plan_api_plan_post",
+        "requestBody": {"content": {"application/json": {"schema": {"$ref": "#/components/schemas/PlanRequest"}}}, "required": true},
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {"application/json": {"schema": {"$ref": "#/components/schemas/PlanResponse"}}}
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {"application/json": {"schema": {"$ref": "#/components/schemas/HTTPValidationError"}}}
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "AisleRules": {
+        "properties": {
+          "main_aisle_in": {"type": "number", "exclusiveMinimum": 0.0, "title": "Main Aisle In"},
+          "secondary_aisle_in": {"type": "number", "exclusiveMinimum": 0.0, "title": "Secondary Aisle In"},
+          "sources": {"items": {"type": "string"}, "type": "array", "minItems": 1, "title": "Sources"},
+          "notes": {"anyOf": [{"type": "string"}, {"type": "null"}], "title": "Notes"}
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": ["main_aisle_in", "secondary_aisle_in", "sources"],
+        "title": "AisleRules"
+      },
+      "AssumptionOut": {
+        "properties": {
+          "label": {"type": "string", "title": "Label"},
+          "value": {"type": "string", "title": "Value"},
+          "sources": {"items": {"type": "string"}, "type": "array", "title": "Sources"}
+        },
+        "type": "object",
+        "required": ["label", "value", "sources"],
+        "title": "AssumptionOut"
+      },
+      "BehaviorFile": {
+        "properties": {
+          "version": {"type": "integer", "title": "Version"},
+          "session": {"$ref": "#/components/schemas/SessionModel"},
+          "occupancy": {"$ref": "#/components/schemas/OccupancyModel"},
+          "default_profile": {"type": "string", "title": "Default Profile"},
+          "profiles": {"items": {"$ref": "#/components/schemas/Profile"}, "type": "array", "minItems": 1, "title": "Profiles"}
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": ["version", "session", "occupancy", "default_profile", "profiles"],
+        "title": "BehaviorFile"
+      },
+      "Benchmark": {
+        "properties": {
+          "id": {"type": "string", "title": "Id"},
+          "name": {"type": "string", "title": "Name"},
+          "format": {"type": "string", "title": "Format"},
+          "sqft": {"anyOf": [{"$ref": "#/components/schemas/Range"}, {"type": "null"}]},
+          "equipment_budget_usd": {"anyOf": [{"$ref": "#/components/schemas/Range"}, {"type": "null"}]},
+          "members": {"anyOf": [{"$ref": "#/components/schemas/Range"}, {"type": "null"}]},
+          "equipment_counts": {"additionalProperties": {"type": "number"}, "type": "object", "title": "Equipment Counts"},
+          "notes": {"anyOf": [{"type": "string"}, {"type": "null"}], "title": "Notes"},
+          "sources": {"items": {"type": "string"}, "type": "array", "minItems": 1, "title": "Sources"}
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": ["id", "name", "format", "sources"],
+        "title": "Benchmark"
+      },
+      "BusyEquipmentOut": {
+        "properties": {
+          "equipment_id": {"type": "string", "title": "Equipment Id"},
+          "name": {"type": "string", "title": "Name"},
+          "utilization": {"type": "number", "title": "Utilization"}
+        },
+        "type": "object",
+        "required": ["equipment_id", "name", "utilization"],
+        "title": "BusyEquipmentOut"
+      },
+      "CategoryCostOut": {
+        "properties": {
+          "category": {
+            "type": "string",
+            "enum": [
+              "cardio",
+              "racks_barbells",
+              "free_weights",
+              "selectorized",
+              "plate_loaded",
+              "cables",
+              "functional",
+              "mobility"
+            ],
+            "title": "Category"
+          },
+          "label": {"type": "string", "title": "Label"},
+          "usd": {"type": "number", "title": "Usd"}
+        },
+        "type": "object",
+        "required": ["category", "label", "usd"],
+        "title": "CategoryCostOut"
+      },
+      "CategoryOut": {
+        "properties": {
+          "id": {
+            "type": "string",
+            "enum": [
+              "cardio",
+              "racks_barbells",
+              "free_weights",
+              "selectorized",
+              "plate_loaded",
+              "cables",
+              "functional",
+              "mobility"
+            ],
+            "title": "Id"
+          },
+          "label": {"type": "string", "title": "Label"}
+        },
+        "type": "object",
+        "required": ["id", "label"],
+        "title": "CategoryOut"
+      },
+      "CostsFile": {
+        "properties": {
+          "version": {"type": "integer", "title": "Version"},
+          "default_grade": {"type": "string", "enum": ["value", "commercial", "premium", "refurbished"], "title": "Default Grade"},
+          "grades": {"items": {"$ref": "#/components/schemas/GradeSpec"}, "type": "array", "minItems": 1, "title": "Grades"},
+          "flooring": {"items": {"$ref": "#/components/schemas/FlooringSpec"}, "type": "array", "minItems": 1, "title": "Flooring"},
+          "installation_rate": {"type": "number", "exclusiveMaximum": 1.0, "minimum": 0.0, "title": "Installation Rate"},
+          "installation_sources": {"items": {"type": "string"}, "type": "array", "minItems": 1, "title": "Installation Sources"},
+          "notes": {"anyOf": [{"type": "string"}, {"type": "null"}], "title": "Notes"}
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": ["version", "default_grade", "grades", "flooring", "installation_rate", "installation_sources"],
+        "title": "CostsFile"
+      },
+      "CostsOut": {
+        "properties": {
+          "budget_usd": {"type": "number", "title": "Budget Usd"},
+          "equipment_usd": {"type": "number", "title": "Equipment Usd"},
+          "installation_usd": {"type": "number", "title": "Installation Usd"},
+          "flooring_usd": {"type": "number", "title": "Flooring Usd"},
+          "total_usd": {"type": "number", "title": "Total Usd"},
+          "remaining_usd": {"type": "number", "title": "Remaining Usd"},
+          "by_category": {"items": {"$ref": "#/components/schemas/CategoryCostOut"}, "type": "array", "title": "By Category"}
+        },
+        "type": "object",
+        "required": ["budget_usd", "equipment_usd", "installation_usd", "flooring_usd", "total_usd", "remaining_usd", "by_category"],
+        "title": "CostsOut"
+      },
+      "DemandOut": {
+        "properties": {
+          "profile_id": {"type": "string", "title": "Profile Id"},
+          "profile_name": {"type": "string", "title": "Profile Name"},
+          "peak_users": {"type": "number", "title": "Peak Users"},
+          "active_users": {"type": "number", "title": "Active Users"},
+          "members_estimate": {"anyOf": [{"type": "number"}, {"type": "null"}], "title": "Members Estimate"},
+          "method": {"type": "string", "enum": ["members", "density"], "title": "Method"},
+          "capped_by_code": {"type": "boolean", "title": "Capped By Code"},
+          "modality_share": {
+            "additionalProperties": {"type": "number"},
+            "propertyNames": {"enum": ["cardio", "barbell", "dumbbell", "machine", "cable", "bodyweight", "functional", "mobility"]},
+            "type": "object",
+            "title": "Modality Share"
+          }
+        },
+        "type": "object",
+        "required": [
+          "profile_id",
+          "profile_name",
+          "peak_users",
+          "active_users",
+          "members_estimate",
+          "method",
+          "capped_by_code",
+          "modality_share"
+        ],
+        "title": "DemandOut"
+      },
+      "EquipmentOut": {
+        "properties": {
+          "id": {"type": "string", "title": "Id"},
+          "name": {"type": "string", "title": "Name"},
+          "category": {
+            "type": "string",
+            "enum": [
+              "cardio",
+              "racks_barbells",
+              "free_weights",
+              "selectorized",
+              "plate_loaded",
+              "cables",
+              "functional",
+              "mobility"
+            ],
+            "title": "Category"
+          },
+          "zone": {
+            "type": "string",
+            "enum": ["cardio", "machines", "free_weights", "functional", "stretching"],
+            "title": "Zone"
+          },
+          "description": {"type": "string", "title": "Description"},
+          "length_in": {"type": "number", "title": "Length In"},
+          "width_in": {"type": "number", "title": "Width In"},
+          "height_in": {"anyOf": [{"type": "number"}, {"type": "null"}], "title": "Height In"},
+          "clearance_in": {
+            "additionalProperties": {"type": "number"},
+            "propertyNames": {"enum": ["front", "back", "left", "right"]},
+            "type": "object",
+            "title": "Clearance In"
+          },
+          "footprint_sqft": {"type": "number", "title": "Footprint Sqft"},
+          "envelope_sqft": {"type": "number", "title": "Envelope Sqft"},
+          "stations": {"type": "integer", "title": "Stations"},
+          "price_usd": {
+            "additionalProperties": {"type": "number"},
+            "propertyNames": {"enum": ["value", "commercial", "premium", "refurbished"]},
+            "type": "object",
+            "title": "Price Usd"
+          },
+          "power": {"type": "string", "enum": ["none", "standard_outlet", "dedicated_circuit"], "title": "Power"},
+          "min_ceiling_in": {"anyOf": [{"type": "number"}, {"type": "null"}], "title": "Min Ceiling In"},
+          "example_models": {"items": {"type": "string"}, "type": "array", "title": "Example Models"},
+          "useful_life_years": {"anyOf": [{"type": "number"}, {"type": "null"}], "title": "Useful Life Years"},
+          "exercises": {"items": {"type": "string"}, "type": "array", "title": "Exercises"},
+          "sources": {"items": {"type": "string"}, "type": "array", "title": "Sources"},
+          "notes": {"anyOf": [{"type": "string"}, {"type": "null"}], "title": "Notes"}
+        },
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "category",
+          "zone",
+          "description",
+          "length_in",
+          "width_in",
+          "height_in",
+          "clearance_in",
+          "footprint_sqft",
+          "envelope_sqft",
+          "stations",
+          "price_usd",
+          "power",
+          "min_ceiling_in",
+          "example_models",
+          "useful_life_years",
+          "exercises",
+          "sources",
+          "notes"
+        ],
+        "title": "EquipmentOut"
+      },
+      "ExerciseOut": {
+        "properties": {
+          "id": {"type": "string", "title": "Id"},
+          "name": {"type": "string", "title": "Name"},
+          "modality": {
+            "type": "string",
+            "enum": ["cardio", "barbell", "dumbbell", "machine", "cable", "bodyweight", "functional", "mobility"],
+            "title": "Modality"
+          },
+          "pattern": {
+            "type": "string",
+            "enum": [
+              "squat",
+              "hinge",
+              "lunge",
+              "glute",
+              "knee_isolation",
+              "calf",
+              "horizontal_push",
+              "vertical_push",
+              "horizontal_pull",
+              "vertical_pull",
+              "shoulder_isolation",
+              "arm",
+              "core",
+              "carry",
+              "conditioning",
+              "cardio",
+              "mobility"
+            ],
+            "title": "Pattern"
+          },
+          "popularity": {"type": "number", "title": "Popularity"},
+          "block_minutes": {"type": "number", "title": "Block Minutes"},
+          "time_share": {"type": "number", "title": "Time Share"},
+          "routes": {"items": {"$ref": "#/components/schemas/ExerciseRouteOut"}, "type": "array", "title": "Routes"},
+          "sources": {"items": {"type": "string"}, "type": "array", "title": "Sources"}
+        },
+        "type": "object",
+        "required": ["id", "name", "modality", "pattern", "popularity", "block_minutes", "time_share", "routes", "sources"],
+        "title": "ExerciseOut"
+      },
+      "ExerciseRouteOut": {
+        "properties": {
+          "equipment": {"items": {"type": "string"}, "type": "array", "title": "Equipment"},
+          "quality": {"type": "number", "title": "Quality"}
+        },
+        "type": "object",
+        "required": ["equipment", "quality"],
+        "title": "ExerciseRouteOut"
+      },
+      "FlooringSpec": {
+        "properties": {
+          "id": {"type": "string", "title": "Id"},
+          "name": {"type": "string", "title": "Name"},
+          "cost_per_sqft": {"$ref": "#/components/schemas/Range"},
+          "sources": {"items": {"type": "string"}, "type": "array", "minItems": 1, "title": "Sources"},
+          "notes": {"anyOf": [{"type": "string"}, {"type": "null"}], "title": "Notes"}
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": ["id", "name", "cost_per_sqft", "sources"],
+        "title": "FlooringSpec"
+      },
+      "GradeSpec": {
+        "properties": {
+          "id": {"type": "string", "enum": ["value", "commercial", "premium", "refurbished"], "title": "Id"},
+          "name": {"type": "string", "title": "Name"},
+          "description": {"type": "string", "title": "Description"},
+          "price_tier": {"type": "string", "enum": ["value", "commercial", "premium"], "title": "Price Tier"},
+          "multiplier": {"type": "number", "exclusiveMinimum": 0.0, "title": "Multiplier", "default": 1.0},
+          "sources": {"items": {"type": "string"}, "type": "array", "minItems": 1, "title": "Sources"}
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": ["id", "name", "description", "price_tier", "sources"],
+        "title": "GradeSpec"
+      },
+      "HTTPValidationError": {
+        "properties": {"detail": {"items": {"$ref": "#/components/schemas/ValidationError"}, "type": "array", "title": "Detail"}},
+        "type": "object",
+        "title": "HTTPValidationError"
+      },
+      "LayoutOut": {
+        "properties": {
+          "width_in": {"type": "number", "title": "Width In"},
+          "depth_in": {"type": "number", "title": "Depth In"},
+          "entrance_x_in": {"type": "number", "title": "Entrance X In"},
+          "zones": {"items": {"$ref": "#/components/schemas/ZoneOut"}, "type": "array", "title": "Zones"},
+          "aisles": {"items": {"$ref": "#/components/schemas/RectOut"}, "type": "array", "title": "Aisles"},
+          "placements": {"items": {"$ref": "#/components/schemas/PlacementOut"}, "type": "array", "title": "Placements"},
+          "warnings": {"items": {"type": "string"}, "type": "array", "title": "Warnings"},
+          "notes": {"items": {"type": "string"}, "type": "array", "title": "Notes"}
+        },
+        "type": "object",
+        "required": ["width_in", "depth_in", "entrance_x_in", "zones", "aisles", "placements", "warnings", "notes"],
+        "title": "LayoutOut"
+      },
+      "LimitsOut": {
+        "properties": {
+          "area_min_sqft": {"type": "number", "title": "Area Min Sqft"},
+          "area_max_sqft": {"type": "number", "title": "Area Max Sqft"},
+          "budget_min_usd": {"type": "number", "title": "Budget Min Usd"},
+          "budget_max_usd": {"type": "number", "title": "Budget Max Usd"}
+        },
+        "type": "object",
+        "required": ["area_min_sqft", "area_max_sqft", "budget_min_usd", "budget_max_usd"],
+        "title": "LimitsOut"
+      },
+      "LineItemOut": {
+        "properties": {
+          "equipment_id": {"type": "string", "title": "Equipment Id"},
+          "name": {"type": "string", "title": "Name"},
+          "category": {
+            "type": "string",
+            "enum": [
+              "cardio",
+              "racks_barbells",
+              "free_weights",
+              "selectorized",
+              "plate_loaded",
+              "cables",
+              "functional",
+              "mobility"
+            ],
+            "title": "Category"
+          },
+          "zone": {
+            "type": "string",
+            "enum": ["cardio", "machines", "free_weights", "functional", "stretching"],
+            "title": "Zone"
+          },
+          "units": {"type": "integer", "title": "Units"},
+          "stations": {"type": "integer", "title": "Stations"},
+          "unit_price_usd": {"type": "number", "title": "Unit Price Usd"},
+          "installation_usd": {"type": "number", "title": "Installation Usd"},
+          "subtotal_usd": {"type": "number", "title": "Subtotal Usd"},
+          "footprint_sqft": {"type": "number", "title": "Footprint Sqft"},
+          "envelope_sqft": {"type": "number", "title": "Envelope Sqft"},
+          "utilization": {"type": "number", "title": "Utilization"},
+          "blocking": {"type": "number", "title": "Blocking"},
+          "served_users": {"type": "number", "title": "Served Users"},
+          "top_exercises": {"items": {"type": "string"}, "type": "array", "title": "Top Exercises"},
+          "rationale": {"type": "string", "title": "Rationale"},
+          "example_models": {"items": {"type": "string"}, "type": "array", "title": "Example Models"},
+          "power": {"type": "string", "enum": ["none", "standard_outlet", "dedicated_circuit"], "title": "Power"}
+        },
+        "type": "object",
+        "required": [
+          "equipment_id",
+          "name",
+          "category",
+          "zone",
+          "units",
+          "stations",
+          "unit_price_usd",
+          "installation_usd",
+          "subtotal_usd",
+          "footprint_sqft",
+          "envelope_sqft",
+          "utilization",
+          "blocking",
+          "served_users",
+          "top_exercises",
+          "rationale",
+          "example_models",
+          "power"
+        ],
+        "title": "LineItemOut"
+      },
+      "MetaOut": {
+        "properties": {
+          "data_version": {"type": "string", "title": "Data Version"},
+          "default_profile": {"type": "string", "title": "Default Profile"},
+          "default_grade": {"type": "string", "enum": ["value", "commercial", "premium", "refurbished"], "title": "Default Grade"},
+          "profiles": {"items": {"$ref": "#/components/schemas/OptionOut"}, "type": "array", "title": "Profiles"},
+          "grades": {"items": {"$ref": "#/components/schemas/OptionOut"}, "type": "array", "title": "Grades"},
+          "categories": {"items": {"$ref": "#/components/schemas/CategoryOut"}, "type": "array", "title": "Categories"},
+          "zones": {"items": {"$ref": "#/components/schemas/ZoneInfoOut"}, "type": "array", "title": "Zones"},
+          "scenarios": {"items": {"$ref": "#/components/schemas/ScenarioOut"}, "type": "array", "title": "Scenarios"},
+          "limits": {"$ref": "#/components/schemas/LimitsOut"}
+        },
+        "type": "object",
+        "required": [
+          "data_version",
+          "default_profile",
+          "default_grade",
+          "profiles",
+          "grades",
+          "categories",
+          "zones",
+          "scenarios",
+          "limits"
+        ],
+        "title": "MetaOut"
+      },
+      "MethodologyOut": {
+        "properties": {
+          "behavior": {"$ref": "#/components/schemas/BehaviorFile"},
+          "space": {"$ref": "#/components/schemas/SpaceFile"},
+          "costs": {"$ref": "#/components/schemas/CostsFile"},
+          "benchmarks": {"items": {"$ref": "#/components/schemas/Benchmark"}, "type": "array", "title": "Benchmarks"},
+          "validation_bands": {"items": {"$ref": "#/components/schemas/ValidationBand"}, "type": "array", "title": "Validation Bands"},
+          "model": {"$ref": "#/components/schemas/ModelSettingsOut"},
+          "data_version": {"type": "string", "title": "Data Version"}
+        },
+        "type": "object",
+        "required": ["behavior", "space", "costs", "benchmarks", "validation_bands", "model", "data_version"],
+        "title": "MethodologyOut"
+      },
+      "MetricsOut": {
+        "properties": {
+          "served_share": {"type": "number", "title": "Served Share"},
+          "quality_served_share": {"type": "number", "title": "Quality Served Share"},
+          "coverage_share": {"type": "number", "title": "Coverage Share"},
+          "unit_count": {"type": "integer", "title": "Unit Count"},
+          "type_count": {"type": "integer", "title": "Type Count"}
+        },
+        "type": "object",
+        "required": ["served_share", "quality_served_share", "coverage_share", "unit_count", "type_count"],
+        "title": "MetricsOut"
+      },
+      "ModalityShares": {
+        "properties": {
+          "cardio": {"type": "number", "minimum": 0.0, "title": "Cardio"},
+          "barbell": {"type": "number", "minimum": 0.0, "title": "Barbell"},
+          "dumbbell": {"type": "number", "minimum": 0.0, "title": "Dumbbell"},
+          "machine": {"type": "number", "minimum": 0.0, "title": "Machine"},
+          "cable": {"type": "number", "minimum": 0.0, "title": "Cable"},
+          "bodyweight": {"type": "number", "minimum": 0.0, "title": "Bodyweight"},
+          "functional": {"type": "number", "minimum": 0.0, "title": "Functional"},
+          "mobility": {"type": "number", "minimum": 0.0, "title": "Mobility"}
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": ["cardio", "barbell", "dumbbell", "machine", "cable", "bodyweight", "functional", "mobility"],
+        "title": "ModalityShares",
+        "description": "Share of active floor time the average member spends in each modality (sums to 1)."
+      },
+      "ModelSettingsOut": {
+        "properties": {
+          "min_relative_return": {"type": "number", "title": "Min Relative Return"},
+          "min_unit_use": {"type": "number", "title": "Min Unit Use"},
+          "most_wanted_tolerance": {"type": "number", "title": "Most Wanted Tolerance"},
+          "most_wanted_blocking": {"type": "number", "title": "Most Wanted Blocking"},
+          "coverage_tolerance": {"type": "number", "title": "Coverage Tolerance"},
+          "low_budget_share": {"type": "number", "title": "Low Budget Share"},
+          "budget_goal_share": {"type": "number", "title": "Budget Goal Share"},
+          "well_suited_quality": {"type": "number", "title": "Well Suited Quality"},
+          "patience_min": {"type": "number", "title": "Patience Min"}
+        },
+        "type": "object",
+        "required": [
+          "min_relative_return",
+          "min_unit_use",
+          "most_wanted_tolerance",
+          "most_wanted_blocking",
+          "coverage_tolerance",
+          "low_budget_share",
+          "budget_goal_share",
+          "well_suited_quality",
+          "patience_min"
+        ],
+        "title": "ModelSettingsOut",
+        "description": "Planner constants that live in code rather than in the datasets."
+      },
+      "OccupancyModel": {
+        "properties": {
+          "peak_users_per_1000_sqft": {"type": "number", "exclusiveMinimum": 0.0, "title": "Peak Users Per 1000 Sqft"},
+          "daily_visit_rate": {"type": "number", "maximum": 1.0, "exclusiveMinimum": 0.0, "title": "Daily Visit Rate"},
+          "peak_concurrency_share": {"type": "number", "maximum": 1.0, "exclusiveMinimum": 0.0, "title": "Peak Concurrency Share"},
+          "design_day_factor": {"type": "number", "minimum": 1.0, "title": "Design Day Factor"},
+          "occupant_load_sqft_per_person": {"type": "number", "exclusiveMinimum": 0.0, "title": "Occupant Load Sqft Per Person"},
+          "sources": {"items": {"type": "string"}, "type": "array", "minItems": 1, "title": "Sources"},
+          "notes": {"anyOf": [{"type": "string"}, {"type": "null"}], "title": "Notes"}
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "peak_users_per_1000_sqft",
+          "daily_visit_rate",
+          "peak_concurrency_share",
+          "design_day_factor",
+          "occupant_load_sqft_per_person",
+          "sources"
+        ],
+        "title": "OccupancyModel"
+      },
+      "OptionOut": {
+        "properties": {
+          "id": {"type": "string", "title": "Id"},
+          "name": {"type": "string", "title": "Name"},
+          "description": {"type": "string", "title": "Description"}
+        },
+        "type": "object",
+        "required": ["id", "name", "description"],
+        "title": "OptionOut"
+      },
+      "PatternCoverageOut": {
+        "properties": {
+          "pattern": {
+            "type": "string",
+            "enum": [
+              "squat",
+              "hinge",
+              "lunge",
+              "glute",
+              "knee_isolation",
+              "calf",
+              "horizontal_push",
+              "vertical_push",
+              "horizontal_pull",
+              "vertical_pull",
+              "shoulder_isolation",
+              "arm",
+              "core",
+              "carry",
+              "conditioning",
+              "cardio",
+              "mobility"
+            ],
+            "title": "Pattern"
+          },
+          "label": {"type": "string", "title": "Label"},
+          "coverage": {"type": "number", "title": "Coverage"},
+          "equipment": {"items": {"type": "string"}, "type": "array", "title": "Equipment"}
+        },
+        "type": "object",
+        "required": ["pattern", "label", "coverage", "equipment"],
+        "title": "PatternCoverageOut"
+      },
+      "PlacementOut": {
+        "properties": {
+          "uid": {"type": "string", "title": "Uid"},
+          "equipment_id": {"type": "string", "title": "Equipment Id"},
+          "name": {"type": "string", "title": "Name"},
+          "zone": {
+            "type": "string",
+            "enum": ["cardio", "machines", "free_weights", "functional", "stretching"],
+            "title": "Zone"
+          },
+          "rect": {"$ref": "#/components/schemas/RectOut"},
+          "envelope": {"$ref": "#/components/schemas/RectOut"},
+          "rotation": {"type": "integer", "enum": [0, 90, 180, 270], "title": "Rotation"}
+        },
+        "type": "object",
+        "required": ["uid", "equipment_id", "name", "zone", "rect", "envelope", "rotation"],
+        "title": "PlacementOut"
+      },
+      "PlanRequest": {
+        "properties": {
+          "area_sqft": {"type": "number", "maximum": 250000.0, "minimum": 150.0, "title": "Area Sqft"},
+          "budget_usd": {"type": "number", "maximum": 50000000.0, "minimum": 1000.0, "title": "Budget Usd"},
+          "profile": {"anyOf": [{"type": "string"}, {"type": "null"}], "title": "Profile"},
+          "grade": {
+            "anyOf": [{"type": "string", "enum": ["value", "commercial", "premium", "refurbished"]}, {"type": "null"}],
+            "title": "Grade"
+          },
+          "width_ft": {
+            "anyOf": [{"type": "number", "maximum": 2000.0, "exclusiveMinimum": 0.0}, {"type": "null"}],
+            "title": "Width Ft"
+          },
+          "depth_ft": {
+            "anyOf": [{"type": "number", "maximum": 2000.0, "exclusiveMinimum": 0.0}, {"type": "null"}],
+            "title": "Depth Ft"
+          },
+          "ceiling_ft": {"anyOf": [{"type": "number", "maximum": 60.0, "minimum": 7.0}, {"type": "null"}], "title": "Ceiling Ft"},
+          "members": {"anyOf": [{"type": "integer", "maximum": 200000.0, "minimum": 1.0}, {"type": "null"}], "title": "Members"},
+          "include_flooring": {"type": "boolean", "title": "Include Flooring", "default": true},
+          "include_installation": {"type": "boolean", "title": "Include Installation", "default": true},
+          "entrance": {"type": "string", "enum": ["left", "center", "right"], "title": "Entrance", "default": "center"},
+          "exclude": {"items": {"type": "string"}, "type": "array", "maxItems": 200, "title": "Exclude"}
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": ["area_sqft", "budget_usd"],
+        "title": "PlanRequest"
+      },
+      "PlanResponse": {
+        "properties": {
+          "inputs": {"$ref": "#/components/schemas/ResolvedInputsOut"},
+          "demand": {"$ref": "#/components/schemas/DemandOut"},
+          "metrics": {"$ref": "#/components/schemas/MetricsOut"},
+          "costs": {"$ref": "#/components/schemas/CostsOut"},
+          "space": {"$ref": "#/components/schemas/SpaceOut"},
+          "items": {"items": {"$ref": "#/components/schemas/LineItemOut"}, "type": "array", "title": "Items"},
+          "layout": {"$ref": "#/components/schemas/LayoutOut"},
+          "coverage": {"items": {"$ref": "#/components/schemas/PatternCoverageOut"}, "type": "array", "title": "Coverage"},
+          "simulation": {"$ref": "#/components/schemas/SimulationOut"},
+          "next_upgrades": {"items": {"$ref": "#/components/schemas/UpgradeOut"}, "type": "array", "title": "Next Upgrades"},
+          "upgrade_note": {"type": "string", "title": "Upgrade Note"},
+          "budget_note": {"anyOf": [{"type": "string"}, {"type": "null"}], "title": "Budget Note"},
+          "warnings": {"items": {"type": "string"}, "type": "array", "title": "Warnings"},
+          "assumptions": {"items": {"$ref": "#/components/schemas/AssumptionOut"}, "type": "array", "title": "Assumptions"},
+          "data_version": {"type": "string", "title": "Data Version"},
+          "compute_ms": {"type": "number", "title": "Compute Ms"}
+        },
+        "type": "object",
+        "required": [
+          "inputs",
+          "demand",
+          "metrics",
+          "costs",
+          "space",
+          "items",
+          "layout",
+          "coverage",
+          "simulation",
+          "next_upgrades",
+          "upgrade_note",
+          "budget_note",
+          "warnings",
+          "assumptions",
+          "data_version",
+          "compute_ms"
+        ],
+        "title": "PlanResponse"
+      },
+      "Profile": {
+        "properties": {
+          "id": {"type": "string", "title": "Id"},
+          "name": {"type": "string", "title": "Name"},
+          "description": {"type": "string", "title": "Description"},
+          "modality_share": {"$ref": "#/components/schemas/ModalityShares"},
+          "peak_users_per_1000_sqft": {
+            "anyOf": [{"type": "number", "exclusiveMinimum": 0.0}, {"type": "null"}],
+            "title": "Peak Users Per 1000 Sqft"
+          },
+          "exercise_multipliers": {"additionalProperties": {"type": "number"}, "type": "object", "title": "Exercise Multipliers"},
+          "excluded_equipment": {"items": {"type": "string"}, "type": "array", "title": "Excluded Equipment"},
+          "rationale": {"type": "string", "title": "Rationale"},
+          "sources": {"items": {"type": "string"}, "type": "array", "minItems": 1, "title": "Sources"}
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": ["id", "name", "description", "modality_share", "rationale", "sources"],
+        "title": "Profile"
+      },
+      "Range": {
+        "properties": {
+          "low": {"type": "number", "minimum": 0.0, "title": "Low"},
+          "typical": {"type": "number", "minimum": 0.0, "title": "Typical"},
+          "high": {"type": "number", "minimum": 0.0, "title": "High"}
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": ["low", "typical", "high"],
+        "title": "Range"
+      },
+      "RectOut": {
+        "properties": {
+          "x": {"type": "number", "title": "X"},
+          "y": {"type": "number", "title": "Y"},
+          "w": {"type": "number", "title": "W"},
+          "h": {"type": "number", "title": "H"}
+        },
+        "type": "object",
+        "required": ["x", "y", "w", "h"],
+        "title": "RectOut"
+      },
+      "ResolvedInputsOut": {
+        "properties": {
+          "area_sqft": {"type": "number", "title": "Area Sqft"},
+          "budget_usd": {"type": "number", "title": "Budget Usd"},
+          "profile": {"type": "string", "title": "Profile"},
+          "grade": {"type": "string", "enum": ["value", "commercial", "premium", "refurbished"], "title": "Grade"},
+          "width_ft": {"type": "number", "title": "Width Ft"},
+          "depth_ft": {"type": "number", "title": "Depth Ft"},
+          "ceiling_ft": {"type": "number", "title": "Ceiling Ft"},
+          "members": {"anyOf": [{"type": "integer"}, {"type": "null"}], "title": "Members"},
+          "include_flooring": {"type": "boolean", "title": "Include Flooring"},
+          "include_installation": {"type": "boolean", "title": "Include Installation"},
+          "entrance": {"type": "string", "enum": ["left", "center", "right"], "title": "Entrance"},
+          "exclude": {"items": {"type": "string"}, "type": "array", "title": "Exclude"}
+        },
+        "type": "object",
+        "required": [
+          "area_sqft",
+          "budget_usd",
+          "profile",
+          "grade",
+          "width_ft",
+          "depth_ft",
+          "ceiling_ft",
+          "members",
+          "include_flooring",
+          "include_installation",
+          "entrance",
+          "exclude"
+        ],
+        "title": "ResolvedInputsOut"
+      },
+      "ScenarioOut": {
+        "properties": {
+          "id": {"type": "string", "title": "Id"},
+          "label": {"type": "string", "title": "Label"},
+          "description": {"type": "string", "title": "Description"},
+          "area_sqft": {"type": "number", "title": "Area Sqft"},
+          "budget_usd": {"type": "number", "title": "Budget Usd"},
+          "profile": {"type": "string", "title": "Profile"},
+          "grade": {"type": "string", "enum": ["value", "commercial", "premium", "refurbished"], "title": "Grade"}
+        },
+        "type": "object",
+        "required": ["id", "label", "description", "area_sqft", "budget_usd", "profile", "grade"],
+        "title": "ScenarioOut"
+      },
+      "SessionModel": {
+        "properties": {
+          "mean_floor_minutes": {"type": "number", "exclusiveMinimum": 0.0, "title": "Mean Floor Minutes"},
+          "cv": {"type": "number", "exclusiveMaximum": 2.0, "exclusiveMinimum": 0.0, "title": "Cv"},
+          "idle_share": {"type": "number", "exclusiveMaximum": 1.0, "minimum": 0.0, "title": "Idle Share"},
+          "sources": {"items": {"type": "string"}, "type": "array", "minItems": 1, "title": "Sources"},
+          "notes": {"anyOf": [{"type": "string"}, {"type": "null"}], "title": "Notes"}
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": ["mean_floor_minutes", "cv", "idle_share", "sources"],
+        "title": "SessionModel"
+      },
+      "SimulationOut": {
+        "properties": {
+          "seed": {"type": "integer", "title": "Seed"},
+          "simulated_minutes": {"type": "number", "title": "Simulated Minutes"},
+          "visits": {"type": "integer", "title": "Visits"},
+          "exercise_blocks": {"type": "integer", "title": "Exercise Blocks"},
+          "mean_wait_min": {"type": "number", "title": "Mean Wait Min"},
+          "p90_wait_min": {"type": "number", "title": "P90 Wait Min"},
+          "first_choice_share": {"type": "number", "title": "First Choice Share"},
+          "substituted_share": {"type": "number", "title": "Substituted Share"},
+          "skipped_share": {"type": "number", "title": "Skipped Share"},
+          "peak_concurrent_users": {"type": "integer", "title": "Peak Concurrent Users"},
+          "busiest": {"items": {"$ref": "#/components/schemas/BusyEquipmentOut"}, "type": "array", "title": "Busiest"}
+        },
+        "type": "object",
+        "required": [
+          "seed",
+          "simulated_minutes",
+          "visits",
+          "exercise_blocks",
+          "mean_wait_min",
+          "p90_wait_min",
+          "first_choice_share",
+          "substituted_share",
+          "skipped_share",
+          "peak_concurrent_users",
+          "busiest"
+        ],
+        "title": "SimulationOut"
+      },
+      "SourceOut": {
+        "properties": {
+          "id": {"type": "string", "title": "Id"},
+          "title": {"type": "string", "title": "Title"},
+          "publisher": {"anyOf": [{"type": "string"}, {"type": "null"}], "title": "Publisher"},
+          "year": {"anyOf": [{"type": "string"}, {"type": "null"}], "title": "Year"},
+          "url": {"anyOf": [{"type": "string"}, {"type": "null"}], "title": "Url"},
+          "kind": {"type": "string", "title": "Kind"},
+          "accessed": {"anyOf": [{"type": "string"}, {"type": "null"}], "title": "Accessed"},
+          "notes": {"anyOf": [{"type": "string"}, {"type": "null"}], "title": "Notes"}
+        },
+        "type": "object",
+        "required": ["id", "title", "publisher", "year", "url", "kind", "accessed", "notes"],
+        "title": "SourceOut"
+      },
+      "SpaceFile": {
+        "properties": {
+          "version": {"type": "integer", "title": "Version"},
+          "aisles": {"$ref": "#/components/schemas/AisleRules"},
+          "circulation_share": {"type": "number", "exclusiveMaximum": 1.0, "exclusiveMinimum": 0.0, "title": "Circulation Share"},
+          "packing_efficiency": {"type": "number", "maximum": 1.0, "exclusiveMinimum": 0.0, "title": "Packing Efficiency"},
+          "zones": {"items": {"$ref": "#/components/schemas/ZoneSpec"}, "type": "array", "minItems": 1, "title": "Zones"},
+          "default_ceiling_in": {"type": "number", "exclusiveMinimum": 0.0, "title": "Default Ceiling In"},
+          "sources": {"items": {"type": "string"}, "type": "array", "minItems": 1, "title": "Sources"},
+          "notes": {"anyOf": [{"type": "string"}, {"type": "null"}], "title": "Notes"}
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": ["version", "aisles", "circulation_share", "packing_efficiency", "zones", "default_ceiling_in", "sources"],
+        "title": "SpaceFile"
+      },
+      "SpaceOut": {
+        "properties": {
+          "training_sqft": {"type": "number", "title": "Training Sqft"},
+          "equipment_footprint_sqft": {"type": "number", "title": "Equipment Footprint Sqft"},
+          "equipment_envelope_sqft": {"type": "number", "title": "Equipment Envelope Sqft"},
+          "by_zone": {"items": {"$ref": "#/components/schemas/ZoneSpaceOut"}, "type": "array", "title": "By Zone"}
+        },
+        "type": "object",
+        "required": ["training_sqft", "equipment_footprint_sqft", "equipment_envelope_sqft", "by_zone"],
+        "title": "SpaceOut"
+      },
+      "UpgradeItemOut": {
+        "properties": {
+          "equipment_id": {"type": "string", "title": "Equipment Id"},
+          "name": {"type": "string", "title": "Name"},
+          "units": {"type": "integer", "title": "Units"}
+        },
+        "type": "object",
+        "required": ["equipment_id", "name", "units"],
+        "title": "UpgradeItemOut"
+      },
+      "UpgradeOut": {
+        "properties": {
+          "items": {"items": {"$ref": "#/components/schemas/UpgradeItemOut"}, "type": "array", "title": "Items"},
+          "cost_usd": {"type": "number", "title": "Cost Usd"},
+          "gain_share": {"type": "number", "title": "Gain Share"}
+        },
+        "type": "object",
+        "required": ["items", "cost_usd", "gain_share"],
+        "title": "UpgradeOut"
+      },
+      "ValidationBand": {
+        "properties": {
+          "id": {"type": "string", "title": "Id"},
+          "label": {"type": "string", "title": "Label"},
+          "total_sqft": {"$ref": "#/components/schemas/Range"},
+          "equipment_usd_per_sqft": {"$ref": "#/components/schemas/Range"},
+          "pieces_per_1000_sqft": {"$ref": "#/components/schemas/Range"},
+          "cardio_share_of_pieces": {"$ref": "#/components/schemas/Range"},
+          "training_share": {"type": "number", "maximum": 1.0, "exclusiveMinimum": 0.0, "title": "Training Share"},
+          "notes": {"anyOf": [{"type": "string"}, {"type": "null"}], "title": "Notes"},
+          "sources": {"items": {"type": "string"}, "type": "array", "minItems": 1, "title": "Sources"}
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "id",
+          "label",
+          "total_sqft",
+          "equipment_usd_per_sqft",
+          "pieces_per_1000_sqft",
+          "cardio_share_of_pieces",
+          "training_share",
+          "sources"
+        ],
+        "title": "ValidationBand",
+        "description": "What real gyms of a size class look like; plans are checked against these ranges."
+      },
+      "ValidationError": {
+        "properties": {
+          "loc": {"items": {"anyOf": [{"type": "string"}, {"type": "integer"}]}, "type": "array", "title": "Location"},
+          "msg": {"type": "string", "title": "Message"},
+          "type": {"type": "string", "title": "Error Type"},
+          "input": {"title": "Input"},
+          "ctx": {"type": "object", "title": "Context"}
+        },
+        "type": "object",
+        "required": ["loc", "msg", "type"],
+        "title": "ValidationError"
+      },
+      "ZoneInfoOut": {
+        "properties": {
+          "id": {"type": "string", "enum": ["cardio", "machines", "free_weights", "functional", "stretching"], "title": "Id"},
+          "name": {"type": "string", "title": "Name"},
+          "description": {"type": "string", "title": "Description"}
+        },
+        "type": "object",
+        "required": ["id", "name", "description"],
+        "title": "ZoneInfoOut"
+      },
+      "ZoneOut": {
+        "properties": {
+          "id": {"type": "string", "enum": ["cardio", "machines", "free_weights", "functional", "stretching"], "title": "Id"},
+          "name": {"type": "string", "title": "Name"},
+          "rect": {"$ref": "#/components/schemas/RectOut"}
+        },
+        "type": "object",
+        "required": ["id", "name", "rect"],
+        "title": "ZoneOut"
+      },
+      "ZoneSpaceOut": {
+        "properties": {
+          "zone": {
+            "type": "string",
+            "enum": ["cardio", "machines", "free_weights", "functional", "stretching"],
+            "title": "Zone"
+          },
+          "name": {"type": "string", "title": "Name"},
+          "sqft": {"type": "number", "title": "Sqft"},
+          "share": {"type": "number", "title": "Share"}
+        },
+        "type": "object",
+        "required": ["zone", "name", "sqft", "share"],
+        "title": "ZoneSpaceOut"
+      },
+      "ZoneSpec": {
+        "properties": {
+          "id": {"type": "string", "enum": ["cardio", "machines", "free_weights", "functional", "stretching"], "title": "Id"},
+          "name": {"type": "string", "title": "Name"},
+          "order": {"type": "integer", "title": "Order"},
+          "flooring": {"type": "string", "title": "Flooring"},
+          "description": {"type": "string", "title": "Description"}
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": ["id", "name", "order", "flooring", "description"],
+        "title": "ZoneSpec"
+      }
+    }
+  }
+}

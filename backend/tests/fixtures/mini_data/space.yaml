@@ -1,0 +1,12 @@
+version: 1
+aisles: {main_aisle_in: 60, secondary_aisle_in: 36, sources: [test-standard]}
+circulation_share: 0.18
+packing_efficiency: 0.75
+zones:
+  - {id: cardio, name: Cardio, order: 0, flooring: rubber_8mm, description: Cardio rows.}
+  - {id: machines, name: Machines & cables, order: 1, flooring: rubber_8mm, description: Machines.}
+  - {id: free_weights, name: Free weights, order: 2, flooring: rubber_12mm, description: Free weights.}
+  - {id: functional, name: Functional & turf, order: 3, flooring: turf_rubber, description: Turf.}
+  - {id: stretching, name: Stretching & core, order: 4, flooring: rubber_8mm, description: Mats.}
+default_ceiling_in: 144
+sources: [test-standard]

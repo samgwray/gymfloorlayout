@@ -1,0 +1,83 @@
+version: 1
+aisles:
+  main_aisle_in: 60
+  secondary_aisle_in: 36
+  sources:
+  - u-s-department-2010-ada-standards
+  - u-s-department-guidance-2010-ada
+  - nsca-tsac-module-5-0-5-2018
+  - skelcore-optimal-distance-between-2026
+  - walter-rush-commercial-gym-equipment-2025
+  - derived-sp-aisle-widths
+  notes: 'Main aisle 60 in: meets the ADA passing-space and turning-space widths (403.5.3, 304.3), so
+    no separate 60 x 60 in passing spaces are needed, and matches NSCA''s 60-in hallway. Secondary aisles
+    36 in: the ADA 403.5.1 accessible-route minimum and NSCA''s 36-in passageway. Gyms typically leave
+    48 in between rows (Skelcore calls 48 in the comfortable everyday standard and 36 in the bare minimum;
+    Rush Walter prefers 48 in). The planner uses 36 in because equipment clearance zones may overlap walkways
+    (DOJ guidance lets the 30 x 48 in clear floor space sit in the aisle behind a machine), and every
+    unit still keeps an approach zone at least as deep as its own clearance.'
+circulation_share: 0.175
+packing_efficiency: 0.65
+zones:
+- id: cardio
+  name: Cardio
+  order: 0
+  flooring: rubber_8mm
+  description: Treadmills, ellipticals, bikes, rowers and climbers in rows nearest the entrance, each
+    treadmill keeping a 79 in (2 m) clear zone behind it.
+- id: machines
+  name: Machines & cables
+  order: 1
+  flooring: rubber_8mm
+  description: Selectorized and plate-loaded machines and cable stations in rows 24-36 in apart, each
+    opening onto an aisle.
+- id: free_weights
+  name: Free weights
+  order: 2
+  flooring: rubber_12mm
+  description: Racks, platforms, benches and dumbbells on 12 mm rubber toward the back, with dumbbell
+    racks and the tallest units along the wall.
+- id: functional
+  name: Functional & turf
+  order: 3
+  flooring: turf_rubber
+  description: Open turf and rubber floor for sled lanes, a rig, boxes, kettlebells and conditioning work.
+- id: stretching
+  name: Stretching & core
+  order: 4
+  flooring: rubber_8mm
+  description: Mat space at the back of the room for warm-up, stretching and core work, about 50 sq ft
+    per user.
+default_ceiling_in: 144
+sources:
+- u-s-department-ufc-4-740-02-fitness-2006-2
+- u-s-department-ufc-4-740-02-fitness-2006-3
+- nsca-s-safety-checklist-exercise-facility
+- nsca-tsac-module-5-0-5-2018
+- sport-england-fitness-exercise-spaces-2008
+- greatmats-kyle-schurman-what-kind-flooring
+- core-health-fitness-stairmaster-8gx-product-2
+- new-england-real-planet-fitness-opens-2025
+- patch-planet-fitness-opens-lakewood-wa-2025
+- eden-prairie-local-planet-fitness-2024
+- kiro-7-planet-fitness-expands-adding-2026
+- what-now-media-new-21-141-square-foot-2026
+- derived-sp-circulation-share
+- derived-sp-packing-efficiency
+- derived-sp-zone-plan
+- derived-sp-default-ceiling
+notes: 'The user''s area is the training floor: the space for equipment, aisles and stretching. Reception,
+  locker rooms and restrooms are the operator''s to add and are not part of it. Aisles take about 17.5% (circulation_share,
+  range 15-20%). During equipment selection each unit claims its footprint plus half of each clearance
+  (neighbouring clearances and aisles may overlap), and the sum of those claims may use up to packing_efficiency
+  = 0.65 of the training floor. Aisles and wall-facing clearances alone would allow about 0.78 (1 - 0.175
+  - 0.05), but zone boundaries, the main aisle and part-filled rows leave less: in the five sample scenarios
+  the final plans claim about 0.37 of the training floor at 750 sq ft, 0.48 at 1,200, 0.56 at 3,750 and
+  0.63-0.65 at 7,000-12,500 sq ft. Planet Fitness agrees: its 116-152 sq ft of building per piece is 64-94
+  sq ft of training floor at a 0.55-0.62 training share, and the catalog''s pieces claim about 48 sq ft
+  each in a big-box plan, a ratio of 0.51-0.74. Whenever units
+  do not fit, the plan is re-made on less area, so small rooms settle below the starting value. The default
+  ceiling of 144 in (12 ft) is the NSCA and UFC minimum for overhead lifting and lies inside Sport England''s
+  optimum of 3.5-4 m (138-157 in). Users with lower rooms should enter their height, which removes equipment
+  that needs more headroom: below 12 ft the rigs, wall-ball targets and lifting platforms, below 9 ft
+  also racks, treadmills and stair climbers.'

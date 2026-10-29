@@ -1,0 +1,4188 @@
+version: 1
+equipment:
+- id: treadmill
+  name: Treadmill
+  category: cardio
+  zone: cardio
+  description: Commercial motorized treadmill with a 60 x 22 in belt for walking, incline walking and
+    running.
+  footprint:
+    length_in: 84
+    width_in: 36
+    height_in: 65
+  clearance:
+    front_in: 24
+    back_in: 79
+    left_in: 24
+    right_in: 24
+  stations: 1
+  price_usd:
+    value: 4350
+    commercial: 10300
+    premium: 14000
+  power: dedicated_circuit
+  min_ceiling_in: 108
+  layout:
+    aisle_side: back
+    against_wall: false
+    row_group: treadmill
+  example_models:
+  - Life Fitness Integrity+ Treadmill
+  - Precor TRM 885
+  - Star Trac 8TRx
+  - Spirit CT800 Treadmill
+  useful_life_years: 6
+  sources:
+  - life-fitness-integrity-treadmill-2
+  - life-fitness-atmos-treadmill-specifications
+  - precor-trm-885-treadmill-specifications-2025
+  - precor-trm-885-product-brochure-eng-2025
+  - core-health-fitness-star-trac-8trx-treadmill
+  - core-health-fitness-2026-catalog-star
+  - matrix-fitness-hosted-t3xe-owner-s-manual
+  - cybex-hosted-manualsdir-525t-treadmill-user
+  - precor-assembling-maintaining-trm-800-series
+  - cph-associates-david-placement-2016
+  - technogym-run-personal-user-manual
+  - core-health-fitness-star-trac-10-trx
+  - life-fitness-powermill-climber
+  - fitness-exchange-product-catalog-2026
+  - fitness-superstore-catalog-new-2026
+  - life-fitness-us-online-store-products-2026
+  - fitness-outlet-catalog-2026
+  - top-fitness-precor-dealer-catalog-2026
+  - total-fitness-usa-catalog-woodway-2026
+  - johnson-fitness-wellness-commercial
+  - planet-fitness-sec-2025-investor-day
+  - planet-fitness-sec-form-10-k-fy2025-2026
+  - pinnacle-bidco-plc-puregym-annual-2018
+  - rework-equipment-lifecycle-maintenance-2025
+  - derived-eqcf-cardio-footprint-p75
+  - derived-eqcf-treadmill-ceiling
+  - derived-eqcf-price-tier-medians
+  - derived-eqcf-cardio-useful-life
+  notes: Footprint is about the 75th percentile of LF Integrity+/Atmos, Precor TRM 885 and Star Trac 8TRx/10TRx
+    (the Matrix Performance, 86.7 in long per search snippets only, is longer). 79 in behind is the 2
+    m emergency-dismount zone (ASTM F2115-12 and later, EN) that Precor, Cybex, Matrix and Life Fitness
+    manuals require clear of equipment and walls; the engine lets clearance zones overlap aisles, and
+    no source says the rear zone may double as an aisle, so that is an assumption. Sides 24 in (Matrix
+    T3xe; 19.7 in ASTM/Precor minimum), shared with neighbours. Front 24 in per the fact-check (Technogym
+    and Star Trac clearance figures show 0.6 m in front of the console). One dedicated 120 V/20 A circuit
+    per unit. The commercial price is the median of 9 listings; without the two unverifiable Matrix snippets
+    it is $9,250.
+- id: curved_treadmill
+  name: Curved manual treadmill
+  category: cardio
+  zone: cardio
+  description: Self-powered curved-deck manual treadmill used mainly for sprints and intervals.
+  footprint:
+    length_in: 70
+    width_in: 34
+    height_in: 71
+  clearance:
+    front_in: 20
+    back_in: 79
+    left_in: 20
+    right_in: 20
+  stations: 1
+  price_usd:
+    value: 3500
+    commercial: 6400
+    premium: 9100
+  power: none
+  min_ceiling_in: 108
+  layout:
+    aisle_side: back
+    against_wall: false
+    row_group: treadmill
+  example_models:
+  - Woodway Curve LTG
+  - TrueForm Runner
+  - Assault Runner Elite
+  - NOHrD Sprintbok V2
+  useful_life_years: 7
+  sources:
+  - woodway-curve-specifications
+  - rogue-fitness-woodway-curve-ltg-treadmill
+  - rogue-fitness-trueform-runner
+  - iron-company-trueform-runner-non-motorized
+  - assault-fitness-airrunner-owner-s-2017
+  - core-health-fitness-2026-catalog-star
+  - rep-fitness-catalog-rig-product-2026
+  - fitness-superstore-catalog-new-2026
+  - push-pedal-pull-catalog-precor-2026
+  - competitors-outlet-catalog-2026
+  - total-fitness-usa-catalog-woodway-2026
+  - blk-box-fitness-us-woodway-curve-ltg-2026
+  - top-fitness-precor-dealer-catalog-2026
+  - life-fitness-us-online-store-products-2026
+  - livefit-catalog-2026
+  - planet-fitness-sec-2025-investor-day
+  - rework-equipment-lifecycle-maintenance-2025
+  - derived-eqcf-cardio-footprint-p75
+  - derived-eqcf-treadmill-ceiling
+  - derived-eqcf-price-tier-medians
+  - derived-eqcf-cardio-useful-life
+  notes: 'Clearances are from the Assault AirRunner manual (ASTM + EN, 2017): 0.5 m (20 in) left, right
+    and front, 2 m (79 in) behind. Width 34 in sits between TrueForm''s conflicting 31 in (Rogue) and
+    36 in (Iron Company) listings. No mains power (Woodway: not required; AirRunner console on AA batteries).
+    The 9-ft treadmill-zone ceiling is applied because curved decks are used for sprints, although no
+    curved-deck step-up height was found.'
+- id: elliptical
+  name: Elliptical cross-trainer
+  category: cardio
+  zone: cardio
+  description: Commercial elliptical cross-trainer for low-impact total-body cardio.
+  footprint:
+    length_in: 87
+    width_in: 30
+    height_in: 72
+  clearance:
+    front_in: 12
+    back_in: 24
+    left_in: 24
+    right_in: 24
+  stations: 1
+  price_usd:
+    value: 3300
+    commercial: 6500
+    premium: 12450
+  power: standard_outlet
+  layout:
+    aisle_side: back
+    against_wall: false
+    row_group: elliptical
+  example_models:
+  - Precor EFX 885
+  - Life Fitness Integrity Elliptical Cross-Trainer
+  - Star Trac 8CT Cross Trainer
+  - Spirit CE800 Elliptical
+  useful_life_years: 6
+  sources:
+  - precor-efx-885-elliptical-2025
+  - life-fitness-integrity-elliptical-cross
+  - life-fitness-integrity-series-cross-trainer
+  - life-fitness-e1-total-body-elliptical-cross
+  - matrix-fitness-hosted-e5xc-e7xe-e7xc-a5x
+  - precor-hosted-manualslib-p30-console-owner-s
+  - core-health-fitness-2026-catalog-star
+  - fitness-exchange-product-catalog-2026
+  - fitness-superstore-catalog-new-2026
+  - life-fitness-us-online-store-products-2026
+  - fitness-outlet-catalog-2026
+  - push-pedal-pull-catalog-precor-2026
+  - top-fitness-precor-dealer-catalog-2026
+  - livefit-catalog-2026
+  - johnson-fitness-wellness-commercial-2
+  - planet-fitness-sec-2025-investor-day
+  - planet-fitness-sec-form-10-k-fy2025-2026
+  - pinnacle-bidco-plc-puregym-annual-2018
+  - rework-equipment-lifecycle-maintenance-2025
+  - derived-eqcf-cardio-footprint-p75
+  - derived-eqcf-price-tier-medians
+  - derived-eqcf-cardio-useful-life
+  notes: 'Length 87 in per the fact-check correction (Star Trac 8RDE 86 in; LF Integrity active length
+    87 in). Front 12 in for the pedal levers and 24 in at the sides (LF CLSX manual); 24 in at the rear
+    entry (LF E1: 2 ft around; Matrix: 24 in in front or behind; Precor: 0.5 m). LF CLSX also warns to
+    keep 2 m x 1 m clear behind, so back 79 is the strict option. Power varies: Precor EFX 885 needs a
+    120 V/15 A outlet, LF Integrity touchscreen consoles need a dedicated 120 V/20 A circuit, self-powered
+    LED consoles need none.'
+- id: upright_bike
+  name: Upright bike
+  category: cardio
+  zone: cardio
+  description: Commercial upright exercise bike.
+  footprint:
+    length_in: 49
+    width_in: 26
+    height_in: 61
+  clearance:
+    front_in: 12
+    back_in: 24
+    left_in: 24
+    right_in: 24
+  stations: 1
+  price_usd:
+    value: 2950
+    commercial: 4200
+    premium: 8650
+  power: standard_outlet
+  layout:
+    aisle_side: side
+    against_wall: false
+    row_group: bike
+  example_models:
+  - Precor UBK 885
+  - Life Fitness Integrity Upright Lifecycle
+  - Star Trac 6UB
+  - Spirit CU800 Upright Bike
+  useful_life_years: 6
+  sources:
+  - precor-ubk-885-upright-bike-2025
+  - life-fitness-australia-integrity-series-2019-2
+  - core-health-fitness-2026-catalog-star
+  - matrix-fitness-performance-upright-recumbent
+  - matrix-fitness-premium-series-cycles-2009
+  - life-fitness-hosted-integrity-series
+  - fitness-exchange-product-catalog-2026
+  - push-pedal-pull-catalog-precor-2026
+  - life-fitness-us-online-store-products-2026
+  - livefit-catalog-2026
+  - top-fitness-precor-dealer-catalog-2026
+  - johnson-fitness-wellness-commercial-bikes
+  - planet-fitness-sec-2025-investor-day
+  - planet-fitness-sec-form-10-k-fy2025-2026
+  - pinnacle-bidco-plc-puregym-annual-2018
+  - rework-equipment-lifecycle-maintenance-2025
+  - derived-eqcf-cardio-footprint-p75
+  - derived-eqcf-price-tier-medians
+  - derived-eqcf-cardio-useful-life
+  notes: 'Front 12 in (LF: at least 1 ft in front), back 24 in (Matrix 7xe: 24 in behind), sides 24 in
+    (Matrix 0.6 m free area; LF 24 in each side), shared with neighbours. LF''s 3-ft front-or-rear warning
+    is the strict option. Power varies: LF C/X consoles are self-powered, Precor 885 uses 120 V/15 A,
+    Matrix 7xe runs up to 4 units per dedicated 15 A circuit, and LF TV consoles need a dedicated 20 A
+    circuit; standard_outlet is the planning value.'
+- id: recumbent_bike
+  name: Recumbent bike
+  category: cardio
+  zone: cardio
+  description: Commercial recumbent bike with a back-supported, step-through seat for low-impact cycling.
+  footprint:
+    length_in: 67
+    width_in: 27
+    height_in: 56
+  clearance:
+    front_in: 12
+    back_in: 24
+    left_in: 24
+    right_in: 24
+  stations: 1
+  price_usd:
+    value: 3000
+    commercial: 4950
+    premium: 8350
+  power: standard_outlet
+  layout:
+    aisle_side: side
+    against_wall: false
+    row_group: bike
+  example_models:
+  - Precor RBK 885
+  - Life Fitness Integrity Recumbent Lifecycle
+  - Star Trac 6RB
+  - Spirit CR800 Recumbent Bike
+  useful_life_years: 6
+  sources:
+  - precor-rbk-885-recumbent-bike-2025
+  - life-fitness-australia-integrity-series-2019-3
+  - core-health-fitness-2026-catalog-star
+  - matrix-fitness-performance-upright-recumbent
+  - matrix-fitness-premium-series-cycles-2009
+  - life-fitness-hosted-integrity-series
+  - fitness-exchange-product-catalog-2026
+  - push-pedal-pull-catalog-precor-2026
+  - livefit-catalog-2026
+  - fitness-outlet-catalog-2026
+  - life-fitness-us-online-store-products-2026
+  - top-fitness-precor-dealer-catalog-2026
+  - johnson-fitness-wellness-commercial-bikes
+  - planet-fitness-sec-2025-investor-day
+  - planet-fitness-sec-form-10-k-fy2025-2026
+  - pinnacle-bidco-plc-puregym-annual-2018
+  - rework-equipment-lifecycle-maintenance-2025
+  - derived-eqcf-cardio-footprint-p75
+  - derived-eqcf-price-tier-medians
+  - derived-eqcf-cardio-useful-life
+  notes: Clearances follow the LF Integrity CLSR manual (24 in each side, 1 ft in front) and Matrix (24
+    in behind); the same LF manual also warns 3 ft front or rear, so 36 in is the strict option. Value
+    price $3,000 per the fact-check (a floor-model listing replaced by the cheapest new variant). Power
+    as for the upright bike.
+- id: indoor_cycle
+  name: Indoor cycle
+  category: cardio
+  zone: cardio
+  description: Studio-style indoor cycle (spin bike) used on the open gym floor.
+  footprint:
+    length_in: 53
+    width_in: 23
+    height_in: 50
+  clearance:
+    front_in: 24
+    back_in: 24
+    left_in: 24
+    right_in: 24
+  stations: 1
+  price_usd:
+    value: 1850
+    commercial: 2600
+    premium: 3850
+  power: none
+  layout:
+    aisle_side: side
+    against_wall: false
+    row_group: cycle
+  example_models:
+  - Keiser M3i
+  - Life Fitness IC7
+  - Schwinn AC Sport
+  - Spirit CIC850 Indoor Cycle
+  useful_life_years: 6
+  sources:
+  - keiser-m3i-indoor-group-cycle-owner
+  - life-fitness-icg-ic7-indoor-cycle-manual
+  - core-health-fitness-2026-catalog-star
+  - sport-england-fitness-exercise-spaces-2008
+  - fitness-superstore-catalog-new-2026
+  - fitness-exchange-product-catalog-2026
+  - life-fitness-us-online-store-products-2026
+  - fitness-outlet-catalog-2026
+  - recovery-athletes-catalog-2026
+  - johnson-fitness-wellness-commercial-bikes
+  - planet-fitness-sec-2025-investor-day
+  - planet-fitness-sec-form-10-k-fy2025-2026
+  - pinnacle-bidco-plc-puregym-annual-2018
+  - rework-equipment-lifecycle-maintenance-2025
+  - derived-eqcf-cardio-footprint-p75
+  - derived-eqcf-price-tier-medians
+  - derived-eqcf-cardio-useful-life
+  notes: 'Keiser M3i manual: 24 in of free area on all sides, which adjacent bikes may share; in a shared
+    grid each bike takes about 25 sq ft, inside Sport England''s spinning-room allowance. No mains power.'
+- id: air_bike
+  name: Air bike
+  category: cardio
+  zone: cardio
+  description: Fan-resistance air bike with moving arms for high-intensity intervals.
+  footprint:
+    length_in: 55
+    width_in: 30
+    height_in: 57
+  clearance:
+    front_in: 24
+    back_in: 24
+    left_in: 24
+    right_in: 24
+  stations: 1
+  price_usd:
+    value: 900
+    commercial: 1500
+    premium: 2700
+  power: none
+  layout:
+    aisle_side: side
+    against_wall: false
+    row_group: conditioning
+  example_models:
+  - AssaultBike Elite
+  - Rogue Echo Bike V3.0
+  - Throwdown HIIT Bike
+  - Hammer Strength HD Air Bike
+  useful_life_years: 7
+  sources:
+  - assault-fitness-assaultbike-elite
+  - rogue-fitness-echo-bike-v3-0
+  - core-health-fitness-2026-catalog-star
+  - keiser-m3i-indoor-group-cycle-owner
+  - matrix-fitness-performance-upright-recumbent
+  - shenzhen-ccts-quality-safety-test-2021
+  - assault-fitness-assaultbike-lineup-2026
+  - ctx-home-gyms-remanufactured-catalog-2026
+  - fitness-exchange-product-catalog-2026
+  - top-fitness-precor-dealer-catalog-2026
+  - life-fitness-us-online-store-products-2026
+  - planet-fitness-sec-2025-investor-day
+  - rework-equipment-lifecycle-maintenance-2025
+  - derived-eqcf-cardio-footprint-p75
+  - derived-eqcf-air-bike-clearance
+  - derived-eqcf-price-tier-medians
+  - derived-eqcf-cardio-useful-life
+  notes: No air-bike maker publishes a clearance, so 24 in on every side is the 0.6 m free-area convention
+    (estimate). Assault's site lists two size sets for the AssaultBike Elite (55.08 x 26.26 x 55 in and
+    47.9 x 26.2 x 56 in); the larger was used. No electricity required. Several value and commercial listings
+    were sold out when priced.
+- id: rower
+  name: Rowing machine
+  category: cardio
+  zone: cardio
+  description: Air- or water-resistance rowing ergometer.
+  footprint:
+    length_in: 96
+    width_in: 26
+    height_in: 22
+  clearance:
+    front_in: 6
+    back_in: 6
+    left_in: 11
+    right_in: 11
+  stations: 1
+  price_usd:
+    value: 930
+    commercial: 1900
+    premium: 3650
+  power: none
+  layout:
+    aisle_side: side
+    against_wall: false
+    row_group: rower
+  example_models:
+  - Concept2 RowErg
+  - Life Fitness Row HX Trainer
+  - WaterRower M1 HiRise
+  - Throwdown HIIT Rower
+  useful_life_years: 7
+  sources:
+  - concept2-rowerg-specifications
+  - concept2-how-build-home-gym-2018
+  - life-fitness-row-hx-trainer-specifications
+  - core-health-fitness-2026-catalog-star
+  - rogue-fitness-conditioning-pages-echo-2026
+  - fitness-superstore-catalog-new-2026
+  - life-fitness-us-online-store-products-2026
+  - fitness-exchange-product-catalog-2026
+  - push-pedal-pull-catalog-precor-2026
+  - livefit-catalog-2026
+  - johnson-fitness-wellness-commercial-rowers
+  - planet-fitness-sec-2025-investor-day
+  - rework-equipment-lifecycle-maintenance-2025
+  - derived-eqcf-cardio-footprint-p75
+  - derived-eqcf-rower-envelope
+  - derived-eqcf-price-tier-medians
+  - derived-eqcf-cardio-useful-life
+  notes: Clearances make footprint + clearance equal Concept2's 9 x 4 ft "clearance for use" (108 x 48
+    in). The commercial price is the median of club-brand listings; the Concept2 RowErg with tall legs,
+    the usual club purchase, is $1,155 (Concept2 list). Concept2 rates the RowErg to 500 lb in its own
+    test (300 lb under EN 20957-7). Console runs on batteries.
+- id: stair_climber
+  name: Stair climber
+  category: cardio
+  zone: cardio
+  description: Revolving-stair climber (StepMill type) for continuous stair climbing.
+  footprint:
+    length_in: 61
+    width_in: 34
+    height_in: 82
+  clearance:
+    front_in: 24
+    back_in: 39
+    left_in: 20
+    right_in: 20
+  stations: 1
+  price_usd:
+    value: 5750
+    commercial: 10250
+    premium: 14250
+  power: standard_outlet
+  min_ceiling_in: 108
+  layout:
+    aisle_side: back
+    against_wall: false
+    row_group: stair
+  example_models:
+  - Life Fitness Integrity+ PowerMill Climber
+  - StairMaster 8Gx
+  - StairMaster 10G Gauntlet
+  - Spirit CSC900 StairClimber
+  useful_life_years: 6
+  sources:
+  - core-health-fitness-stairmaster-8gx-product
+  - core-health-fitness-stairmaster-8gx-product-2
+  - core-health-fitness-2026-catalog-star
+  - life-fitness-powermill-climber
+  - precor-assembling-maintaining-trm-800-series
+  - fitness-superstore-catalog-new-2026
+  - fitness-exchange-product-catalog-2026
+  - push-pedal-pull-catalog-precor-2026
+  - livefit-catalog-2026
+  - top-fitness-precor-dealer-catalog-2026
+  - johnson-fitness-wellness-commercial-steppers
+  - planet-fitness-sec-2025-investor-day
+  - planet-fitness-sec-form-10-k-fy2025-2026
+  - pinnacle-bidco-plc-puregym-annual-2018
+  - rework-equipment-lifecycle-maintenance-2025
+  - derived-eqcf-cardio-footprint-p75
+  - derived-eqcf-stair-climber-clearance
+  - derived-eqcf-price-tier-medians
+  - derived-eqcf-cardio-useful-life
+  notes: 'Fact-check correction: the rear (mounting) clearance is 39 in (LF PowerMill manual: at least
+    1 m behind), not the earlier 24-in estimate; sides 20 in (Precor 0.5 m rule; LF asks 1 ft); front
+    24 in is an estimate. A StairMaster 10G manual excerpt, seen only via search, asks 48 in front and
+    behind; use that for a strict plan. Ceiling 108 in = the 9 ft the LF PowerMill needs, the lowest of
+    the commercial models (StairMaster 8Gx and 10G need 10 ft, the light-commercial StairMaster 4G in the
+    value tier 8 ft), so a room under 10 ft should take a PowerMill-class unit, which is listed first.
+    Power: 8Gx 12 V/5 A adapter, PowerMill
+    100-240 V/5 A.'
+- id: ski_erg
+  name: Ski ergometer
+  category: cardio
+  zone: cardio
+  description: Ski ergometer on a floor stand for standing double-pole pulling intervals.
+  footprint:
+    length_in: 50
+    width_in: 24
+    height_in: 85
+  clearance:
+    front_in: 24
+    back_in: 12
+    left_in: 24
+    right_in: 24
+  stations: 1
+  price_usd:
+    value: 1070
+    commercial: 1150
+    premium: 1700
+  power: none
+  min_ceiling_in: 96
+  layout:
+    aisle_side: front
+    against_wall: false
+    row_group: conditioning
+  example_models:
+  - Concept2 SkiErg with floor stand
+  - Throwdown HIIT Ski
+  - Rogue Echo Ski
+  - TKO AirRaid Ski Trainer
+  useful_life_years: 7
+  sources:
+  - concept2-skierg-specifications-space
+  - core-health-fitness-2026-catalog-star
+  - shenzhen-ccts-quality-safety-test-2021
+  - iso-preview-via-20957-1-2013-stationary
+  - rogue-fitness-conditioning-pages-echo-2026
+  - ctx-home-gyms-remanufactured-catalog-2026
+  - fitness-superstore-catalog-new-2026
+  - livefit-catalog-2026
+  - fitness-exchange-product-catalog-2026
+  - planet-fitness-sec-2025-investor-day
+  - rework-equipment-lifecycle-maintenance-2025
+  - derived-eqcf-ski-erg
+  - derived-eqcf-price-tier-medians
+  - derived-eqcf-cardio-useful-life
+  notes: 'Floor-stand version (Concept2 23.5 x 50 x 85 in). The record''s front is the platform end where
+    the user stands, so the canonical aisle_side "front" puts the user side on the aisle; the tower is
+    at the back. No maker publishes a clearance: 24 in behind the user and at the sides (ISO 0.6 m free
+    area) and 12 in at the tower end are estimates. The price research''s value median ($850, listings
+    $825-$899) is for units without a floor stand, so the value tier adds Concept2''s $220 standard floor
+    stand: $1,070, the same as Rogue''s price for a Concept2 SkiErg with floor stand. Runs on two D cells.'
+- id: recumbent_stepper
+  name: Seated total-body stepper
+  category: cardio
+  zone: cardio
+  description: Seated recumbent total-body stepper with wheelchair-transfer access, popular with older
+    and rehab users.
+  footprint:
+    length_in: 73
+    width_in: 30
+    height_in: 49
+  clearance:
+    front_in: 12
+    back_in: 12
+    left_in: 24
+    right_in: 30
+  stations: 1
+  price_usd:
+    value: 4800
+    commercial: 7400
+    premium: 7750
+  power: none
+  layout:
+    aisle_side: side
+    against_wall: false
+    row_group: bike
+  example_models:
+  - NuStep T5
+  - NuStep T6MAX
+  - SciFit StepOne
+  - Spirit 7.5S Recumbent Stepper
+  useful_life_years: 7
+  sources:
+  - nustep-t5-recumbent-cross-trainer
+  - nustep-t5xr-recumbent-cross-trainer
+  - nustep-t6max-recumbent-cross-trainer
+  - life-fitness-scifit-stepone-recumbent
+  - nustep-t5-t5xr-user-manual-english-2023
+  - nustep-t6-user-manual-english-rev-2023
+  - u-s-access-2010-ada-standards
+  - fitness-exchange-product-catalog-2026
+  - life-fitness-us-online-store-products-2026
+  - push-pedal-pull-catalog-precor-2026
+  - planet-fitness-sec-2025-investor-day
+  - rework-equipment-lifecycle-maintenance-2025
+  - derived-eqcf-cardio-footprint-p75
+  - derived-eqcf-recumbent-stepper-transfer
+  - derived-eqcf-price-tier-medians
+  - derived-eqcf-cardio-useful-life
+  notes: 'NuStep T5/T6 manuals: 24 in at the sides and 12 in front and rear, plus extra room for wheelchair
+    access. The right side is the transfer side and gets 30 in, the ADA 30 x 48 in clear floor space for
+    a parallel transfer (48 in for a forward approach). Power: NuStep T5 runs on a 12 V battery and the
+    SciFit StepOne is self-generating; the NuStep T6 series uses an AC adapter (standard outlet).'
+- id: rig_bay
+  name: Rig bay
+  category: functional
+  zone: functional
+  description: One 4-ft bay of a wall-side pull-up and functional rig for pull-ups, toes-to-bar and muscle-ups.
+  footprint:
+    length_in: 48
+    width_in: 48
+    height_in: 108
+  clearance:
+    front_in: 60
+    back_in: 0
+    left_in: 0
+    right_in: 0
+  stations: 1
+  price_usd:
+    value: 780
+    commercial: 1000
+    premium: 1700
+  power: none
+  min_ceiling_in: 144
+  layout:
+    aisle_side: front
+    against_wall: true
+    row_group: rig
+  example_models:
+  - REP Rig 4000
+  - Rogue Monster Rig 2.0
+  - Rogue Monster Lite Rig 2.0
+  - Throwdown Alpha XTC
+  useful_life_years: 15
+  sources:
+  - core-health-fitness-2026-catalog-star
+  - rogue-fitness-w-4-4-wall-mount
+  - rogue-fitness-monster-lite-monkey-rig-2
+  - life-fitness-hammer-strength-hd-perimeter
+  - nsca-s-safety-checklist-exercise-facility
+  - rep-fitness-catalog-rig-product-2026
+  - rogue-fitness-monster-rig-2-0-variants-2026
+  - rogue-fitness-monster-lite-rig-2-0-2026
+  - blue-sky-fit-supply-catalog-legend-2026
+  - rework-equipment-lifecycle-maintenance-2025
+  - derived-eqcf-rig-bay
+  - derived-eqcf-functional-useful-life
+  notes: 'One bay of a rig run against a wall, one user per bay. 60 in of working zone in front (Throwdown:
+    rig footprint + 5 ft per side). Sides are 0 so bays join into one continuous run; leave about 5 ft
+    at the ends of the run, which a per-bay record cannot express. Freestanding rigs can be deeper than
+    48 in (REP Rig 4000: 6 ft deep, 108 in tall). Premium price per the fact-check (about $1,700 per bay,
+    Rogue Monster Rig 2.0 Racked); turnkey bays loaded with attachments (Throwdown XTC) cost about $4,000.
+    The per-bay price also holds for plans with one or two bays: a single wall-mount bay is sold on its
+    own (Rogue W-4 4-ft section, $595), while free-standing rigs start at two bays (Rogue Monster Rig
+    2.0 M-10, $2,365). 12-ft ceiling for kipping and muscle-ups.'
+- id: turf_lane
+  name: Turf lane with sled
+  category: functional
+  zone: functional
+  description: A 5-ft-wide artificial-turf lane with one push/pull sled for sled work, carries, lunges
+    and sprints.
+  footprint:
+    length_in: 600
+    width_in: 60
+  clearance:
+    front_in: 36
+    back_in: 36
+    left_in: 0
+    right_in: 0
+  stations: 1
+  price_usd:
+    value: 810
+    commercial: 2350
+    premium: 5500
+  power: none
+  layout:
+    aisle_side: side
+    against_wall: false
+    row_group: turf
+    flexible_length: true
+    min_length_in: 300
+  example_models:
+  - Rogue GymTurf (Dollamur) 5 x 50 ft
+  - ECORE RageTurf Rally turf tile
+  - Rogue Dog Sled
+  - Torque TANK M4
+  useful_life_years: 4
+  sources:
+  - rogue-fitness-gymturf
+  - torque-fitness-tank-faq-all-surface-sled
+  - rogue-fitness-torque-tank-m4-sled-listing
+  - rogue-fitness-torque-tank-m1s-push-sled
+  - rogue-fitness-echo-dog-sled
+  - fitness-superstore-catalog-new-2026
+  - bells-steel-us-catalog-2026
+  - titan-fitness-catalog-2026
+  - blue-sky-fit-supply-catalog-legend-2026
+  - rogue-fitness-sleds-dog-sled-echo-dog-2026
+  - power-systems-catalog-2026
+  - livefit-catalog-2026
+  - life-fitness-us-online-store-products-2026
+  - torque-fitness-catalog-tank-sleds-plyo-2026
+  - rework-equipment-lifecycle-maintenance-2025
+  - derived-eqcf-turf-lane
+  - derived-eqcf-functional-useful-life
+  notes: One 5-ft lane (one Rogue GymTurf roll width) with one sled. Nominal 50 ft; it may shrink to 25
+    ft (one 25-ft roll) rather than the ~20 ft in the canonical list, because 25 ft plus the two 36-in
+    run-outs (372 in) is about Torque's 10-yard workable minimum (30 yards is optimal). Run-outs are estimates;
+    neighbouring lanes share edges. Price = turf per sq ft x 250 sq ft + one sled, as the fact-check recommends;
+    value and commercial sleds are plate-loaded and exclude plates, premium Torque TANK sleds need none.
+    The sled (about 52 x 33 in) parks at a lane end. Turf wears out in about 4 years; the sled lasts longer.
+- id: plyo_box_set
+  name: Plyo boxes
+  category: functional
+  zone: functional
+  description: A set of plyometric boxes (about 12-30 in) for box jumps and step-ups by two users at once.
+  footprint:
+    length_in: 36
+    width_in: 84
+    height_in: 30
+  clearance:
+    front_in: 48
+    back_in: 36
+    left_in: 24
+    right_in: 24
+  stations: 2
+  price_usd:
+    value: 490
+    commercial: 1200
+    premium: 2050
+  power: none
+  layout:
+    aisle_side: any
+    against_wall: false
+    row_group: functional_small
+  example_models:
+  - Rogue Foam Games Box
+  - REP Stackable Soft Foam Plyo Box
+  - Torque X-Impact Plyostack
+  - Legend Fitness 3134 Plyo Box Set
+  useful_life_years: 6
+  sources:
+  - rogue-fitness-foam-plyo-boxes
+  - rogue-fitness-games-box
+  - core-health-fitness-2026-catalog-star
+  - rep-fitness-catalog-rig-product-2026
+  - titan-fitness-catalog-2026
+  - torque-fitness-catalog-tank-sleds-plyo-2026
+  - american-barbell-catalog-2026
+  - fitness-exchange-product-catalog-2026
+  - rogue-fitness-conditioning-pages-echo-2026
+  - blue-sky-fit-supply-catalog-legend-2026
+  - elitefts-catalog-2026
+  - power-systems-catalog-2026
+  - life-fitness-us-online-store-products-2026
+  - derived-eqcf-plyo-zone
+  - derived-eqcf-price-tier-medians
+  - derived-eqcf-functional-useful-life
+  notes: 'Two users at once: priced sets hold 2-5 boxes, so each user can work on a box. Footprint = two
+    30 x 36-in boxes 24 in apart; 48 in for approach and take-off, 36 in for landing and step-down and
+    24 in at the sides are estimates (no vendor guidance found). Box jumps onto the tallest boxes ideally
+    want a 12-14-ft ceiling (space research), but step-ups, the main use, do not, so no minimum ceiling
+    is set.'
+- id: wall_ball_station
+  name: Wall ball station
+  category: functional
+  zone: functional
+  description: Wall-mounted 9-10 ft target with a rack of medicine balls (about 10, 14 and 20 lb) for
+    wall balls and slams.
+  footprint:
+    length_in: 26
+    width_in: 48
+    height_in: 120
+  clearance:
+    front_in: 60
+    back_in: 0
+    left_in: 12
+    right_in: 12
+  stations: 1
+  price_usd:
+    value: 320
+    commercial: 460
+    premium: 660
+  power: none
+  min_ceiling_in: 144
+  layout:
+    aisle_side: front
+    against_wall: true
+    row_group: functional_small
+  example_models:
+  - Rogue Double Wall Ball Target
+  - Rogue Medicine Balls (10/14/20 lb)
+  - Fringe Sport Universal Wall Ball Target
+  - Life Fitness Vertical Medicine Ball Storage
+  useful_life_years: 3
+  sources:
+  - life-fitness-vertical-medicine-ball-storage
+  - rogue-fitness-bolt-together-wall-ball-target
+  - rogue-fitness-medicine-balls
+  - core-health-fitness-2026-catalog-star
+  - titan-fitness-series-rack-mounted-2026
+  - fringe-sport-universal-wall-ball-target-2026
+  - nsca-s-safety-checklist-exercise-facility
+  - rep-fitness-catalog-rig-product-2026
+  - torque-fitness-catalog-tank-sleds-plyo-2026
+  - fringe-sport-catalog-2026
+  - life-fitness-us-online-store-products-2026
+  - derived-eqcf-wall-ball-zone
+  - derived-eqcf-price-tier-medians
+  - derived-eqcf-functional-useful-life
+  notes: Station = one target plus three medicine balls on a rack, against a wall or a rig upright (Rogue's
+    bolt-on target needs an upright of 9 ft or more). 60-in throwing zone in front; side clearances are
+    estimates. height_in is the 10-ft target height. 12-ft ceiling for the throw and the ball. The 3-year
+    life reflects the medicine balls; the target lasts longer.
+- id: battle_rope_station
+  name: Battle rope station
+  category: functional
+  zone: functional
+  description: Heavy 40-50 ft battle rope looped around a wall, rig or floor anchor, with its lane laid
+    out on the floor.
+  footprint:
+    length_in: 264
+    width_in: 72
+  clearance:
+    front_in: 24
+    back_in: 0
+    left_in: 12
+    right_in: 12
+  stations: 1
+  price_usd:
+    value: 150
+    commercial: 260
+    premium: 380
+  power: none
+  layout:
+    aisle_side: front
+    against_wall: false
+    row_group: functional_small
+  example_models:
+  - Rogue Battle Rope 1.5 in x 50 ft
+  - TRX Battle Rope 1.5 in x 50 ft
+  - Bells of Steel Battle Rope 1.5 in x 40 ft
+  - REP Sleeve Battle Rope 2 in x 50 ft
+  useful_life_years: 3
+  sources:
+  - rogue-fitness-battle-rope
+  - trx-battle-rope-commercial-partners
+  - core-health-fitness-2026-catalog-star
+  - rep-fitness-catalog-rig-product-2026
+  - bells-steel-us-catalog-2026
+  - fitness-superstore-catalog-new-2026
+  - torque-fitness-catalog-tank-sleds-plyo-2026
+  - power-systems-catalog-2026
+  - fringe-sport-catalog-2026
+  - elitefts-catalog-2026
+  - livefit-catalog-2026
+  - american-barbell-catalog-2026
+  - life-fitness-us-online-store-products-2026
+  - derived-eqcf-battle-rope-lane
+  - derived-eqcf-price-tier-medians
+  - derived-eqcf-functional-useful-life
+  notes: Lane sized for a 40-ft rope (rope / 2 + 24-in stance = 264 in), the low end of the canonical
+    40-50 ft rope; six of the eight priced ropes are 40-50 ft. A 50-ft rope works in this lane with the
+    athlete gripping a few feet up and the tails trailing behind; laying it out in full takes 324 in.
+    The record's front is the athlete's end, which the canonical layout puts on the aisle; the anchor
+    (wall, rig post or floor anchor) is at the back with no clearance. Lane width and clearances are estimates.
+- id: suspension_trainer_station
+  name: Suspension trainer station
+  category: functional
+  zone: functional
+  description: Suspension trainer straps on a wall or ceiling anchor, with the floor zone one user needs.
+  footprint:
+    length_in: 96
+    width_in: 72
+  clearance:
+    front_in: 12
+    back_in: 0
+    left_in: 12
+    right_in: 12
+  stations: 1
+  price_usd:
+    value: 180
+    commercial: 310
+    premium: 430
+  power: none
+  layout:
+    aisle_side: front
+    against_wall: true
+    row_group: functional_small
+  example_models:
+  - TRX Commercial Suspension Trainer with X-Mount
+  - TRX PRO4 System
+  - Bells of Steel Human Trainer
+  - Legend Fitness 3905 Suspension Trainer Rig
+  useful_life_years: 4
+  sources:
+  - trx-suspension-anchor
+  - trx-xtender
+  - trx-xmount
+  - core-health-fitness-2026-catalog-star
+  - bells-steel-us-catalog-2026
+  - fitness-exchange-product-catalog-2026
+  - trx-training-store-2026
+  - blue-sky-fit-supply-catalog-legend-2026
+  - derived-eqcf-suspension-zone
+  - derived-eqcf-price-tier-medians
+  - derived-eqcf-functional-useful-life
+  notes: One anchor point and its floor zone. The anchor (TRX X-Mount, or a share of a multi-anchor frame
+    in the premium tier) sits 7-9 ft up on a load-bearing wall or ceiling. The floor zone and 12-in clearances
+    are estimates from body length. On a rig, plan one user per 48-in bay.
+- id: heavy_bag
+  name: Heavy bag
+  category: functional
+  zone: functional
+  description: Hanging or freestanding 100-lb heavy bag with its striking zone.
+  footprint:
+    length_in: 24
+    width_in: 24
+  clearance:
+    front_in: 45
+    back_in: 15
+    left_in: 15
+    right_in: 15
+  stations: 1
+  price_usd:
+    value: 310
+    commercial: 690
+    premium: 1050
+  power: none
+  layout:
+    aisle_side: any
+    against_wall: false
+    row_group: bag
+  example_models:
+  - TITLE Boxing Made in USA 100 lb heavy bag
+  - Throwdown 6 ft Heavy Bag
+  - Everlast 1910 Pro 100 lb leather heavy bag
+  - Throwdown FreeStanding Punching Bag
+  useful_life_years: 5
+  sources:
+  - core-health-fitness-2026-catalog-star
+  - title-boxing-store-2026
+  - fitness-superstore-catalog-new-2026
+  - everlast-store-2026
+  - power-systems-catalog-2026
+  - life-fitness-us-online-store-products-2026
+  - fitness-outlet-catalog-2026
+  - derived-eqcf-heavy-bag-zone
+  - derived-eqcf-price-tier-medians
+  - derived-eqcf-functional-useful-life
+  notes: The 54 x 84-in zone (bag plus clearance) matches Throwdown's 4.5-ft bag spacing and the 7-ft
+    recommended floor space of its single-station training tree; the split between front, back and sides
+    is an estimate. Price builds include ceiling hangers, wall mounts and freestanding bases.
+- id: kettlebell_set
+  name: Kettlebells with rack
+  category: functional
+  zone: functional
+  description: A rack of about nine kettlebells (about 4-32 kg) with floor space in front for swings,
+    squats and complexes.
+  footprint:
+    length_in: 24
+    width_in: 77
+    height_in: 46
+  clearance:
+    front_in: 96
+    back_in: 0
+    left_in: 24
+    right_in: 24
+  stations: 2
+  price_usd:
+    value: 1150
+    commercial: 2550
+    premium: 3200
+  power: none
+  layout:
+    aisle_side: front
+    against_wall: true
+    row_group: functional_small
+  example_models:
+  - Rogue Kettlebells (9-70 lb) on REP Kettlebell Rack 2.0
+  - Life Fitness Cast Iron Kettlebells (4-32 kg)
+  - Hammer Strength Competition Kettlebells (8-32 kg)
+  - Rogue Universal Storage System 2.0
+  useful_life_years: 20
+  sources:
+  - rogue-fitness-universal-storage-system-2-0
+  - pt-pioneer-cscs-chapter-23-summary-facility
+  - nsca-strength-conditioning-professional-2017-2
+  - shenzhen-ccts-quality-safety-test-2021
+  - rogue-fitness-kettlebells-product-2026
+  - rep-fitness-online-catalog-products-2026
+  - fitness-superstore-catalog-new-body-2026
+  - life-fitness-us-online-store-hammer-2026
+  - rework-equipment-lifecycle-maintenance-2025
+  - derived-eqcf-kettlebell-zone
+  - derived-eqcf-functional-useful-life
+  notes: 'Two users at once: the set has one bell per weight, so a third user would often need a bell
+    already in use, and double-bell work needs pairs the set lacks. The zone in front gives each user
+    about 40 sq ft (NSCA standing-exercise area); the research''s 36-in pick-up aisle alone would leave
+    no room to swing. Prices are the strength price research''s builds (9 bells, about 330 lb, plus a
+    rack); that slice''s kettlebell figures were not separately fact-checked.'
+- id: stretch_area
+  name: Stretch and core mat space
+  category: mobility
+  zone: stretching
+  description: Mat space for one person to stretch, foam-roll or do floor core work.
+  footprint:
+    length_in: 72
+    width_in: 60
+  clearance:
+    front_in: 6
+    back_in: 6
+    left_in: 12
+    right_in: 12
+  stations: 1
+  price_usd:
+    value: 43
+    commercial: 110
+    premium: 170
+  power: none
+  layout:
+    aisle_side: any
+    against_wall: false
+    row_group: stretch
+  example_models:
+  - Life Fitness Core Mat
+  - AIREX Fitness Mat
+  - Body-Solid BSTFM20 hanging exercise mat
+  - Power Systems Premium Gym Mat
+  useful_life_years: 2
+  sources:
+  - u-s-department-ufc-4-740-02-fitness-2006
+  - pt-pioneer-cscs-chapter-23-summary-facility
+  - dad-health-fitness-chapter-23-facility-2024
+  - sport-england-fitness-exercise-spaces-2008
+  - core-health-fitness-2026-catalog-star
+  - fitness-superstore-catalog-new-2026
+  - life-fitness-us-online-store-products-2026
+  - power-systems-catalog-2026
+  - livefit-catalog-2026
+  - fitness-exchange-product-catalog-2026
+  - derived-eqcf-stretch-area
+  - derived-eqcf-price-tier-medians
+  - derived-eqcf-functional-useful-life
+  notes: Per user. Footprint + clearance = 84 x 84 in (49 sq ft), matching NSCA's 7 x 7-ft stretching
+    area and UFC 4-740-02's 50 sq ft per person, as the space research recommends; with shared sides in
+    a dense row each user takes about 42 sq ft. Prices are per mat position (mat plus a share of a mat
+    hanger; premium = a 4 x 6-ft floor mat).
+- id: accessory_pack
+  name: Mobility accessories (bands, rollers, balls) with storage
+  category: mobility
+  zone: stretching
+  description: Storage rack with mini bands, loop bands, foam rollers, mats and stability balls for about
+    four users.
+  footprint:
+    length_in: 25
+    width_in: 36
+    height_in: 67
+  clearance:
+    front_in: 25
+    back_in: 0
+    left_in: 0
+    right_in: 0
+  stations: 4
+  price_usd:
+    value: 480
+    commercial: 1100
+    premium: 3850
+  power: none
+  requires:
+  - stretch_area
+  layout:
+    aisle_side: front
+    against_wall: true
+    row_group: stretch
+  example_models:
+  - Life Fitness Accessory Storage Rack (SAR)
+  - Life Fitness Core Mat
+  - Body-Solid 36 in foam roller
+  - GoFit 18 in foam roller
+  useful_life_years: 2
+  sources:
+  - life-fitness-accessory-storage-rack-sar
+  - life-fitness-synrgy-accessory-storage-system
+  - fitness-superstore-catalog-new-2026
+  - fitness-exchange-product-catalog-2026
+  - life-fitness-us-online-store-products-2026
+  - derived-eqcf-accessory-pack
+  - derived-eqcf-functional-useful-life
+  notes: About four users at once (the priced pack has 4 rollers, 4 loop bands and 4 mats); they work
+    on stretch-area mats, so it requires stretch_area. The footprint is the Life Fitness accessory rack
+    used in the premium build; the value and commercial builds store gear on a wall mat rack and bins,
+    which take less room. Each tier price is a single bundle build. Contents are consumables (about 2
+    years).
+- id: power_rack
+  name: Power rack station
+  category: racks_barbells
+  zone: free_weights
+  description: Four-post power rack with a 20 kg Olympic bar, one 355 lb plate set, collars and a plate
+    tree; safety pins let members squat and press without a spotter.
+  footprint:
+    length_in: 58
+    width_in: 87
+    height_in: 91
+  clearance:
+    front_in: 48
+    back_in: 12
+    left_in: 36
+    right_in: 36
+  stations: 1
+  price_usd:
+    value: 2050
+    commercial: 5350
+    premium: 8550
+  power: none
+  min_ceiling_in: 108
+  layout:
+    aisle_side: front
+    row_group: rack
+  example_models:
+  - REP Fitness PR-4000 Power Rack
+  - Rogue Bolt-Together R-3
+  - Rogue RM-4 Monster Rack 2.0
+  - Prime Prodigy Power Rack
+  - Hoist CF-3364 Power Cage
+  - Hammer Strength HD Athletic NX Power Rack
+  - Rogue The Ohio Bar (20 kg)
+  - REP Fitness Old School Iron Plate Set (355 lb)
+  useful_life_years: 10
+  sources:
+  - lf-shop-spec-table-hammer-21
+  - lf-hammer-strength-hd-elite
+  - rogue-fitness-hr-2-half-rack
+  - rogue-fitness-ohio-bar-length-sleeve
+  - nsca-s-safety-checklist-exercise-facility
+  - nsca-strength-conditioning-professional-2017
+  - nsca-tsac-module-5-0-5-2018
+  - u-s-department-ufc-4-740-02-fitness-2006-2
+  - rep-fitness-online-catalog-products-2026
+  - titan-fitness-online-catalog-2026
+  - rogue-fitness-product-category-pages-2026
+  - fitness-superstore-catalog-new-body-2026
+  - hoist-fitness-online-catalog-cf-club-2026
+  - prime-fitness-usa-online-catalog-2026
+  - akfit-anchorage-ak-dealer-catalog-incl-2026
+  - life-fitness-us-online-store-hammer-2026
+  - rogue-fitness-olympic-plates-cast-iron-2026
+  - torque-fitness-online-catalog-2026
+  - planet-fitness-sec-2025-investor-day
+  - planet-fitness-sec-form-10-k-fy2025-2026
+  - internal-revenue-service-irs-2025
+  - rework-equipment-lifecycle-maintenance-2025
+  - derived-eqfw-useful-life
+  - derived-eqfw-overlap-clearance
+  - derived-eqfw-bar-station-price
+  - derived-eqfw-rack-ceiling
+  notes: 'Price = rack frame + 20 kg bar + 355 lb plate set + collars + plate tree. Value: rack 870 +
+    bar 260 + 355 lb plates x 1.90 (674.50) + collars 40 + plate tree 230 = 2,074.50 -> 2,050. Commercial:
+    rack 2,950 + bar 310 + 355 lb plates x 3.10 (1,100.50) + collars 55 + plate tree 940 = 5,355.50 ->
+    5,350. Premium: rack 4,650 + bar 700 + 355 lb plates x 5.90 (2,094.50) + collars 101 + plate tree
+    1,000 = 8,545.50 -> 8,550. Frame anchors: value REP PR-4000 $799.94, Rogue R-3 $870, Body-Solid SPR1000
+    $1,500; commercial Rogue RM-4 $1,830 to Hoist CF-3364 $3,090 list (dealers sell it at $2,782); premium
+    Hammer Strength HD Athletic NX $4,657. Footprint: 58 in deep = median frame (Rogue RML-490 53, R-3
+    40, HS NX 62, HS iD 64; the median includes garage racks, commercial frames run 62-64 in); 87 in wide
+    = the loaded 86.75 in bar, which overhangs the ~59 in frame by ~14 in a side and is kept inside the
+    footprint so neighbours and aisles stay clear of it. Clearance: front 48 / back 12 from the LF/HS
+    10 x 10 ft live area; 36 in past each bar end = NSCA spacing between bar ends. Envelope 118 x 159
+    in = 130 sq ft, NSCA''s rack station (7 ft bar + 6 ft) x 10 ft; row pitch 123 in against the LF/HS
+    120 in live width. Ceiling 108 in (derived-eqfw-rack-ceiling): Hammer Strength requires 102 in for
+    the HD Athletic NX power rack, rounded up to 9 ft for pull-ups on the top bar; NSCA''s 12-ft rule
+    for overhead lifting stays on the lifting platform, rig bays and wall-ball targets. Storage is priced
+    as a plate tree (27 x 26 in) that stands against a wall or column and is not part of the footprint.'
+- id: half_rack
+  name: Half rack station
+  category: racks_barbells
+  zone: free_weights
+  description: Two-post half rack (squat rack) with a 20 kg bar, one 355 lb plate set, collars and a plate
+    tree; lifts are walked out in front of the uprights.
+  footprint:
+    length_in: 53
+    width_in: 87
+    height_in: 93
+  clearance:
+    front_in: 48
+    back_in: 6
+    left_in: 36
+    right_in: 36
+  stations: 1
+  price_usd:
+    value: 1950
+    commercial: 4300
+    premium: 8500
+  power: none
+  min_ceiling_in: 108
+  layout:
+    aisle_side: front
+    row_group: rack
+  example_models:
+  - Rogue HR-2 Half Rack
+  - Titan Fitness T-3 Series Half Rack
+  - Rogue Monster Lite Half Rack
+  - Prime Prodigy Half Rack
+  - Nautilus Half Rack 9-HDHR2
+  - Hammer Strength HD Athletic NX Half Rack
+  - Hammer Strength HD Elite iD Half Rack
+  useful_life_years: 10
+  sources:
+  - lf-shop-spec-table-hammer-12
+  - rogue-fitness-hr-2-half-rack
+  - rogue-fitness-ohio-bar-length-sleeve
+  - nsca-s-safety-checklist-exercise-facility
+  - nsca-strength-conditioning-professional-2017
+  - nsca-tsac-module-5-0-5-2018
+  - u-s-department-ufc-4-740-02-fitness-2006-2
+  - rep-fitness-online-catalog-products-2026
+  - titan-fitness-online-catalog-2026
+  - rogue-fitness-product-category-pages-2026
+  - fitness-superstore-catalog-new-body-2026
+  - hoist-fitness-online-catalog-cf-club-2026
+  - prime-fitness-usa-online-catalog-2026
+  - akfit-anchorage-ak-dealer-catalog-incl-2026
+  - life-fitness-us-online-store-hammer-2026
+  - rogue-fitness-olympic-plates-cast-iron-2026
+  - torque-fitness-online-catalog-2026
+  - planet-fitness-sec-2025-investor-day
+  - planet-fitness-sec-form-10-k-fy2025-2026
+  - internal-revenue-service-irs-2025
+  - rework-equipment-lifecycle-maintenance-2025
+  - derived-eqfw-useful-life
+  - derived-eqfw-overlap-clearance
+  - derived-eqfw-rack-walkout
+  - derived-eqfw-bar-station-price
+  - lf-hd-athletic-nx-half-rack
+  - derived-eqfw-rack-ceiling
+  notes: 'Price = half-rack frame + 20 kg bar + 355 lb plate set + collars + plate tree. Value: rack 730
+    + bar 260 + 355 lb plates x 1.90 (674.50) + collars 40 + plate tree 230 = 1,934.50 -> 1,950. Commercial:
+    rack 1,900 + bar 310 + 355 lb plates x 3.10 (1,100.50) + collars 55 + plate tree 940 = 4,305.50 ->
+    4,300. Premium: rack 4,600 + bar 700 + 355 lb plates x 5.90 (2,094.50) + collars 101 + plate tree
+    1,000 = 8,495.50 -> 8,500. Frame anchors: value Titan T-3 $564.97, Body-Solid SPR500 $690, Rogue HR-2
+    $765, REP Apollo $919.96; commercial Rogue Monster Lite $1,425, Prime Prodigy $1,500, Nautilus 9-HDHR2
+    $3,869, Hoist CF-3365 $5,380; premium HS HD Athletic NX $3,706, HD Elite iD $6,229. Footprint: 53
+    in deep = median frame (Rogue HR-2 49 x 48, HS NX 50 x 48, HS iD 56 x 73, BodyKore G701 64 x 51);
+    87 in wide = the loaded bar. Front 48 in for the walk-out (derived-eqfw-rack-walkout; footprint_strength
+    gave 36), back 6, 36 in past each bar end (NSCA). Envelope 107 x 159 in = 118 sq ft (NSCA rack station
+    104-130 sq ft). Ceiling 108 in (derived-eqfw-rack-ceiling): Life Fitness says its NX half-rack
+    uprights (86 or 91 in) fit a standard 8-ft ceiling, and 9 ft leaves room for pull-ups on the top bar
+    (Rogue HR-2: 92.25 in with a 43-in pull-up bar). Storage is priced as a plate tree (27 x 26 in) that
+    stands against a wall or column and is not part of the footprint.'
+- id: lifting_platform
+  name: Lifting platform station
+  category: racks_barbells
+  zone: free_weights
+  description: 8 x 8 ft deadlift / Olympic-lifting platform with a 20 kg bar, a 350 lb bumper set, collars
+    and plate storage.
+  footprint:
+    length_in: 96
+    width_in: 96
+    height_in: 3.25
+  clearance:
+    front_in: 24
+    back_in: 24
+    left_in: 27
+    right_in: 27
+  stations: 1
+  price_usd:
+    value: 1700
+    commercial: 3750
+    premium: 10950
+  power: none
+  min_ceiling_in: 144
+  layout:
+    aisle_side: front
+    row_group: platform
+  example_models:
+  - Hammer Strength Traditional Wood Platform (6x8)
+  - Hammer Strength Rubber Platform
+  - Hoist 6' Sound Dampening Rubber Platform
+  - Rogue HG 2.0 Bumper Plates (350 lb set)
+  - Rogue Echo Bumper Plates V2
+  useful_life_years: 8
+  sources:
+  - nsca-strength-conditioning-professional-2017
+  - nsca-s-safety-checklist-exercise-facility
+  - hammer-strength-life-catalog-2024
+  - iso-preview-via-20957-1-2013-stationary
+  - cybex-international-eagle-nx-leg-press-owner
+  - rogue-fitness-ohio-bar-length-sleeve
+  - nsca-tsac-module-5-0-5-2018
+  - u-s-department-ufc-4-740-02-fitness-2006-2
+  - titan-fitness-online-catalog-2026
+  - rogue-fitness-product-category-pages-2026
+  - hoist-fitness-online-catalog-cf-club-2026
+  - life-fitness-us-online-store-hammer-2026
+  - rogue-fitness-echo-bumper-plates-v2-2026
+  - rogue-fitness-hg-2-0-bumper-plates-2026
+  - rep-fitness-online-catalog-products-2026
+  - planet-fitness-sec-2025-investor-day
+  - planet-fitness-sec-form-10-k-fy2025-2026
+  - derived-eqfw-useful-life
+  - derived-eqfw-overlap-clearance
+  - derived-eqfw-bar-station-price
+  notes: 'Price = platform + 20 kg bar + 350 lb bumper set + collars + plate tree. Value: platform 450
+    + bar 260 + 350 lb bumpers x 2.10 (735) + collars 40 + plate tree 230 = 1,715 -> 1,700. Commercial:
+    platform 1,300 + bar 310 + 350 lb bumpers x 3.30 (1,155) + collars 55 + plate tree 940 = 3,760 ->
+    3,750. Premium: platform 6,231 + bar 700 + 350 lb bumpers x 8.30 (2,905) + collars 101 + plate tree
+    1,000 = 10,937 -> 10,950. Platform anchors: value Titan 8 ft $334.97 / Rogue 8x8 $562; commercial
+    Rogue OL-1 $495 + tiles $450 / Hoist 6 ft rubber $1,650; premium Hammer Strength Traditional Wood
+    Platform 6x8 stand-alone $6,231 (a 6 x 8 ft deck, while the footprint is NSCA''s 8 x 8 ft; HS''s 6x8
+    rubber platform is only $910). Bumper $/lb are price_strength tier medians (Rogue Echo/HG 2.0, REP
+    black; REP competition and HS standard rubber; HS premium rubber $6.33 and urethane $10.31). Footprint
+    96 x 96 in, NSCA''s typical 8 x 8 ft platform (HS TWP-6X8 deck 3.25 in high); the 86.75 in bar fits
+    on the deck. Clearance 24 in front and back = NSCA (8 + 4) x (8 + 4) ft perimeter walkway and the
+    ISO 20957-1 0.6 m free area; 27 in a side so bar ends on neighbouring platforms stay 36 in apart when
+    clearances overlap. Envelope 144 x 150 in = 150 sq ft (NSCA 144). Ceiling 144 in = NSCA/UFC 12 ft
+    for overhead lifting, kept because the platform is also where members snatch and jerk; under a lower
+    ceiling the planner leaves it out and deadlifts, rows and RDLs move to the racks, which need only
+    108 in. Storage is priced as a plate tree (27 x 26 in) that stands against a wall or column and is
+    not part of the footprint.'
+- id: bench_press_station
+  name: Olympic flat bench station
+  category: racks_barbells
+  zone: free_weights
+  description: Olympic flat bench with bar uprights, a 20 kg bar, one 355 lb plate set, collars and a
+    plate tree.
+  footprint:
+    length_in: 52
+    width_in: 87
+    height_in: 51
+  clearance:
+    front_in: 18
+    back_in: 24
+    left_in: 36
+    right_in: 36
+  stations: 1
+  price_usd:
+    value: 2100
+    commercial: 4000
+    premium: 5850
+  power: none
+  layout:
+    aisle_side: side
+    row_group: bench_station
+  example_models:
+  - Body-Solid SOFB250 Pro Clubline Olympic Flat Bench
+  - Rogue Westside Bench 2.0
+  - Nautilus Instinct Olympic Flat Bench
+  - Life Fitness Olympic Flat Bench
+  - Hoist CF-3170 Olympic Flat Bench
+  - Hammer Strength Olympic Flat Bench
+  useful_life_years: 10
+  sources:
+  - lf-shop-spec-table-life-10
+  - lf-hammer-strength-olympic-flat
+  - rogue-fitness-ohio-bar-length-sleeve
+  - nsca-s-safety-checklist-exercise-facility
+  - nsca-strength-conditioning-professional-2017
+  - nsca-tsac-module-5-0-5-2018
+  - rep-fitness-online-catalog-products-2026
+  - titan-fitness-online-catalog-2026
+  - rogue-fitness-product-category-pages-2026
+  - fitness-superstore-catalog-new-body-2026
+  - hoist-fitness-online-catalog-cf-club-2026
+  - prime-fitness-usa-online-catalog-2026
+  - akfit-anchorage-ak-dealer-catalog-incl-2026
+  - life-fitness-us-online-store-hammer-2026
+  - sorinex-product-pages-embedded-price-2026
+  - rogue-fitness-olympic-plates-cast-iron-2026
+  - torque-fitness-online-catalog-2026
+  - planet-fitness-sec-2025-investor-day
+  - planet-fitness-sec-form-10-k-fy2025-2026
+  - internal-revenue-service-irs-2025
+  - rework-equipment-lifecycle-maintenance-2025
+  - derived-eqfw-useful-life
+  - derived-eqfw-overlap-clearance
+  - derived-eqfw-bar-station-price
+  notes: 'Price = Olympic flat bench + 20 kg bar + 355 lb plate set + collars + plate tree. Value: bench
+    900 + bar 260 + 355 lb plates x 1.90 (674.50) + collars 40 + plate tree 230 = 2,104.50 -> 2,100. Commercial:
+    bench 1,600 + bar 310 + 355 lb plates x 3.10 (1,100.50) + collars 55 + plate tree 940 = 4,005.50 ->
+    4,000. Premium: bench 1,950 + bar 700 + 355 lb plates x 5.90 (2,094.50) + collars 101 + plate tree
+    1,000 = 5,845.50 -> 5,850. Bench anchors: value Body-Solid SOFB250 $610, Rogue Westside 2.0 $895,
+    French Fitness FFB $999; commercial Nautilus Instinct $1,249, Rogue Monster Westside $1,595, LF Olympic
+    Flat $1,789, Hoist CF-3170 $1,880; premium Sorinex XL $1,649, Matrix Magnum ~$1,932 (AK / 1.45), LF
+    with storage $2,623. Footprint: 52 in long = median frame (LF 49, HS 51, Cybex 16010 60, Rogue Westside
+    52.5; LF''s version with plate horns is 70 x 68 in); 87 in wide = the loaded bar on the uprights.
+    Clearance: 18 in at the foot end and 24 in at the spotter end (live depth LF +42, HS +24, NSCA formula
+    +56); 36 in past each bar end (NSCA). Row pitch 87 + 36 = 123 in matches the LF/HS 120 in live width
+    and NSCA''s (7 ft bar + 3 ft); envelope 94 x 159 in = 104 sq ft (NSCA 90, TSAC 156). Storage is priced
+    as a plate tree (27 x 26 in) that stands against a wall or column and is not part of the footprint.'
+- id: incline_bench_station
+  name: Olympic incline bench station
+  category: racks_barbells
+  zone: free_weights
+  description: Olympic incline bench with bar uprights, a 20 kg bar, one 355 lb plate set, collars and
+    a plate tree.
+  footprint:
+    length_in: 59
+    width_in: 87
+    height_in: 58
+  clearance:
+    front_in: 18
+    back_in: 24
+    left_in: 36
+    right_in: 36
+  stations: 1
+  price_usd:
+    value: 2200
+    commercial: 4100
+    premium: 6400
+  power: none
+  layout:
+    aisle_side: side
+    row_group: bench_station
+  example_models:
+  - Body-Solid SOIB250 Pro Clubline Olympic Incline Bench
+  - French Fitness FFB Black Olympic Incline Bench
+  - Nautilus Instinct Olympic Incline Bench
+  - Life Fitness Olympic Incline Bench
+  - Hoist CF-3172 Olympic Incline Bench
+  - Hammer Strength Olympic Incline Bench
+  useful_life_years: 10
+  sources:
+  - lf-life-fitness-olympic-incline
+  - lf-hammer-strength-olympic-incline
+  - rogue-fitness-ohio-bar-length-sleeve
+  - nsca-s-safety-checklist-exercise-facility
+  - nsca-strength-conditioning-professional-2017
+  - fitness-superstore-catalog-new-body-2026
+  - rep-fitness-online-catalog-products-2026
+  - titan-fitness-online-catalog-2026
+  - rogue-fitness-product-category-pages-2026
+  - hoist-fitness-online-catalog-cf-club-2026
+  - prime-fitness-usa-online-catalog-2026
+  - akfit-anchorage-ak-dealer-catalog-incl-2026
+  - life-fitness-us-online-store-hammer-2026
+  - rogue-fitness-olympic-plates-cast-iron-2026
+  - torque-fitness-online-catalog-2026
+  - planet-fitness-sec-2025-investor-day
+  - planet-fitness-sec-form-10-k-fy2025-2026
+  - internal-revenue-service-irs-2025
+  - rework-equipment-lifecycle-maintenance-2025
+  - derived-eqfw-useful-life
+  - derived-eqfw-overlap-clearance
+  - derived-eqfw-bar-station-price
+  notes: 'Price = Olympic incline bench + 20 kg bar + 355 lb plate set + collars + plate tree. Value:
+    bench 1,000 + bar 260 + 355 lb plates x 1.90 (674.50) + collars 40 + plate tree 230 = 2,204.50 ->
+    2,200. Commercial: bench 1,700 + bar 310 + 355 lb plates x 3.10 (1,100.50) + collars 55 + plate tree
+    940 = 4,105.50 -> 4,100. Premium: bench 2,500 + bar 700 + 355 lb plates x 5.90 (2,094.50) + collars
+    101 + plate tree 1,000 = 6,395.50 -> 6,400. Bench anchors: value Body-Solid SOIB250 $665, French Fitness
+    FFB $999, FF Napa with storage $1,299; commercial Matrix G1 ~$983 (AK / 1.45), Nautilus Instinct $1,559,
+    LF $1,817, Hoist CF-3172 $2,220; premium Nautilus ~$1,945 and Matrix Magnum ~$2,385 (AK / 1.45), LF
+    with storage $2,651. Footprint: 59 in long = LF Signature 58 x 51 x 57 and HS 59 x 52 x 59 (LF''s
+    shop page lists 86 x 68, judged an error); 87 in wide = the loaded bar. Clearance: 18 in front and
+    24 in at the spotter end (live depth LF +43, HS +36), 36 in past each bar end (NSCA). Envelope 101
+    x 159 in = 112 sq ft (NSCA bench station 90, TSAC 156). Storage is priced as a plate tree (27 x 26
+    in) that stands against a wall or column and is not part of the footprint.'
+- id: decline_bench_station
+  name: Olympic decline bench station
+  category: racks_barbells
+  zone: free_weights
+  description: Olympic decline bench with bar uprights, a 20 kg bar, one 355 lb plate set, collars and
+    a plate tree.
+  footprint:
+    length_in: 70
+    width_in: 87
+    height_in: 51
+  clearance:
+    front_in: 18
+    back_in: 18
+    left_in: 36
+    right_in: 36
+  stations: 1
+  price_usd:
+    value: 2050
+    commercial: 4100
+    premium: 6150
+  power: none
+  layout:
+    aisle_side: side
+    row_group: bench_station
+  example_models:
+  - Body-Solid SODB250 Pro Clubline Olympic Decline Bench
+  - French Fitness FFB Black Olympic Decline Bench
+  - Hoist CF-3177 Olympic Decline Bench
+  - Life Fitness Olympic Decline Bench
+  - Hammer Strength Olympic Decline Bench
+  - Matrix Magnum Olympic Decline Bench
+  useful_life_years: 10
+  sources:
+  - lf-life-fitness-olympic-decline
+  - lf-hammer-strength-olympic-decline
+  - rogue-fitness-ohio-bar-length-sleeve
+  - nsca-s-safety-checklist-exercise-facility
+  - nsca-strength-conditioning-professional-2017
+  - fitness-superstore-catalog-new-body-2026
+  - rep-fitness-online-catalog-products-2026
+  - titan-fitness-online-catalog-2026
+  - rogue-fitness-product-category-pages-2026
+  - hoist-fitness-online-catalog-cf-club-2026
+  - akfit-anchorage-ak-dealer-catalog-incl-2026
+  - life-fitness-us-online-store-hammer-2026
+  - rogue-fitness-olympic-plates-cast-iron-2026
+  - torque-fitness-online-catalog-2026
+  - planet-fitness-sec-2025-investor-day
+  - planet-fitness-sec-form-10-k-fy2025-2026
+  - internal-revenue-service-irs-2025
+  - rework-equipment-lifecycle-maintenance-2025
+  - derived-eqfw-useful-life
+  - derived-eqfw-overlap-clearance
+  - derived-eqfw-bar-station-price
+  notes: 'Price = Olympic decline bench + 20 kg bar + 355 lb plate set + collars + plate tree. Value:
+    bench 860 + bar 260 + 355 lb plates x 1.90 (674.50) + collars 40 + plate tree 230 = 2,064.50 -> 2,050.
+    Commercial: bench 1,700 + bar 310 + 355 lb plates x 3.10 (1,100.50) + collars 55 + plate tree 940
+    = 4,105.50 -> 4,100. Premium: bench 2,250 + bar 700 + 355 lb plates x 5.90 (2,094.50) + collars 101
+    + plate tree 1,000 = 6,145.50 -> 6,150. Bench anchors: value Body-Solid SODB250 $625, French Fitness
+    FFB $1,099; commercial Matrix G1 ~$1,219 (AK / 1.45), Hoist CF-3177 $2,220; premium Nautilus ~$1,945,
+    Matrix Magnum ~$2,230 and Breaker ~$2,524 (AK / 1.45). Footprint: 70 in long = median of LF 68 x 51
+    x 51, HS 70 x 52 x 51, Cybex 16060 73 x 53 x 47; 87 in wide = the loaded bar. Clearance: 18 in at
+    each end (live depth LF +42, HS +24), 36 in past each bar end (NSCA). Envelope 106 x 159 in = 117
+    sq ft (NSCA bench station 90, TSAC 156). Storage is priced as a plate tree (27 x 26 in) that stands
+    against a wall or column and is not part of the footprint.'
+- id: smith_machine
+  name: Smith machine
+  category: racks_barbells
+  zone: free_weights
+  description: Guided-bar Smith machine with one 355 lb plate set for squats, presses, lunges and rows.
+  footprint:
+    length_in: 50
+    width_in: 87
+    height_in: 93
+  clearance:
+    front_in: 48
+    back_in: 24
+    left_in: 24
+    right_in: 24
+  stations: 1
+  price_usd:
+    value: 2900
+    commercial: 6550
+    premium: 9550
+  power: none
+  min_ceiling_in: 93
+  layout:
+    aisle_side: front
+    row_group: rack
+  example_models:
+  - Bells of Steel Hydra Smith Machine
+  - Titan Fitness Smith Machine
+  - Body-Solid SCB1000B ProClub Line Counter-Balanced Smith Machine
+  - Life Fitness Axiom Series Smith Rack
+  - Hoist CF-3755 Dual Angle Smith
+  - Hammer Strength Smith Machine
+  - Life Fitness Smith Machine
+  useful_life_years: 10
+  sources:
+  - lf-shop-spec-table-life-11
+  - lf-shop-spec-table-hammer-38
+  - nsca-s-safety-checklist-exercise-facility
+  - nsca-strength-conditioning-professional-2017
+  - titan-fitness-online-catalog-2026
+  - bells-steel-us-online-catalog-2026
+  - fitness-superstore-catalog-new-body-2026
+  - hoist-fitness-online-catalog-cf-club-2026
+  - akfit-anchorage-ak-dealer-catalog-incl-2026
+  - life-fitness-us-online-store-hammer-2026
+  - rep-fitness-online-catalog-products-2026
+  - rogue-fitness-olympic-plates-cast-iron-2026
+  - torque-fitness-online-catalog-2026
+  - planet-fitness-sec-2025-investor-day
+  - planet-fitness-sec-form-10-k-fy2025-2026
+  - internal-revenue-service-irs-2025
+  - rework-equipment-lifecycle-maintenance-2025
+  - derived-eqfw-useful-life
+  - derived-eqfw-overlap-clearance
+  - derived-eqfw-bar-station-price
+  notes: 'Price = Smith machine (guided bar built in) + 355 lb plate set. Value: Smith machine 2,250 +
+    355 lb plates x 1.90 (674.50) = 2,924.50 -> 2,900. Commercial: Smith machine 5,450 + 355 lb plates
+    x 3.10 (1,100.50) = 6,550.50 -> 6,550. Premium: Smith machine 7,450 + 355 lb plates x 5.90 (2,094.50)
+    = 9,544.50 -> 9,550. Frame anchors: value Bells of Steel Hydra $1,423.99, Titan $1,799.97 (sale; $2,249.99
+    regular), Body-Solid SCB1000B $2,660, French Fitness FFB Elite $3,199; commercial Matrix G1 ~$3,062
+    (AK / 1.45), LF Axiom Smith Rack $4,863, Hoist CF-3755 $6,050 and CF-3754 $7,395 (quote-only list);
+    premium HS $7,442, LF $7,641. Footprint 50 x 87 in, 93 in high = median of LF 49 x 87 x 93, HS 49
+    x 86.5 x 92.8, HS vertical 49.6 x 90.2, Axiom 56 x 73 x 88, BodyKore G271 52 x 94 (width = bar axis;
+    the bar stays inside the frame). Clearance: front 48 / back 24 from the 120 x 120 in LF/HS/Axiom live
+    area; sides 24 in, NSCA''s minimum between stations, because the live area''s 16.5 in a side would
+    leave only 16.5 in between machines once clearances overlap. Envelope 122 x 135 in = 114 sq ft (NSCA
+    rack station 104-130). min_ceiling 93 in = LF/HS live-area height. Plate storage horns, if any, are
+    part of the frame; no tree is priced.'
+- id: landmine
+  name: Landmine station
+  category: racks_barbells
+  zone: free_weights
+  description: Free-standing landmine pivot with a 20 kg bar, 160 lb of plates and collars for landmine
+    presses, rows and rotations; the bar needs open floor in front of the base.
+  footprint:
+    length_in: 105
+    width_in: 14
+  clearance:
+    front_in: 36
+    back_in: 6
+    left_in: 36
+    right_in: 36
+  stations: 1
+  price_usd:
+    value: 700
+    commercial: 1000
+    premium: 1950
+  power: none
+  layout:
+    aisle_side: front
+    row_group: landmine
+  example_models:
+  - REP Fitness Free Standing Landmine
+  - Rogue Landmine
+  - Body-Solid LMA Landmine
+  - Rogue Monster Landmine 2.0
+  - Prime PRODIGY Landmine Attachment
+  useful_life_years: 10
+  sources:
+  - rep-fitness-free-standing-landmine
+  - rogue-fitness-ohio-bar-length-sleeve
+  - rep-fitness-online-catalog-products-2026
+  - rogue-fitness-product-category-pages-2026
+  - fitness-superstore-catalog-new-body-2026
+  - prime-fitness-usa-online-catalog-2026
+  - titan-fitness-online-catalog-2026
+  - life-fitness-us-online-store-hammer-2026
+  - rogue-fitness-olympic-plates-cast-iron-2026
+  - torque-fitness-online-catalog-2026
+  - planet-fitness-sec-2025-investor-day
+  - planet-fitness-sec-form-10-k-fy2025-2026
+  - internal-revenue-service-irs-2025
+  - rework-equipment-lifecycle-maintenance-2025
+  - derived-eqfw-useful-life
+  - derived-eqfw-landmine-station
+  - derived-eqfw-overlap-clearance
+  - derived-eqfw-bar-station-price
+  notes: 'Price = landmine base + 20 kg bar + 160 lb plates + collars. Value: landmine 100 + bar 260 +
+    160 lb plates x 1.90 (304) + collars 40 = 704 -> 700. Commercial: landmine 160 + bar 310 + 160 lb
+    plates x 3.10 (496) + collars 55 = 1,021 -> 1,000. Premium: landmine 200 + bar 700 + 160 lb plates
+    x 5.90 (944) + collars 101 = 1,945 -> 1,950. Base anchors: value REP Free Standing Landmine $99.99,
+    Rogue Landmine $105, Body-Solid LMA $199; commercial Prime RO-T8 $115, Rogue Monster Landmine 2.0
+    $165, Prime Prodigy attachment $200; no premium listing, so $200 is an estimate (several anchors mount
+    on a rack rather than stand free). 160 lb = 2 x 45 + 2 x 25 + 2 x 10 for one-ended loading (estimate);
+    no plate storage is included. Footprint: REP base 18 x 14 in plus the 87 in bar lying forward from
+    the pivot = 105 x 14 in, so the resting bar never sits in an aisle or another unit''s clearance (footprint_strength
+    kept the base at 18 x 14 and put the bar in a 120 in front zone). Clearance: 36 in at the bar end
+    for the lifter, 6 in behind, 36 in a side for presses and rows (rotations sweep the bar end and need
+    ~60 in a side). Envelope 147 x 86 in = 88 sq ft (footprint_strength 86 sq ft).'
+- id: dumbbell_set_light
+  name: Dumbbells 5-50 lb with rack
+  category: free_weights
+  zone: free_weights
+  description: Ten pairs of dumbbells, 5-50 lb in 5 lb steps (550 lb), on one two-tier rack against a
+    wall; several users at once.
+  footprint:
+    length_in: 24
+    width_in: 87
+    height_in: 33
+  clearance:
+    front_in: 72
+    back_in: 0
+    left_in: 0
+    right_in: 0
+  stations: 3
+  price_usd:
+    value: 1800
+    commercial: 3200
+    premium: 6850
+  power: none
+  layout:
+    aisle_side: front
+    against_wall: true
+    row_group: dumbbell_rack
+  example_models:
+  - REP Fitness Hex Dumbbell Set 5-50 lb
+  - Rogue Rubber Hex Dumbbell Set 5-50 lb
+  - Life Fitness Rubber HEX Dumbbells 5-50 lb
+  - Hammer Strength 4-Sided Urethane Dumbbells 5-50 lb
+  - REP Fitness Commercial Dumbbell Rack (two-tier)
+  - Life Fitness Two Tier Dumbbell Rack
+  - Hammer Strength Two Tier Dumbbell Rack
+  useful_life_years: 10
+  sources:
+  - lf-shop-spec-table-life
+  - lf-shop-spec-table-hammer
+  - rep-fitness-commercial-dumbbell-rack-2-3
+  - nsca-tsac-module-5-0-5-2018
+  - nsca-strength-conditioning-professional-2017
+  - iso-preview-via-20957-1-2013-stationary
+  - cybex-international-eagle-nx-leg-press-owner
+  - derived-eqfw-storage-front-zone
+  - rep-fitness-online-catalog-products-2026
+  - rogue-fitness-dumbbell-sets-rubber-hex-2026
+  - titan-fitness-online-catalog-2026
+  - fitness-superstore-catalog-new-body-2026
+  - life-fitness-us-online-store-hammer-2026
+  - hoist-fitness-online-catalog-cf-club-2026
+  - rogue-fitness-urethane-dumbbells-2026
+  - fitness-network-13-costly-mistakes-your-2015
+  - derived-eqfw-pool-capacity
+  - planet-fitness-sec-2025-investor-day
+  - planet-fitness-sec-form-10-k-fy2025-2026
+  - internal-revenue-service-irs-2025
+  - rework-equipment-lifecycle-maintenance-2025
+  - derived-eqfw-useful-life
+  - derived-eqfw-dumbbell-price
+  notes: 'Price = 550 lb x tier $/lb + one 10-pair two-tier rack. Value: dumbbells 550 lb x 1.85 rubber
+    hex (1,017.50) + rack 770 = 1,787.50 -> 1,800. Commercial: dumbbells 550 lb x 2.90 rubber hex (1,595)
+    + rack 1,600 = 3,195 -> 3,200. Premium: dumbbells 550 lb x 9.56 Hammer Strength 4-sided urethane 5-50
+    set rate (5,258) + rack 1,600 = 6,858 -> 6,850. Cross-checks: REP hex 5-50 $1,099.99 + REP commercial
+    2-tier rack $649.99 = $1,749.98; LF rubber hex 5-50 $1,694 + LF 3-tier hex rack $1,549 = $3,243; HS
+    4-sided urethane 5-50 $5,256 + HS two-tier rack $1,756 = $7,012. Footprint 24 x 87 x 33 in = median
+    of LF two-tier 25 x 90 x 33 and HS 21 x 90 x 33 (both rated for 10 pairs), REP Victory 24 x 84 and
+    REP commercial 23.3 x 84.2. Clearance: front 72 in = NSCA''s 4 ft standing-exercise user depth + the
+    ISO 20957-1 0.6 m free area (derived-eqfw-storage-front-zone); it contains the 36 in pick-up depth
+    the LF and HS live areas add in front (they add nothing at the ends or back) and holds the standing
+    curls, raises and shrugs done at the rack. Back 0 so it sits against the wall (NSCA TSAC: dumbbell
+    racks along walls), ends 0 so racks butt together. stations 3 (derived-eqfw-pool-capacity): with two
+    users already holding pairs a newcomer gets the exact pair 70% and a usable pair 97% of the time;
+    with three, 56% and 89%.'
+- id: dumbbell_set_full
+  name: Dumbbells 5-100 lb with racks
+  category: free_weights
+  zone: free_weights
+  description: Twenty pairs of dumbbells, 5-100 lb in 5 lb steps (2,100 lb), on two two-tier racks against
+    a wall; several users at once.
+  footprint:
+    length_in: 24
+    width_in: 174
+    height_in: 33
+  clearance:
+    front_in: 72
+    back_in: 0
+    left_in: 0
+    right_in: 0
+  stations: 5
+  price_usd:
+    value: 5450
+    commercial: 9300
+    premium: 19850
+  power: none
+  layout:
+    aisle_side: front
+    against_wall: true
+    row_group: dumbbell_rack
+  example_models:
+  - REP Fitness Hex Dumbbell Set 5-100 lb
+  - Rogue Rubber Hex Dumbbell Sets 5-50 + 55-100 lb
+  - French Fitness Rubber Coated Hex Dumbbell Set 5-100 lb
+  - Hoist 5-100 Pair DB Set
+  - Life Fitness Rubber HEX Dumbbells 5-100 lb
+  - Hammer Strength 4-Sided Urethane Dumbbells 5-100 lb
+  - Hammer Strength Two Tier Dumbbell Rack
+  useful_life_years: 10
+  sources:
+  - lf-shop-spec-table-life
+  - lf-shop-spec-table-hammer
+  - rep-fitness-commercial-dumbbell-rack-2-3
+  - nsca-tsac-module-5-0-5-2018
+  - nsca-strength-conditioning-professional-2017
+  - iso-preview-via-20957-1-2013-stationary
+  - cybex-international-eagle-nx-leg-press-owner
+  - derived-eqfw-storage-front-zone
+  - rep-fitness-online-catalog-products-2026
+  - rogue-fitness-dumbbell-sets-rubber-hex-2026
+  - titan-fitness-online-catalog-2026
+  - fitness-superstore-catalog-new-body-2026
+  - life-fitness-us-online-store-hammer-2026
+  - hoist-fitness-online-catalog-cf-club-2026
+  - rogue-fitness-urethane-dumbbells-2026
+  - fitness-network-13-costly-mistakes-your-2015
+  - derived-eqfw-pool-capacity
+  - planet-fitness-sec-2025-investor-day
+  - planet-fitness-sec-form-10-k-fy2025-2026
+  - internal-revenue-service-irs-2025
+  - rework-equipment-lifecycle-maintenance-2025
+  - derived-eqfw-useful-life
+  - derived-eqfw-dumbbell-price
+  notes: 'Price = 2,100 lb x tier $/lb + two 10-pair two-tier racks. Value: dumbbells 2,100 lb x 1.85
+    rubber hex (3,885) + racks 2 x 770 (1,540) = 5,425 -> 5,450. Commercial: dumbbells 2,100 lb x 2.90
+    rubber hex (6,090) + racks 2 x 1,600 (3,200) = 9,290 -> 9,300. Premium: dumbbells 2,100 lb x 7.93
+    Hammer Strength 4-sided urethane 5-100 set rate (16,653) + racks 2 x 1,600 (3,200) = 19,853 -> 19,850.
+    Cross-checks: REP hex 5-100 $3,699.99 + 2 REP racks $1,299.98 = $4,999.97; Rogue hex 5-50 + 55-100
+    $3,905 + 2 Rogue 3-tier racks $1,985 = $5,890; LF rubber hex $6,115 + LF racks $3,993 = $10,108; HS
+    4-sided urethane $16,662 + 2 HS racks $3,512 = $20,174. Footprint 24 x 174 in = two 87 in two-tier
+    racks end to end, 33 in high (one 3-tier 15-pair rack, 28 x 92 in, plus a two-tier is an alternative);
+    front 72 in standing-work and pick-up zone (derived-eqfw-storage-front-zone), back 0 against the wall.
+    stations 5 (derived-eqfw-pool-capacity): the 55-100 lb pairs add fewer concurrent users than a second
+    5-50 lb set would, because the model puts about three quarters of pick-ups at 50 lb or lighter (GYMetrix:
+    8-18 kg pairs are the most popular kit).'
+- id: dumbbell_heavy_extension
+  name: Dumbbells 105-150 lb with rack
+  category: free_weights
+  zone: free_weights
+  description: Ten heavy pairs, 105-150 lb in 5 lb steps (2,550 lb), on one two-tier rack; extends a 5-100
+    lb set for heavy presses and rows.
+  footprint:
+    length_in: 24
+    width_in: 87
+    height_in: 33
+  clearance:
+    front_in: 72
+    back_in: 0
+    left_in: 0
+    right_in: 0
+  stations: 2
+  price_usd:
+    value: 5500
+    commercial: 9000
+    premium: 18600
+  power: none
+  requires:
+  - dumbbell_set_full
+  layout:
+    aisle_side: front
+    against_wall: true
+    row_group: dumbbell_rack
+  example_models:
+  - French Fitness Rubber Coated Hex Dumbbell Set 105-150 lb
+  - REP Fitness Urethane Dumbbell Sets 105-125 + 130-150 lb
+  - Rogue Urethane Dumbbell Set 105-150 lb
+  - Hammer Strength 4-Sided Urethane Dumbbells 105-150 lb
+  - Hammer Strength Two Tier Dumbbell Rack
+  useful_life_years: 10
+  sources:
+  - lf-shop-spec-table-life
+  - lf-shop-spec-table-hammer
+  - rep-fitness-commercial-dumbbell-rack-2-3
+  - nsca-tsac-module-5-0-5-2018
+  - nsca-strength-conditioning-professional-2017
+  - iso-preview-via-20957-1-2013-stationary
+  - cybex-international-eagle-nx-leg-press-owner
+  - derived-eqfw-storage-front-zone
+  - rep-fitness-online-catalog-products-2026
+  - rogue-fitness-dumbbell-sets-rubber-hex-2026
+  - titan-fitness-online-catalog-2026
+  - fitness-superstore-catalog-new-body-2026
+  - life-fitness-us-online-store-hammer-2026
+  - hoist-fitness-online-catalog-cf-club-2026
+  - rogue-fitness-urethane-dumbbells-2026
+  - fitness-network-13-costly-mistakes-your-2015
+  - derived-eqfw-pool-capacity
+  - planet-fitness-sec-2025-investor-day
+  - planet-fitness-sec-form-10-k-fy2025-2026
+  - internal-revenue-service-irs-2025
+  - rework-equipment-lifecycle-maintenance-2025
+  - derived-eqfw-useful-life
+  - derived-eqfw-dumbbell-price
+  notes: 'Price = 2,550 lb x tier $/lb + one two-tier rack. Value: dumbbells 2,550 lb x 1.85 rubber hex
+    (4,717.50) + rack 770 = 5,487.50 -> 5,500. Commercial: dumbbells 2,550 lb x 2.90 rubber hex (7,395)
+    + rack 1,600 = 8,995 -> 9,000. Premium: dumbbells 2,550 lb x 6.67 Hammer Strength 4-sided urethane
+    105-150 set rate (17,008.50) + rack 1,600 = 18,608.50 -> 18,600. No commercial-brand 105-150 lb hex
+    set was found, so the commercial hex rate is applied by analogy. Cross-checks: French Fitness hex
+    105-150 $4,699 ($1.84/lb); REP urethane 105-125 + 130-150 $6,299.98 ($2.47/lb); Rogue urethane 105-150
+    $9,950 ($3.90/lb); HS 4-sided urethane 105-125 $7,716 + 130-150 $9,282. Rack: the HS two-tier holds
+    5 pairs and 1,400 lb per tier with a 150 lb maximum dumbbell, so the 130-150 lb tier (1,400 lb) is
+    exactly at its rating, and HS says its racks are optimized for dumbbells under 125 lb; budget a second
+    rack if the heads do not fit (fact-check flag). Same footprint and clearances as the 5-50 lb rack
+    (front 72 in, back 0). stations 2 (derived-eqfw-pool-capacity): heavy users ramp through two adjacent
+    pairs (3 if each holds one). Requires dumbbell_set_full (canonical spec): the heavy pairs are an add-on
+    to a complete 5-100 lb run used for warm-ups and lighter work.'
+- id: adjustable_bench
+  name: Adjustable bench
+  category: free_weights
+  zone: free_weights
+  description: Flat-incline-decline (FID) adjustable bench for dumbbell presses, rows, flyes and seated
+    work; dumbbells are separate.
+  footprint:
+    length_in: 56
+    width_in: 25
+  clearance:
+    front_in: 24
+    back_in: 18
+    left_in: 36
+    right_in: 36
+  stations: 1
+  price_usd:
+    value: 510
+    commercial: 1050
+    premium: 1600
+  power: none
+  layout:
+    aisle_side: side
+    row_group: bench
+  example_models:
+  - REP Fitness AB-5200 2.0 Adjustable Bench
+  - Rogue Adjustable Bench 3.0
+  - Body-Solid SFID325B Pro Clubline Adjustable Commercial Bench
+  - Hoist HF-5165 7-Position F.I.D. Bench
+  - Rogue AB-3 Adjustable Bench
+  - Life Fitness Adjustable Bench
+  - Hammer Strength Multi-Adjustable Bench
+  useful_life_years: 10
+  sources:
+  - lf-shop-spec-table-life-3
+  - lf-shop-spec-table-life-9
+  - nsca-s-safety-checklist-exercise-facility
+  - rep-fitness-online-catalog-products-2026
+  - rogue-fitness-product-category-pages-2026
+  - titan-fitness-online-catalog-2026
+  - fitness-superstore-catalog-new-body-2026
+  - bells-steel-us-online-catalog-2026
+  - hoist-fitness-online-catalog-cf-club-2026
+  - prime-fitness-usa-online-catalog-2026
+  - sorinex-product-pages-embedded-price-2026
+  - akfit-anchorage-ak-dealer-catalog-incl-2026
+  - life-fitness-us-online-store-hammer-2026
+  - planet-fitness-sec-2025-investor-day
+  - planet-fitness-sec-form-10-k-fy2025-2026
+  - internal-revenue-service-irs-2025
+  - rework-equipment-lifecycle-maintenance-2025
+  - derived-eqfw-useful-life
+  - derived-eqfw-overlap-clearance
+  notes: 'Price = price_strength tier medians of these anchors, bench only: value Titan FID $309.97, REP
+    AB-3000 2.0 $349.99, Body-Solid SFID325B $505, Bells of Steel Buzz-Saw $516.99, REP AB-5200 2.0 $549.99,
+    Rogue 3.0 $595 (median $511); commercial Hoist 7-position $675, Prime $725, Rogue AB-3 $950, Nautilus
+    Instinct $1,179, Sorinex 0-90 $1,249, LF $1,495; premium Matrix Magnum ~$1,172 (AK / 1.45), Watson
+    ~$1,467, HS Multi-Adjustable $1,854, LF Multi-Adjustable $2,001. Footprint 56 x 25 in = median of
+    LF 55 x 25, LF MAB 58 x 29, HS MAB 54 x 27, Rogue 56.5 x 24.75, REP AB-5200 57.6 x 25.8, Cybex 16000
+    56 x 25. Clearance: front 24 / back 18 from the LF live area (97 x 73 in, +42 in long); sides 36 in:
+    LF''s +24 in a side is the dumbbell arc, and because clearances overlap in the layout engine the side
+    value is the bench-to-bench gap, set to NSCA''s 3 ft optimal spacing (2 ft minimum).'
+- id: flat_bench
+  name: Flat bench
+  category: free_weights
+  zone: free_weights
+  description: Flat utility bench for dumbbell presses, rows, split squats and step-ups.
+  footprint:
+    length_in: 47
+    width_in: 21
+    height_in: 17
+  clearance:
+    front_in: 24
+    back_in: 24
+    left_in: 36
+    right_in: 36
+  stations: 1
+  price_usd:
+    value: 280
+    commercial: 820
+    premium: 850
+  power: none
+  layout:
+    aisle_side: side
+    row_group: bench
+  example_models:
+  - Rogue Flat Utility Bench 2.0
+  - REP Fitness FB-5000 Competition Flat Bench
+  - Body-Solid Pro Clubline SFB125 Flat Bench
+  - Hoist CF-3163 Flat Bench
+  - Life Fitness Flat Bench
+  - Hammer Strength Flat Bench
+  useful_life_years: 10
+  sources:
+  - lf-shop-spec-table-hammer-7
+  - lf-shop-spec-table-life-8
+  - nsca-s-safety-checklist-exercise-facility
+  - rep-fitness-online-catalog-products-2026
+  - rogue-fitness-product-category-pages-2026
+  - titan-fitness-online-catalog-2026
+  - fitness-superstore-catalog-new-body-2026
+  - sorinex-product-pages-embedded-price-2026
+  - hoist-fitness-online-catalog-cf-club-2026
+  - akfit-anchorage-ak-dealer-catalog-incl-2026
+  - life-fitness-us-online-store-hammer-2026
+  - planet-fitness-sec-2025-investor-day
+  - planet-fitness-sec-form-10-k-fy2025-2026
+  - internal-revenue-service-irs-2025
+  - rework-equipment-lifecycle-maintenance-2025
+  - derived-eqfw-useful-life
+  - derived-eqfw-overlap-clearance
+  notes: 'Price = price_strength tier medians of these anchors, bench only: value Rogue Flat Utility 2.0
+    $195, REP FB-5000 $244.99, Titan $249.97, Sorinex $309, Rogue Monster Utility 2.0 $335, Body-Solid
+    SFB125 $335; commercial Matrix G1 ~$403 (AK / 1.45), Hoist CF-3163 $805, LF Flat $834, LF Utility
+    $917; premium (estimate, set at Hammer Strength level) HS Flat $772, HS Utility 75-degree $849 - premium
+    and commercial overlap for flat benches. Footprint 47 x 21 in, 17 in high = median of HS 50 x 19 x
+    16, LF 46 x 31 x 16.5, Rogue 47 x 14 x 18, REP FB-5000 50.5 x 21 x 16.9, Cybex 16040 43 x 24 x 17.
+    Clearance: front and back 24 from the HS (98 x 67) and LF (88 x 74) live areas; sides 36 in: the live
+    areas add ~24 in a side for dumbbell arcs, and with overlapping clearances the side value is the bench-to-bench
+    gap, set to NSCA''s 3 ft optimum.'
+- id: preacher_bench
+  name: Preacher curl bench
+  category: free_weights
+  zone: free_weights
+  description: Seated preacher (arm-curl) bench used with dumbbells or a fixed EZ bar.
+  footprint:
+    length_in: 39
+    width_in: 34
+    height_in: 44
+  clearance:
+    front_in: 24
+    back_in: 12
+    left_in: 24
+    right_in: 24
+  stations: 1
+  price_usd:
+    value: 440
+    commercial: 1350
+    premium: 1550
+  power: none
+  layout:
+    aisle_side: front
+    row_group: bench
+  example_models:
+  - Body-Solid GPCB329B Preacher Curl Bench
+  - Titan Fitness Preacher Curl Bench
+  - Hoist CF-3550 Preacher Curl
+  - Prime Double-Sided Preacher
+  - Life Fitness Arm Curl Bench
+  - Hammer Strength Seated Arm Curl
+  useful_life_years: 10
+  sources:
+  - lf-shop-spec-table-hammer-3
+  - lf-shop-spec-table-life-4
+  - nsca-s-safety-checklist-exercise-facility
+  - star-trac-ip-l5002-owner-s-manual
+  - fitness-superstore-catalog-new-body-2026
+  - titan-fitness-online-catalog-2026
+  - hoist-fitness-online-catalog-cf-club-2026
+  - prime-fitness-usa-online-catalog-2026
+  - sorinex-product-pages-embedded-price-2026
+  - akfit-anchorage-ak-dealer-catalog-incl-2026
+  - life-fitness-us-online-store-hammer-2026
+  - planet-fitness-sec-2025-investor-day
+  - planet-fitness-sec-form-10-k-fy2025-2026
+  - internal-revenue-service-irs-2025
+  - rework-equipment-lifecycle-maintenance-2025
+  - derived-eqfw-useful-life
+  - derived-eqfw-overlap-clearance
+  notes: 'Price = price_strength tier medians of these anchors, bench only: value Titan $410.97, Body-Solid
+    GPCB329B $460 (low confidence, two listings); commercial Matrix G1 ~$658 (AK / 1.45), Hoist CF-3550
+    $1,345, Prime double-sided $1,350, LF Arm Curl Bench $1,789; premium Sorinex standing preacher $1,188,
+    Nautilus seated ~$1,571 (AK / 1.45), HS Seated Arm Curl $1,709. Footprint 39 x 34 in, 44 in high =
+    median of HS seated arm curl 38 x 34 x 42, LF arm curl bench 47 x 33 x 46, Cybex 16130 39 x 29 x 37,
+    BodyKore G257 34 x 41 x 52. Clearance: front 24 (user side) / back 12 from the HS live area (74 x
+    70 in); sides 24 in = NSCA minimum between stations, since the live area''s 18 in a side would shrink
+    to an 18 in gap once clearances overlap.'
+- id: hyperextension
+  name: 45-degree back extension
+  category: free_weights
+  zone: free_weights
+  description: 45-degree hyperextension (Roman chair) for back extensions and glute work.
+  footprint:
+    length_in: 58
+    width_in: 30
+    height_in: 38
+  clearance:
+    front_in: 30
+    back_in: 12
+    left_in: 24
+    right_in: 24
+  stations: 1
+  price_usd:
+    value: 310
+    commercial: 1350
+    premium: 1700
+  power: none
+  layout:
+    aisle_side: back
+    row_group: bench
+  example_models:
+  - Body-Solid GHYP345B 45 Degree Back Hyperextension
+  - French Fitness 45 Degree Back Hyperextension HE450
+  - Titan Fitness Dual Hyperextension
+  - Nautilus Instinct 45 Degree Back Extension
+  - Hoist CF-3663 Back Hyper
+  - Life Fitness Back Extension
+  - Hammer Strength Back Extension
+  useful_life_years: 10
+  sources:
+  - lf-shop-spec-table-hammer-4
+  - lf-life-fitness-back-extension
+  - nsca-s-safety-checklist-exercise-facility
+  - star-trac-ip-l5002-owner-s-manual
+  - fitness-superstore-catalog-new-body-2026
+  - titan-fitness-online-catalog-2026
+  - hoist-fitness-online-catalog-cf-club-2026
+  - akfit-anchorage-ak-dealer-catalog-incl-2026
+  - life-fitness-us-online-store-hammer-2026
+  - planet-fitness-sec-2025-investor-day
+  - planet-fitness-sec-form-10-k-fy2025-2026
+  - internal-revenue-service-irs-2025
+  - rework-equipment-lifecycle-maintenance-2025
+  - derived-eqfw-useful-life
+  - derived-eqfw-overlap-clearance
+  notes: 'Price = price_strength tier medians of these anchors: value Titan Roman chair $224.97, Body-Solid
+    GHYP345B $295, Titan dual $319.97, French Fitness HE450 $329; commercial Matrix G1 ~$631 (AK / 1.45),
+    Nautilus Instinct $1,249, Hoist CF-3663 $1,480, LF $1,937; premium Nautilus adjustable ~$1,619 (AK
+    / 1.45), HS Back Extension $1,794 (low confidence). Footprint 58 x 30 in, 38 in high = median of HS
+    BW-BE 59 x 28 x 45, LF 50 x 37 x 38, Cybex 16020 58 x 30 x 32. Clearance: front 30 for the head and
+    torso descent, back 12 at the foot plate (live areas HS 83 x 64, LF 106 x 74); sides 24 in = NSCA
+    minimum (the live areas give ~18 in a side). Users mount from the foot end (aisle_side back).'
+- id: ghd
+  name: Glute-ham developer
+  category: free_weights
+  zone: free_weights
+  description: Glute-ham developer for GHD raises, back extensions and GHD sit-ups.
+  footprint:
+    length_in: 73
+    width_in: 36
+    height_in: 50.5
+  clearance:
+    front_in: 24
+    back_in: 12
+    left_in: 24
+    right_in: 24
+  stations: 1
+  price_usd:
+    value: 550
+    commercial: 1300
+    premium: 2800
+  power: none
+  layout:
+    aisle_side: side
+    row_group: bench
+  example_models:
+  - Rogue 3x3 Echo GHD
+  - REP Fitness Glute Ham Developer (GHD)
+  - Rogue GH-1 GHD
+  - Rogue Abram GHD 2.0
+  - Rogue Monster Swing Arm GHD
+  - Hammer Strength Fixed Pad Glute/Ham
+  - Sorinex Frankenhyper
+  useful_life_years: 10
+  sources:
+  - lf-shop-spec-table-hammer-8
+  - lf-shop-spec-table-hammer-9
+  - hammer-strength-life-catalog-2024
+  - nsca-s-safety-checklist-exercise-facility
+  - rep-fitness-online-catalog-products-2026
+  - rogue-fitness-product-category-pages-2026
+  - titan-fitness-online-catalog-2026
+  - fitness-superstore-catalog-new-body-2026
+  - akfit-anchorage-ak-dealer-catalog-incl-2026
+  - sorinex-product-pages-embedded-price-2026
+  - life-fitness-us-online-store-hammer-2026
+  - planet-fitness-sec-2025-investor-day
+  - planet-fitness-sec-form-10-k-fy2025-2026
+  - internal-revenue-service-irs-2025
+  - rework-equipment-lifecycle-maintenance-2025
+  - derived-eqfw-useful-life
+  - derived-eqfw-overlap-clearance
+  notes: 'Price = price_strength tier medians of these anchors: value Rogue 3x3 Echo $445, REP $479.99,
+    French Fitness $549, Titan $619.97, Body-Solid SGH500 $755; commercial Rogue GH-1 $680, Abram 2.0
+    $775, Monster Swing Arm $1,780, Torque X ~$1,887 (AK / 1.45); premium Matrix Magnum ~$2,272 (AK /
+    1.45), HS Fixed Pad Glute/Ham $2,812, Sorinex Frankenhyper $3,599. Footprint 73 x 36 in, 50.5 in high
+    = median of Rogue Abram 73 x 44.5, REP 70 x 36 x 42, HS fixed pad 74 x 34 x 51, HS BW-GH 72 x 33 x
+    50, HS GH/reverse hyper 88 x 40 x 53. Clearance: front 24 / back 12 / sides 24 from the HS live areas
+    (110 x 82 and 112 x 88 in); 24 in sides also meet NSCA''s minimum spacing with overlapping clearances.'
+- id: dip_chin_station
+  name: Dip and chin-up station
+  category: free_weights
+  zone: free_weights
+  description: Free-standing tower with chin-up bar, dip handles and back pad for knee/leg raises.
+  footprint:
+    length_in: 47
+    width_in: 47
+    height_in: 91.5
+  clearance:
+    front_in: 36
+    back_in: 12
+    left_in: 24
+    right_in: 24
+  stations: 1
+  price_usd:
+    value: 660
+    commercial: 2000
+    premium: 2100
+  power: none
+  min_ceiling_in: 110
+  layout:
+    aisle_side: front
+    row_group: bench
+  example_models:
+  - Titan Fitness Heavy-Duty Power Tower
+  - Body-Solid SVKR1000 Pro Club-Line VKR Vertical Knee Raise Chin Dip
+  - Life Fitness Chin/Dip/Leg Raise
+  - Nautilus Pull Up/Dip/Leg Raise
+  - Hammer Strength Chin/Dip/Leg Raise
+  - Matrix Magnum VKR w/Chin
+  useful_life_years: 10
+  sources:
+  - lf-shop-spec-table-hammer-6
+  - lf-shop-spec-table-life-7
+  - nsca-s-safety-checklist-exercise-facility
+  - star-trac-ip-l5002-owner-s-manual
+  - fitness-superstore-catalog-new-body-2026
+  - titan-fitness-online-catalog-2026
+  - hoist-fitness-online-catalog-cf-club-2026
+  - akfit-anchorage-ak-dealer-catalog-incl-2026
+  - life-fitness-us-online-store-hammer-2026
+  - planet-fitness-sec-2025-investor-day
+  - planet-fitness-sec-form-10-k-fy2025-2026
+  - internal-revenue-service-irs-2025
+  - rework-equipment-lifecycle-maintenance-2025
+  - derived-eqfw-useful-life
+  - derived-eqfw-overlap-clearance
+  notes: 'Price = price_strength tier medians of these anchors: value Titan power tower $355.97, Body-Solid
+    GVKR82B $665, SVKR1000 $1,450; commercial Hoist CF-3252 knee raise/dip $1,075, LF Dip/Leg Raise $1,730,
+    Nautilus pull-up/dip/leg raise ~$2,261 (AK / 1.45), LF Chin/Dip/Leg Raise $2,615 (the median mixes
+    towers with and without a chin bar); premium Matrix Magnum VKR w/chin ~$1,742 (AK / 1.45), HS Chin/Dip/Leg
+    Raise $2,422 (low confidence). Footprint 47 x 47 in = median of HS 49 x 44 x 92, LF 45 x 50 x 91.5,
+    BodyKore CF2110 50 x 49 x 89, LF dip/leg raise 41.5 x 29 (height 91.5 = median of the three towers
+    with a chin bar). Clearance: front 36 (HS 85 x 44 and LF 77.5 x 47 in live areas add 36 in in front
+    for leg raises and dismounts), back 12; sides 24 in = NSCA minimum (live areas give 0-18 in). min_ceiling
+    110 in = HS live-area height for chin-ups.'
+- id: hip_thrust_bench
+  name: Hip thrust bench station
+  category: free_weights
+  zone: free_weights
+  description: Hip-thrust bench with a 20 kg bar, a 350 lb bumper set, collars and plate storage; the
+    lifter sits in front of the bench with the bar across the hips.
+  footprint:
+    length_in: 60
+    width_in: 87
+  clearance:
+    front_in: 24
+    back_in: 12
+    left_in: 36
+    right_in: 36
+  stations: 1
+  price_usd:
+    value: 1550
+    commercial: 2800
+    premium: 5050
+  power: none
+  layout:
+    aisle_side: front
+    row_group: bench
+  example_models:
+  - Rogue Monster Lite Hip Thruster Bench
+  - French Fitness FF-HTB20 Hip Thrust Bench Platform
+  - Rogue Monster Hip Thruster Bench
+  - Rogue HG 2.0 Bumper Plates (350 lb set)
+  useful_life_years: 10
+  sources:
+  - lf-shop-spec-table-hammer-7
+  - rogue-fitness-ohio-bar-length-sleeve
+  - nsca-s-safety-checklist-exercise-facility
+  - nsca-strength-conditioning-professional-2017
+  - iso-preview-via-20957-1-2013-stationary
+  - cybex-international-eagle-nx-leg-press-owner
+  - rogue-fitness-product-category-pages-2026
+  - fitness-superstore-catalog-new-body-2026
+  - rep-fitness-online-catalog-products-2026
+  - titan-fitness-online-catalog-2026
+  - rogue-fitness-echo-bumper-plates-v2-2026
+  - rogue-fitness-hg-2-0-bumper-plates-2026
+  - life-fitness-us-online-store-hammer-2026
+  - planet-fitness-sec-2025-investor-day
+  - planet-fitness-sec-form-10-k-fy2025-2026
+  - internal-revenue-service-irs-2025
+  - rework-equipment-lifecycle-maintenance-2025
+  - derived-eqfw-useful-life
+  - derived-eqfw-overlap-clearance
+  - derived-eqfw-bar-station-price
+  - derived-eqfw-hip-thrust-footprint
+  notes: 'Price = hip-thrust bench + 20 kg bar + 350 lb bumper set + collars + plate tree. Value: bench
+    280 + bar 260 + 350 lb bumpers x 2.10 (735) + collars 40 + plate tree 230 = 1,545 -> 1,550. Commercial:
+    bench 330 + bar 310 + 350 lb bumpers x 3.30 (1,155) + collars 55 + plate tree 940 = 2,790 -> 2,800.
+    Premium: bench 350 + bar 700 + 350 lb bumpers x 8.30 (2,905) + collars 101 + plate tree 1,000 = 5,056
+    -> 5,050. Bench anchors: Rogue Monster Lite Hip Thruster Bench $270, French Fitness FF-HTB20 $299
+    (value); Rogue Monster Hip Thruster Bench $330 (commercial); no premium bench was listed, so $350
+    is an estimate (low confidence). Bumpers per the canonical spec (bench + bar + plates/bumpers). Footprint
+    and clearances are estimates (no commercial hip-thrust bench spec was found; derived-eqfw-hip-thrust-footprint):
+    60 in deep = the ~24 in bench used side-on + 36 in for the seated lifter and the loaded bar, which
+    rests on the floor at the hips between sets, so the bar stays inside the footprint and out of any
+    walkway (the layout engine lets front clearances overlap walkways); 87 in wide = the 86.75 in bar
+    spanning a ~48 in bench. Front 24 in = ISO 20957-1 0.6 m free area for the feet and access; back 12;
+    36 in past each bar end (NSCA). Envelope 96 x 159 in = 106 sq ft (NSCA supine station 90, TSAC 156).
+    Storage is priced as a plate tree (27 x 26 in) that stands against a wall or column and is not part
+    of the footprint.'
+- id: fixed_barbell_set
+  name: Fixed barbells and EZ bars with rack
+  category: free_weights
+  zone: free_weights
+  description: Ten straight and ten EZ-curl fixed-weight barbells, 20-110 lb, on two 10-bar racks against
+    a wall; several users at once.
+  footprint:
+    length_in: 35
+    width_in: 120
+    height_in: 61
+  clearance:
+    front_in: 72
+    back_in: 0
+    left_in: 12
+    right_in: 12
+  stations: 6
+  price_usd:
+    value: 3750
+    commercial: 10350
+    premium: 15550
+  power: none
+  layout:
+    aisle_side: front
+    against_wall: true
+    row_group: dumbbell_rack
+  example_models:
+  - Titan Fitness Fixed Urethane Straight and EZ Barbells 20-110 lb
+  - Body-Solid SBB Fixed Barbell Set + SBBR100 Rack
+  - Hoist 20-110 Straight & Curl Barbell Set + CF-3465 Barbell Rack
+  - Hammer Strength 4-Sided Urethane Fixed Barbells 20-110 lb
+  - Life Fitness Barbell Rack (holds 10 barbells)
+  useful_life_years: 10
+  sources:
+  - lf-shop-spec-table-life-5
+  - hammer-strength-life-catalog-2024
+  - titan-fitness-online-catalog-2026
+  - fitness-superstore-catalog-new-body-2026
+  - bells-steel-us-online-catalog-2026
+  - hoist-fitness-online-catalog-cf-club-2026
+  - akfit-anchorage-ak-dealer-catalog-incl-2026
+  - life-fitness-us-online-store-hammer-2026
+  - life-fitness-facility-commercial-shop-2026
+  - nsca-tsac-module-5-0-5-2018
+  - fitness-network-13-costly-mistakes-your-2015
+  - derived-eqfw-pool-capacity
+  - planet-fitness-sec-2025-investor-day
+  - planet-fitness-sec-form-10-k-fy2025-2026
+  - internal-revenue-service-irs-2025
+  - rework-equipment-lifecycle-maintenance-2025
+  - derived-eqfw-useful-life
+  - nsca-strength-conditioning-professional-2017
+  - iso-preview-via-20957-1-2013-stationary
+  - derived-eqfw-storage-front-zone
+  - derived-eqfw-fixed-barbell-set
+  - derived-eqfw-overlap-clearance
+  notes: 'Ten straight + ten EZ fixed bars, 20-110 lb in 10 lb steps (2 x 650 = 1,300 lb), on two 10-bar
+    racks. Value: Titan urethane straight 20-110 1,429.97 + EZ 1,544.97 = 2,974.94 + 2 racks x 400 (median
+    of Titan $359.97, Bells of Steel $399.99, Body-Solid SBBR100 $665) = 3,774.94 -> 3,750. Commercial:
+    HS 4-sided rubber straight + EZ 7,044 + 2 x LF Barbell Rack (holds 10 barbells) 1,659 = 10,362 ->
+    10,350. Premium: HS 4-sided urethane straight + EZ 12,168 + 2 x 1,700 (LF 10-bar $1,659, Matrix Magnum
+    ~$1,703) = 15,568 -> 15,550. Bars alone cost $2.29 / $5.42 / $9.36 per lb. price_strength''s commercial
+    and premium builds priced one 10-bar rack for 20 bars; LF sells a 5-bar version at $1,040, so two
+    10-bar racks are used (derived-eqfw-fixed-barbell-set). Cross-check: Hoist 20-110 straight & curl
+    set $7,590 + CF-3465 rack $1,480. Footprint: two racks 35 in deep (median of LF 38 x 34.5 x 61.5 and
+    HS FW-BAR 31 x 28 x 60), each given the LF 60 in live-area width = 35 x 120 in; the frames hold the
+    bars upright and are only 28-34.5 in wide, so the extra width is room to tilt bars out and floor for
+    the set''s six concurrent users (about 11 sq ft of effective area each, near the 5-50 and 5-100 lb
+    dumbbell racks'' 12-15). Clearance: front 72 in standing-work and pick-up zone (derived-eqfw-storage-front-zone;
+    it contains LF''s +46 in live depth and footprint_strength''s 42 in), back 0 against the wall like
+    the dumbbell racks (footprint_strength suggested 6 in), sides 12. stations 6 (derived-eqfw-pool-capacity).'
+- id: leg_press
+  name: Leg press (45-degree)
+  category: plate_loaded
+  zone: machines
+  description: Plate-loaded 45-degree linear leg press (seat at the low end, sled on angled rails). Users
+    get on and load the sled horns from the sides; price includes a 500 lb plate allocation.
+  footprint:
+    length_in: 89
+    width_in: 64
+    height_in: 55.5
+  clearance:
+    front_in: 24
+    back_in: 24
+    left_in: 36
+    right_in: 36
+  stations: 1
+  price_usd:
+    value: 3300
+    commercial: 6050
+    premium: 9500
+  power: none
+  layout:
+    aisle_side: side
+    row_group: plate_loaded
+  example_models:
+  - French Fitness FFB Black 45 Degree Linear Leg Press (value)
+  - Nautilus Plate Loaded 9NP-L1141 Angled Leg Press (commercial)
+  - Hoist CF-3355 Angled Linear Leg Press (commercial)
+  - Hammer Strength Plate Loaded Linear Leg Press (premium)
+  - Matrix Magnum 45 Degree Leg Press (premium)
+  useful_life_years: 8
+  sources:
+  - lf-shop-spec-table-hammer-20
+  - lf-life-fitness-plate-loaded
+  - nsca-s-safety-checklist-exercise-facility
+  - idea-health-fitness-facility-design
+  - cybex-international-eagle-nx-leg-press-owner
+  - star-trac-ip-l5002-owner-s-manual
+  - fitness-superstore-catalog-new-body-2026
+  - titan-fitness-online-catalog-2026
+  - bells-steel-us-online-catalog-2026
+  - prime-fitness-usa-online-catalog-2026
+  - hoist-fitness-online-catalog-cf-club-2026
+  - akfit-anchorage-ak-dealer-catalog-incl-2026
+  - life-fitness-us-online-store-hammer-2026
+  - rogue-fitness-product-category-pages-2026
+  - sorinex-product-pages-embedded-price-2026
+  - rep-fitness-online-catalog-products-2026
+  - rogue-fitness-olympic-plates-cast-iron-2026
+  - planet-fitness-sec-2025-investor-day
+  - planet-fitness-sec-form-10-k-fy2025-2026
+  - internal-revenue-service-irs-2025
+  - derived-eqm-footprint-medians
+  - derived-eqm-machine-clearances
+  - derived-eqm-price-tiers
+  - derived-eqm-plate-allocation
+  - derived-eqm-useful-life
+  notes: Footprint = median of HS Plate-Loaded Linear Leg Press 95x65 (live area 113x89), LF Linear Leg
+    Press 98x61, Cybex 16110 83x64 and BodyKore G277 83x64. Access sides (entry and plate loading) 36
+    in; front and back 24 in. Price = machine $2,350/$4,500/$6,550 (value/commercial/premium) + 500 lb
+    of plates at $1.90/$3.10/$5.90 per lb ($950/$1,550/$2,950) = $3,300/$6,050/$9,500.
+- id: hack_squat
+  name: Hack squat
+  category: plate_loaded
+  zone: machines
+  description: 'Plate-loaded linear hack squat: angled sled with shoulder pads over a foot platform. Price
+    includes a 300 lb plate allocation.'
+  footprint:
+    length_in: 80
+    width_in: 61
+    height_in: 55
+  clearance:
+    front_in: 24
+    back_in: 24
+    left_in: 36
+    right_in: 36
+  stations: 1
+  price_usd:
+    value: 2620
+    commercial: 6530
+    premium: 7470
+  power: none
+  layout:
+    aisle_side: front
+    row_group: plate_loaded
+  example_models:
+  - French Fitness Black FFB Linear Hack Squat (value)
+  - Nautilus Plate Loaded Hack Squat 9NP-L1130 (commercial)
+  - Hoist CF-3356 Hack Squat (commercial)
+  - Hammer Strength Plate Loaded Hack Squat (premium)
+  - Cybex Plate Loaded Hack Squat 16200 (dimensions reference)
+  useful_life_years: 8
+  sources:
+  - lf-shop-spec-table-hammer-11
+  - cybex-international-plate-loaded-hack-squat
+  - nsca-s-safety-checklist-exercise-facility
+  - idea-health-fitness-facility-design
+  - cybex-international-eagle-nx-leg-press-owner
+  - star-trac-ip-l5002-owner-s-manual
+  - fitness-superstore-catalog-new-body-2026
+  - titan-fitness-online-catalog-2026
+  - bells-steel-us-online-catalog-2026
+  - hoist-fitness-online-catalog-cf-club-2026
+  - prime-fitness-usa-online-catalog-2026
+  - life-fitness-us-online-store-hammer-2026
+  - sorinex-product-pages-embedded-price-2026
+  - akfit-anchorage-ak-dealer-catalog-incl-2026
+  - rep-fitness-online-catalog-products-2026
+  - rogue-fitness-olympic-plates-cast-iron-2026
+  - planet-fitness-sec-2025-investor-day
+  - planet-fitness-sec-form-10-k-fy2025-2026
+  - internal-revenue-service-irs-2025
+  - derived-eqm-footprint-medians
+  - derived-eqm-machine-clearances
+  - derived-eqm-price-tiers
+  - derived-eqm-plate-allocation
+  - derived-eqm-useful-life
+  notes: Footprint = median of HS PL-HSQ 85x61, Cybex 16200 80.2x60.6 and BodyKore CF2175 80x64; no live
+    area published. Front 24 in (ISO 0.6 m access minimum); sides 36 in cover plate loading at the sled
+    horns. Price = machine $2,050/$5,600/$5,700 (value/commercial/premium) + 300 lb of plates at $1.90/$3.10/$5.90
+    per lb ($570/$930/$1,770) = $2,620/$6,530/$7,470.
+- id: belt_squat
+  name: Belt squat
+  category: plate_loaded
+  zone: machines
+  description: 'Plate-loaded belt squat: the load hangs from a hip belt on a lever, so the spine is not
+    loaded. Price includes a 300 lb plate allocation.'
+  footprint:
+    length_in: 72
+    width_in: 65.5
+    height_in: 75.5
+  clearance:
+    front_in: 24
+    back_in: 24
+    left_in: 36
+    right_in: 36
+  stations: 1
+  price_usd:
+    value: 1770
+    commercial: 5230
+    premium: 7320
+  power: none
+  layout:
+    aisle_side: front
+    row_group: plate_loaded
+  example_models:
+  - Bells of Steel Belt Squat Machine (value)
+  - Rogue Monster Rhino Belt Squat - Stand Alone (value)
+  - Nautilus Plate Loaded 9NP-L1132 Belt Squat (commercial)
+  - Hammer Strength Plate Loaded Belt Squat (premium)
+  useful_life_years: 8
+  sources:
+  - lf-shop-spec-table-hammer-5
+  - nsca-s-safety-checklist-exercise-facility
+  - idea-health-fitness-facility-design
+  - cybex-international-eagle-nx-leg-press-owner
+  - star-trac-ip-l5002-owner-s-manual
+  - titan-fitness-online-catalog-2026
+  - bells-steel-us-online-catalog-2026
+  - fitness-superstore-catalog-new-body-2026
+  - rogue-fitness-product-category-pages-2026
+  - life-fitness-us-online-store-hammer-2026
+  - akfit-anchorage-ak-dealer-catalog-incl-2026
+  - rep-fitness-online-catalog-products-2026
+  - rogue-fitness-olympic-plates-cast-iron-2026
+  - planet-fitness-sec-2025-investor-day
+  - planet-fitness-sec-form-10-k-fy2025-2026
+  - internal-revenue-service-irs-2025
+  - derived-eqm-footprint-medians
+  - derived-eqm-squat-machine-split
+  - derived-eqm-machine-clearances
+  - derived-eqm-price-tiers
+  - derived-eqm-plate-allocation
+  - derived-eqm-useful-life
+  notes: Footprint = median of HS Plate-Loaded Belt Squat 78x63x64 (live area 102x111, i.e. +24 in per
+    side for loading) and BodyKore FL1834 66x68x87; footprint_strength pooled belt and pendulum squats
+    (84x54), split here by archetype. Sides 36 in hold the HS 24-in-per-side loading strip. Price = machine
+    $1,200/$4,300/$5,550 (value/commercial/premium) + 300 lb of plates at $1.90/$3.10/$5.90 per lb ($570/$930/$1,770)
+    = $1,770/$5,230/$7,320. Commercial machine price is a single listing (Nautilus 9NP-L1132 $4,299).
+- id: pendulum_squat
+  name: Pendulum squat
+  category: plate_loaded
+  zone: machines
+  description: 'Plate-loaded pendulum (or V-) squat: shoulder pads on a swinging arm give a quad-dominant
+    squat arc. Price includes a 300 lb plate allocation.'
+  footprint:
+    length_in: 97
+    width_in: 43
+    height_in: 81
+  clearance:
+    front_in: 24
+    back_in: 24
+    left_in: 36
+    right_in: 36
+  stations: 1
+  price_usd:
+    value: 2320
+    commercial: 7180
+    premium: 8970
+  power: none
+  layout:
+    aisle_side: front
+    row_group: plate_loaded
+  example_models:
+  - French Fitness Marin Pendulum Squat Machine (value)
+  - Prime Plate Loaded Pendulum Squat (commercial)
+  - Hammer Strength Plate Loaded Pendulum-X Squat (premium)
+  - Rogers Athletic Pendulum Pro Power Squat (premium)
+  useful_life_years: 8
+  sources:
+  - lf-shop-spec-table-hammer-22
+  - nsca-s-safety-checklist-exercise-facility
+  - idea-health-fitness-facility-design
+  - cybex-international-eagle-nx-leg-press-owner
+  - star-trac-ip-l5002-owner-s-manual
+  - bells-steel-us-online-catalog-2026
+  - fitness-superstore-catalog-new-body-2026
+  - prime-fitness-usa-online-catalog-2026
+  - life-fitness-us-online-store-hammer-2026
+  - akfit-anchorage-ak-dealer-catalog-incl-2026
+  - rep-fitness-online-catalog-products-2026
+  - rogue-fitness-olympic-plates-cast-iron-2026
+  - titan-fitness-online-catalog-2026
+  - planet-fitness-sec-2025-investor-day
+  - planet-fitness-sec-form-10-k-fy2025-2026
+  - internal-revenue-service-irs-2025
+  - derived-eqm-footprint-medians
+  - derived-eqm-squat-machine-split
+  - derived-eqm-machine-clearances
+  - derived-eqm-price-tiers
+  - derived-eqm-plate-allocation
+  - derived-eqm-useful-life
+  notes: Footprint = median of HS Pendulum-X 97x45x81, HS V-Squat 97x42x81 and BodyKore CF8137 83x43x67;
+    footprint_strength pooled belt and pendulum squats (84x54), split here by archetype. Front and back
+    24 in (ISO 0.6 m access minimum); sides 36 in. Price = machine $1,750/$6,250/$7,200 (value/commercial/premium)
+    + 300 lb of plates at $1.90/$3.10/$5.90 per lb ($570/$930/$1,770) = $2,320/$7,180/$8,970. Commercial
+    machine price is a single listing (Prime Plate Loaded Pendulum Squat $6,250).
+- id: hip_thrust_machine
+  name: Hip thrust machine
+  category: plate_loaded
+  zone: machines
+  description: 'Plate-loaded hip thrust / glute drive: seated or lying hip extension against a padded
+    lever. Price includes a 300 lb plate allocation.'
+  footprint:
+    length_in: 61
+    width_in: 58
+    height_in: 46
+  clearance:
+    front_in: 30
+    back_in: 24
+    left_in: 36
+    right_in: 36
+  stations: 1
+  price_usd:
+    value: 1720
+    commercial: 5280
+    premium: 7070
+  power: none
+  layout:
+    aisle_side: front
+    row_group: plate_loaded
+  example_models:
+  - Bells of Steel Hip Thrust Machine (value)
+  - Nautilus Plate Loaded Glute Drive 9NP-L1131 (commercial)
+  - Hoist CF-3416 Glute Thrust (commercial)
+  - Hammer Strength Plate Loaded Glute Drive (premium)
+  useful_life_years: 8
+  sources:
+  - lf-shop-spec-table-hammer-10
+  - bodykore-fl1844-hip-thrust-glute
+  - nsca-s-safety-checklist-exercise-facility
+  - idea-health-fitness-facility-design
+  - cybex-international-eagle-nx-leg-press-owner
+  - star-trac-ip-l5002-owner-s-manual
+  - titan-fitness-online-catalog-2026
+  - bells-steel-us-online-catalog-2026
+  - fitness-superstore-catalog-new-body-2026
+  - hoist-fitness-online-catalog-cf-club-2026
+  - life-fitness-us-online-store-hammer-2026
+  - akfit-anchorage-ak-dealer-catalog-incl-2026
+  - rep-fitness-online-catalog-products-2026
+  - rogue-fitness-olympic-plates-cast-iron-2026
+  - planet-fitness-sec-2025-investor-day
+  - planet-fitness-sec-form-10-k-fy2025-2026
+  - internal-revenue-service-irs-2025
+  - derived-eqm-footprint-medians
+  - derived-eqm-machine-clearances
+  - derived-eqm-price-tiers
+  - derived-eqm-plate-allocation
+  - derived-eqm-useful-life
+  notes: Footprint = median of HS Plate-Loaded Glute Drive 68x58.5x40 (live area 98x58.5) and BodyKore
+    FL1844 54x57x52. Front 30 in = HS live-area length margin. Price = machine $1,150/$4,350/$5,300 (value/commercial/premium)
+    + 300 lb of plates at $1.90/$3.10/$5.90 per lb ($570/$930/$1,770) = $1,720/$5,280/$7,070. Value anchors
+    are Titan and Bells of Steel units sold mainly to home gyms.
+- id: calf_raise
+  name: Seated calf raise
+  category: plate_loaded
+  zone: machines
+  description: 'Plate-loaded seated calf raise: a padded lever across the knees, loaded with plates. Price
+    includes a 180 lb plate allocation.'
+  footprint:
+    length_in: 54
+    width_in: 33
+    height_in: 53
+  clearance:
+    front_in: 24
+    back_in: 24
+    left_in: 36
+    right_in: 36
+  stations: 1
+  price_usd:
+    value: 1342
+    commercial: 2158
+    premium: 3412
+  power: none
+  layout:
+    aisle_side: front
+    row_group: plate_loaded
+  example_models:
+  - Body-Solid GSCR349B Commercial Seated Calf Raise (value)
+  - French Fitness FFB Black Seated Calf Raise Plate Loaded (value)
+  - Hoist ROC-IT RPL-5363 Seated Calf Raise (commercial)
+  - Nautilus Plate Loaded 9NP-L1110 Tilt Seat Calf (commercial)
+  - Hammer Strength Plate Loaded Seated Calf Raise (premium)
+  useful_life_years: 8
+  sources:
+  - lf-shop-spec-table-hammer-34
+  - lf-shop-spec-table-hammer-28
+  - nsca-s-safety-checklist-exercise-facility
+  - idea-health-fitness-facility-design
+  - cybex-international-eagle-nx-leg-press-owner
+  - star-trac-ip-l5002-owner-s-manual
+  - fitness-superstore-catalog-new-body-2026
+  - hoist-fitness-online-catalog-cf-club-2026
+  - life-fitness-us-online-store-hammer-2026
+  - sorinex-product-pages-embedded-price-2026
+  - rep-fitness-online-catalog-products-2026
+  - rogue-fitness-olympic-plates-cast-iron-2026
+  - titan-fitness-online-catalog-2026
+  - planet-fitness-sec-2025-investor-day
+  - planet-fitness-sec-form-10-k-fy2025-2026
+  - internal-revenue-service-irs-2025
+  - derived-eqm-footprint-medians
+  - derived-eqm-machine-clearances
+  - derived-eqm-price-tiers
+  - derived-eqm-plate-allocation
+  - derived-eqm-useful-life
+  notes: 'Footprint = footprint_strength median over HS PL seated calf 49x33, HS Select standing 58x45
+    and horizontal 61x32, Insignia calf extension 40x68.5, Cybex 16290 60.6x29.9 and BodyKore CF2172 51x33
+    (the three plate-loaded units alone give about 51x33). Sides 36 in leave room to load the lever horns.
+    Price = machine $1,000/$1,600/$2,350 (value/commercial/premium) + 180 lb of plates at $1.90/$3.10/$5.90
+    per lb ($342/$558/$1,062) = $1,342/$2,158/$3,412. Machine prices are estimates from plate-loaded seated-calf
+    listings only: Body-Solid GSCR349 $750 and French Fitness FFB $1,199 (value), Hoist RPL-5363 $1,615
+    and Nautilus tilt-seat $1,519 (commercial), HS seated calf $2,352 (premium).'
+- id: plate_loaded_chest_press
+  name: Iso-lateral chest press
+  category: plate_loaded
+  zone: machines
+  description: Plate-loaded iso-lateral chest/bench press with independent converging arms. Price includes
+    a 250 lb plate allocation.
+  footprint:
+    length_in: 59
+    width_in: 67
+    height_in: 57
+  clearance:
+    front_in: 36
+    back_in: 24
+    left_in: 36
+    right_in: 36
+  stations: 1
+  price_usd:
+    value: 2225
+    commercial: 4775
+    premium: 5625
+  power: none
+  layout:
+    aisle_side: front
+    row_group: plate_loaded
+  example_models:
+  - French Fitness Marin Iso-Lateral Flat Chest Bench Press (value)
+  - Hoist ROC-IT RPL-5301 Plate-Loaded Chest Press (commercial)
+  - Nautilus Leverage Chest Press 9NP-L2002 (commercial)
+  - Hammer Strength Plate Loaded Iso-Lateral Bench Press (premium)
+  - Hammer Strength Plate Loaded Iso-Lateral Incline Press (premium)
+  useful_life_years: 8
+  sources:
+  - lf-shop-spec-table-hammer-13
+  - lf-shop-spec-table-hammer-15
+  - nsca-s-safety-checklist-exercise-facility
+  - idea-health-fitness-facility-design
+  - cybex-international-eagle-nx-leg-press-owner
+  - star-trac-ip-l5002-owner-s-manual
+  - fitness-superstore-catalog-new-body-2026
+  - titan-fitness-online-catalog-2026
+  - hoist-fitness-online-catalog-cf-club-2026
+  - prime-fitness-usa-online-catalog-2026
+  - life-fitness-us-online-store-hammer-2026
+  - sorinex-product-pages-embedded-price-2026
+  - akfit-anchorage-ak-dealer-catalog-incl-2026
+  - rep-fitness-online-catalog-products-2026
+  - rogue-fitness-olympic-plates-cast-iron-2026
+  - planet-fitness-sec-2025-investor-day
+  - planet-fitness-sec-form-10-k-fy2025-2026
+  - internal-revenue-service-irs-2025
+  - derived-eqm-footprint-medians
+  - derived-eqm-machine-clearances
+  - derived-eqm-price-tiers
+  - derived-eqm-plate-allocation
+  - derived-eqm-useful-life
+  notes: 'Footprint = median of HS Iso-Lateral Bench Press 48x67x72 (live area 84x115: +36 in length,
+    +24 in per side), HS Iso-Lateral Horizontal Bench Press 60x69x57 and Cybex 16080 59x50x52. Front 36
+    in = HS live-area length margin; sides 36 in hold the 24-in loading strip. Price = machine $1,750/$4,000/$4,150
+    (value/commercial/premium) + 250 lb of plates at $1.90/$3.10/$5.90 per lb ($475/$775/$1,475) = $2,225/$4,775/$5,625.
+    Commercial and premium plate-loaded prices overlap, so the tier spread is small.'
+- id: plate_loaded_row
+  name: Iso-lateral row
+  category: plate_loaded
+  zone: machines
+  description: Plate-loaded iso-lateral seated row with chest pad and independent arms. Price includes
+    a 250 lb plate allocation.
+  footprint:
+    length_in: 61
+    width_in: 48
+    height_in: 52
+  clearance:
+    front_in: 24
+    back_in: 24
+    left_in: 36
+    right_in: 36
+  stations: 1
+  price_usd:
+    value: 2325
+    commercial: 4575
+    premium: 5425
+  power: none
+  layout:
+    aisle_side: front
+    row_group: plate_loaded
+  example_models:
+  - French Fitness Marin Iso-Lateral Rowing Low Row (value)
+  - Hoist ROC-IT RPL-5203 Plate-Loaded Mid Row (commercial)
+  - Prime Plate Loaded Seated Row (commercial)
+  - Hammer Strength Plate Loaded Iso-Lateral Row (premium)
+  - Hammer Strength Plate Loaded Iso-Lateral Low Row (premium)
+  useful_life_years: 8
+  sources:
+  - lf-shop-spec-table-hammer-18
+  - lf-shop-spec-table-hammer-17
+  - nsca-s-safety-checklist-exercise-facility
+  - idea-health-fitness-facility-design
+  - cybex-international-eagle-nx-leg-press-owner
+  - star-trac-ip-l5002-owner-s-manual
+  - fitness-superstore-catalog-new-body-2026
+  - titan-fitness-online-catalog-2026
+  - hoist-fitness-online-catalog-cf-club-2026
+  - prime-fitness-usa-online-catalog-2026
+  - life-fitness-us-online-store-hammer-2026
+  - sorinex-product-pages-embedded-price-2026
+  - rep-fitness-online-catalog-products-2026
+  - rogue-fitness-olympic-plates-cast-iron-2026
+  - planet-fitness-sec-2025-investor-day
+  - planet-fitness-sec-form-10-k-fy2025-2026
+  - internal-revenue-service-irs-2025
+  - derived-eqm-footprint-medians
+  - derived-eqm-machine-clearances
+  - derived-eqm-price-tiers
+  - derived-eqm-plate-allocation
+  - derived-eqm-useful-life
+  notes: Footprint = median of HS Iso-Lateral Row 61x50x52, HS Iso-Lateral Low Row 50x48x66 and Cybex
+    16090 82x34x48 (axis order uncertain); no plate-loaded live area published. Front 24 in (the selectorized
+    MTS twin adds +24 in length); sides 36 in for loading. Price = machine $1,850/$3,800/$3,950 (value/commercial/premium)
+    + 250 lb of plates at $1.90/$3.10/$5.90 per lb ($475/$775/$1,475) = $2,325/$4,575/$5,425. Value anchors
+    include a $400 Titan unit sold mainly to home gyms.
+- id: plate_loaded_shoulder_press
+  name: Iso-lateral shoulder press
+  category: plate_loaded
+  zone: machines
+  description: Plate-loaded iso-lateral seated shoulder press. Price includes a 200 lb plate allocation.
+  footprint:
+    length_in: 52
+    width_in: 60
+    height_in: 73
+  clearance:
+    front_in: 24
+    back_in: 24
+    left_in: 36
+    right_in: 36
+  stations: 1
+  price_usd:
+    value: 1530
+    commercial: 4420
+    premium: 5330
+  power: none
+  layout:
+    aisle_side: front
+    row_group: plate_loaded
+  example_models:
+  - French Fitness Marin Iso-Lateral Shoulder Press (value)
+  - Body-Solid LVSP Leverage Shoulder Press (value)
+  - Hoist ROC-IT RPL-5501 Plate-Loaded Shoulder Press (commercial)
+  - Nautilus Leverage Shoulder Press 9NP-L4002 (commercial)
+  - Hammer Strength Plate Loaded Iso-Lateral Shoulder Press (premium)
+  useful_life_years: 8
+  sources:
+  - lf-shop-spec-table-hammer-19
+  - hammer-strength-life-catalog-2024
+  - nsca-s-safety-checklist-exercise-facility
+  - idea-health-fitness-facility-design
+  - cybex-international-eagle-nx-leg-press-owner
+  - star-trac-ip-l5002-owner-s-manual
+  - fitness-superstore-catalog-new-body-2026
+  - titan-fitness-online-catalog-2026
+  - hoist-fitness-online-catalog-cf-club-2026
+  - prime-fitness-usa-online-catalog-2026
+  - life-fitness-us-online-store-hammer-2026
+  - rep-fitness-online-catalog-products-2026
+  - rogue-fitness-olympic-plates-cast-iron-2026
+  - planet-fitness-sec-2025-investor-day
+  - planet-fitness-sec-form-10-k-fy2025-2026
+  - internal-revenue-service-irs-2025
+  - derived-eqm-footprint-medians
+  - derived-eqm-machine-clearances
+  - derived-eqm-price-tiers
+  - derived-eqm-plate-allocation
+  - derived-eqm-useful-life
+  notes: Footprint = HS Iso-Lateral Shoulder Press 52x60x73 (2024 catalog 51x58x74), the only plate-loaded
+    model measured. Front 24 in (the selectorized MTS twin adds +24 in length); sides 36 in for loading.
+    Price = machine $1,150/$3,800/$4,150 (value/commercial/premium) + 200 lb of plates at $1.90/$3.10/$5.90
+    per lb ($380/$620/$1,180) = $1,530/$4,420/$5,330. Premium machine price is a single listing (HS Iso-Lateral
+    Shoulder Press $4,135).
+- id: plate_loaded_high_row
+  name: Iso-lateral high row
+  category: plate_loaded
+  zone: machines
+  description: Plate-loaded iso-lateral high row / front pulldown (pull down and back from overhead).
+    Price includes a 250 lb plate allocation.
+  footprint:
+    length_in: 64
+    width_in: 57
+    height_in: 79
+  clearance:
+    front_in: 24
+    back_in: 24
+    left_in: 36
+    right_in: 36
+  stations: 1
+  price_usd:
+    value: 2875
+    commercial: 4825
+    premium: 5625
+  power: none
+  layout:
+    aisle_side: front
+    row_group: plate_loaded
+  example_models:
+  - French Fitness Marin Iso-Lateral High Row (value)
+  - Hoist ROC-IT RPL-5201 Plate-Loaded Lat Pulldown (commercial)
+  - Nautilus Leverage High Row 9NP-L3005 (commercial)
+  - Hammer Strength Iso-Lateral High Row (premium)
+  - Hammer Strength Plate Loaded Iso-Lateral Front Lat Pulldown (premium)
+  useful_life_years: 8
+  sources:
+  - lf-shop-spec-table-hammer-16
+  - lf-shop-spec-table-hammer-14
+  - nsca-s-safety-checklist-exercise-facility
+  - idea-health-fitness-facility-design
+  - cybex-international-eagle-nx-leg-press-owner
+  - star-trac-ip-l5002-owner-s-manual
+  - fitness-superstore-catalog-new-body-2026
+  - hoist-fitness-online-catalog-cf-club-2026
+  - prime-fitness-usa-online-catalog-2026
+  - life-fitness-us-online-store-hammer-2026
+  - sorinex-product-pages-embedded-price-2026
+  - rep-fitness-online-catalog-products-2026
+  - rogue-fitness-olympic-plates-cast-iron-2026
+  - titan-fitness-online-catalog-2026
+  - planet-fitness-sec-2025-investor-day
+  - planet-fitness-sec-form-10-k-fy2025-2026
+  - internal-revenue-service-irs-2025
+  - derived-eqm-footprint-medians
+  - derived-eqm-machine-clearances
+  - derived-eqm-price-tiers
+  - derived-eqm-plate-allocation
+  - derived-eqm-useful-life
+  notes: 'Footprint = median of HS Iso-Lateral High Row 64x57x79, HS Iso-Lateral Front Lat Pulldown 65x49x79
+    (live area 77x97: +12 in length, +24 in per side) and Cybex 16070 49x87x72. Front 24 in (live-area
+    +12 in, raised to the ISO 0.6 m minimum); sides 36 in for loading. Price = machine $2,400/$4,050/$4,150
+    (value/commercial/premium) + 250 lb of plates at $1.90/$3.10/$5.90 per lb ($475/$775/$1,475) = $2,875/$4,825/$5,625.'
+- id: t_bar_row
+  name: Chest-supported T-bar row
+  category: plate_loaded
+  zone: machines
+  description: Plate-loaded chest-supported T-bar row (lever row with a chest pad and foot platform).
+    Price includes a 200 lb plate allocation.
+  footprint:
+    length_in: 70
+    width_in: 37
+    height_in: 47.5
+  clearance:
+    front_in: 24
+    back_in: 24
+    left_in: 36
+    right_in: 36
+  stations: 1
+  price_usd:
+    value: 1370
+    commercial: 2470
+    premium: 4230
+  power: none
+  layout:
+    aisle_side: front
+    row_group: plate_loaded
+  example_models:
+  - French Fitness Chest Supported T-Bar Row TBAR-C90 Black (value)
+  - Rogue T Bar Row (value)
+  - Nautilus Plate Loaded 9NP-L3140 Incline Lever Row (commercial)
+  - Hoist CF-3661 Incline Leverage Row (commercial)
+  - Hammer Strength Plate Loaded T-Bar Row (premium)
+  - Sorinex Chest Supported Row Machine (premium)
+  useful_life_years: 8
+  sources:
+  - lf-hammer-strength-iso-lateral
+  - bodykore-cf2173-standing-t-bar
+  - nsca-s-safety-checklist-exercise-facility
+  - idea-health-fitness-facility-design
+  - cybex-international-eagle-nx-leg-press-owner
+  - star-trac-ip-l5002-owner-s-manual
+  - fitness-superstore-catalog-new-body-2026
+  - titan-fitness-online-catalog-2026
+  - rogue-fitness-product-category-pages-2026
+  - hoist-fitness-online-catalog-cf-club-2026
+  - life-fitness-us-online-store-hammer-2026
+  - sorinex-product-pages-embedded-price-2026
+  - akfit-anchorage-ak-dealer-catalog-incl-2026
+  - rep-fitness-online-catalog-products-2026
+  - rogue-fitness-olympic-plates-cast-iron-2026
+  - planet-fitness-sec-2025-investor-day
+  - planet-fitness-sec-form-10-k-fy2025-2026
+  - internal-revenue-service-irs-2025
+  - derived-eqm-footprint-medians
+  - derived-eqm-machine-clearances
+  - derived-eqm-price-tiers
+  - derived-eqm-plate-allocation
+  - derived-eqm-useful-life
+  notes: Footprint = median of chest-supported units HS Iso-Lateral T-Bar Row 70x60x39, BodyKore CF2173
+    70x37x48 and Cybex 16280 78.6x32.9x47.5. Front 24 in (ISO 0.6 m access minimum); sides 36 in. Price
+    = machine $990/$1,850/$3,050 (value/commercial/premium) + 200 lb of plates at $1.90/$3.10/$5.90 per
+    lb ($380/$620/$1,180) = $1,370/$2,470/$4,230. Value anchors include home-rated Titan units; the premium
+    median is the HS Plate Loaded T-Bar Row ($3,032), a lever unit the footprint research did not class
+    as chest-supported.
+- id: leg_extension
+  name: Leg extension
+  category: selectorized
+  zone: machines
+  description: Selectorized seated leg extension (quadriceps) with its own weight stack.
+  footprint:
+    length_in: 57
+    width_in: 42
+    height_in: 58.1
+  clearance:
+    front_in: 30
+    back_in: 24
+    left_in: 36
+    right_in: 36
+  stations: 1
+  price_usd:
+    value: 2700
+    commercial: 5150
+    premium: 6950
+  power: none
+  layout:
+    aisle_side: front
+    row_group: selectorized
+  example_models:
+  - Body-Solid SLE200G ProClub Line Leg Extension (value)
+  - Life Fitness Axiom Series Leg Extension (commercial)
+  - Hoist Club Line CL-3401 Leg Extension (commercial)
+  - Matrix Versa Leg Extension (commercial)
+  - Hammer Strength Select Leg Extension (premium)
+  - Life Fitness Insignia Series Leg Extension (premium)
+  useful_life_years: 8
+  sources:
+  - lf-insignia-series-leg-extension
+  - lf-shop-spec-table-hammer-30
+  - lf-shop-spec-table-axiom-4
+  - life-fitness-signature-series-fz-owner-s
+  - nsca-s-safety-checklist-exercise-facility
+  - idea-health-fitness-facility-design
+  - cybex-international-eagle-nx-leg-press-owner
+  - star-trac-ip-l5002-owner-s-manual
+  - fitness-superstore-catalog-new-body-2026
+  - life-fitness-us-online-store-hammer-2026
+  - hoist-fitness-online-catalog-cf-club-2026
+  - prime-fitness-usa-online-catalog-2026
+  - akfit-anchorage-ak-dealer-catalog-incl-2026
+  - planet-fitness-sec-2025-investor-day
+  - planet-fitness-sec-form-10-k-fy2025-2026
+  - internal-revenue-service-irs-2025
+  - derived-eqm-footprint-medians
+  - derived-eqm-machine-clearances
+  - derived-eqm-price-tiers
+  - derived-eqm-useful-life
+  notes: Footprint = median of LF Insignia 65.4x41.5, HS Select 47x41, Cybex Eagle NX 50x43, LF Axiom
+    73x40 and LF Signature 57x42. Front 30 in = median live-area length margin (18/42/18/42). Price =
+    machine $2,700/$5,150/$6,950 (value/commercial/premium). Value tier has two anchors (Body-Solid $2,565,
+    French Fitness $2,799).
+- id: leg_curl
+  name: Seated leg curl
+  category: selectorized
+  zone: machines
+  description: Selectorized seated leg curl (hamstrings) with its own weight stack.
+  footprint:
+    length_in: 62
+    width_in: 41
+    height_in: 57.1
+  clearance:
+    front_in: 36
+    back_in: 24
+    left_in: 36
+    right_in: 36
+  stations: 1
+  price_usd:
+    value: 2550
+    commercial: 5000
+    premium: 7250
+  power: none
+  layout:
+    aisle_side: front
+    row_group: selectorized
+  example_models:
+  - Body-Solid S2SLC-1 Series II Seated Leg Curl (value)
+  - Life Fitness Axiom Series Leg Curl (commercial)
+  - Hoist Club Line CL-3402 Leg Curl (commercial)
+  - Matrix Aura Seated Leg Curl (commercial)
+  - Hammer Strength Select Seated Leg Curl (premium)
+  - Life Fitness Insignia Series Seated Leg Curl (premium)
+  useful_life_years: 8
+  sources:
+  - lf-insignia-series-seated-leg
+  - lf-shop-spec-table-hammer-35
+  - nsca-s-safety-checklist-exercise-facility
+  - idea-health-fitness-facility-design
+  - cybex-international-eagle-nx-leg-press-owner
+  - star-trac-ip-l5002-owner-s-manual
+  - fitness-superstore-catalog-new-body-2026
+  - life-fitness-us-online-store-hammer-2026
+  - hoist-fitness-online-catalog-cf-club-2026
+  - prime-fitness-usa-online-catalog-2026
+  - akfit-anchorage-ak-dealer-catalog-incl-2026
+  - planet-fitness-sec-2025-investor-day
+  - planet-fitness-sec-form-10-k-fy2025-2026
+  - internal-revenue-service-irs-2025
+  - derived-eqm-footprint-medians
+  - derived-eqm-machine-clearances
+  - derived-eqm-price-tiers
+  - derived-eqm-useful-life
+  notes: 'Footprint = median of seated and prone units: LF Insignia seated 61x39.7 and prone 62.6x41.7,
+    HS Select seated 55x34 and prone 65x39, Cybex Eagle NX 62x43, LF Signature 62x42. Front 36 in = median
+    live-area length margin (18/34/36/42/42). Price = machine $2,550/$5,000/$7,250 (value/commercial/premium).'
+- id: leg_ext_curl_combo
+  name: Leg extension / curl combo
+  category: selectorized
+  zone: machines
+  description: Dual-function selectorized leg extension / leg curl on one stack (one user at a time);
+    saves floor space in small gyms.
+  footprint:
+    length_in: 67
+    width_in: 43
+    height_in: 53
+  clearance:
+    front_in: 36
+    back_in: 24
+    left_in: 36
+    right_in: 36
+  stations: 1
+  price_usd:
+    value: 3150
+    commercial: 4800
+    premium: 6500
+  power: none
+  layout:
+    aisle_side: front
+    row_group: selectorized
+  example_models:
+  - Body-Solid S2LEC Series II Leg Extension & Leg Curl (value)
+  - Titan Fitness Selectorized Leg Extension and Curl Machine (value)
+  - Life Fitness Axiom Series Leg Curl / Extension (commercial)
+  - Hoist HD-3400 Leg Extension/Leg Curl (commercial)
+  - Matrix Versa Leg Extension / Leg Curl (commercial)
+  - Prime Hybrid Leg Extension / Leg Curl Combo (commercial)
+  useful_life_years: 8
+  sources:
+  - lf-shop-spec-table-axiom-3
+  - lf-shop-spec-table-axiom-6
+  - nsca-s-safety-checklist-exercise-facility
+  - idea-health-fitness-facility-design
+  - cybex-international-eagle-nx-leg-press-owner
+  - star-trac-ip-l5002-owner-s-manual
+  - fitness-superstore-catalog-new-body-2026
+  - titan-fitness-online-catalog-2026
+  - life-fitness-us-online-store-hammer-2026
+  - hoist-fitness-online-catalog-cf-club-2026
+  - prime-fitness-usa-online-catalog-2026
+  - akfit-anchorage-ak-dealer-catalog-incl-2026
+  - planet-fitness-sec-2025-investor-day
+  - planet-fitness-sec-form-10-k-fy2025-2026
+  - internal-revenue-service-irs-2025
+  - derived-eqm-footprint-medians
+  - derived-eqm-machine-clearances
+  - derived-eqm-price-tiers
+  - derived-eqm-useful-life
+  notes: 'Footprint = LF Axiom Leg Curl/Extension 63x40 (live +42 in length) and Axiom Seated Leg Curl/Extension
+    70x46 (live +30 in length). Front 36 in = live-area length margin (30/42). Price = machine $3,150/$4,800/$6,500
+    (value/commercial/premium). Premium price is an estimate: premium lines sell the two functions separately;
+    based on Prime Hybrid combo $6,500 and Axiom seated combo $5,776.'
+- id: hip_abductor_adductor
+  name: Hip abductor / adductor
+  category: selectorized
+  zone: machines
+  description: Dual-function selectorized inner/outer thigh machine; the leg pads swing outward beyond
+    the frame.
+  footprint:
+    length_in: 67
+    width_in: 52
+    height_in: 61.6
+  clearance:
+    front_in: 24
+    back_in: 24
+    left_in: 42
+    right_in: 42
+  stations: 1
+  price_usd:
+    value: 2550
+    commercial: 4400
+    premium: 6900
+  power: none
+  layout:
+    aisle_side: front
+    row_group: selectorized
+  example_models:
+  - Body-Solid S2IOT-1 Series II Inner and Outer Thigh (value)
+  - Life Fitness Axiom Series Hip Abductor / Adductor (commercial)
+  - Hoist HD-3800 Inner/Outer Thigh (commercial)
+  - Matrix Versa Hip Abductor / Adductor (commercial)
+  - Life Fitness Insignia Series Hip Abduction / Adduction (premium)
+  - Nautilus Inspiration Abduction / Adduction 9-IPAA5 (premium)
+  useful_life_years: 8
+  sources:
+  - lf-insignia-series-hip-abduction
+  - lf-shop-spec-table-axiom-2
+  - nsca-s-safety-checklist-exercise-facility
+  - idea-health-fitness-facility-design
+  - cybex-international-eagle-nx-leg-press-owner
+  - star-trac-ip-l5002-owner-s-manual
+  - fitness-superstore-catalog-new-body-2026
+  - titan-fitness-online-catalog-2026
+  - life-fitness-us-online-store-hammer-2026
+  - hoist-fitness-online-catalog-cf-club-2026
+  - prime-fitness-usa-online-catalog-2026
+  - akfit-anchorage-ak-dealer-catalog-incl-2026
+  - planet-fitness-sec-2025-investor-day
+  - planet-fitness-sec-form-10-k-fy2025-2026
+  - internal-revenue-service-irs-2025
+  - derived-eqm-footprint-medians
+  - derived-eqm-machine-clearances
+  - derived-eqm-price-tiers
+  - derived-eqm-useful-life
+  notes: 'Footprint = median of combo units LF Insignia 67x63.4, LF Axiom 68x67, Cybex Eagle NX 64x33
+    and BodyKore GR632 70x40. Sides 42 in: live areas add 25.6 in (Insignia) to 36 in (Axiom) of width,
+    i.e. 13-18 in per side of pad travel, plus the 24-in minimum; front 24 in (live areas add no length).
+    Price = machine $2,550/$4,400/$6,900 (value/commercial/premium).'
+- id: glute_kickback
+  name: Glute kickback
+  category: selectorized
+  zone: machines
+  description: 'Selectorized glute kickback / multi-hip: the user leans on a chest pad and drives a lever
+    backward, entering from the back.'
+  footprint:
+    length_in: 70
+    width_in: 39
+    height_in: 64
+  clearance:
+    front_in: 24
+    back_in: 30
+    left_in: 36
+    right_in: 36
+  stations: 1
+  price_usd:
+    value: 2500
+    commercial: 4800
+    premium: 7150
+  power: none
+  layout:
+    aisle_side: back
+    row_group: selectorized
+  example_models:
+  - French Fitness Newport Selectorized Glute Machine (value)
+  - Nautilus Instinct Glute Press 9NL-S1012 (commercial)
+  - Hoist ROC-IT Glute Master (commercial)
+  - Matrix Versa Glute (commercial)
+  - Hammer Strength Select Hip and Glute (premium)
+  - Life Fitness Insignia Series Glute (premium)
+  useful_life_years: 8
+  sources:
+  - lf-insignia-series-glute
+  - lf-shop-spec-table-hammer-29
+  - life-fitness-signature-series-fz-owner-s-2
+  - nsca-s-safety-checklist-exercise-facility
+  - idea-health-fitness-facility-design
+  - cybex-international-eagle-nx-leg-press-owner
+  - star-trac-ip-l5002-owner-s-manual
+  - fitness-superstore-catalog-new-body-2026
+  - titan-fitness-online-catalog-2026
+  - hoist-fitness-online-catalog-cf-club-2026
+  - prime-fitness-usa-online-catalog-2026
+  - akfit-anchorage-ak-dealer-catalog-incl-2026
+  - life-fitness-us-online-store-hammer-2026
+  - planet-fitness-sec-2025-investor-day
+  - planet-fitness-sec-form-10-k-fy2025-2026
+  - internal-revenue-service-irs-2025
+  - derived-eqm-footprint-medians
+  - derived-eqm-machine-clearances
+  - derived-eqm-price-tiers
+  - derived-eqm-useful-life
+  notes: Footprint = median of LF Insignia Glute 73x38.4, HS Select Hip & Glute 65x39, Cybex Eagle Glute
+    69.7x41.1, Cybex VR3 Glute 63x42 and LF Signature Glute 72x36. Back (entry side, lever travel) 30
+    in = HS Select live-area length margin (+29 in); front 24 in. Price = machine $2,500/$4,800/$7,150
+    (value/commercial/premium). Value anchors include a $660 Titan plate-loaded kickback sold mainly to
+    home gyms.
+- id: chest_press
+  name: Chest press
+  category: selectorized
+  zone: machines
+  description: Selectorized seated chest press with its own weight stack.
+  footprint:
+    length_in: 44
+    width_in: 55
+    height_in: 64
+  clearance:
+    front_in: 30
+    back_in: 24
+    left_in: 36
+    right_in: 36
+  stations: 1
+  price_usd:
+    value: 2800
+    commercial: 5050
+    premium: 7050
+  power: none
+  layout:
+    aisle_side: front
+    row_group: selectorized
+  example_models:
+  - Body-Solid S2CP-2 Series II Chest Press (value)
+  - Life Fitness Axiom Series Chest Press (commercial)
+  - Hoist Club Line CL-3301 Chest Press (commercial)
+  - Matrix Aura Chest Press (commercial)
+  - Hammer Strength Select Chest Press (premium)
+  - Life Fitness Insignia Series Chest Press (premium)
+  useful_life_years: 8
+  sources:
+  - lf-insignia-series-chest-press
+  - lf-shop-spec-table-hammer-27
+  - lf-shop-spec-table-axiom
+  - nsca-s-safety-checklist-exercise-facility
+  - idea-health-fitness-facility-design
+  - cybex-international-eagle-nx-leg-press-owner
+  - star-trac-ip-l5002-owner-s-manual
+  - fitness-superstore-catalog-new-body-2026
+  - life-fitness-us-online-store-hammer-2026
+  - hoist-fitness-online-catalog-cf-club-2026
+  - prime-fitness-usa-online-catalog-2026
+  - akfit-anchorage-ak-dealer-catalog-incl-2026
+  - planet-fitness-sec-2025-investor-day
+  - planet-fitness-sec-form-10-k-fy2025-2026
+  - internal-revenue-service-irs-2025
+  - derived-eqm-footprint-medians
+  - derived-eqm-machine-clearances
+  - derived-eqm-price-tiers
+  - derived-eqm-useful-life
+  notes: Footprint = median of LF Insignia 43.2x55.3, HS Select 41x57, Cybex Eagle NX 45x57, LF Axiom
+    44x51 and LF Signature 57x52. Front 30 in = median live-area length margin (24/42/15/39). Price =
+    machine $2,800/$5,050/$7,050 (value/commercial/premium).
+- id: pec_fly_rear_delt
+  name: Pec fly / rear delt
+  category: selectorized
+  zone: machines
+  description: Dual-function selectorized pec fly / rear-deltoid machine; the arms sweep in front of and
+    beside the seat.
+  footprint:
+    length_in: 56
+    width_in: 66
+    height_in: 75.6
+  clearance:
+    front_in: 42
+    back_in: 24
+    left_in: 36
+    right_in: 36
+  stations: 1
+  price_usd:
+    value: 2800
+    commercial: 5250
+    premium: 7100
+  power: none
+  layout:
+    aisle_side: front
+    row_group: selectorized
+  example_models:
+  - Body-Solid S2PEC-1 Series II Pec Fly and Rear Delt (value)
+  - Life Fitness Axiom Series Pectoral Fly / Rear Deltoid (commercial)
+  - Hoist HD-3900 Pec Fly/Rear Delt (commercial)
+  - Matrix Versa Pec Fly / Rear Delt (commercial)
+  - Hammer Strength Select Pectoral Fly / Rear Deltoid (premium)
+  - Life Fitness Insignia Series Pectoral Fly/Rear Deltoid (premium)
+  useful_life_years: 8
+  sources:
+  - lf-insignia-series-pectoral-fly
+  - lf-shop-spec-table-hammer-32
+  - nsca-s-safety-checklist-exercise-facility
+  - idea-health-fitness-facility-design
+  - cybex-international-eagle-nx-leg-press-owner
+  - star-trac-ip-l5002-owner-s-manual
+  - fitness-superstore-catalog-new-body-2026
+  - titan-fitness-online-catalog-2026
+  - life-fitness-us-online-store-hammer-2026
+  - hoist-fitness-online-catalog-cf-club-2026
+  - prime-fitness-usa-online-catalog-2026
+  - akfit-anchorage-ak-dealer-catalog-incl-2026
+  - planet-fitness-sec-2025-investor-day
+  - planet-fitness-sec-form-10-k-fy2025-2026
+  - internal-revenue-service-irs-2025
+  - derived-eqm-footprint-medians
+  - derived-eqm-machine-clearances
+  - derived-eqm-price-tiers
+  - derived-eqm-useful-life
+  notes: Footprint = median of LF Insignia 79.9x77.6, HS Select 49x56, LF Axiom 61x75 and LF Signature
+    fly 50x38. Front 42 in = median live-area length margin (12/54/36/44); live areas add up to 12 in
+    per side of arm travel, inside the 36-in sides. Price = machine $2,800/$5,250/$7,100 (value/commercial/premium).
+- id: shoulder_press
+  name: Shoulder press
+  category: selectorized
+  zone: machines
+  description: Selectorized seated overhead (shoulder) press with its own weight stack.
+  footprint:
+    length_in: 61
+    width_in: 56
+    height_in: 64
+  clearance:
+    front_in: 36
+    back_in: 24
+    left_in: 36
+    right_in: 36
+  stations: 1
+  price_usd:
+    value: 2800
+    commercial: 5050
+    premium: 7100
+  power: none
+  layout:
+    aisle_side: front
+    row_group: selectorized
+  example_models:
+  - Body-Solid S2SP-2 Series II Shoulder Press (value)
+  - Life Fitness Axiom Series Shoulder Press (commercial)
+  - Hoist Club Line CL-3501 Shoulder Press (commercial)
+  - Matrix Aura Shoulder Press (commercial)
+  - Hammer Strength Select Shoulder Press (premium)
+  - Life Fitness Insignia Series Shoulder Press (premium)
+  useful_life_years: 8
+  sources:
+  - lf-insignia-series-shoulder-press
+  - lf-shop-spec-table-hammer-36
+  - nsca-s-safety-checklist-exercise-facility
+  - idea-health-fitness-facility-design
+  - cybex-international-eagle-nx-leg-press-owner
+  - star-trac-ip-l5002-owner-s-manual
+  - fitness-superstore-catalog-new-body-2026
+  - life-fitness-us-online-store-hammer-2026
+  - hoist-fitness-online-catalog-cf-club-2026
+  - prime-fitness-usa-online-catalog-2026
+  - akfit-anchorage-ak-dealer-catalog-incl-2026
+  - planet-fitness-sec-2025-investor-day
+  - planet-fitness-sec-form-10-k-fy2025-2026
+  - internal-revenue-service-irs-2025
+  - derived-eqm-footprint-medians
+  - derived-eqm-machine-clearances
+  - derived-eqm-price-tiers
+  - derived-eqm-useful-life
+  notes: Footprint = median of LF Insignia 64.4x56.8, HS Select 60x56, Cybex Eagle NX 68x61, LF Axiom
+    61x55 and LF Signature 60x52. Front 36 in = median live-area length margin (24/42/24/42). Price =
+    machine $2,800/$5,050/$7,100 (value/commercial/premium).
+- id: lat_pulldown
+  name: Lat pulldown
+  category: selectorized
+  zone: machines
+  description: Selectorized seated lat pulldown (high pulley, thigh pads) with its own weight stack.
+  footprint:
+    length_in: 56
+    width_in: 55
+    height_in: 76.2
+  clearance:
+    front_in: 24
+    back_in: 24
+    left_in: 36
+    right_in: 36
+  stations: 1
+  price_usd:
+    value: 2900
+    commercial: 5050
+    premium: 7200
+  power: none
+  layout:
+    aisle_side: front
+    row_group: selectorized
+  example_models:
+  - French Fitness Tahoe Cable Lat Pulldown (value)
+  - Life Fitness Axiom Series Lat Pulldown (commercial)
+  - Hoist Club Line CL-3201 Lat Pulldown (commercial)
+  - Matrix Aura Lat Pulldown (commercial)
+  - Hammer Strength Select Lat Pulldown (premium)
+  - Life Fitness Insignia Series Pulldown (premium)
+  useful_life_years: 8
+  sources:
+  - lf-insignia-series-pulldown
+  - lf-shop-spec-table-hammer-31
+  - nsca-s-safety-checklist-exercise-facility
+  - idea-health-fitness-facility-design
+  - cybex-international-eagle-nx-leg-press-owner
+  - star-trac-ip-l5002-owner-s-manual
+  - fitness-superstore-catalog-new-body-2026
+  - life-fitness-us-online-store-hammer-2026
+  - hoist-fitness-online-catalog-cf-club-2026
+  - prime-fitness-usa-online-catalog-2026
+  - akfit-anchorage-ak-dealer-catalog-incl-2026
+  - planet-fitness-sec-2025-investor-day
+  - planet-fitness-sec-form-10-k-fy2025-2026
+  - internal-revenue-service-irs-2025
+  - derived-eqm-footprint-medians
+  - derived-eqm-machine-clearances
+  - derived-eqm-price-tiers
+  - derived-eqm-useful-life
+  notes: Footprint = median of LF Insignia 55.6x56.9, HS Select 54x33 (89 in tall), Cybex Eagle NX 57x65,
+    LF Axiom 60x55 and LF Signature 54x52. Front 24 in = median live-area length margin (24/24/24/42).
+    Price = machine $2,900/$5,050/$7,200 (value/commercial/premium). Value tier has two anchors (French
+    Fitness $2,799 and $2,999).
+- id: seated_row
+  name: Seated row
+  category: selectorized
+  zone: machines
+  description: Selectorized seated row (chest pad, mid-height handles) with its own weight stack.
+  footprint:
+    length_in: 58
+    width_in: 43
+    height_in: 64
+  clearance:
+    front_in: 24
+    back_in: 24
+    left_in: 36
+    right_in: 36
+  stations: 1
+  price_usd:
+    value: 2900
+    commercial: 5050
+    premium: 7050
+  power: none
+  layout:
+    aisle_side: front
+    row_group: selectorized
+  example_models:
+  - French Fitness Tahoe Seated Row (value)
+  - Life Fitness Axiom Series Seated Row (commercial)
+  - Hoist Club Line CL-3203 Mid Row (commercial)
+  - Matrix Aura Seated Row (commercial)
+  - Hammer Strength Select Seated Row (premium)
+  - Life Fitness Insignia Series Row (premium)
+  useful_life_years: 8
+  sources:
+  - lf-insignia-series-row
+  - lf-shop-spec-table-hammer-33
+  - life-fitness-signature-series-fz-owner-s
+  - nsca-s-safety-checklist-exercise-facility
+  - idea-health-fitness-facility-design
+  - cybex-international-eagle-nx-leg-press-owner
+  - star-trac-ip-l5002-owner-s-manual
+  - fitness-superstore-catalog-new-body-2026
+  - life-fitness-us-online-store-hammer-2026
+  - hoist-fitness-online-catalog-cf-club-2026
+  - prime-fitness-usa-online-catalog-2026
+  - akfit-anchorage-ak-dealer-catalog-incl-2026
+  - planet-fitness-sec-2025-investor-day
+  - planet-fitness-sec-form-10-k-fy2025-2026
+  - internal-revenue-service-irs-2025
+  - derived-eqm-footprint-medians
+  - derived-eqm-machine-clearances
+  - derived-eqm-price-tiers
+  - derived-eqm-useful-life
+  notes: 'Footprint = median of LF Insignia 48.8x55.4, HS Select 52x34, Cybex Eagle NX 68x43, LF Axiom
+    65x40 and LF Signature row/rear delt 58x43. Front 24 in: all four published live areas add +24 in
+    of length. Price = machine $2,900/$5,050/$7,050 (value/commercial/premium). Value tier has two anchors
+    (French Fitness $2,799 and $2,999).'
+- id: lat_pulldown_row_combo
+  name: Lat pulldown / low row combo
+  category: selectorized
+  zone: machines
+  description: Dual-function selectorized lat pulldown / low row on one stack (one user at a time); common
+    in small gyms.
+  footprint:
+    length_in: 69
+    width_in: 49
+    height_in: 94
+  clearance:
+    front_in: 24
+    back_in: 24
+    left_in: 36
+    right_in: 36
+  stations: 1
+  price_usd:
+    value: 2800
+    commercial: 5050
+    premium: 5900
+  power: none
+  min_ceiling_in: 94
+  layout:
+    aisle_side: front
+    row_group: selectorized
+  example_models:
+  - Body-Solid SLM300G ProClub Line Lat Mid Row (value)
+  - French Fitness Tahoe Lat Pulldown / Low Row (value)
+  - Life Fitness Axiom Series Pulldown / Row (commercial)
+  - Hoist HD-3200 Lat Pulldown/Mid Row (commercial)
+  - Rogue LP-2 Lat Pulldown / Low Row (commercial)
+  - Hammer Strength HD Elite Dual Pulldown/Row (premium)
+  useful_life_years: 8
+  sources:
+  - lf-shop-spec-table-axiom-5
+  - lf-hammer-strength-pulldown-row
+  - nsca-s-safety-checklist-exercise-facility
+  - idea-health-fitness-facility-design
+  - cybex-international-eagle-nx-leg-press-owner
+  - star-trac-ip-l5002-owner-s-manual
+  - rep-fitness-online-catalog-products-2026
+  - titan-fitness-online-catalog-2026
+  - fitness-superstore-catalog-new-body-2026
+  - rogue-fitness-product-category-pages-2026
+  - life-fitness-us-online-store-hammer-2026
+  - hoist-fitness-online-catalog-cf-club-2026
+  - akfit-anchorage-ak-dealer-catalog-incl-2026
+  - planet-fitness-sec-2025-investor-day
+  - planet-fitness-sec-form-10-k-fy2025-2026
+  - internal-revenue-service-irs-2025
+  - derived-eqm-footprint-medians
+  - derived-eqm-machine-clearances
+  - derived-eqm-price-tiers
+  - derived-eqm-combo-price
+  - derived-eqm-min-ceiling
+  - derived-eqm-useful-life
+  notes: 'Footprint = median of LF Axiom Pulldown/Row 81x50x85 (live +24 in length, +36 in width), HS
+    HD Elite Dual Pulldown/Row 63x36x96 and BodyKore GR638 69x49x94. Front 24 in = Axiom live-area length
+    margin. Price = machine $2,800/$5,050/$5,900 (value/commercial/premium). Within one maker''s line the
+    combo costs what its single pulldown does, so commercial = the single lat pulldown''s $5,050
+    (derived-eqm-combo-price); the median of the five commercial combo listings, $3,650, comes from lighter
+    lines than the singles'' median. Premium price is a single listing (HS Dual Pulldown/Row $5,889).'
+- id: assisted_pullup_dip
+  name: Assisted chin / dip
+  category: selectorized
+  zone: machines
+  description: Selectorized weight-assisted chin-up / dip station (kneeling platform counterweighted by
+    the stack).
+  footprint:
+    length_in: 55
+    width_in: 49
+    height_in: 87
+  clearance:
+    front_in: 24
+    back_in: 24
+    left_in: 36
+    right_in: 36
+  stations: 1
+  price_usd:
+    value: 2800
+    commercial: 5050
+    premium: 7600
+  power: none
+  min_ceiling_in: 105
+  layout:
+    aisle_side: front
+    row_group: selectorized
+  example_models:
+  - Body-Solid FCD-STK Pro-Select Weight Assisted Chin-Dip Machine (value)
+  - Hoist HD-3700 Chin/Dip Assist (commercial)
+  - Matrix Aura Dip/Chin Assist (commercial)
+  - Prime Chin / Dip Assist (commercial)
+  - Hammer Strength Select Assist Dip Chin (premium)
+  - Life Fitness Insignia Series Assist Dip Chin (premium)
+  useful_life_years: 8
+  sources:
+  - lf-insignia-series-assist-dip
+  - lf-shop-spec-table-hammer-24
+  - nsca-s-safety-checklist-exercise-facility
+  - idea-health-fitness-facility-design
+  - cybex-international-eagle-nx-leg-press-owner
+  - star-trac-ip-l5002-owner-s-manual
+  - fitness-superstore-catalog-new-body-2026
+  - hoist-fitness-online-catalog-cf-club-2026
+  - prime-fitness-usa-online-catalog-2026
+  - akfit-anchorage-ak-dealer-catalog-incl-2026
+  - life-fitness-us-online-store-hammer-2026
+  - planet-fitness-sec-2025-investor-day
+  - planet-fitness-sec-form-10-k-fy2025-2026
+  - internal-revenue-service-irs-2025
+  - derived-eqm-footprint-medians
+  - derived-eqm-machine-clearances
+  - derived-eqm-price-tiers
+  - derived-eqm-min-ceiling
+  - derived-eqm-useful-life
+  notes: Footprint = median of LF Insignia Assist Dip Chin 63.8x58x87, HS Select 46x45x87 and BodyKore
+    GR636 55x49x90. Front 24 in (live areas add 0-24 in of length); minimum ceiling 105 in = the Insignia
+    published live-area height, since the user's head rises above the 87-in frame. Price = machine $2,800/$5,050/$7,600
+    (value/commercial/premium). Premium tier has two anchors (HS Select $6,781, Insignia $8,424).
+- id: biceps_curl_machine
+  name: Biceps curl
+  category: selectorized
+  zone: machines
+  description: Selectorized seated biceps (arm) curl with its own weight stack.
+  footprint:
+    length_in: 45
+    width_in: 60
+    height_in: 58.1
+  clearance:
+    front_in: 24
+    back_in: 24
+    left_in: 36
+    right_in: 36
+  stations: 1
+  price_usd:
+    value: 2300
+    commercial: 4900
+    premium: 6450
+  power: none
+  layout:
+    aisle_side: front
+    row_group: selectorized
+  example_models:
+  - Body-Solid S2AC Series II Arm Curl Machine (value)
+  - Life Fitness Axiom Series Biceps Curl (commercial)
+  - Hoist Club Line CL-3102 Biceps Curl (commercial)
+  - Matrix Aura Arm Curl (commercial)
+  - Hammer Strength Select Biceps Curl (premium)
+  - Life Fitness Insignia Series Biceps Curl (premium)
+  useful_life_years: 8
+  sources:
+  - lf-insignia-series-biceps-curl
+  - lf-shop-spec-table-hammer-25
+  - nsca-s-safety-checklist-exercise-facility
+  - idea-health-fitness-facility-design
+  - cybex-international-eagle-nx-leg-press-owner
+  - star-trac-ip-l5002-owner-s-manual
+  - fitness-superstore-catalog-new-body-2026
+  - titan-fitness-online-catalog-2026
+  - life-fitness-us-online-store-hammer-2026
+  - hoist-fitness-online-catalog-cf-club-2026
+  - prime-fitness-usa-online-catalog-2026
+  - akfit-anchorage-ak-dealer-catalog-incl-2026
+  - planet-fitness-sec-2025-investor-day
+  - planet-fitness-sec-form-10-k-fy2025-2026
+  - internal-revenue-service-irs-2025
+  - derived-eqm-footprint-medians
+  - derived-eqm-machine-clearances
+  - derived-eqm-price-tiers
+  - derived-eqm-useful-life
+  notes: Footprint = median of LF Insignia 47.9x62.7, HS Select 45x41, Cybex Eagle NX 45x60, LF Axiom
+    55x41 and LF Signature 36x60. Front 24 in = median live-area length margin (24/8/24/42). Price = machine
+    $2,300/$4,900/$6,450 (value/commercial/premium).
+- id: triceps_machine
+  name: Triceps extension
+  category: selectorized
+  zone: machines
+  description: Selectorized seated triceps extension / press with its own weight stack.
+  footprint:
+    length_in: 54
+    width_in: 43
+    height_in: 58.1
+  clearance:
+    front_in: 30
+    back_in: 24
+    left_in: 36
+    right_in: 36
+  stations: 1
+  price_usd:
+    value: 2800
+    commercial: 4750
+    premium: 6950
+  power: none
+  layout:
+    aisle_side: front
+    row_group: selectorized
+  example_models:
+  - French Fitness Tahoe Tricep Arm Extension (value)
+  - Life Fitness Axiom Series Triceps Extension (commercial)
+  - Hoist Club Line CL-3103 Triceps Extension (commercial)
+  - Matrix Aura Tricep Extension (commercial)
+  - Hammer Strength Select Triceps Extension (premium)
+  - Life Fitness Insignia Series Triceps Extension (premium)
+  useful_life_years: 8
+  sources:
+  - lf-insignia-series-triceps-extension
+  - lf-shop-spec-table-hammer-37
+  - nsca-s-safety-checklist-exercise-facility
+  - idea-health-fitness-facility-design
+  - cybex-international-eagle-nx-leg-press-owner
+  - star-trac-ip-l5002-owner-s-manual
+  - fitness-superstore-catalog-new-body-2026
+  - life-fitness-us-online-store-hammer-2026
+  - hoist-fitness-online-catalog-cf-club-2026
+  - prime-fitness-usa-online-catalog-2026
+  - akfit-anchorage-ak-dealer-catalog-incl-2026
+  - planet-fitness-sec-2025-investor-day
+  - planet-fitness-sec-form-10-k-fy2025-2026
+  - internal-revenue-service-irs-2025
+  - derived-eqm-footprint-medians
+  - derived-eqm-machine-clearances
+  - derived-eqm-price-tiers
+  - derived-eqm-useful-life
+  notes: Footprint = median of LF Insignia 53.9x39.6, HS Select 45x44, Cybex Eagle NX 45x60, LF Axiom
+    57x41 and LF Signature triceps press 64x43. Front 30 in = median live-area length margin (30.5/8/24/42).
+    Price = machine $2,800/$4,750/$6,950 (value/commercial/premium).
+- id: ab_crunch_machine
+  name: Abdominal crunch
+  category: selectorized
+  zone: machines
+  description: Selectorized seated abdominal crunch with its own weight stack.
+  footprint:
+    length_in: 52
+    width_in: 41
+    height_in: 56
+  clearance:
+    front_in: 24
+    back_in: 24
+    left_in: 36
+    right_in: 36
+  stations: 1
+  price_usd:
+    value: 2800
+    commercial: 4900
+    premium: 6850
+  power: none
+  layout:
+    aisle_side: front
+    row_group: selectorized
+  example_models:
+  - French Fitness FFB Black Single Stack Abdominal Crunch (value)
+  - Life Fitness Axiom Series Abdominal (commercial)
+  - Hoist Club Line CL-3601 Abdominals (commercial)
+  - Matrix Aura Abdominal Crunch (commercial)
+  - Hammer Strength Select Abdominal Crunch (premium)
+  - Life Fitness Insignia Series Abdominal (premium)
+  useful_life_years: 8
+  sources:
+  - lf-insignia-series-abdominal
+  - lf-shop-spec-table-hammer-23
+  - nsca-s-safety-checklist-exercise-facility
+  - idea-health-fitness-facility-design
+  - cybex-international-eagle-nx-leg-press-owner
+  - star-trac-ip-l5002-owner-s-manual
+  - fitness-superstore-catalog-new-body-2026
+  - titan-fitness-online-catalog-2026
+  - life-fitness-us-online-store-hammer-2026
+  - hoist-fitness-online-catalog-cf-club-2026
+  - prime-fitness-usa-online-catalog-2026
+  - akfit-anchorage-ak-dealer-catalog-incl-2026
+  - planet-fitness-sec-2025-investor-day
+  - planet-fitness-sec-form-10-k-fy2025-2026
+  - internal-revenue-service-irs-2025
+  - derived-eqm-footprint-medians
+  - derived-eqm-machine-clearances
+  - derived-eqm-price-tiers
+  - derived-eqm-useful-life
+  notes: 'Footprint = median of LF Insignia 52.4x46.3, HS Select 62x35, Cybex Eagle NX 57x40, LF Axiom
+    50x41 and LF Signature 52x47. Front 24 in: live-area margins 8-24 in, raised to the ISO 0.6 m access
+    minimum. Price = machine $2,800/$4,900/$6,850 (value/commercial/premium).'
+- id: back_extension_machine
+  name: Back extension
+  category: selectorized
+  zone: machines
+  description: Selectorized seated lower-back extension with its own weight stack.
+  footprint:
+    length_in: 54
+    width_in: 41
+    height_in: 57.1
+  clearance:
+    front_in: 24
+    back_in: 24
+    left_in: 36
+    right_in: 36
+  stations: 1
+  price_usd:
+    value: 2500
+    commercial: 5600
+    premium: 7050
+  power: none
+  layout:
+    aisle_side: front
+    row_group: selectorized
+  example_models:
+  - French Fitness Tahoe Selectorized Back Extension (value)
+  - Hoist ROC-IT Low Back (commercial)
+  - Nautilus Impact Low Back 9NA-S3302 (commercial)
+  - Matrix Aura Back Extension (commercial)
+  - Hammer Strength Select Back Extension (premium)
+  - Life Fitness Insignia Series Back Extension (premium)
+  useful_life_years: 8
+  sources:
+  - lf-insignia-series-back-extension
+  - lf-shop-spec-table-hammer-26
+  - life-fitness-signature-series-fz-owner-s-2
+  - nsca-s-safety-checklist-exercise-facility
+  - idea-health-fitness-facility-design
+  - cybex-international-eagle-nx-leg-press-owner
+  - star-trac-ip-l5002-owner-s-manual
+  - fitness-superstore-catalog-new-body-2026
+  - hoist-fitness-online-catalog-cf-club-2026
+  - prime-fitness-usa-online-catalog-2026
+  - akfit-anchorage-ak-dealer-catalog-incl-2026
+  - life-fitness-us-online-store-hammer-2026
+  - planet-fitness-sec-2025-investor-day
+  - planet-fitness-sec-form-10-k-fy2025-2026
+  - internal-revenue-service-irs-2025
+  - derived-eqm-footprint-medians
+  - derived-eqm-machine-clearances
+  - derived-eqm-price-tiers
+  - derived-eqm-useful-life
+  notes: 'Footprint = median of LF Insignia 54.8x41.8, HS Select 46x40, Cybex Eagle NX 59x40 and LF Signature
+    53x44. Front 24 in: live-area margins 12-18 in, raised to the ISO 0.6 m access minimum. Price = machine
+    $2,500/$5,600/$7,050 (value/commercial/premium). Value price is a single listing (French Fitness Tahoe
+    $2,499).'
+- id: rotary_torso
+  name: Rotary torso
+  category: selectorized
+  zone: machines
+  description: Selectorized seated rotary torso (trunk rotation) with its own weight stack; often the
+    least-used machine on the floor.
+  footprint:
+    length_in: 47
+    width_in: 45
+    height_in: 64
+  clearance:
+    front_in: 36
+    back_in: 24
+    left_in: 36
+    right_in: 36
+  stations: 1
+  price_usd:
+    value: 3000
+    commercial: 5100
+    premium: 6950
+  power: none
+  layout:
+    aisle_side: front
+    row_group: selectorized
+  example_models:
+  - French Fitness Vail Torso Rotation (value)
+  - Hoist ROC-IT RS-2602 Rotary Torso (commercial)
+  - Nautilus Instinct Rotary Torso 9NL-S6300 (commercial)
+  - Matrix Aura Rotary Torso (commercial)
+  - Life Fitness Insignia Series Torso Rotation (premium)
+  - Nautilus Inspiration Rotary Torso 9-IPRT5 (premium)
+  useful_life_years: 8
+  sources:
+  - lf-insignia-series-torso-rotation
+  - life-fitness-signature-series-fz-owner-s-2
+  - nsca-s-safety-checklist-exercise-facility
+  - idea-health-fitness-facility-design
+  - cybex-international-eagle-nx-leg-press-owner
+  - star-trac-ip-l5002-owner-s-manual
+  - fitness-superstore-catalog-new-body-2026
+  - hoist-fitness-online-catalog-cf-club-2026
+  - prime-fitness-usa-online-catalog-2026
+  - akfit-anchorage-ak-dealer-catalog-incl-2026
+  - life-fitness-us-online-store-hammer-2026
+  - planet-fitness-sec-2025-investor-day
+  - planet-fitness-sec-form-10-k-fy2025-2026
+  - internal-revenue-service-irs-2025
+  - derived-eqm-footprint-medians
+  - derived-eqm-machine-clearances
+  - derived-eqm-price-tiers
+  - derived-eqm-useful-life
+  notes: Footprint = median of LF Insignia 45.5x44, Cybex Eagle NX 46x47, Cybex VR3 47x46 and LF Signature
+    48x36. Front 36 in = median live-area length margin (24/42). Price = machine $3,000/$5,100/$6,950
+    (value/commercial/premium). Value tier has two anchors, both $2,999 (French Fitness).
+- id: multi_station_gym
+  name: Multi-station gym (3-4 stacks)
+  category: selectorized
+  zone: machines
+  description: 'Free-standing multi-station (''jungle'') gym: 3-4 weight stacks around one frame (e.g.
+    press, pulldown, low row, leg extension/curl), each used by one person at a time.'
+  footprint:
+    length_in: 82
+    width_in: 125
+    height_in: 87
+  clearance:
+    front_in: 36
+    back_in: 36
+    left_in: 36
+    right_in: 36
+  stations: 3
+  price_usd:
+    value: 5700
+    commercial: 10400
+    premium: 13500
+  power: none
+  min_ceiling_in: 87
+  max_units: 1
+  layout:
+    aisle_side: any
+    row_group: multi_station
+  example_models:
+  - French Fitness X90 3 Stack Multi-Gym System (value)
+  - French Fitness FFB Black 4 Stack Multi Jungle Gym (value)
+  - Body-Solid Pro Clubline S1000 Four-Stack Gym (value)
+  - Hoist 4 Stack Multi Gym (commercial)
+  - Hoist CMJ-6000-1 4-Station Single Pod (commercial)
+  - Matrix Varsity 3-Stack Multi-Gym (commercial)
+  - Matrix Aura 4-stack Multi-station (commercial)
+  useful_life_years: 8
+  sources:
+  - bodykore-gm5003-four-station-jungle
+  - bodykore-mti4005-3-station-multi
+  - nsca-s-safety-checklist-exercise-facility
+  - idea-health-fitness-facility-design
+  - cybex-international-eagle-nx-leg-press-owner
+  - star-trac-ip-l5002-owner-s-manual
+  - fitness-superstore-catalog-new-body-2026
+  - hoist-fitness-online-catalog-cf-club-2026
+  - akfit-anchorage-ak-dealer-catalog-incl-2026
+  - planet-fitness-sec-2025-investor-day
+  - planet-fitness-sec-form-10-k-fy2025-2026
+  - internal-revenue-service-irs-2025
+  - derived-eqm-footprint-medians
+  - derived-eqm-machine-clearances
+  - derived-eqm-price-tiers
+  - derived-eqm-min-ceiling
+  - derived-eqm-multi-station
+  - derived-eqm-useful-life
+  notes: Footprint is footprint_strength's estimate between BodyKore MTI4005 3-station 84x105x86 and GM5003
+    4-station 80x144x87 (LF Universal Cable up to 69.8x103.8x89.7). Stations face several sides, so 36
+    in all round. Price = machine $5,700/$10,400/$13,500 (value/commercial/premium). Premium price is
+    an estimate (commercial typical x1.3; no new premium 3-4 stack listing); most anchors are 4-stack
+    units, so the price errs high for a 3-station unit. At most one per plan (derived-eqm-multi-station),
+    because the planner treats its 3 stations as interchangeable, so a second unit would count as 3 more
+    pulldowns or presses where it adds one stack of each; beyond one unit, single-station machines are
+    bought.
+- id: cable_crossover
+  name: Cable crossover
+  category: cables
+  zone: machines
+  description: Two adjustable-pulley weight stacks joined by an overhead bridge; two people can train
+    at once, one per stack, or one person uses both for flyes.
+  footprint:
+    length_in: 28
+    width_in: 150
+    height_in: 92.5
+  clearance:
+    front_in: 72
+    back_in: 0
+    left_in: 24
+    right_in: 24
+  stations: 2
+  price_usd:
+    value: 3800
+    commercial: 7000
+    premium: 8350
+  power: none
+  min_ceiling_in: 93
+  layout:
+    aisle_side: front
+    against_wall: true
+    row_group: cable
+  example_models:
+  - Body-Solid Deluxe Cable Crossover 250 GDCC250 (value)
+  - Body-Solid S2CCO Series II Cable Crossover (value)
+  - Hoist CMD-6180 Cable Crossover (commercial)
+  - Rogue CC-1 Cable Crossover (commercial)
+  - REP Fitness Hyperion Series 1 Cable Crossover (commercial)
+  - Life Fitness Adjustable Cable Crossover (premium)
+  - Matrix Aura Adjustable Cable Crossover (premium)
+  useful_life_years: 8
+  sources:
+  - lf-adjustable-cable-crossover
+  - bodykore-g502-cable-crossover-dealer
+  - nsca-strength-conditioning-professional-2017
+  - shenzhen-ccts-quality-safety-test-2021
+  - nsca-tsac-module-5-0-5-2018
+  - nsca-s-safety-checklist-exercise-facility
+  - fitness-superstore-catalog-new-body-2026
+  - hoist-fitness-online-catalog-cf-club-2026
+  - rogue-fitness-product-category-pages-2026
+  - rep-fitness-online-catalog-products-2026
+  - life-fitness-us-online-store-hammer-2026
+  - akfit-anchorage-ak-dealer-catalog-incl-2026
+  - planet-fitness-sec-2025-investor-day
+  - planet-fitness-sec-form-10-k-fy2025-2026
+  - internal-revenue-service-irs-2025
+  - derived-eqm-footprint-medians
+  - derived-eqm-cable-clearances
+  - derived-eqm-price-tiers
+  - derived-eqm-min-ceiling
+  - derived-eqm-useful-life
+  notes: 'Footprint = LF Adjustable Cable Crossover 150x28.5x94 and BodyKore G502 151x28x91, re-oriented
+    so the 150-in span is the width; users work inside the span. Cable-station rule: 72-in user zone in
+    front (estimate), back 0 against the wall, sides 24 in. Price = machine $3,800/$7,000/$8,350 (value/commercial/premium).
+    Premium tier has two anchors (LF $9,370; Matrix Aura AK list / 1.45 = $7,355).'
+- id: functional_trainer
+  name: Functional trainer
+  category: cables
+  zone: machines
+  description: 'Dual adjustable pulley (functional trainer): two stacks with pulleys that slide up and
+    down the columns; one user at a time.'
+  footprint:
+    length_in: 47
+    width_in: 61
+    height_in: 91.6
+  clearance:
+    front_in: 72
+    back_in: 0
+    left_in: 24
+    right_in: 24
+  stations: 1
+  price_usd:
+    value: 2500
+    commercial: 6250
+    premium: 8850
+  power: none
+  min_ceiling_in: 92
+  layout:
+    aisle_side: front
+    against_wall: true
+    row_group: cable
+  example_models:
+  - REP Fitness Arcadia Functional Trainer (value)
+  - Body-Solid GFT100 Functional Trainer (value)
+  - Life Fitness Axiom Dual Adjustable Pulley (commercial)
+  - Hoist HD-3000 Dual Pulley Functional Trainer (commercial)
+  - Rogue FT-1 Functional Trainer (commercial)
+  - Life Fitness Dual Adjustable Pulley (premium)
+  - Nautilus Inspiration Dual Adjustable Pulley NP-D9302 (premium)
+  useful_life_years: 8
+  sources:
+  - lf-shop-spec-table-life-6
+  - lf-hammer-strength-dual-adjustable
+  - nsca-strength-conditioning-professional-2017
+  - shenzhen-ccts-quality-safety-test-2021
+  - nsca-tsac-module-5-0-5-2018
+  - nsca-s-safety-checklist-exercise-facility
+  - rep-fitness-online-catalog-products-2026
+  - titan-fitness-online-catalog-2026
+  - fitness-superstore-catalog-new-body-2026
+  - life-fitness-us-online-store-hammer-2026
+  - hoist-fitness-online-catalog-cf-club-2026
+  - prime-fitness-usa-online-catalog-2026
+  - rogue-fitness-product-category-pages-2026
+  - akfit-anchorage-ak-dealer-catalog-incl-2026
+  - planet-fitness-sec-2025-investor-day
+  - planet-fitness-sec-form-10-k-fy2025-2026
+  - internal-revenue-service-irs-2025
+  - derived-eqm-footprint-medians
+  - derived-eqm-cable-clearances
+  - derived-eqm-price-tiers
+  - derived-eqm-min-ceiling
+  - derived-eqm-useful-life
+  notes: 'Footprint = median of LF Signature Dual Adjustable Pulley 45x62x94, HS HD Elite DAP 61x51x96,
+    SportsArt DS972 39.4x60.2x89.2 and BodyKore MX1161 48x70x89; LF''s published live area (217x410x112
+    in) is a unit error and is not used. Cable-station rule: 72-in user zone in front (estimate), back
+    0 against the wall, sides 24 in. Price = machine $2,500/$6,250/$8,850 (value/commercial/premium).'
+- id: cable_column
+  name: Adjustable cable column
+  category: cables
+  zone: machines
+  description: 'Single-stack adjustable cable column (hi-lo pulley) for one user: presses, rows, pushdowns,
+    chops.'
+  footprint:
+    length_in: 50
+    width_in: 46
+    height_in: 88.5
+  clearance:
+    front_in: 72
+    back_in: 0
+    left_in: 24
+    right_in: 24
+  stations: 1
+  price_usd:
+    value: 2800
+    commercial: 2850
+    premium: 3700
+  power: none
+  min_ceiling_in: 89
+  layout:
+    aisle_side: front
+    against_wall: true
+    row_group: cable
+  example_models:
+  - Titan Fitness Cable Tower 10-320 LB Selector (value)
+  - Body-Solid S2CC Series II Cable Column (value)
+  - Rogue CT-1 Cable Tower (value)
+  - Hoist CMS-6175 Stand Alone Hi-Lo Pulley (commercial)
+  - Matrix Aura Adjustable Pulley (commercial)
+  - Cybex VR3 Cable Column 12220 (dimensions reference)
+  useful_life_years: 8
+  sources:
+  - cybex-international-vr3-cable-column-owner-s
+  - bodykore-mx1174-universal1-single-station
+  - nsca-strength-conditioning-professional-2017
+  - shenzhen-ccts-quality-safety-test-2021
+  - nsca-tsac-module-5-0-5-2018
+  - nsca-s-safety-checklist-exercise-facility
+  - rep-fitness-online-catalog-products-2026
+  - titan-fitness-online-catalog-2026
+  - fitness-superstore-catalog-new-body-2026
+  - rogue-fitness-product-category-pages-2026
+  - hoist-fitness-online-catalog-cf-club-2026
+  - akfit-anchorage-ak-dealer-catalog-incl-2026
+  - planet-fitness-sec-2025-investor-day
+  - planet-fitness-sec-form-10-k-fy2025-2026
+  - internal-revenue-service-irs-2025
+  - derived-eqm-footprint-medians
+  - derived-eqm-cable-clearances
+  - derived-eqm-price-tiers
+  - derived-eqm-min-ceiling
+  - derived-eqm-useful-life
+  notes: 'Footprint = Cybex VR3 Cable Column 50x43x92 (in use 57x52) and BodyKore MX1174 50x48x85. Cable-station
+    rule: 72-in user zone in front (estimate; covers the Cybex in-use +7 in length), back 0 against the
+    wall, sides 24 in. Price = machine $2,800/$2,850/$3,700 (value/commercial/premium). Commercial tier
+    has two anchors (Hoist CMS-6175 $3,160, Matrix Aura $2,550 after the /1.45 dealer adjustment); premium
+    is an estimate (commercial typical x1.3), no new premium single-column listing found.'

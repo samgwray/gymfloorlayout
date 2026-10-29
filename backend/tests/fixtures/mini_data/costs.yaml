@@ -1,0 +1,13 @@
+version: 1
+default_grade: commercial
+grades:
+  - {id: value, name: Value, description: Light commercial., price_tier: value, sources: [test-derived]}
+  - {id: commercial, name: Commercial, description: Club grade., price_tier: commercial, sources: [test-derived]}
+  - {id: premium, name: Premium, description: Top lines., price_tier: premium, sources: [test-derived]}
+  - {id: refurbished, name: Refurbished, description: Remanufactured club grade., price_tier: commercial, multiplier: 0.55, sources: [test-derived]}
+flooring:
+  - {id: rubber_8mm, name: 8 mm rubber, cost_per_sqft: {low: 4, typical: 5.5, high: 7}, sources: [test-derived]}
+  - {id: rubber_12mm, name: 12 mm rubber, cost_per_sqft: {low: 6, typical: 7.5, high: 9}, sources: [test-derived]}
+  - {id: turf_rubber, name: Turf, cost_per_sqft: {low: 5, typical: 6, high: 8}, sources: [test-derived]}
+installation_rate: 0.12
+installation_sources: [test-derived]

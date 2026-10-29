@@ -1,0 +1,53 @@
+version: 1
+scenarios:
+- id: amenity_room
+  label: Hotel or apartment gym
+  description: 'A 750 sq ft fitness room in a hotel or apartment building, mostly commercial cardio with
+    dumbbells and a bench. Budget: about $42 per sq ft of equipment plus flooring.'
+  area_sqft: 750
+  budget_usd: 36000
+  profile: amenity
+  grade: commercial
+  sources:
+  - derived-sp-scenario-budgets
+- id: private_studio
+  label: Private training studio
+  description: 'A 1,200 sq ft personal-training and small-group studio built around functional training.
+    Budget: about $44 per sq ft of equipment plus flooring, inside the range for small studios.'
+  area_sqft: 1200
+  budget_usd: 60000
+  profile: functional
+  grade: commercial
+  sources:
+  - derived-sp-scenario-budgets
+- id: neighborhood_24_7
+  label: 24/7 neighborhood gym
+  description: 'A 3,750 sq ft key-card gym floor, the size of a franchise 24/7 club''s. Budget: about $46
+    per sq ft of equipment plus flooring, a little under the medium-gym typical of $50.'
+  area_sqft: 3750
+  budget_usd: 195000
+  profile: general
+  grade: commercial
+  sources:
+  - derived-sp-scenario-budgets
+- id: strength_club
+  label: Strength club
+  description: 'A 7,000 sq ft floor for lifters, with more racks, plate-loaded machines and free weights
+    and less cardio. Budget: about $57 per sq ft of equipment plus flooring, between the medium-gym typical
+    ($50) and strength-heritage big boxes (about $69).'
+  area_sqft: 7000
+  budget_usd: 445000
+  profile: strength
+  grade: commercial
+  sources:
+  - derived-sp-scenario-budgets
+- id: big_box
+  label: Big-box club
+  description: 'A 12,500 sq ft gym floor, the typical size of a budget big box''s. Budget: about $61 per
+    sq ft of equipment plus flooring, the large-club typical.'
+  area_sqft: 12500
+  budget_usd: 835000
+  profile: general
+  grade: commercial
+  sources:
+  - derived-sp-scenario-budgets

@@ -1,0 +1,21 @@
+# Certificates are issued and renewed automatically once the domain's DNS points at this server.
+gymfloorlayout.com {
+	encode zstd gzip
+
+	# Plans go straight to the planning service: on this server a large one can take longer than
+	# the site's own proxy waits (30 seconds).
+	handle /api/* {
+		reverse_proxy api:8100
+	}
+
+	handle {
+		reverse_proxy web:3100 {
+			# Pass pages through as they render: plan pages stream their content.
+			flush_interval -1
+		}
+	}
+}
+
+www.gymfloorlayout.com {
+	redir https://gymfloorlayout.com{uri} permanent
+}

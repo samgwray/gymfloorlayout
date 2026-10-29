@@ -1,0 +1,9 @@
+version: 1
+sources:
+  - id: test-standard
+    title: Test standard for fixture data
+    kind: standard
+  - id: test-derived
+    title: Values chosen for the test fixture
+    kind: derived
+    notes: Small, internally consistent catalog used only by the test suite.

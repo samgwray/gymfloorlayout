@@ -1,0 +1,427 @@
+version: 1
+benchmarks:
+- id: planet_fitness
+  name: Planet Fitness
+  format: HVLP big box (US franchise)
+  sqft:
+    low: 15000
+    typical: 20000
+    high: 25000
+  equipment_budget_usd:
+    low: 333000
+    typical: 664000
+    high: 995000
+  members:
+    low: 7182
+    typical: 7182
+    high: 7182
+  equipment_counts:
+    total_pieces: 139
+    cardio_pieces: 56
+    strength_pieces: 83
+  notes: '2026 FDD Item 7: equipment bought outright costs $333,000-995,000 (financed: $33,300-298,500
+    down) for premises of about 15,000-25,000 sq ft; the FY2025 10-K says clubs are typically 20,000 sq
+    ft. The $333,000 floor appears in one FDD reproduction (VetMyFranchise) only. Equipment about $33
+    per sq ft at the midpoints. Members: 20.8 million across 2,896 clubs (system average). Piece counts
+    are the median of five 2024-26 openings (117-155 pieces, 6.6-8.6 per 1,000 sq ft, 40-41% cardio) after
+    the 2024-25 shift to more strength equipment; the median is also the layout Puyallup and Sammamish
+    both used. Clubs are re-equipped every 5-9 years.'
+  sources:
+  - vetmyfranchise-planet-fitness-franchise-2026
+  - franchise-chatter-planet-fitness-review-2026
+  - 1851-franchise-deep-dive-planet-fitness-2026
+  - planet-fitness-sec-form-10-k-fy2025-2026
+  - planet-fitness-sec-2025-investor-day
+  - new-england-real-planet-fitness-opens-2025
+  - patch-planet-fitness-opens-lakewood-wa-2025
+  - eden-prairie-local-planet-fitness-2024
+  - kiro-7-planet-fitness-expands-adding-2026
+  - what-now-media-new-21-141-square-foot-2026
+  - derived-sp-benchmark-typicals
+  - derived-sp-pf-openings
+- id: planet_fitness_duluth
+  name: Planet Fitness, Duluth MN
+  format: HVLP big box, older cardio-heavy layout
+  sqft:
+    low: 22000
+    typical: 22000
+    high: 22000
+  equipment_counts:
+    total_pieces: 185
+    cardio_pieces: 110
+    strength_pieces: 75
+  notes: 'One club from an undated opening article, with a 30-Minute Express Circuit. It probably shows
+    the layout before the 2024-25 rebalance: 59.5% cardio and 8.4 pieces per 1,000 sq ft, against about
+    40% cardio in 2024-26 openings.'
+  sources:
+  - wdio-planet-fitness-open-saturday-duluth
+- id: crunch_fitness
+  name: Crunch Fitness
+  format: HVLP big box (US franchise)
+  sqft:
+    low: 20000
+    typical: 30000
+    high: 40000
+  equipment_budget_usd:
+    low: 850000
+    typical: 1175000
+    high: 1500000
+  members:
+    low: 7484
+    typical: 7949
+    high: 8303
+  notes: '2026 FDD Item 7 line "fitness equipment, fixtures, other fixed assets" $850,000-1,500,000 (one
+    FDD reproduction; the 2025 FDD line was $150,000-1,000,000). Locations are 20,000-40,000 sq ft with
+    a sweet spot of 25,000-30,000. Item 19 (FY2024, 143 clubs open 12-60 months): average members by cohort
+    7,484-8,303, about 7,949 club-weighted on about 32,173 sq ft (0.25 members per sq ft). Equipment about
+    $39 per sq ft at the midpoints.'
+  sources:
+  - zee-report-how-much-does-crunch-fitness-2026
+  - franchisevs-crunch-fitness-franchise-2025
+  - crunch-franchise-faq-2026
+  - crunch-franchise-fitness-multistate-fdd-2025
+  - derived-sp-benchmark-typicals
+- id: golds_gym
+  name: Gold's Gym
+  format: Full-service big box with a strength heritage (US franchise)
+  sqft:
+    low: 15000
+    typical: 20000
+    high: 25000
+  equipment_budget_usd:
+    low: 585000
+    typical: 855000
+    high: 1125000
+  notes: '2026 FDD Item 7: selectorized equipment and free weights $425,000-850,000 plus cardiovascular
+    equipment $160,000-275,000 (summed here) for a 15,000-25,000 sq ft club. Strength is 72.6-75.6% of
+    equipment dollars, the only FDD found that splits strength from cardio. Equipment about $43 per sq
+    ft at the midpoints.'
+  sources:
+  - franchise-direct-gold-s-gym-estimated-2026
+  - 1851-franchise-gold-s-gym-costs-fees-2026
+  - derived-sp-benchmark-typicals
+- id: ufc_gym_signature
+  name: UFC GYM (Signature and UFC FIT)
+  format: Mid-tier big box with MMA training (US franchise)
+  sqft:
+    low: 15367
+    typical: 32874
+    high: 45388
+  members:
+    low: 5548
+    typical: 5548
+    high: 5548
+  notes: '2025 FDD Item 19, 22 franchisee-owned gyms: 15,367-45,388 sq ft (average 32,874, median 35,302);
+    average 5,548 members at the end of 2024 (median 5,477; affiliate-owned gyms average 5,233). About
+    0.17 members per sq ft. No equipment line is disclosed for this model.'
+  sources:
+  - franchise-chatter-ufc-gym-review-2026
+- id: puregym_large_box
+  name: PureGym (large-box format)
+  format: UK budget 24-hour gym, large box
+  sqft:
+    low: 15000
+    typical: 17500
+    high: 20000
+  members:
+    low: 4994
+    typical: 4994
+    high: 4994
+  equipment_counts:
+    total_pieces: 220
+  notes: '2018 annual report: large-box gyms are 15,000-20,000 sq ft (small boxes 5,000-8,000); 4,994
+    average members per gym across all sites; average initial capital investment for mature gyms GBP 1.19
+    million, covering fit-out, fixtures and equipment (not converted to USD). Club pages advertise "220+
+    pieces of gym kit" (site area not stated), about 11-15 pieces per 1,000 sq ft for a large box.'
+  sources:
+  - pinnacle-bidco-plc-puregym-annual-2018
+  - puregym-leeds-city-centre-south-gym-2026
+  - leamington-observer-look-around-s-2019
+  - puregym-equipment-2026
+  - derived-sp-benchmark-typicals
+- id: the_gym_group
+  name: The Gym Group
+  format: UK budget 24-hour gym
+  members:
+    low: 3635
+    typical: 3635
+    high: 3635
+  equipment_counts:
+    total_pieces: 200
+  notes: 'A typical site fit-out was "around 200 pieces of modern equipment" (2014 supplier tender). FY2025
+    results: about 945,000 average members over 260 sites, about 3,635 per site. Site sizes are not disclosed.'
+  sources:
+  - health-club-management-gym-group-2014
+  - gym-group-plc-2025-full-year-results-2026
+  - derived-sp-benchmark-typicals
+- id: anytime_fitness
+  name: Anytime Fitness
+  format: 24/7 small box (US franchise)
+  sqft:
+    low: 4000
+    typical: 5500
+    high: 7000
+  equipment_budget_usd:
+    low: 139873
+    typical: 148905
+    high: 157936
+  members:
+    low: 411
+    typical: 660
+    high: 995
+  notes: '2026 FDD Item 7: fitness equipment $139,873-157,936 (plus a $37,857-45,462 technology package)
+    for "a 4,000 to 7,000 square foot center"; a 2022 franchise brochure says "about 7,000 square feet".
+    Item 19: 660 average monthly members per center (quartile averages 411 to 995), about 0.12 members
+    per sq ft. Equipment about $27 per sq ft at the midpoints.'
+  sources:
+  - franchise-direct-anytime-fitness-2026
+  - vetmyfranchise-anytime-fitness-2026
+  - anytime-fitness-franchise-opportunity-2022
+  - derived-sp-benchmark-typicals
+- id: snap_fitness
+  name: Snap Fitness
+  format: 24/7 small box (US franchise)
+  sqft:
+    low: 4000
+    typical: 5000
+    high: 6000
+  equipment_budget_usd:
+    low: 200000
+    typical: 225000
+    high: 250000
+  notes: 'Franchise website (2026): equipment $200,000-250,000 in the investment breakdown for a 4,000-6,000
+    sq ft club; sites run from 4,000 to 10,000+ sq ft. The 2025 FDD equipment line is reproduced as $60,000-300,000
+    by one site and $60,000-200,000 by another. Equipment about $45 per sq ft at the midpoints.'
+  sources:
+  - lift-brands-snap-fitness-franchise-2026
+  - franchise-direct-snap-fitness-estimated-2025
+  - 1851-franchise-snap-fitness-costs-fees-2025
+  - derived-sp-benchmark-typicals
+- id: workout_anytime
+  name: Workout Anytime
+  format: 24/7 mid-size gym (US franchise)
+  sqft:
+    low: 5000
+    typical: 7500
+    high: 10000
+  equipment_budget_usd:
+    low: 393500
+    typical: 421750
+    high: 450000
+  notes: '2026 FDD initial equipment package for Model 1, $393,500-450,000 (Models 2 and 3: $513,000-566,000
+    and $606,000-660,000). Clubs are "usually in 5,000 to 10,000 square foot spaces" and layouts "can
+    fit 7,000 to 15,000"; which model fits which size is not disclosed, so the implied $39-90 per sq ft
+    is uncertain and high next to Anytime Fitness and Snap.'
+  sources:
+  - 1851-franchise-workout-anytime-deep-2026
+  - zee-report-workout-anytime-franchise-2026
+  - derived-sp-benchmark-typicals
+- id: orangetheory_fitness
+  name: Orangetheory Fitness
+  format: Boutique HIIT class studio (US franchise)
+  sqft:
+    low: 2690
+    typical: 3228
+    high: 3765
+  equipment_budget_usd:
+    low: 119122
+    typical: 141273
+    high: 163424
+  equipment_counts:
+    treadmills: 15
+    rowers: 15
+    floor_stations: 15
+  notes: '2026 FDD Item 7: fitness equipment including installation and the OTBeat heart-rate system,
+    $119,122-163,424. Studios are 250-350 m2 (2,690-3,765 sq ft). Opening articles show 14-16 treadmills;
+    classes rotate through treadmills, rowers and floor stations in roughly equal numbers, so about two-thirds
+    of stations are cardio. Equipment about $44 per sq ft at the midpoints.'
+  sources:
+  - franchise-direct-orangetheory-fitness-2026
+  - orangetheory-fitness-international-2026
+  - community-impact-orangetheory-fitness-2018
+  - greater-long-island-orangetheory-2019
+  - tribeca-citizen-sneak-peek-orangetheory-2023
+  - derived-sp-benchmark-typicals
+- id: f45_training
+  name: F45 Training
+  format: Boutique functional HIIT class studio (franchise)
+  sqft:
+    low: 1800
+    typical: 2150
+    high: 2500
+  equipment_budget_usd:
+    low: 115000
+    typical: 115000
+    high: 130000
+  notes: '2025 FDD Item 7: a fixed $115,000 equipment pack plus $0-15,000 of equipment-pack taxes. The
+    1,800-2,500 sq ft studio size is from a franchise-review site, not the FDD. Equipment about $46-72
+    per sq ft.'
+  sources:
+  - franchise-direct-f45-training-estimated-2025
+  - vetmyfranchise-f45-training-franchise-2026
+  - derived-sp-benchmark-typicals
+- id: class_by_ufc_gym
+  name: Class by UFC GYM
+  format: Boutique MMA-fitness class studio (franchise)
+  sqft:
+    low: 2200
+    typical: 2850
+    high: 3500
+  equipment_budget_usd:
+    low: 110000
+    typical: 120000
+    high: 130000
+  notes: '2025 FDD: equipment $110,000-130,000 for the Class model, about 2,200-3,500 sq ft (the 2026
+    FDD gives 2,000-3,000 sq ft). Equipment about $42 per sq ft at the midpoints.'
+  sources:
+  - franchise-chatter-ufc-gym-review-2026
+  - franchise-direct-ufc-gym-estimated-2026
+  - derived-sp-benchmark-typicals
+- id: burn_boot_camp
+  name: Burn Boot Camp
+  format: Bootcamp class studio, equipment-light (US franchise)
+  sqft:
+    low: 3600
+    typical: 5300
+    high: 7000
+  equipment_budget_usd:
+    low: 22821
+    typical: 27791
+    high: 32760
+  members:
+    low: 169
+    typical: 334
+    high: 569
+  notes: '2024 FDD Item 7: exercise and safety equipment, furniture and fixtures $22,821-32,760; locations
+    are about 3,600-7,000 sq ft (2026 FDD). Item 19 (307 outlets, 2023): average members by bracket 169-569,
+    about 334 weighted by outlets. At about $5 per sq ft it shows how little equipment class-only formats
+    buy; open-floor gyms are not comparable.'
+  sources:
+  - franchise-chatter-burn-boot-camp-review-2024
+  - burn-boot-camp-how-much-does-it-cost-2026
+  - derived-sp-benchmark-typicals
+validation_bands:
+- id: small
+  label: Small gym or studio
+  total_sqft:
+    low: 1000
+    typical: 2500
+    high: 3500
+  equipment_usd_per_sqft:
+    low: 18
+    typical: 45
+    high: 75
+  pieces_per_1000_sqft:
+    low: 12
+    typical: 13
+    high: 17
+  cardio_share_of_pieces:
+    low: 0.2
+    typical: 0.4
+    high: 0.67
+  training_share: 0.8
+  notes: 'Per gross sq ft. Most small-gym data come from franchised class studios (Orangetheory, F45,
+    Class by UFC GYM), whose packages bundle technology and installation and whose demand is set by class
+    schedules, so open-floor plans may sit nearer the low end. The $18 floor is a vendor guide''s CAD
+    25 per sq ft converted to USD (fact-check correction). Cardio share depends on format: about two-thirds
+    of Orangetheory stations, about 40% for a general mix, nearer 20% for a strength studio. Below 1,000
+    sq ft there is no band; the same vendor guide puts rooms up to 1,000 sq ft at about USD 18-36 per
+    sq ft.'
+  sources:
+  - franchise-direct-orangetheory-fitness-2026
+  - orangetheory-fitness-international-2026
+  - franchise-chatter-ufc-gym-review-2026
+  - franchise-direct-f45-training-estimated-2025
+  - vetmyfranchise-f45-training-franchise-2026
+  - atlantis-strength-what-cost-commercial-2025
+  - community-impact-orangetheory-fitness-2018
+  - greater-long-island-orangetheory-2019
+  - derived-sp-band-small
+  - derived-bm-training-share
+- id: medium
+  label: Medium gym
+  total_sqft:
+    low: 4000
+    typical: 5500
+    high: 10000
+  equipment_usd_per_sqft:
+    low: 20
+    typical: 35
+    high: 60
+  pieces_per_1000_sqft:
+    low: 8
+    typical: 11
+    high: 15
+  cardio_share_of_pieces:
+    low: 0.2
+    typical: 0.4
+    high: 0.45
+  training_share: 0.7
+  notes: 'Per gross sq ft. Equipment spend from Anytime Fitness (about $20-40 per sq ft) and Snap Fitness
+    (about $33-63). No piece counts were found for gyms of this size (the report''s original 10-15 band
+    was marked unsupported), so pieces per 1,000 sq ft is an estimate from space standards and large-club
+    practice at this size''s 0.70 training-floor share; treat it as a loose check. Cardio share: 35-45%
+    in current budget clubs, 20-30% in strength-focused ones.'
+  sources:
+  - franchise-direct-anytime-fitness-2026
+  - vetmyfranchise-anytime-fitness-2026
+  - lift-brands-snap-fitness-franchise-2026
+  - 1851-franchise-workout-anytime-deep-2026
+  - idea-health-fitness-facility-design
+  - u-s-department-ufc-4-740-02-fitness-2006
+  - sport-england-fitness-exercise-spaces-2008
+  - new-england-real-planet-fitness-opens-2025
+  - patch-planet-fitness-opens-lakewood-wa-2025
+  - eden-prairie-local-planet-fitness-2024
+  - kiro-7-planet-fitness-expands-adding-2026
+  - what-now-media-new-21-141-square-foot-2026
+  - planet-fitness-sec-2025-investor-day
+  - franchise-direct-gold-s-gym-estimated-2026
+  - rework-facility-layout-optimization-2025
+  - dynamo-fitness-equipment-gym-design-blog
+  - glofox-how-calculate-gym-space-requirements
+  - derived-sp-band-medium
+  - derived-bm-training-share
+- id: large
+  label: Large club
+  total_sqft:
+    low: 15000
+    typical: 20000
+    high: 40000
+  equipment_usd_per_sqft:
+    low: 20
+    typical: 38
+    high: 75
+  pieces_per_1000_sqft:
+    low: 6
+    typical: 8
+    high: 11
+  cardio_share_of_pieces:
+    low: 0.2
+    typical: 0.4
+    high: 0.45
+  training_share: 0.62
+  notes: 'Per gross sq ft. Equipment spend from 2026 FDDs: Planet Fitness about $33 per sq ft, Crunch
+    about $39 and Gold''s Gym about $43 at the midpoints (ranges $13-75). Density from Planet Fitness
+    2024-26 openings (6.6-8.6 pieces per 1,000 sq ft, mean 7.8); PureGym''s 220+ pieces in a 15,000-20,000
+    sq ft large box is 11-15 (site area not stated), and the band takes the low end, 11, as its high.
+    Cardio share: 40-41% in new Planet Fitness clubs, 20-30% in strength-focused clubs (Gold''s Gym spends
+    only 24-27% of its equipment budget on cardio); older cardio-heavy layouts reached about 60%.'
+  sources:
+  - vetmyfranchise-planet-fitness-franchise-2026
+  - zee-report-how-much-does-crunch-fitness-2026
+  - crunch-franchise-faq-2026
+  - franchise-direct-gold-s-gym-estimated-2026
+  - 1851-franchise-gold-s-gym-costs-fees-2026
+  - planet-fitness-sec-form-10-k-fy2025-2026
+  - new-england-real-planet-fitness-opens-2025
+  - patch-planet-fitness-opens-lakewood-wa-2025
+  - eden-prairie-local-planet-fitness-2024
+  - kiro-7-planet-fitness-expands-adding-2026
+  - what-now-media-new-21-141-square-foot-2026
+  - wdio-planet-fitness-open-saturday-duluth
+  - puregym-leeds-city-centre-south-gym-2026
+  - pinnacle-bidco-plc-puregym-annual-2018
+  - rework-facility-layout-optimization-2025
+  - derived-sp-band-large
+  - derived-bm-training-share

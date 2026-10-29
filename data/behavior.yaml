@@ -1,0 +1,379 @@
+version: 1
+session:
+  mean_floor_minutes: 55
+  cv: 0.45
+  idle_share: 0.21
+  sources:
+  - boostcamp-state-lifting-2025-2026
+  - athletech-news-strava-running-walking-2025
+  - international-journal-exercise-pinero-2026
+  - u-s-bureau-spotlight-statistics-sports-2017
+  - puregym-uk-fitness-report-2025-26
+  - placer-ai-current-pace-fitness-space-2025
+  - strengthlog-most-popular-gym-exercises-2025
+  - fitbod-exercise-library-sets-logged-2026
+  - american-college-sports-acsm-position-2009
+  - msse-43-7-acsm-position-stand-quantity-2011
+  - hacettepe-journal-sport-spor-2007
+  - derived-beh-floor-minutes
+  - derived-beh-floor-cv
+  - derived-beh-idle-share
+  notes: '55 min is active time on the training floor; door-to-door visits run 68-74 min including changing.
+    cv 0.45 comes from a lognormal fit to Boostcamp''s session quantiles (0.48-0.52), shaded down because
+    session timers left running inflate the upper tail. idle_share 0.21 weights strength blocks (about
+    27% idle: 42.5 min of station holding in a 58-min session) and cardio bouts (about 7% idle: roughly
+    2 min of transition per 25-min bout) by the average member''s 35% cardio time; the other profiles
+    imply 0.19 (cardio-led) to 0.24 (strength). It is calibrated to the exercises research''s 7.1-min
+    mean strength block and includes some real-world waiting, so recalibrate it if block_minutes change
+    materially.'
+occupancy:
+  peak_users_per_1000_sqft: 10
+  daily_visit_rate: 0.2
+  peak_concurrency_share: 0.11
+  design_day_factor: 1.25
+  occupant_load_sqft_per_person: 50
+  sources:
+  - les-mills-j-what-s-most-profitable-area-2025
+  - openml-kaggle-nsrose7224-crowdedness-2017
+  - gym-group-plc-2023-full-year-results-2024
+  - gym-group-plc-annual-report-accounts-2024
+  - puregym-pinnacle-bidco-annual-report-2020
+  - ihrsa-health-fitness-releases-2023-u-s
+  - placer-ai-life-time-planet-fitness-q2-2025
+  - placer-ai-planet-fitness-2024-halfway
+  - federation-university-australia-gym-2020
+  - itensity-gym-management-when-south-2026
+  - u-s-bureau-spotlight-statistics-sports-2017
+  - max-associates-lb-richmond-upon-thames-2023
+  - knight-kavanagh-south-staffordshire-2020
+  - elmbridge-borough-council-appendix-8-2017
+  - washington-state-legislature-wac-51-50-2024
+  - building-officials-association-boaf-2021
+  - derived-beh-weekday-visit-rate
+  - derived-beh-design-peak-share
+  - derived-beh-floor-density
+  notes: 'Design peak = members x 0.20 visits per member on a weekday (the 0.17 seven-day average x 1.18
+    weekday uplift) x 11% of that day''s visits on the floor in the busiest hour x 1.25 busy-day factor
+    = 2.75% of members. That matches the fact-checker''s correction of the occupancy research (2.7-2.9%;
+    the research''s 2.4% mixed a seven-day visit rate with weekday peak shares) and UK planning practice
+    (2.87-2.92% per peak hour). The floor density of 10 users per 1,000 sq ft (100 sq ft each) is a comfort
+    target about 1.4x Les Mills'' 65-75 sq ft gym-floor minimum; budget clubs reach roughly 9-18 per 1,000
+    sq ft at their design peak. Do not stack the 1.3 January or semester-start surge on the busy-day factor
+    (the 90th-percentile days already include those surges), and apply no within-hour factor, because
+    the Erlang model already captures short peaks. 50 gross sq ft per occupant is the IBC Table 1004.5
+    factor for exercise rooms (the NFPA 101-based Florida fire code uses 50 with equipment and 15 without):
+    a life-safety ceiling, not a comfort level.'
+default_profile: general
+profiles:
+- id: general
+  name: General fitness
+  description: 'A typical mainstream gym: a large cardio area plus a balanced mix of dumbbells, machines,
+    racks and cable stations for the average member.'
+  modality_share:
+    cardio: 0.35
+    barbell: 0.11
+    dumbbell: 0.167
+    machine: 0.162
+    cable: 0.057
+    bodyweight: 0.049
+    functional: 0.055
+    mobility: 0.05
+  exercise_multipliers: {}
+  excluded_equipment: []
+  rationale: 'Average-member split from the usage research (cardio 35%, barbell 11.5%, dumbbells 17.5%,
+    machines 17%, cables 6%, functional 7%, stretch and core mats 6%), built from ATUS minutes per activity
+    shifted by the SFIA 2019-23 strength trend and app-logged exercise mixes; the cardio share is uncertain
+    by about 4 points either way (the fact-checker suggests testing 30-38%). Bodyweight work had no bucket
+    of its own, so it is carved out where it was counted: 4.5% of each strength bucket (pull-ups, dips,
+    hanging raises, push-ups and back extensions are 4.5% of strength station-time in the exercises research),
+    about a fifth of the functional bucket (built partly from SFIA bodyweight occasions) and a sixth of
+    the mat bucket for floor core. Trend signals in the preferences research (free weights the fastest-growing
+    category, ellipticals and selectorized machines losing members, treadmills steady) are already in
+    this 2025-26 estimate, so no extra multipliers apply.'
+  sources:
+  - u-s-bureau-spotlight-statistics-sports-2017-2
+  - sports-fitness-industry-sfia-2024
+  - health-fitness-association-how-77-2025
+  - health-fitness-association-81-million-2026-2
+  - strengthlog-most-popular-gym-exercises-2025
+  - fitbod-how-strong-average-gym-goer-2025
+  - fitbod-exercise-library-sets-logged-2026
+  - boostcamp-state-lifting-gender-report-2026
+  - egym-machine-utilization-citing-2025
+  - ymca-pierce-kitsap-study-better-2024
+  - idea-health-fitness-most-popular-club-2018
+  - derived-beh-bodyweight-carveout
+- id: strength
+  name: Strength focused
+  description: A lifting-focused gym where most members come to train with barbells, dumbbells and plate-loaded
+    machines, and cardio is mainly warm-up and conditioning.
+  modality_share:
+    cardio: 0.2
+    barbell: 0.21
+    dumbbell: 0.191
+    machine: 0.172
+    cable: 0.076
+    bodyweight: 0.054
+    functional: 0.047
+    mobility: 0.05
+  peak_users_per_1000_sqft: 9
+  exercise_multipliers:
+    stair_climbing: 1.8
+    elliptical_session: 0.55
+    upright_cycling: 0.75
+    recumbent_cycling: 0.4
+    air_bike_intervals: 2.5
+    ski_erg_intervals: 2.5
+    curved_treadmill_sprint: 2.5
+  excluded_equipment:
+  - multi_station_gym
+  rationale: 'Strength-focused vector from the usage research: after the SFIA trend shift, ATUS time use
+    puts strength at about 77% of strength-plus-cardio minutes for 15-24-year-olds and 70% for men, rack,
+    platform and bench time is raised toward app lifters (51% of StrengthLog''s top-25 sets are barbell
+    lifts), and YMCA equipment tracking found racks, platforms and cable stacks the busiest stations.
+    Cardio multipliers follow the research''s strength-gym cardio mix: stair climbers up 1.8x (Planet
+    Fitness added them for high utilization, Garmin stair activities rose 25% in 2024, PureGym managers
+    rank them fourth most used) and ellipticals and upright and recumbent bikes down (HFA elliptical use
+    fell from 23.2% to 18.8% of members in 2021-24; Planet Fitness calls bikes and ellipticals far less
+    used), with interval machines capped at 2.5x because their shares are pure estimates. Density is 9
+    per 1,000 sq ft because racks and platforms need 130-144 sq ft per station (NSCA) and this floor spends
+    less time on compact cardio units. Multi-station gyms are excluded: makers build them for light-commercial
+    rooms such as hotels and apartment buildings (Hoist H4400), not for a lifting floor, so machine work
+    goes to single-station selectorized and plate-loaded machines.'
+  sources:
+  - u-s-bureau-spotlight-statistics-sports-2017-2
+  - sports-fitness-industry-sfia-2024
+  - strengthlog-most-popular-gym-exercises-2025
+  - strava-releases-12th-annual-year-sport-2025
+  - ymca-pierce-kitsap-study-better-2024
+  - allmind-ai-transcript-planet-fitness-q2-2025
+  - allmind-planet-fitness-q4-2024-earnings-2025
+  - allmind-planet-fitness-q3-2023-earnings
+  - athletech-news-track-running-hiit-2024
+  - puregym-when-gym-quiet-app-data-2023
+  - health-fitness-association-how-77-2025
+  - nsca-strength-conditioning-professional-2017
+  - skelcore-what-s-recommended-square-2026
+  - les-mills-j-what-s-most-profitable-area-2025
+  - derived-beh-bodyweight-carveout
+  - derived-beh-cardio-mix-multipliers
+  - derived-beh-profile-density
+  - hoist-fitness-h4400-4-stack-multi-2026
+  - the-fitness-outlet-hoist-h2200-2-2026
+  - derived-beh-format-exclusions
+- id: cardio_wellness
+  name: Cardio and wellness
+  description: A cardio-led gym that suits beginners and older members (community, hospital-based or classic
+    budget club), with plenty of machines and stretching space and little heavy lifting.
+  modality_share:
+    cardio: 0.47
+    barbell: 0.038
+    dumbbell: 0.115
+    machine: 0.21
+    cable: 0.038
+    bodyweight: 0.039
+    functional: 0.023
+    mobility: 0.067
+  peak_users_per_1000_sqft: 11
+  exercise_multipliers:
+    recumbent_cycling: 1.5
+    seated_stepping: 2.5
+    elliptical_session: 1.35
+    stair_climbing: 0.6
+    rowing: 0.55
+    indoor_cycling: 0.65
+    air_bike_intervals: 0.5
+    ski_erg_intervals: 0.4
+    curved_treadmill_sprint: 0.4
+    pull_up: 0.6
+    dips: 0.6
+    ghd_work: 0
+    belt_squat_exercise: 0
+    pendulum_squat_exercise: 0
+    heavy_db_press: 0
+    rig_circuit: 0
+    wall_ball: 0
+    battle_ropes: 0
+  excluded_equipment:
+  - ghd
+  - belt_squat
+  - pendulum_squat
+  - dumbbell_heavy_extension
+  - rig_bay
+  - wall_ball_station
+  - battle_rope_station
+  rationale: 'Cardio/wellness vector from the usage research for community, hospital-based and classic
+    budget floors with older or female-skewed members: after the SFIA trend shift, ATUS time use puts
+    strength at about 42% of strength-plus-cardio minutes for people 55+ and for women, Boomers rank stretching
+    and cardio equipment above free weights (ABC Fitness), and IHRSA finds older members prefer stationary
+    cycling, stretching and resistance machines. Cardio multipliers follow the research''s cardio/wellness
+    mix (recumbent bikes 1.5x, seated steppers 2.5x, ellipticals 1.35x; stair climbers, rowers and interval
+    ergs down), consistent with ACSM ranking programs for older adults #2 for 2026, and pull-ups and dips
+    drop to 0.6x because the pull-up station is the second most intimidating gym area (PureGym) and women
+    log far fewer pull-ups than men (StrengthLog). GHDs, belt and pendulum squats and 105-150 lb dumbbells
+    are advanced-lifter items excluded from this format, and so are rigs, wall-ball targets and battle
+    ropes, the CrossFit- and HYROX-style conditioning kit of a functional floor (US cross-training participation
+    fell 31% in 2019-23; rigs and wall-ball targets also need 12-ft ceilings). Their exercises get a zero
+    multiplier, while pull-ups and hanging raises keep the dip and chin-up station. Density is 11 per
+    1,000 sq ft because a cardio user needs about 5 m2 against 6-7 m2 on a general gym floor (Les Mills).'
+  sources:
+  - u-s-bureau-spotlight-statistics-sports-2017-2
+  - sports-fitness-industry-sfia-2024
+  - abc-fitness-wellness-watch-q1-2025
+  - sgb-online-ihrsa-report-shows-healthy-2018
+  - american-college-sports-2026-fitness-2025
+  - athletech-news-us-gyms-younger-more-2025
+  - allmind-ai-transcript-planet-fitness-q2-2025
+  - puregym-when-gym-quiet-app-data-2023
+  - puregym-feeling-scared-gym-you-re-2023
+  - strengthlog-most-popular-gym-exercises-2025
+  - les-mills-j-what-s-most-profitable-area-2025
+  - derived-beh-bodyweight-carveout
+  - derived-beh-cardio-mix-multipliers
+  - derived-beh-wellness-multipliers
+  - derived-beh-format-exclusions
+  - derived-beh-profile-density
+- id: functional
+  name: Functional training
+  description: A HYROX- or CrossFit-style training floor built around turf lanes, rigs, rowers, ski ergs,
+    air bikes, kettlebells and barbells, with few machines.
+  modality_share:
+    cardio: 0.22
+    barbell: 0.21
+    dumbbell: 0.076
+    machine: 0.019
+    cable: 0.01
+    bodyweight: 0.109
+    functional: 0.314
+    mobility: 0.042
+  peak_users_per_1000_sqft: 8
+  exercise_multipliers:
+    treadmill_walk: 0.4
+    treadmill_incline_walk: 0.4
+    curved_treadmill_sprint: 15
+    air_bike_intervals: 12.5
+    rowing: 3.55
+    ski_erg_intervals: 20
+    upright_cycling: 0.4
+    indoor_cycling: 0.4
+    stair_climbing: 0.4
+    elliptical_session: 0
+    recumbent_cycling: 0
+    seated_stepping: 0
+    sled_push_pull: 3.8
+    wall_ball: 2.0
+    farmer_carry: 2.0
+    walking_lunge: 2.0
+    push_up: 1.5
+    olympic_lifts: 2.0
+    barbell_bench_press: 0.5
+    barbell_incline_bench: 0.5
+    barbell_decline_bench: 0.5
+    heavy_bag_work: 0.5
+  excluded_equipment:
+  - elliptical
+  - recumbent_bike
+  - recumbent_stepper
+  rationale: Functional vector from the usage research, built from the HYROX race (8 x 1 km runs plus
+    SkiErg, sled push and pull, burpee broad jumps, rowing, farmers carry, sandbag lunges and 100 wall
+    balls) and Orangetheory's treadmill, rower and floor class; no measured usage stands behind it, so
+    it is low confidence. Cardio multipliers reproduce that research's functional cardio mix (treadmills
+    15%, curved treadmills 15%, air bikes 25%, rowers 25%, ski ergs 20%; PushPress's group-training kit
+    is 4 rowers and 2 air bikes), which takes large ratios because these machines get only 1-7% of the
+    average member's cardio time (rowers 3.55x, air bikes 12.5x, curved treadmills 15x, ski ergs 20x),
+    while treadmill running stays at 1x for HYROX's 8 x 1 km and treadmill walking, bikes and stair climbers
+    drop to 0.4x. Other multipliers raise the HYROX stations and Olympic lifting (sleds 3.8x, which gives
+    sled push and sled pull, two of the eight stations, twice the floor time of the wall-ball or carry
+    station; wall balls, carries, walking lunges and Olympic lifts 2x; push-ups as the burpee proxy 1.5x)
+    and lower bench-press variants and heavy bags to 0.5x, in line with HYROX's growth to 5,000 training
+    clubs and new budget-gym builds adding sled tracks while US cross-training participation fell 31%
+    in 2019-23. Ellipticals,
+    recumbent bikes and seated steppers have no share in this format and are excluded with zero multipliers,
+    and density is 8 per 1,000 sq ft because CrossFit-style training needs about 10 m2 per person against
+    6-7 m2 on a general gym floor (Les Mills; Glofox gives 150-200 sq ft).
+  sources:
+  - hyrox-fitness-race-2026
+  - hyrox-via-fitt-celebrates-5-000-2024
+  - orangetheory-fitness-faq-2026
+  - puregym-leeds-city-centre-south-gym-2026
+  - pushpress-gym-equipment-floorplan-guide-2026
+  - sports-fitness-industry-sfia-2024
+  - health-fitness-association-how-77-2025
+  - allmind-planet-fitness-q4-2024-earnings-2025
+  - les-mills-j-what-s-most-profitable-area-2025
+  - glofox-how-calculate-gym-space-requirements
+  - derived-beh-bodyweight-carveout
+  - derived-beh-cardio-mix-multipliers
+  - derived-beh-functional-multipliers
+  - derived-beh-format-exclusions
+  - derived-beh-profile-density
+- id: amenity
+  name: Amenity fitness room
+  description: A small, usually unstaffed fitness room in a hotel, apartment building or office, with
+    cardio machines, dumbbells and a cable station but no heavy lifting area.
+  modality_share:
+    cardio: 0.45
+    barbell: 0.031
+    dumbbell: 0.239
+    machine: 0.056
+    cable: 0.037
+    bodyweight: 0.079
+    functional: 0.038
+    mobility: 0.07
+  peak_users_per_1000_sqft: 5
+  exercise_multipliers:
+    olympic_lifts: 0
+    ghd_work: 0
+    sled_push_pull: 0
+    pendulum_squat_exercise: 0
+    belt_squat_exercise: 0
+    hack_squat_exercise: 0
+    t_bar_row_exercise: 0
+    landmine_press_row: 0
+    heavy_db_press: 0
+    battle_ropes: 0
+    curved_treadmill_sprint: 0
+    rig_circuit: 0
+    wall_ball: 0
+  excluded_equipment:
+  - lifting_platform
+  - ghd
+  - turf_lane
+  - pendulum_squat
+  - belt_squat
+  - hack_squat
+  - t_bar_row
+  - landmine
+  - dumbbell_heavy_extension
+  - battle_rope_station
+  - curved_treadmill
+  - rig_bay
+  - wall_ball_station
+  rationale: 'Estimate: hotel, apartment and office fitness rooms have no published usage data, so they
+    are modeled as shared home gyms, with cardio at 45% (between the average member''s 35% and the cardio/wellness
+    47%; HFA finds treadmills the most-used kit and corporate facilities male-skewed), stretching at 7%,
+    and the other 48% split by SFIA''s all-venue strength occasions (dumbbells 37%, machines 19%, barbells
+    19%, bodyweight 17%, kettlebells 8%, home use included). Two-thirds of the barbell time moves to dumbbells
+    (dumbbell bench is the most common swap for barbell bench in Fitbod''s logs) and 40% of machine time
+    to a cable or functional trainer, leaving few heavy barbell stations. Density is 5 per 1,000 sq ft
+    from the nearest measured format, small 24/7 clubs (Anytime Fitness averages 660 members on 4,000-7,000
+    sq ft, about 18 people at the design peak), and items that need large or specialist space (platforms
+    needing 144 sq ft and 12-ft ceilings, rigs and wall-ball targets that also need 12 ft, 30-ft-plus
+    sled runs, 22-ft battle-rope lanes, heavy plate-loaded leg machines, landmines, curved treadmills,
+    105-150 lb dumbbells, GHDs) are excluded, with zero multipliers on the exercises that need them; pull-ups
+    go to the dip and chin-up station.'
+  sources:
+  - sports-fitness-industry-sfia-2024
+  - health-fitness-association-how-77-2025
+  - fitbod-exercise-library-sets-logged-2026
+  - vetmyfranchise-anytime-fitness-2026
+  - franchise-direct-anytime-fitness-2026
+  - nsca-strength-conditioning-professional-2017
+  - nsca-s-safety-checklist-exercise-facility
+  - torque-fitness-tank-faq-all-surface-sled
+  - rogue-fitness-battle-rope
+  - trx-battle-rope-commercial-partners
+  - puregym-feeling-scared-gym-you-re-2023
+  - derived-beh-amenity-shares
+  - derived-beh-amenity-density
+  - derived-beh-format-exclusions

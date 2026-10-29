@@ -1,0 +1,28 @@
+version: 1
+exercises:
+  - {id: treadmill_run, name: Treadmill running, modality: cardio, pattern: cardio, popularity: 4, block_minutes: 27, sources: [test-derived],
+     options: [{uses: [treadmill], quality: 1.0}, {uses: [rower], quality: 0.5}, {uses: [upright_bike], quality: 0.5}]}
+  - {id: upright_cycling, name: Upright cycling, modality: cardio, pattern: cardio, popularity: 2, block_minutes: 25, sources: [test-derived],
+     options: [{uses: [upright_bike], quality: 1.0}, {uses: [treadmill], quality: 0.5}]}
+  - {id: rowing, name: Rowing, modality: cardio, pattern: cardio, popularity: 1, block_minutes: 15, sources: [test-derived],
+     options: [{uses: [rower], quality: 1.0}, {uses: [upright_bike], quality: 0.4}]}
+  - {id: barbell_back_squat, name: Barbell back squat, modality: barbell, pattern: squat, popularity: 4, block_minutes: 11.8, sources: [test-derived],
+     options: [{uses: [power_rack], quality: 1.0}, {uses: [leg_press], quality: 0.6}]}
+  - {id: barbell_bench_press, name: Barbell bench press, modality: barbell, pattern: horizontal_push, popularity: 5, block_minutes: 11.8, sources: [test-derived],
+     options: [{uses: [power_rack, adjustable_bench], quality: 0.95}, {uses: [dumbbell_set_full, adjustable_bench], quality: 0.7}]}
+  - {id: db_bench_press, name: Dumbbell bench press, modality: dumbbell, pattern: horizontal_push, popularity: 3, block_minutes: 7.1, sources: [test-derived],
+     options: [{uses: [dumbbell_set_full, adjustable_bench], quality: 1.0}, {uses: [cable_crossover], quality: 0.5}]}
+  - {id: db_curl, name: Dumbbell curl, modality: dumbbell, pattern: arm, popularity: 4, block_minutes: 4.6, sources: [test-derived],
+     options: [{uses: [dumbbell_set_full], quality: 1.0}, {uses: [cable_crossover], quality: 0.85}]}
+  - {id: leg_press_exercise, name: Leg press, modality: machine, pattern: squat, popularity: 3, block_minutes: 8.0, sources: [test-derived],
+     options: [{uses: [leg_press], quality: 1.0}, {uses: [power_rack], quality: 0.6}]}
+  - {id: lat_pulldown_exercise, name: Lat pulldown, modality: machine, pattern: vertical_pull, popularity: 4, block_minutes: 8.0, sources: [test-derived],
+     options: [{uses: [lat_pulldown], quality: 1.0}, {uses: [cable_crossover], quality: 0.8}]}
+  - {id: triceps_pushdown, name: Triceps pushdown, modality: cable, pattern: arm, popularity: 3, block_minutes: 4.6, sources: [test-derived],
+     options: [{uses: [cable_crossover], quality: 1.0}, {uses: [dumbbell_set_full], quality: 0.6}]}
+  - {id: pull_up, name: Pull-up, modality: bodyweight, pattern: vertical_pull, popularity: 2, block_minutes: 4.7, sources: [test-derived],
+     options: [{uses: [power_rack], quality: 0.9}, {uses: [lat_pulldown], quality: 0.6}]}
+  - {id: farmer_carry, name: "Farmer's carry", modality: functional, pattern: carry, popularity: 1, block_minutes: 4.8, sources: [test-derived],
+     options: [{uses: [dumbbell_set_full, stretch_area], quality: 0.9}]}
+  - {id: stretching, name: Stretching, modality: mobility, pattern: mobility, popularity: 1, block_minutes: 8, sources: [test-derived],
+     options: [{uses: [stretch_area], quality: 1.0}]}

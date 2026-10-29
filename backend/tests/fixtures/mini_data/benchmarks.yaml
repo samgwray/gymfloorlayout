@@ -1,0 +1,16 @@
+version: 1
+benchmarks:
+  - id: fixture-gym
+    name: Fixture gym
+    format: test
+    sqft: {low: 3000, typical: 4000, high: 5000}
+    sources: [test-derived]
+validation_bands:
+  - id: medium
+    label: Medium
+    total_sqft: {low: 4000, typical: 6000, high: 10000}
+    equipment_usd_per_sqft: {low: 20, typical: 35, high: 60}
+    pieces_per_1000_sqft: {low: 6, typical: 12, high: 18}
+    cardio_share_of_pieces: {low: 0.25, typical: 0.4, high: 0.55}
+    training_share: 0.7
+    sources: [test-derived]

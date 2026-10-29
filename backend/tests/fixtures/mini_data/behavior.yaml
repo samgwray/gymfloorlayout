@@ -1,0 +1,24 @@
+version: 1
+session: {mean_floor_minutes: 55, cv: 0.4, idle_share: 0.25, sources: [test-derived]}
+occupancy:
+  peak_users_per_1000_sqft: 10
+  daily_visit_rate: 0.17
+  peak_concurrency_share: 0.11
+  design_day_factor: 1.25
+  occupant_load_sqft_per_person: 50
+  sources: [test-standard]
+default_profile: general
+profiles:
+  - id: general
+    name: General fitness
+    description: The average member.
+    modality_share: {cardio: 0.35, barbell: 0.115, dumbbell: 0.175, machine: 0.17, cable: 0.06, bodyweight: 0.03, functional: 0.04, mobility: 0.06}
+    rationale: Fixture values.
+    sources: [test-derived]
+  - id: strength
+    name: Strength
+    description: Lifting-focused members.
+    modality_share: {cardio: 0.2, barbell: 0.22, dumbbell: 0.2, machine: 0.18, cable: 0.08, bodyweight: 0.04, functional: 0.03, mobility: 0.05}
+    excluded_equipment: [rower]
+    rationale: Fixture values.
+    sources: [test-derived]
